@@ -605,19 +605,608 @@ La segmentación de nuestros usuarios clave nos permite comprender mejor sus nec
 ---
 
 
-# Capítulo II: Requirements Elicitation & Analysis
-## 2.1 Competidores
+# Capitulo II: Requiriments Elicitation & Analysis
+
+## 2.1. Competidores
+### 2.1.1. Análisis competitivo
+Realizamos este análisis a fin de poder conocer el mercado al que nos enfrentamos en un inicio, para de esta manera poder evaluar las estrategias adoptadas por plataformas ya existentes, y así aprender de sus aciertos y errores.
+
+
+<table style="width:100%;">
+<colgroup>
+<col style="width: 12%" />
+<col style="width: 14%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 18%" />
+<col style="width: 19%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Categoría</th>
+<th>Subcategoría</th>
+<th>(Nosotros)</th>
+<th>Jira</th>
+<th>Base Camp</th>
+<th>Logalto</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td rowspan="3">Perfil</td>
+<td>Overview</td>
+<td>Plataforma que facilita el proceso de gestionar proyectos y
+equipos.</td>
+<td><p>Plataforma muy popular en el desarrollo de software, ofrece
+gestión ágil de proyectos, seguimiento de incidencias y personalización
+según el flujo de trabajo.</p>
+<p>(De paga, versión gratuita para equipos pequeños)</p></td>
+<td><p>Plataforma sencilla para la gestión de proyectos con un enfoque
+en la comunicación y la colaboración en equipo.</p>
+<p>(De paga, ofrece plan gratuito tiempo limitado)</p></td>
+<td><p>Es un Programa web colaborativo para el monitoreo y la evaluación
+de</p>
+<p>proyectos de desarrollo internacional la cual proporciona una alta
+gama de herramientas de gestión de proyectos.</p></td>
+</tr>
+<tr class="even">
+<td><p>Ventaja</p>
+<p>Competitiva</p>
+<p>¿Qué</p>
+<p>valor ofrece a los</p>
+<p>clientes?</p></td>
+<td>Ofrecemos un precio accesible y escalabilidad para las ONG
+orientadas a mejorar. Asimismo, nos enfocamos en la experiencia del
+usuario para que la implementación sea lo más rápida y objetiva
+posible.</td>
+<td><table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Jira es altamente personalizable y se integra fácilmente con otras
+herramientas, permitiendo a los equipos adaptar la plataforma a sus
+necesidades específicas.</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+</tbody>
+</table></td>
+<td>Basecamp destaca por su simplicidad y enfoque en la comunicación
+directa dentro de los equipos, evitando la dispersión de la información
+en múltiples aplicaciones.</td>
+<td><p>Ofrece herramientas avanzadas de recolección de datos, paneles
+personalizables, mapeo geoespacial y generación de informes en tiempo
+real.</p>
+<p>Es flexible y puede ser personalizada según las necesidades
+específicas de la organización.</p></td>
+</tr>
+<tr class="odd">
+<td><p>Mercado</p>
+<p>Objetivo</p></td>
+<td>ONG peruanas, de estas mismas más específicamente sus gestores y
+ayudantes del proyecto.</td>
+<td><table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Equipos de desarrollo de software, pequeñas y medianas empresas, y
+grandes corporaciones que necesitan herramientas avanzadas de gestión de
+proyectos.</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+</tbody>
+</table></td>
+<td><table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Pequeñas y medianas empresas, startups, freelancers, equipos
+distribuidos en múltiples ubicaciones, y organizaciones que valoran una
+estructura de gestión plana.</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+</tbody>
+</table></td>
+<td>Proyectos de desarrollo, ONG y fundaciones, ministerios,
+instituciones de gobierno y proveedores de fondos.</td>
+</tr>
+<tr class="even">
+<td>Perfil de Marketing</td>
+<td>Estrategia de Marketing</td>
+<td>Se hacen uso de redes sociales y de publicidad en línea como
+estrategia de marketing.</td>
+<td><table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Atlassian utiliza estrategias digitales como demostraciones en
+línea, pruebas gratuitas, y un enfoque en la comunidad de
+desarrolladores a través de foros y soporte comunitario.</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+</tbody>
+</table></td>
+<td><table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Base camp emplea estrategias de marketing digital, incluyendo
+pruebas gratuitas sin requerir tarjeta de crédito, y apela a su base de
+clientes a través de campañas de correo electrónico y promoción en redes
+sociales.</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table></td>
+<td>LogAlto utiliza marketing digital dirigido a ONGs y organizaciones
+de desarrollo internacional, destacando su enfoque en la transparencia,
+la rendición de cuentas y la generación de informes de impacto.</td>
+</tr>
+<tr class="odd">
+<td rowspan="3">Perfil de producto</td>
+<td>Producto y servicios</td>
+<td>Ofrecemos un servicio orientado a la gestión financiera de
+proyectos, equipo de trabajo y proyectos para una mejora continua.</td>
+<td><table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Jira ofrece una amplia gama de funciones para la gestión de
+proyectos ágiles, seguimiento de incidencias, reportes avanzados y
+personalización de flujos de trabajo.</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+</tbody>
+</table></td>
+<td><table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Base camp ofrece una solución de gestión de proyectos que incluye
+listas de tareas, chat integrado, calendarios y almacenamiento de
+archivos en un solo lugar, orientado a facilitar la colaboración y
+reducir la necesidad de múltiples herramientas.</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table></td>
+<td>Es una plataforma versátil basada en la web que proporciona un
+conjunto de herramientas para el monitoreo de proyectos, evaluación y
+análisis de datos. Permite el seguimiento de indicadores de proyectos y
+la gestión de marcos lógicos.</td>
+</tr>
+<tr class="even">
+<td>Precios y costos</td>
+<td>Para las ONG se implementa un modelo estrictamente de pago el cual
+debe variar según la suscripción mensual o anual y asimismo la
+oportunidad de mejorar la cuenta para tener capacidad de más
+cuentas.</td>
+<td><table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Jira ofrece un plan gratuito limitado para equipos pequeños y varios
+planes de pago que varían desde $7.75 por usuario al mes en el plan
+estándar hasta $15.25 en el plan Premium. Descuentos para ONGs
+disponibles.</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table></td>
+<td><table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Base camp cobra una tarifa plana de $15 por usuario al mes. Ofrece
+un plan gratuito limitado que incluye hasta tres proyectos y permite 20
+usuarios.</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+</tbody>
+</table></td>
+<td>Es una plataforma de pago, con precios que comienzan en
+aproximadamente $8,000 por año, con costos adicionales de implementación
+que varían entre $3,000 y $125,000, dependiendo de la complejidad.</td>
+</tr>
+<tr class="odd">
+<td>Canales de distribución o móviles</td>
+<td>Buscamos que Aid manager pueda ingresar al mercado web, pero por el
+momento está orientado a dispositivos móviles</td>
+<td><table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Jira está disponible tanto en versiones web como móvil, permitiendo
+a los equipos gestionar proyectos desde cualquier lugar.</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+</tbody>
+</table></td>
+<td><table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Disponible en dispositivos móviles (iOS, Android) y navegadores
+web.</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+</tbody>
+</table></td>
+<td>Disponible en aplicaciones web y móviles, incluyendo Android, y
+permite la recolección de datos sin conexión.</td>
+</tr>
+</tbody>
+</table>
+
+### 2.1.2. Estrategias y tácticas frente a competidores<br>
+
+<table>
+<colgroup>
+<col style="width: 18%" />
+<col style="width: 19%" />
+<col style="width: 19%" />
+<col style="width: 19%" />
+<col style="width: 22%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>SWOT</strong></th>
+<th><strong>Nosotros</strong></th>
+<th><strong>Jira</strong></th>
+<th><strong>Base Camp</strong></th>
+<th><strong>Log Alto</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Fortalezas</strong></td>
+<td>- Enfoque en ONGs peruanas con un precio accesible.<br />
+- Escalabilidad y fácil implementación.<br />
+- Enfoque en la experiencia del usuario.</td>
+<td>- Altamente personalizable y adaptable a necesidades
+específicas.<br />
+- Integración con una gran cantidad de herramientas.</td>
+<td>- Simplicidad y facilidad de uso.<br />
+- Enfoque en la comunicación directa y colaboración en equipo.</td>
+<td>- Herramientas avanzadas de recolección de datos.<br />
+- Flexibilidad y personalización.<br />
+- Capacidades de informes en tiempo real y mapeo geoespacial.</td>
+</tr>
+<tr class="even">
+<td><strong>Oportunidades</strong></td>
+<td>- Expandir presencia en mercados internacionales.<br />
+- Desarrollar más funciones de colaboración y gestión de equipos.</td>
+<td>- Expandir en mercados no técnicos.<br />
+- Mejorar integración con herramientas no relacionadas con el desarrollo
+de software.</td>
+<td>- Ampliar funcionalidades para atraer a empresas más grandes.<br />
+- Integración con más aplicaciones de terceros.</td>
+<td>- Aumentar la oferta para sectores fuera del desarrollo
+internacional.<br />
+- Mejorar la accesibilidad a precios más bajos para ONGs pequeñas.</td>
+</tr>
+<tr class="odd">
+<td><strong>Debilidades</strong></td>
+<td>- Falta de reconocimiento internacional.<br />
+- Dependencia en el mercado local peruano.</td>
+<td>- Curva de aprendizaje pronunciada para nuevos usuarios.<br />
+- Costos elevados para pequeñas organizaciones.</td>
+<td>- Limitaciones en funcionalidades avanzadas.<br />
+- No es ideal para proyectos complejos o grandes equipos.</td>
+<td>- Precio elevado y costos de implementación altos.<br />
+- Carece de una versión gratuita.<br />
+- Requiere personal capacitado para aprovechar su complejidad al
+máximo.</td>
+</tr>
+<tr class="even">
+<td><strong>Amenazas</strong></td>
+<td>- Competencia fuerte de plataformas internacionales con más
+funciones.</td>
+<td>- La creciente competencia de plataformas más simples y
+económicas.<br />
+- Amenazas de otras herramientas ágiles.</td>
+<td>- Competencia con plataformas que ofrecen más funciones por precios
+similares.<br />
+- Cambio en tendencias de gestión de proyectos.</td>
+<td>- Nuevas plataformas más económicas o gratuitas.<br />
+- Cambios en la tecnología y expectativas del cliente podrían requerir
+constantes actualizaciones y mejoras costosas.</td>
+</tr>
+</tbody>
+</table>
+
 ## 2.2. Entrevistas
+
 ### 2.2.1. Diseño de entrevistas
+
+Para esta sección realizamos preguntas específicas para cada segmento, con el objetivo de recolectar información demográfica y comportamental relevante para el proyecto. Por ejemplo, indagamos sobre el tipo de navegador y dispositivos que utilizan con mayor frecuencia. Estos datos son clave para comprender el interés de nuestros usuarios y el impacto que nuestra solución podría tener en su vida diaria y entorno laboral.
+
+---
+
+#### **Preguntas Generales**
+
+Estas preguntas se aplicaron a todos los entrevistados, independientemente del segmento:
+
+1. ¿Cuál es su nombre?
+2. ¿Qué edad tiene?
+3. ¿A qué se dedica?
+4. ¿En qué distrito reside?
+5. ¿Qué navegadores y dispositivos usa?
+
+---
+
+#### **Entrevistas - Usuario Segmento 1 (Gestor)**
+
+Preguntas enfocadas en los gestores de organización, desde su perspectiva laboral y cotidiana:
+
+1. ¿Cuándo piensa en gestionar un proyecto en qué piensa principalmente?
+2. ¿Qué métodos utiliza para organizar a sus ayudantes y cómo les asigna tareas?
+3. ¿Qué herramientas usa para gestionar o planificar proyectos?
+4. ¿Cómo analiza sus datos (asimismo financieros), qué herramientas/métodos usa?
+
+---
+
+#### **Entrevistas - Usuario Segmento 2 (Empleado)**
+
+Preguntas enfocadas en los empleados de la organización, considerando su experiencia en los eventos:
+
+1. ¿Qué actividades son las principales en los eventos y cómo se las asignan?
+2. ¿Cómo recolectan información de los participantes, qué herramientas?
+3. ¿Cómo hacen llegar esta información a los gestores de proyecto?
+4. Si sucede un inconveniente que se debe notificar al gestor del proyecto, ¿cómo se comunica con este? ¿Cree que la comunicación con el gestor de proyecto es efectiva?
+
+
 ### 2.2.2. Registro de entrevistas
 ### 2.2.3. Análisis de entrevistas
 ## 2.3. Needfinding
+
+En esta sección se desarrollaron **User Personas** basados en la información recolectada durante las entrevistas. El objetivo es identificar los comportamientos, necesidades y procesos actuales de cada segmento antes de la implementación de nuestra solución.
+
 ### 2.3.1. User Personas
+
+A continuación, se presentan las representaciones gráficas de los dos perfiles clave que guían el diseño de nuestra solución:
+
+---
+
+**User Persona - Segmento 1 (Gestor de Proyectos):**
+
+![User Persona - Gestor](../assets/persona1.png)
+
+---
+
+**User Persona - Segmento 2 (Ayudante de Eventos):**
+
+![User Persona - Ayudante](../assets/persona2.png)
+
+---
+
+
 ### 2.3.2. User Task Matrix
+<br>
+El User Task Matrix nos sirve para identificar los procesos que realizan ambos segmentos donde se pueden observar las similitudes respecto a la importancia y frecuencias de estos procesos. Esto es antes de implementar nuestra solución.
+<br>
+<table border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; text-align: center;">
+  <thead style="background-color: #3D4B66; color: white;">
+    <tr>
+      <th rowspan="2">Título</th>
+      <th colspan="2">Segmento 1</th>
+      <th colspan="2">Segmento 2</th>
+    </tr>
+    <tr>
+      <th>Importancia</th>
+      <th>Frecuencia</th>
+      <th>Importancia</th>
+      <th>Frecuencia</th>
+    </tr>
+  </thead>
+  <tbody style="background-color: #1A2B3C; color: white;">
+    <tr>
+      <td>Comunicar al equipo de sus tareas en un proyecto.</td>
+      <td style="background-color: #B26A00;">Alta</td>
+      <td style="background-color: #665100;">Media</td>
+      <td style="background-color: #B26A00;">Alta</td>
+      <td style="background-color: #4D5F3C;">Baja</td>
+    </tr>
+    <tr>
+      <td>Establecer fechas importantes o un cronograma orientado a las actividades a realizar.</td>
+      <td style="background-color: #B26A00;">Alta</td>
+      <td style="background-color: #665100;">Media</td>
+      <td style="background-color: #665100;">Media</td>
+      <td style="background-color: #4D5F3C;">Baja</td>
+    </tr>
+    <tr>
+      <td>Evaluar los resultados del proyecto realizado.</td>
+      <td style="background-color: #B26A00;">Alta</td>
+      <td style="background-color: #665100;">Media</td>
+      <td style="background-color: #665100;">Media</td>
+      <td style="background-color: #4D5F3C;">Baja</td>
+    </tr>
+    <tr>
+      <td>Registrar información del proyecto.</td>
+      <td style="background-color: #B26A00;">Alta</td>
+      <td style="background-color: #665100;">Media</td>
+      <td style="background-color: #B26A00;">Alta</td>
+      <td style="background-color: #B26A00;">Alta</td>
+    </tr>
+    <tr>
+      <td>Planificar reuniones mensuales & anuales.</td>
+      <td style="background-color: #B26A00;">Alta</td>
+      <td style="background-color: #2F4F3E;">Baja</td>
+      <td style="background-color: #665100;">Media</td>
+      <td style="background-color: #4D5F3C;">Baja</td>
+    </tr>
+    <tr>
+      <td>Registrar datos en Excel.</td>
+      <td style="background-color: #B26A00;">Alta</td>
+      <td style="background-color: #665100;">Media</td>
+      <td style="background-color: #B26A00;">Alta</td>
+      <td style="background-color: #4D5F3C;">Baja</td>
+    </tr>
+    <tr>
+      <td>Supervisar proyecto en ejecución</td>
+      <td style="background-color: #B26A00;">Alta</td>
+      <td style="background-color: #665100;">Media</td>
+      <td style="background-color: #B26A00;">Alta</td>
+      <td style="background-color: #B26A00;">Alta</td>
+    </tr>
+  </tbody>
+</table>
+
 ### 2.3.3. User Journey Mapping
+
+El **User Journey Mapping** es fundamental para comprender el recorrido que realizan nuestros segmentos en situaciones comunes dentro de su entorno laboral. A través de esta herramienta, identificamos sus **problemas**, **experiencias**, **emociones** y **oportunidades**, permitiéndonos enfocar nuestra solución en lo que realmente necesitan.
+
+---
+
+**Segmento 1 - Gestor de Proyectos**  
+![User Journey 1](../assets/userjourney1.png)
+
+---
+
+**Segmento 2 - Ayudante de Eventos**  
+![User Journey 2](../assets/userjourney2.png)
+
+---
+
 ### 2.3.4. Empathy Mapping
+
+El **Empathy Map** nos ayuda a visualizar lo que nuestros usuarios **piensan, sienten, dicen y hacen**, permitiéndonos generar un entendimiento más profundo de su contexto emocional y motivacional.
+
+---
+
+**Segmento 1 - Gestor de Proyectos:**  
+![Empathy Map 1](../assets/empathymap1.png)
+
+---
+
+**Segmento 2 - Ayudante de Eventos:**  
+![Empathy Map 2](../assets/empathymap2.png)
+
+---
+
 ### 2.3.5. As-is Scenario Mapping
+
+A continuación, se presenta el escenario actual (**As-Is**) de nuestros usuarios, antes de la implementación de nuestra solución. Este mapa refleja las actividades, puntos de dolor y métodos actuales que emplean los segmentos.
+
+---
+
+![As-Is 1](../assets/asis1.png)  
+![As-Is 2](../assets/asis2.png)
+
+---
+
+**Enlace al mapa interactivo:**  
+[Ver en Miro](https://miro.com/welcomeonboard/NlNXV0pNbjkzNGhhN0RaVE1GZ2QxdEE0T1lxcExSSFRwOFFubkdVZlVMZ2Nuc0U2Z292TXVjZUFsZ3hlczJMWXwzNDU4NzY0NTIyNTI2OTE2NTk0fDI=?share_link_id=464993559168)
+
+---
+
+
 ## 2.4. Ubiquitous Language
+
+En esta sección definimos los **términos clave** utilizados por los usuarios y el equipo de desarrollo, con el fin de garantizar una comprensión común y coherente durante todo el proyecto.
+
+| **Término**             | **Definición**                                                                                                 |
+|-------------------------|---------------------------------------------------------------------------------------------------------------|
+| **Gestor de Proyectos** | Usuario responsable de planificar, asignar y supervisar las tareas dentro de la ONG.                         |
+| **Ayudante / Staff**    | Usuario que colabora en la ejecución de actividades y eventos, y reporta al gestor.                           |
+| **Tarea**               | Actividad específica asignada a un miembro del equipo, con fecha límite y objetivo claro.                     |
+| **Proyecto**            | Conjunto de tareas organizadas que buscan lograr un impacto social específico dentro de la ONG.               |
+| **MVP**                 | Producto Mínimo Viable, primera versión funcional de la solución con características esenciales.              |
+| **Dashboard**           | Interfaz visual que permite al gestor visualizar el estado de proyectos, tareas y comunicación.               |
+| **Inventario**          | Registro de insumos y materiales necesarios para llevar a cabo las actividades de la ONG.                     |
+| **Comunicación Directa**| Canal interno dentro de la plataforma que permite a los usuarios intercambiar mensajes o alertas rápidamente. |
+| **Landing Page**        | Página web introductoria para presentar el producto y captar el interés de los usuarios.                      |
+| **Suscripción**         | Plan de acceso a la plataforma basado en cantidad de usuarios registrados y funcionalidades disponibles.      |
+
+
 # Capítulo III: Requirements Specification
 ## 3.1. To-Be Scenario Mapping
 ## 3.2. User Stories
