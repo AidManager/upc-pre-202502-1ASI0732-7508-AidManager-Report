@@ -18,7 +18,7 @@ Informe del Trabajo Parcial  - TP
 
 Startup: Los Tralaleros Web
 
-Producto: TaskManage
+Producto: AidManager
 
 ### Team Members:
 
@@ -275,16 +275,336 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 # Capítulo I: Introducción
 ## 1.1. Startup Profile
-### 1.1.1 Descripción de la Startup
+Esta sección introduce a nuestro equipo y presenta la esencia de nuestra startup.
+
+### 1.1.1. Descripción de la Startup
+
+**AidRecruits** es una startup comprometida con transformar la forma en que las **ONG** gestionan y amplifican su impacto social en el Perú. Nuestro objetivo es potenciar la **calidad de la ayuda social**, desarrollando soluciones tecnológicas innovadoras que optimicen los procesos administrativos y operativos de estas organizaciones.
+
+Buscamos brindar herramientas accesibles y efectivas que permitan a las ONG enfocarse en lo que realmente importa: **ayudar a las comunidades que más lo necesitan**. En un entorno donde los recursos son limitados y los desafíos constantes, creemos que la tecnología puede ser el catalizador para un cambio duradero.
+
+Con una visión centrada en la **solidaridad nacional** y la proyección hacia un futuro **internacional**, fortalecemos la capacidad de las ONG para generar un cambio real y sostenible en la sociedad. A través de plataformas diseñadas específicamente para sus necesidades, facilitamos la organización, la transparencia y la colaboración.
+
+Creemos firmemente que, mediante el uso eficiente de la tecnología, es posible construir un entorno más justo, inclusivo y eficiente, donde cada proyecto social logre alcanzar su máximo potencial y donde las barreras administrativas ya no limiten el deseo de ayudar.
+
+---
+![logo](../assets/logo.png)
+
+
 ### 1.1.2 Perfiles de integrantes del equipo
-## 1.2 Solution Profile
-### 1.2.1 Antecedentes y problemática
-### 1.2.2 Lean UX Process
-#### 1.2.2.1. Lean UX Problem Statements
+
+## 1.2. Solution Profile
+Nuestro perfil de solución se divide en 2 partes los “Antecedes y Problemática” y el proceso UX.
+### 1.2.1. Antecedentes y problemática
+
+**Antecedentes:**
+
+Actualmente, las organizaciones no gubernamentales (ONGs) desempeñan un
+papel fundamental en la atención de necesidades humanitarias y en el
+desarrollo de comunidades en todo el mundo. Según la Oficina de Naciones
+Unidas para la Coordinación de Asuntos Humanitarios (OCHA) en 2023 se
+reportaron 801,425 personas en necesidades de alimentación, servicios de
+agua, saneamiento e higiene. En el Perú existen 978 Organizaciones
+privadas sin fines de lucro de las cuales principalmente 428 se han
+categorizado como de salud, 19 de educación y 35 de vivienda (SIGCTI,
+2024), esto nos demuestra que existe una gran cantidad de organizaciones
+privadas sin fines de lucro. No obstante, cuando buscamos organizaciones
+ONDG (Organizaciones No Gubernamentales de Desarrollo) encontramos un
+total de 1835 (SIGCTI, 2024).
+
+**Problemática:**
+
+A pesar de la presencia significativa de estas organizaciones, el
+alcance de su impacto aún es limitado, según Equilibrium CenDE en 2023,
+encontró que, aunque el 80% de casi 1,200 encuestados reconoce lo que es
+una ONG un 71% no estaba informado o no conocía las iniciativas
+realizadas por las ONGs en ese año. Además, sólo un 7% de los
+encuestados no mostró interés en participar en la solución de problemas
+públicos o sociales, lo que sugiere que existe una gran disposición por
+parte de la población para apoyar estas iniciativas (Equilibrium CenDE,
+2023).
+
+Si bien hay muchas variables que influyen a la hora de hacer un análisis
+para identificar cuáles pueden ser las razones para que el impacto,
+alcance o el objetivo de la ONG sean afectados, siempre se pueden
+minimizar o mitigar por medio de un plan de acción organizado y una
+gestión efectiva. Según María Gabriela Moya en su post respecto al
+desafío de las ONG en la gestión organizacional y de proyectos.
+(LinkedIn, 2023) la mayoría de los sistemas de gestión en las ONG son
+obsoletos y orientados más en la cantidad que la calidad de sus
+proyectos. Adicionalmente, también menciona de como los sectores que
+influyen a mayor medida son la gestión de fondos, la capacitación, la
+comunicación y finalmente la supervisión como los pilares en lo que
+vendría siendo un proyecto mejor gestionado e innovador en el mercado.
+
+Tomando en cuenta que aún existen ONG que reciben grandes cantidades de
+datos solo son para obtener una cifra que represente los asistentes a
+algún evento o cuanto se logró de un objetivo de donación omitiendo lo
+enriquecedor de esta data recolectada, como se menciona en el artículo
+"Data Analytics for Nonprofits" (DigitalForNonprofits, 2023), en el
+mundo de hoy para realizar acciones estratégicas y maximizar recursos
+distintas empresas utilizan lo llamado análisis de datos, esta práctica
+se puede aplicar a un modelo de negocios sin fines de lucro como las ONG
+donde se consiguen los mismos beneficios que brindan los análisis de
+datos.
+
+Finalmente, muchas ONG carecen o conocen de herramientas adecuadas para
+gestionar sus equipos y proyectos de manera ágil y colaborativa. En un
+entorno donde los recursos pueden llegar a ser mal implementados y la
+eficiencia es crucial, la falta de una plataforma que permita una
+gestión integral de proyectos y una comunicación fluida entre los
+miembros del equipo puede resultar en una pérdida de tiempo y mal uso de
+las colaboraciones recibidas.
+
+**Solución:**
+
+Las ONGs necesitan sistemas que no solo les permitan organizar sus
+tareas y gestionar su presupuesto, sino también analizar su impacto en
+tiempo real, facilitar la toma de decisiones basadas en datos y fomentar
+una comunicación abierta y efectiva entre todos los miembros del equipo.<br>
+
+**5W’s y 2H’s**
+
+**What (¿Que se está haciendo?):** Un sistema de gestión móvil y fácil de usar el cual cubra la comunicación, seguimiento, supervisión y el planeamiento de proyectos.<br>
+
+**Why (¿Por qué se está haciendo?):** Las ONG actualmente no son muy conscientes de como una herramienta de gestión puede impulsar su crecimiento y mejorar el impacto positivo que pueden generar.<br>
+
+**When (¿Cuándo se usa?):** Se usa cuando se quiere realizar un plan de acción para un proyecto de ayuda social, cuando se busque realizar un seguimiento financiero o incluso cuando se requiere saber de la eficiencia de los proyectos y cuando un gestor desea gestionar a un equipo trabajando en el proyecto.<br>
+
+**Where (¿Dónde se usa?):** El uso está diseñado para Perú, ya que se recompilará información de los proyectos, al ser un aplicativo móvil está diseñado para dispositivos móviles.<br>
+
+**Who (¿Quién lo usa?):** El usuario principal para nosotros son las ONG de quienes el producto está orientado a los gestores de proyectos y los miembros del equipo, ya que son estos los que van a implementar la información e interactuar entre sí, nuestro usuario principal entonces se divide en el segmento de (supervisor / gestor) y el miembro del equipo.<br>
+
+**How (¿Cómo?):** En el aplicativo se ingresan los datos de proyectos, la organización y asimismo los miembros del equipo enfocándose en los análisis de tareas completadas y presupuestos.<br>
+
+**How Much (¿Cuánto costaría?):** La aplicación tendrá sus funcionalidades Core a medio de pago es decir el proceso de gestión recopilación y refinamiento de datos junto con las mejores oportunidades de mejora para estas. Tanto el Core de la aplicación como la suscripción se tendrán que renovar cada cierto tiempo donde las organizaciones se tendrán que escoger un plan anual o mensual. No obstante, contamos con un límite de cuentas en el plan y si el usuario es parte de una organización más grande entonces ofreceremos un plan con mayor cantidad de cuentas.
+
+### 1.2.2. Lean UX Process
+
+Los procesos Lean UX son fundamentales para definir con precisión nuestras ideas y establecer un plan de acción enfocado en responder preguntas clave a través del **Needfinding**.
+
+#### 1.2.2.1. Lean UX Problem Statement
+
+Este apartado aborda la situación actual del sector, las limitaciones de la competencia y nuestra propuesta de solución.
+
+Las **ONG en Perú** enfrentan una notoria falta de organización que limita su capacidad de generar un **impacto significativo**. Esta ineficiencia afecta especialmente la **gestión de fondos**, la **capacitación**, la **comunicación interna** y la **supervisión de proyectos**. A pesar de las oportunidades existentes para mejorar mediante una planificación adecuada, muchas ONG no son plenamente conscientes de los beneficios que una gestión efectiva puede brindarles.
+
+Esta falta de organización no solo perjudica la imagen de las ONG, sino que también reduce la **eficacia de sus iniciativas** y disminuye el alcance e impacto que podrían lograr.
+
+Por otro lado, los productos de gestión actualmente disponibles en el mercado son, en su mayoría:
+- **Costosos**, y por ende poco accesibles para la mayoría de ONG peruanas, que operan con recursos limitados.
+- **Excesivamente complejos**, con funcionalidades que no se ajustan a sus necesidades reales, lo cual dificulta la adopción y genera resistencia entre sus equipos.
+
+> **Pregunta clave:**  
+> ¿Cómo podemos ofrecer una **solución de gestión de proyectos accesible**, adaptada a las **necesidades reales de las ONG en Perú**, que les permita optimizar sus operaciones, mejorar su eficiencia y aumentar su impacto social?
+
 #### 1.2.2.2. Lean UX Assumptions
-#### 1.2.2.3. Lean UX Hypothesis Statements
+**Business Outcome**<br>
+
+En esta sección vamos a usar las métricas de Montaña conceptualizada por Jeff Gothelf e implementaremos algunas de las “pirate metrics” para poder definir los niveles de la montaña para llegar poder analizar los comportamientos de nuestros usuarios y analizar que parte del User Journey es relevante para nosotros y hacer assumptions de como actuarán nuestros usuarios en base al producto.<br>
+
+Acquisition: (Base): [1000 visitantes] El usuario se percatará de nuestra solución por medio de las redes sociales como medio de comunicación asimismo promocionando nuestra landing page, de la misma manera intentaremos ofrecer el servicio a los mismos usuarios con métodos de comunicación directa como por ejemplo ofrecerles el servicio a las instituciones (ONG).<br>
+
+Activation: (Plateau): [450 users: 100% users] En esta sección el usuario que gestiona a los equipos crea su cuenta registrando su correo y registra la institución si está aún no está registrada, realiza la suscripción de acuerdo con el plan anual o mensual, en caso aún no se encuentre registrada la ONG tendrá que llenar un formulario con la información de esta. Finalmente, se generará un código de autenticación para que los miembros del equipo puedan generar una cuenta y participar del proyecto. De los usuarios que se percaten del producto esperamos que 45% de estos se anime a utilizarlo.<br>
+
+Retention: (Plateau + 1 level): [60% users] De los usuarios que se animaran a utilizarlo esperamos que el 60% de estos continúe utilizando nuestro producto mensualmente para gestionar sus proyectos y comunicarse entre sí. En esta sección el usuario utiliza las herramientas que le proporciona nuestro producto para la gestión, planificación y análisis de proyectos, ya tiene a su equipo registrado y les asigna las tareas mientras que estos mantienen una participación utilizando los medios de comunicación que ofrecemos.<br>
+
+Revenue: (Plateau + 2 levels): [10% users] Los usuarios que utilizan nuestro producto son usuarios estrictamente de paga, no obstante, si es que llegara la situación donde su organización se expande entonces van a tener proyectos a mayor escala, con más ayudantes y cuentas y excederán el límite de las que les proporcionamos en su plan inicial. De esta manera se espera que un 10% de los usuarios retenidos que consigan este crecimiento estarán dispuestos a mejorar su plan generándonos un mayor ingreso.<br>
+
+Referral:(top) [5% users] Finalmente de los usuarios que retuvimos esperamos que un 5% de estos nos referencien a sus colegas o a nuevas ONG indirectamente promocionándonos y aumentando el flujo de usuarios potenciales que podemos obtener.<br>
+
+**Users**
+En esta sección creamos un Proto-Persona como un assumption de cómo son nuestros usuarios enfocándonos más en el aspecto de actitud.<br>
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 36%" />
+<col style="width: 37%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Demográfica</strong></th>
+<th><strong>Comportamiento</strong></th>
+<th><strong>Necesidades / Obstáculos</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Carlos (29 años): Gestor de proyectos para ONG</td>
+<td><p>Trabaja con un equipo en las ONG</p>
+<p>Gana lo suficiente</p>
+<p>Enfocado en la planificación de proyectos</p>
+<p>Busca que se consiga el impacto requerido</p>
+<p>Busca mejorar la efectividad de los proyectos generando un impacto
+positivo</p></td>
+<td><p>Necesita agilizar el proceso de planificación</p>
+<p>Necesita mejorar la asignación de tareas</p>
+<p>Necesita mejorar el seguimiento de gastos por proyecto</p>
+<p>Requiere de una mejor comunicación con los demás ayudantes a la hora
+de la ejecución del proyecto</p>
+<p>Obstáculo: La ONG no implementa soluciones modernas para el
+proyecto</p>
+<p>Obstáculo: Se desconoce de programas que sirvan para la planificación
+y gestión de proyectos.</p></td>
+</tr>
+<tr class="even">
+<td>Alejandra (23 años): Forma parte del equipo de un proyecto en una
+ONG</td>
+<td><p>Gana lo mínimo si es que no es voluntariado</p>
+<p>Enfocada en el cumplimiento de tareas.</p>
+<p>Busca ayudar a los demás por medio de su participación</p>
+<p>Busca conectar con la comunidad dentro de la ONG.</p>
+<p>Busca saber de las tareas que debe realizar.</p>
+<p>Busca notificar de algún problema o el haber finalizado una
+tarea.</p></td>
+<td><p>Necesita un medio de comunicación directo con el gestor de
+proyectos por si sucede algo</p>
+<p>Necesita saber cuál es la misión del proyecto e información de
+este.</p>
+<p>Obstáculo: No existe un medio óptimo para realizar la
+comunicación</p>
+<p>Obstáculo: Las herramientas que usa para recopilar información no
+siempre son las más efectivas para lo que busca</p></td>
+</tr>
+</tbody>
+</table>
+
+### User Outcomes & Benefits
+
+En esta sección buscamos **empatizar** con nuestros usuarios, comprender sus necesidades emocionales y funcionales, y ofrecerles resultados tangibles a través de nuestra solución.
+
+---
+
+#### **¿Qué desea lograr el usuario?**
+
+- **Gestor de ONG:** Quiere asegurarse de que las tareas asignadas a su equipo se gestionen de manera clara y se puedan supervisar eficazmente.
+- **Miembro del equipo:** Desea conocer con precisión sus responsabilidades y contar con un canal ágil para comunicarse con su gestor en caso de surgir inconvenientes.
+
+---
+
+#### **¿Cómo quiere sentirse el usuario durante este proceso?**
+
+- **Gestor:** Necesita sentirse en **control**, con la capacidad de supervisar todo el proyecto desde una sola plataforma centralizada.
+- **Miembro del equipo:** Busca sentir que tiene una **comunicación directa y sin barreras**, pudiendo contribuir activamente al proyecto.
+
+---
+
+#### **¿Cómo nuestro producto contribuye a su logro personal?**
+
+- El **gestor** experimentará una mejora en la eficiencia operativa de su equipo, lo que incrementará el impacto social del proyecto y reforzará su percepción de **éxito profesional**.
+- El **equipo** tendrá claridad sobre sus tareas y una comunicación fluida, lo que facilitará el cumplimiento de sus funciones y les permitirá sentirse **valorados** y **eficaces**.
+
+---
+
+#### **¿Por qué nuestro usuario elegiría esta solución?**
+
+- El **gestor** busca simplificar la gestión y supervisión de proyectos, evitando herramientas costosas o innecesariamente complejas.
+- El **equipo** necesita una plataforma intuitiva que facilite la comunicación y les permita tener claridad sobre sus actividades diarias.
+
+---
+
+#### **¿Qué cambios de comportamiento validan el éxito del producto?**
+
+- Los gestores serán capaces de **asignar y monitorear tareas** de forma efectiva a través de la plataforma.
+- Los equipos reportarán una **mejor comunicación interna** y una mayor **organización** en la ejecución de sus proyectos.
+
+---
+
+---
+
+### Solutions
+
+Las soluciones propuestas abordan las **necesidades prioritarias** identificadas durante el análisis de usuarios y sus restricciones operativas.
+
+---
+
+- **Monitoreo de proyectos:**  
+  Visibilidad en tiempo real del estado de cada proyecto, eliminando la necesidad de herramientas externas como correos electrónicos o WhatsApp.
+
+- **Asignación y seguimiento de tareas:**  
+  El gestor podrá asignar tareas desde la plataforma y dar seguimiento al progreso individual. Solo el usuario asignado podrá marcar la tarea como completada, garantizando responsabilidad.
+
+- **Revisión de inventario:**  
+  Gestión eficiente de insumos y materiales mediante el registro de proveedores, cantidades y disponibilidad, facilitando la planificación de recursos.
+
+- **Gestión financiera:**  
+  Herramientas simples para la comparación de presupuestos, control de gastos y detección de oportunidades de optimización financiera.
+
+- **Comunicación directa:**  
+  Canal de comunicación ágil y enfocado entre el gestor y los miembros del equipo, reduciendo distracciones y mejorando la capacidad de respuesta ante imprevistos.
+
+- **Accesibilidad económica:**  
+  Modelos de suscripción basados en el número de cuentas activas, no en tipos de servicio, permitiendo que ONG emergentes accedan a la solución de forma **económicamente viable**.
+
+---
+
+
+### 1.2.2.3. Lean UX Hypothesis Statement
+
+---
+
+#### **Hipótesis**
+
+A continuación, se presenta la tabla de hipótesis siguiendo el enfoque Lean UX:
+
+| **Creencia** | **Validación** |
+|--------------|----------------|
+| Creemos que al implementar una función de **gestión de tareas intuitiva y eficiente** para los gestores de proyectos, aumentaremos la **retención de usuarios**. | Sabremos que estamos en lo correcto cuando observemos un **aumento del 20%** en el número de **usuarios activos recurrentes** dentro de los **primeros tres meses** de uso. |
+| Creemos que al ofrecer una vista centrada en el **análisis financiero** para gestionar presupuestos y gastos, mejoraremos la **retención de usuarios**. | Sabremos que estamos en lo correcto cuando observemos una **reducción del 25%** en las **consultas de soporte** sobre gestión financiera y un **aumento** en el **uso de esta funcionalidad**. |
+| Creemos que al proporcionar herramientas de **gestión, análisis y comunicación** que incrementen el **impacto de los proyectos**, mejoraremos la **retención de usuarios**. | Sabremos que estamos en lo correcto cuando observemos un **aumento del 60%** en la **tasa de usuarios recurrentes** y un **incremento medible** en el impacto de sus proyectos. |
+| Creemos que al implementar un sistema de **comunicación eficiente** entre gestores de proyectos y ayudantes, mejoraremos la **interacción** y **retención de usuarios**. | Sabremos que estamos en lo correcto cuando observemos un **aumento del 20%** en la **frecuencia de uso** de la función de comunicación dentro de los **primeros tres meses**. |
+| Creemos que al ofrecer un **plan mejorado** que permita a los gestores agregar más integrantes a sus cuentas, aumentaremos nuestras **ganancias**. | Sabremos que estamos en lo correcto cuando al menos el **10% de los usuarios** se **suscriba** al plan mejorado dentro de los **primeros seis meses**. |
+
+---
+
+#### **Lo más importante que debemos aprender**
+
+Para el éxito de nuestro proyecto, es fundamental identificar si los usuarios realmente están **interesados** en nuestra propuesta **innovadora**.
+
+Aunque existan herramientas similares, necesitamos confirmar si nuestra solución:
+- Es **necesaria** en el contexto de las ONG peruanas.
+- **Satisface** sus necesidades específicas de gestión de proyectos.
+
+---
+
+#### **Minimum Viable Product (MVP)**
+
+El **MVP** nos permitirá obtener **aprendizajes rápidos**. Nos enfocaremos en responder la siguiente pregunta clave:
+
+> **¿Qué es lo más importante que necesitamos aprender primero?**
+
+- Validar si **existe demanda real** para nuestra solución.
+- Realizaremos **entrevistas** con gestores de proyectos y sus equipos en ONG.
+- Evaluaremos si nuestra herramienta **resuelve una necesidad concreta**.
+
+Adicionalmente, desarrollaremos una **landing page** orientada a captar el interés de potenciales usuarios y medir el **nivel de atracción** hacia nuestra herramienta de gestión.
+
+---
+
+
+
 #### 1.2.2.4. Lean UX Canvas
-## 1.3. Segmentos objetivo
+En esta sección juntamos la información de los procesos UX y los juntamos en este canvas.
+
+![Lean Ux Canvas](../assets/leanuxcanvas.png)
+
+## 1.3 Segmentos Objetivo
+
+La segmentación de nuestros usuarios clave nos permite comprender mejor sus necesidades, comportamientos y motivaciones, facilitando la creación de soluciones adecuadas para cada perfil.
+
+---
+
+| **Criterio**                   | **Segmento 1: Gestor de Proyectos ONG**                                                                                                       | **Segmento 2: Ayudante de Eventos ONG**                                                                                                      |
+|--------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
+| **Variables**                  | Gestor de proyectos encargado de planificar, organizar y supervisar actividades dentro de una ONG.                                           | Ayudante operativo que colabora en la ejecución de eventos y actividades sociales como parte del equipo de apoyo.                            |
+| **Geográfica**                 | Las ONG en Perú aplican análisis de datos estratégicos para maximizar recursos y optimizar sus proyectos sociales. *(DigitalForNonprofits, 2023)* | La correcta recolección y análisis de datos por parte de ayudantes contribuye a mejorar las condiciones de vida de comunidades vulnerables. *(OHCHR, 2022)* |
+| **Demográfica**                | - Edad: 25 a 50+ años <br> - Género: Masculino y Femenino                                                                                     | - Edad: 18 a 35 años <br> - Género: Masculino y Femenino                                                                                      |
+| **Psicológica**                | - Enfocados en lograr un **impacto significativo** en sus campañas. <br> - Buscan **aumentar eficiencia** y **reducir gastos innecesarios**.  | - Motivados por contribuir activamente al éxito de las actividades sociales. <br> - Desean sentirse útiles y parte del cambio.                |
+| **Comportamiento Funcional**   | - **Actitudes:** Lidera proyectos, coordina equipos, asigna presupuestos, define objetivos y lugares de ejecución. <br> - **Conocimientos:** Tiene experiencia organizativa, pero carece de herramientas específicas para el sector social. | - **Actitudes:** Apoya logísticamente en eventos, anima y guía a los participantes, recoge información clave para los gestores. <br> - **Conocimientos:** Sabe cómo interactuar con el público y garantizar un ambiente ordenado y acogedor. |
+
+---
+
+
 # Capítulo II: Requirements Elicitation & Analysis
 ## 2.1 Competidores
 ## 2.2. Entrevistas
@@ -359,6 +679,9 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 ### 5.2.7. RESTful API Documentation
 ### 5.2.8. Team Collaboration Insights
 ## 5.3. Video About-the-Product
+
+
+aki
 
 # Capítulo VI: Product Verification & Validation
 ## 6.1. Testing Suites & Validation
