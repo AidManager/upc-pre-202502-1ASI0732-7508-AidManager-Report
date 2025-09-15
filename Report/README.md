@@ -611,320 +611,261 @@ La segmentación de nuestros usuarios clave nos permite comprender mejor sus nec
 ### 2.1.1. Análisis competitivo
 Realizamos este análisis a fin de poder conocer el mercado al que nos enfrentamos en un inicio, para de esta manera poder evaluar las estrategias adoptadas por plataformas ya existentes, y así aprender de sus aciertos y errores.
 
+<table>
+    <tr>
+        <th colspan="6">Competitive Analysis Landscape</th>
+    </tr>
+    <tr style="text-align: justify">
+        <td colspan="2">
+            <p>¿Por qué llevan a cabo este análisis?</p>
+        </td>
+        <td colspan="4">
+            <p>El análisis lo llevamos a cabo para comparar nuestra idea de solución con otras existentes. De esta manera, podremos identificar nuestras fortalezas, debilidades, oportunidades y amenazas en relación con el mercado actual
+            </p>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">Empresas:</td>
+        <th>Aidmanager</th>
+        <th>Trello</th>
+        <th>Miro</th>
+        <th>Basecamp</th>
+    </tr>
+    <tr style="text-align: justify">
+        <th rowspan="2">Perfil</th>
+        <th>Overview</th>
+        <!-- Aidmanager -->
+        <td>
+                Plataforma de gestión de tareas y proyectos dirigida a los equipos de trabajo. Ofrece herramientas como calendario o barra de progreso para la eficiente organización
+        </td>
+        <!-- Trello -->
+        <td>
+                Herramienta de gestión de proyectos en línea que utiliza un enfoque visual para la organización de tareas y proyectos
+        </td>
+        <!-- Miro -->
+        <td>
+                Plataforma de colaboración en línea con pizarra digital donde los usuarios pueden crear, compartir y colaborar en tiempo real
+        </td>
+        <!-- Basecamp -->
+        <td>
+                Herramienta en línea que ayuda a los equipos a administrar y organizar sus tareas y proyectos, proporcionando un espacio para compartir información
+        </td>
+    </tr>
+    <tr>
+        <th> Ventaja Competitiva ¿Qué valor ofrece a los clientes? </th>
+        <!-- Aidmanager -->
+        <td> 
+            Entorno de trabajo colaborativo con las herramientas necesarias para la organización 
+        </td>
+        <!-- Trello -->
+        <td> 
+            Tarjetas visuales que permiten visualizar y gestionar las actividades 
+        </td>
+        <!-- Miro -->
+        <td> 
+            Canvas intuitivo para generar presentaciones, ideas y diagramas 
+        </td>
+        <!-- Basecamp -->
+        <td>
+            Espacio de trabajo único y completo
+        </td>
+    </tr>
+    <tr>
+        <th rowspan="2">Perfil de Marketing</th>
+        <th>Mercado Objetivo</th>
+        <!-- Aidmanager -->
+        <td>
+            Equipos de trabajo con problemas de organización
+        </td>
+        <!-- Trello -->
+        <td> 
+            Equipos de gran tamaño que necesitan de una aplicación para la organización de sus proyectos y tareas
+        </td>
+        <!-- Miro -->
+        <td> 
+            Usuarios que necesitan de una plataforma para estructurar y plasmar su conocimiento
+        </td>
+        <!-- Basecamp -->
+        <td> 
+            Organizaciones y empresas que buscan soluciones para simplificar su trabajo remoto
+        </td>
+    </tr>
+    <tr>
+        <th>Estrategias de Marketing</th>
+        <!-- Aidmanager -->
+        <td>
+            Marketing digital, principalmente redes sociales
+        </td>
+        <!-- Trello -->
+        <td> 
+            Evaluación de habilidades y experiencia por parte de profesionales del mismo campo
+        </td>
+        <!-- Miro -->
+        <td> 
+            Redes sociales y pruebas con potenciales clientes
+        </td>
+        <!-- Basecamp -->
+        <td> 
+            Evaluación de habilidades y experiencia por parte de profesionales del mismo campo
+        </td>
+    </tr>
+    <tr>
+        <th rowspan="4">Perfil de Producto</th>
+        <th>Productos y Servicios</th>
+        <!-- Aidmanager -->
+        <td>
+            Herramientas de colaboración y planificación que les permita a los usuarios tener un mejor flujo de trabajo y organización
+        </td>
+        <!-- Trello -->
+        <td> 
+            Gran variedad de planes y opciones que satisfacen las necesidades de los equipos de trabajo, especialmente los más grandes
+        </td>
+        <!-- Miro -->
+        <td> 
+            Herramientas populares, como plantillas personalizables y cambio de apariencia según las necesidades del usuario
+        </td>
+        <!-- Basecamp -->
+        <td> 
+            Diferentes planes que ofrecen almacenamiento de datos, más proyectos y diversas características extra, como chat en tiempo real
+        </td>
+    </tr>
+    <tr>
+        <th rowspan="2">Precios y Costos</th>
+        <td colspan="4"> Plan gratuito con características básicas </td>
+    </tr>
+    <tr>
+    <!-- Aidmanager -->
+        <td>
+            <ul>
+                <li>
+                    Plan de pago por $7 mensual con características, como almacenamiento extra
+                </li>
+                <li>
+                    Plan empresarial personalizado
+                </li>
+            </ul>
+        </td>
+        <!-- Trello -->
+        <td> 
+            Planes de pago que incluyen más funciones y almacenamiento.
+        </td>
+        <!-- Miro -->
+        <td> 
+            <ul>
+                <li>
+                    Planes de pago desde $8 mensuales que ofrecen funciones como aumentar el almacenamiento
+                </li>
+                <li>
+                    Plan empresarial personalizado
+                </li>
+            </ul>
+        </td>
+        <!-- Basecamp -->
+        <td> 
+            <ul>
+                <li>
+                    Plan de negocios que ofrece más funciones y almacenamiento para equipos de hasta 100 usuarios
+                </li>
+                <li>
+                    Plan empresarial personalizado
+                </li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <th>Canales de Distribución</th>
+        <!-- Aidmanager -->
+        <td>Móvil</td>
+        <!-- El resto -->
+        <td colspan="3"> Web y Móvil </td>
+    </tr>
+    <!-- Análisis FODA -->
+    <tr>
+        <th rowspan="4">Análisis FODA</th>
+        <th>Fortalezas</th>
+        <!--Aidmanager-->
+        <td>
+            La herramienta es sencilla de entender. Es escalable para equipos de cualquier tamaño y proyecto.
+        </td>
+        <!-- Trello -->
+        <td>
+            La herramienta tiene una interfaz gráfica que es sencilla de navegar y utilizar. También, ofrece una amplia gama de funciones, como la comunicación en línea
+        </td>
+        <!-- Miro -->
+        <td>
+            La herramienta puede adaptarse a equipos de cualquier tamaño y, sin importar la complejidad de proyecto que se está desarrollando
+        </td>
+        <!-- Basecamp -->
+        <td>
+            La herramienta tiene una interfaz de usuario fácil de usar y navegar, al igual que una gran cantidad de funciones. Además, está disponible para dispositivos móviles y computadoras personales
+        </td>
+    </tr>
+    <tr>
+        <th>Debilidades</th>
+        <!--Aidmanager-->
+        <td>
+            Para el buen funcionamiento de la aplicación, es necesario contar con dispositivos de media o alta gama
+        </td>
+        <!-- Trello -->
+        <td>
+            <ul>
+                <li>
+                    No cuenta con una función de seguimiento de tareas.
+                </li>
+                <li>
+                    No es adecuada para proyectos complejos
+                </li>
+            </ul>
+        </td>
+        <!-- Miro -->
+        <td>
+            Algunas características tienen una curva alta de aprendizaje que pueden desmotivar al usuario en aprender su uso
+        </td>
+        <!-- Basecamp -->
+        <td>
+            No es adecuada para proyectos complejos, ya que carece de funciones importantes para proyectos de gran escala
+        </td>
+    </tr>
+    <tr>
+        <th>Oportunidades</th>
+        <!--Aidmanager-->
+        <td>
+            Las nuevas tecnologías nos permiten desarrollar nuevas funcionalidades para la mejor experiencia de usuario
+        </td>
+        <!-- Trello -->
+        <td>
+            Las empresas deben implementar nuevos métodos y tecnologías a su software para mantenerse en el mercado
+        </td>
+        <!-- Miro -->
+        <td>
+            El desarrollo de nueva tecnología permite que se agreguen nuevas e innovadoras funcionalidades
+        </td>
+        <!-- Basecamp -->
+        <td>
+            Las nuevas herramientas nos permiten abrirnos a nuevos mercados
+        </td>
+    </tr>
+    <tr>
+        <th>Amenazas</th>
+        <!--Aidmanager-->
+        <td>
+            Ser una incipiente empresa implica que los clientes desconocen de tu marca, lo que hace que sea más complicado vender tu solución de software
+        </td>
+        <!-- Trello -->
+        <td>
+            El desafío más grande de una empresa tecnológica independiente son los nuevos competidores y la falta de relación con Google
+        </td>
+        <!-- Miro -->
+        <td>
+            La industria tecnológica presenta siempre nuevos competidores, por lo que debemos estar siempre ofreciendo nuevas razones para atraer más clientes y retener a los actuales
+        </td>
+        <!-- Basecamp -->
+        <td>
+            Los desafíos más grandes son los nuevos competidores, la falta de recursos y la alta competitividad de la competencia
+        </td>
+    </tr>
+</table>
 
-<table style="width:100%;">
-<colgroup>
-<col style="width: 12%" />
-<col style="width: 14%" />
-<col style="width: 17%" />
-<col style="width: 17%" />
-<col style="width: 18%" />
-<col style="width: 19%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Categoría</th>
-<th>Subcategoría</th>
-<th>(Nosotros)</th>
-<th>Jira</th>
-<th>Base Camp</th>
-<th>Logalto</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td rowspan="3">Perfil</td>
-<td>Overview</td>
-<td>Plataforma que facilita el proceso de gestionar proyectos y
-equipos.</td>
-<td><p>Plataforma muy popular en el desarrollo de software, ofrece
-gestión ágil de proyectos, seguimiento de incidencias y personalización
-según el flujo de trabajo.</p>
-<p>(De paga, versión gratuita para equipos pequeños)</p></td>
-<td><p>Plataforma sencilla para la gestión de proyectos con un enfoque
-en la comunicación y la colaboración en equipo.</p>
-<p>(De paga, ofrece plan gratuito tiempo limitado)</p></td>
-<td><p>Es un Programa web colaborativo para el monitoreo y la evaluación
-de</p>
-<p>proyectos de desarrollo internacional la cual proporciona una alta
-gama de herramientas de gestión de proyectos.</p></td>
-</tr>
-<tr class="even">
-<td><p>Ventaja</p>
-<p>Competitiva</p>
-<p>¿Qué</p>
-<p>valor ofrece a los</p>
-<p>clientes?</p></td>
-<td>Ofrecemos un precio accesible y escalabilidad para las ONG
-orientadas a mejorar. Asimismo, nos enfocamos en la experiencia del
-usuario para que la implementación sea lo más rápida y objetiva
-posible.</td>
-<td><table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Jira es altamente personalizable y se integra fácilmente con otras
-herramientas, permitiendo a los equipos adaptar la plataforma a sus
-necesidades específicas.</th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<tbody>
-</tbody>
-</table></td>
-<td>Basecamp destaca por su simplicidad y enfoque en la comunicación
-directa dentro de los equipos, evitando la dispersión de la información
-en múltiples aplicaciones.</td>
-<td><p>Ofrece herramientas avanzadas de recolección de datos, paneles
-personalizables, mapeo geoespacial y generación de informes en tiempo
-real.</p>
-<p>Es flexible y puede ser personalizada según las necesidades
-específicas de la organización.</p></td>
-</tr>
-<tr class="odd">
-<td><p>Mercado</p>
-<p>Objetivo</p></td>
-<td>ONG peruanas, de estas mismas más específicamente sus gestores y
-ayudantes del proyecto.</td>
-<td><table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Equipos de desarrollo de software, pequeñas y medianas empresas, y
-grandes corporaciones que necesitan herramientas avanzadas de gestión de
-proyectos.</th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<tbody>
-</tbody>
-</table></td>
-<td><table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Pequeñas y medianas empresas, startups, freelancers, equipos
-distribuidos en múltiples ubicaciones, y organizaciones que valoran una
-estructura de gestión plana.</th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<tbody>
-</tbody>
-</table></td>
-<td>Proyectos de desarrollo, ONG y fundaciones, ministerios,
-instituciones de gobierno y proveedores de fondos.</td>
-</tr>
-<tr class="even">
-<td>Perfil de Marketing</td>
-<td>Estrategia de Marketing</td>
-<td>Se hacen uso de redes sociales y de publicidad en línea como
-estrategia de marketing.</td>
-<td><table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Atlassian utiliza estrategias digitales como demostraciones en
-línea, pruebas gratuitas, y un enfoque en la comunidad de
-desarrolladores a través de foros y soporte comunitario.</th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<tbody>
-</tbody>
-</table></td>
-<td><table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Base camp emplea estrategias de marketing digital, incluyendo
-pruebas gratuitas sin requerir tarjeta de crédito, y apela a su base de
-clientes a través de campañas de correo electrónico y promoción en redes
-sociales.</th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table></td>
-<td>LogAlto utiliza marketing digital dirigido a ONGs y organizaciones
-de desarrollo internacional, destacando su enfoque en la transparencia,
-la rendición de cuentas y la generación de informes de impacto.</td>
-</tr>
-<tr class="odd">
-<td rowspan="3">Perfil de producto</td>
-<td>Producto y servicios</td>
-<td>Ofrecemos un servicio orientado a la gestión financiera de
-proyectos, equipo de trabajo y proyectos para una mejora continua.</td>
-<td><table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Jira ofrece una amplia gama de funciones para la gestión de
-proyectos ágiles, seguimiento de incidencias, reportes avanzados y
-personalización de flujos de trabajo.</th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<tbody>
-</tbody>
-</table></td>
-<td><table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Base camp ofrece una solución de gestión de proyectos que incluye
-listas de tareas, chat integrado, calendarios y almacenamiento de
-archivos en un solo lugar, orientado a facilitar la colaboración y
-reducir la necesidad de múltiples herramientas.</th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table></td>
-<td>Es una plataforma versátil basada en la web que proporciona un
-conjunto de herramientas para el monitoreo de proyectos, evaluación y
-análisis de datos. Permite el seguimiento de indicadores de proyectos y
-la gestión de marcos lógicos.</td>
-</tr>
-<tr class="even">
-<td>Precios y costos</td>
-<td>Para las ONG se implementa un modelo estrictamente de pago el cual
-debe variar según la suscripción mensual o anual y asimismo la
-oportunidad de mejorar la cuenta para tener capacidad de más
-cuentas.</td>
-<td><table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Jira ofrece un plan gratuito limitado para equipos pequeños y varios
-planes de pago que varían desde $7.75 por usuario al mes en el plan
-estándar hasta $15.25 en el plan Premium. Descuentos para ONGs
-disponibles.</th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table></td>
-<td><table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Base camp cobra una tarifa plana de $15 por usuario al mes. Ofrece
-un plan gratuito limitado que incluye hasta tres proyectos y permite 20
-usuarios.</th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<tbody>
-</tbody>
-</table></td>
-<td>Es una plataforma de pago, con precios que comienzan en
-aproximadamente $8,000 por año, con costos adicionales de implementación
-que varían entre $3,000 y $125,000, dependiendo de la complejidad.</td>
-</tr>
-<tr class="odd">
-<td>Canales de distribución o móviles</td>
-<td>Buscamos que Aid manager pueda ingresar al mercado web, pero por el
-momento está orientado a dispositivos móviles</td>
-<td><table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Jira está disponible tanto en versiones web como móvil, permitiendo
-a los equipos gestionar proyectos desde cualquier lugar.</th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<tbody>
-</tbody>
-</table></td>
-<td><table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Disponible en dispositivos móviles (iOS, Android) y navegadores
-web.</th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<tbody>
-</tbody>
-</table></td>
-<td>Disponible en aplicaciones web y móviles, incluyendo Android, y
-permite la recolección de datos sin conexión.</td>
-</tr>
-</tbody>
-</table>
 
 ### 2.1.2. Estrategias y tácticas frente a competidores<br>
 
