@@ -57,7 +57,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 | Criterio específico                                                                                                                                    | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | Conclusiones                                                                                                                                                                                                                                                         |  
 |--------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
 | Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software                                                                  | TB1:<br/> **Barrutia Vaez, Ricardo Andree:** <br/> Durante el proyecto asumí mi responsabilidad ética al cumplir con mis tareas de manera honesta y comprometida, respetando los aportes de mis compañeros y asegurando que el trabajo reflejara transparencia y profesionalismo. <br/>**Espinoza Iñoñan, Fabiola Ximena:** <br/> Me comprometí a trabajar con responsabilidad y ética, cuidando que mis entregas fueran claras y confiables, y respetando siempre la labor de mis compañeros dentro del proyecto. <br/>**Periche Quiroga, Piero Fernando:** <br/>Asumí un rol responsable dentro del equipo, cumpliendo con mis obligaciones de manera ética y colaborativa, velando porque las decisiones tomadas beneficiaran al grupo y mantuvieran la integridad del proyecto. <br/>**Portales Ortiz, Diego Alejandro** <br/>Fui consciente de la importancia de actuar con ética y profesionalismo en cada actividad, cumpliendo con mis tareas asignadas de manera responsable y garantizando que mi aporte se realizara con compromiso y transparencia <br/> | Como equipo demostramos responsabilidad ética y profesional en cada fase del proyecto, cumpliendo con nuestras tareas de manera transparente y respetando el trabajo de los demás. Mantuvimos un compromiso constante con la calidad y la integridad del entregable. |
-| Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales | TB1:<br/>  **Barrutia Vaez, Ricardo Andree:** <br/>Al analizar las decisiones del proyecto reflexioné sobre cómo nuestra solución podía impactar en distintos contextos, considerando la viabilidad económica y la utilidad social de lo desarrollado. <br/>  **Espinoza Iñoñan, Fabiola Ximena**    <br/> Reconocí que nuestras decisiones debían tomar en cuenta no solo lo técnico, sino también los posibles efectos en los usuarios y en el entorno social, buscando siempre un equilibrio responsable.   <br/>   Periche Quiroga, Piero Fernando             <br/>Tuve en cuenta que la solución debía ser útil en diferentes contextos y que factores como lo económico y lo social podían influir en cómo la usarían las personas.  <br/>  Portales Ortiz, Diego Alejandro            <br/> Al participar en el proyecto tuve en cuenta que toda solución de software tiene un impacto que va más allá de lo tecnológico, por lo que procuré analizar también las implicancias sociales y económicas de lo que estábamos desarrollando. <br/>                | El grupo tuvo en cuenta que la solución no solo debía cumplir con lo técnico, sino también considerar su impacto en lo económico, social y ambiental. Esto nos ayudó a tomar mejores decisiones y hacer que la propuesta sea más útil en distintos contextos.                                                                                                                                                                                                                                                                     |
+| Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales | TB1:<br/>  **Barrutia Vaez, Ricardo Andree:** <br/>Al analizar las decisiones del proyecto reflexioné sobre cómo nuestra solución podía impactar en distintos contextos, considerando la viabilidad económica y la utilidad social de lo desarrollado. <br/>  **Espinoza Iñoñan, Fabiola Ximena**    <br/> Reconocí que nuestras decisiones debían tomar en cuenta no solo lo técnico, sino también los posibles efectos en los usuarios y en el entorno social, buscando siempre un equilibrio responsable.   <br/>   **Periche Quiroga, Piero Fernando**             <br/>Tuve en cuenta que la solución debía ser útil en diferentes contextos y que factores como lo económico y lo social podían influir en cómo la usarían las personas.  <br/>  **Portales Ortiz, Diego Alejandro**           <br/> Al participar en el proyecto tuve en cuenta que toda solución de software tiene un impacto que va más allá de lo tecnológico, por lo que procuré analizar también las implicancias sociales y económicas de lo que estábamos desarrollando. <br/>         | El grupo tuvo en cuenta que la solución no solo debía cumplir con lo técnico, sino también considerar su impacto en lo económico, social y ambiental. Esto nos ayudó a tomar mejores decisiones y hacer que la propuesta sea más útil en distintos contextos.                                                                                                                                                                                                                                                                     |
 ---  
 # Contenido
 ## Tabla de contenidos
@@ -1039,7 +1039,7 @@ Enlace del video de las entrevistas: **[Video de entrevistas](https://upcedupe-m
     Inicio: 0:00
     Fin: 5:39
 
-![Kevin Tumbalobos](images/entrevistas/entrevista-kevin-tumbalobos.jpg)
+![Kevin Tumbalobos](assets/entrevistas/entrevista-kevin-tumbalobos.jpg)
 
 - Descripción  
   Kevin es gestor de proyectos en una ONG. Durante la entrevista mencionó que enfrenta dificultades al **asignar tareas y planificar actividades**, lo que hace que el proceso sea poco fluido. Actualmente utiliza Trello para organizar fases de trabajo y dar seguimiento al progreso.
@@ -1055,7 +1055,7 @@ Enlace del video de las entrevistas: **[Video de entrevistas](https://upcedupe-m
     Inicio: 5:40
     Fin: 10:40
 
-![Francis Mamani](images/entrevistas/entrevista-francisco-mamani.jpg)
+![Francis Mamani](assets/entrevistas/entrevista-francisco-mamani.jpg)
 
 - Descripción  
   Francis es líder de proyectos en una ONG. Señala que sus principales retos son mantener una **comunicación clara y gestionar correctamente los tiempos**. Actualmente usa herramientas como Trello y Asana, además de reuniones periódicas por videollamada para coordinar avances.
@@ -1071,7 +1071,7 @@ Enlace del video de las entrevistas: **[Video de entrevistas](https://upcedupe-m
     Inicio: 10:41
     Fin: 14:05
 
-![Oscar Aranda](images/entrevistas/entrevista-oscar-aranda.jpg)
+![Oscar Aranda](assets/entrevistas/entrevista-oscar-aranda.jpg)
 
 - Descripción  
   Oscar es gestor de un proyecto universitario en una ONG. Identifica como principales dificultades la **falta de seguimiento de tareas y la baja colaboración de los miembros**. Para comunicarse utiliza Google Meet o Discord, y emplea Trello para organizar actividades.
@@ -1089,7 +1089,7 @@ Enlace del video de las entrevistas: **[Video de entrevistas](https://upcedupe-m
     Inicio: 14:06
     Fin: 20:35
 
-![Cynthia Santa Cruz](images/entrevistas/entrevista-cynthia-santa-cruz.jpg)
+![Cynthia Santa Cruz](assets/entrevistas/entrevista-cynthia-santa-cruz.jpg)
 
 - Descripción  
   Cynthia es miembro de un equipo en una ONG. Su mayor reto es la **organización de las tareas y la falta de claridad de algunos compañeros**. Utiliza Office, Project y un sistema interno para organizar su trabajo.
@@ -1105,7 +1105,8 @@ Enlace del video de las entrevistas: **[Video de entrevistas](https://upcedupe-m
     Inicio: 20:36
     Fin: 25:47
 
-![Carla Cordova](images/entrevistas/entrevista-carla-cordova.jpg)
+
+![Carla Cordova](assets/entrevistas/entrevista-carla-cordova.jpg)
 
 - Descripción  
   Carla es miembro de un equipo en una ONG. Menciona que una de sus dificultades es que **sus tareas se acumulan porque no logra organizarlas de manera eficiente**. Utiliza Trello para organizar sus responsabilidades.
@@ -1121,7 +1122,7 @@ Enlace del video de las entrevistas: **[Video de entrevistas](https://upcedupe-m
     Inicio: 25:50
     Fin: 32:58
 
-![Mauricio Rojas](images/entrevistas/entrevista-mauricio-rojas.jpg)
+![Mauricio Rojas](assets/entrevistas/entrevista-mauricio-rojas.jpg)
 
 - Descripción  
   Mauricio es miembro de un equipo en una ONG. Señala que enfrenta problemas porque las herramientas que utiliza son poco intuitivas. Para organizar sus actividades prefiere usar notas personales.
