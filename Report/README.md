@@ -2133,6 +2133,7 @@ Asimismo, se ha realizado un Trello para hacer seguimiento de nuestras tareas.
     <tr><td>HU01</td><td>Ofrecer información de la empresa</td><td>Alta</td><td>3</td></tr>
     <tr><td>HU02</td><td>Informar sobre los beneficios del producto</td><td>Alta</td><td>3</td></tr>
     <tr><td>HU03</td><td>Conocer los testimonios de los clientes pasados</td><td>Media</td><td>3</td></tr>
+    <tr><td>HU04</td><td>Informarse sobre los diferentes planes de precio</td><td>Alta</td><td>3</td></tr>
     <tr><td>HU05</td><td>Contactar con la empresa</td><td>Alta</td><td>2</td></tr>
     <tr><td>HU06</td><td>Mostrar información de perfiles de miembros de equipo</td><td>Media</td><td>2</td></tr>
     <tr><td>HU07</td><td>Mostrar información de perfiles de gestores</td><td>Alta</td><td>3</td></tr>
