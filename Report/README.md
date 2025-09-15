@@ -3581,7 +3581,7 @@ aki
 
 1. La investigación realizada permitió identificar que las ONGs en el Perú enfrentan limitaciones significativas en la gestión de proyectos debido a la falta de herramientas accesibles, organizadas y adaptadas a sus necesidades reales. Esta situación repercute en la comunicación interna, la eficiencia operativa y la capacidad de generar un impacto social sostenido, lo que confirma la relevancia de una solución tecnológica que integre gestión, supervisión y análisis en una sola plataforma.
 2. La propuesta de AidManager, centrada en la simplicidad, accesibilidad y escalabilidad, contribuye directamente a superar los puntos de dolor detectados en los segmentos analizados. Al optimizar procesos como la asignación de tareas, el seguimiento en tiempo real y la comunicación fluida entre gestores y equipos, la solución fortalece la capacidad de las ONGs para maximizar recursos y aumentar su impacto en contextos globales, económicos y sociales .
-
+3. Es aconsejable establecer una estrategia de capacitación continua para gestores y miembros de equipo, con el fin de garantizar un uso adecuado de las funcionalidades y fomentar una cultura de gestión basada en datos que potencie el impacto social de los proyectos.
 
 ### Video About-the-Team
   
