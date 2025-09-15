@@ -2130,18 +2130,12 @@ Asimismo, se ha realizado un Trello para hacer seguimiento de nuestras tareas.
 | **Sección de footer en Landing Page**                                                     | Como visitante, quiero acceder a enlaces importantes desde el footer de la página de inicio.                                                             | 1                                    | Sprint 1     |
 | **Cambio de idioma en Landing Page**                                                      | Como visitante, quiero poder cambiar el idioma de la página de inicio para que sea más accesible.                                                        | 0.5                                  | Sprint 1     |
 
-
 <br>
 
 **Tablero de seguimiento en Trello:**  
-
 [Acceder al tablero de Trello](https://trello.com/invite/b/68c85b3eb4ff2479a7135a32/ATTI73e2b3a9f5055d0f1b3d0328b76f8c5d6E5FD02E/aidmanager)
-
-
 <br>
 ![Impact Mapping 1](../assets/Trello_Project.jpg)
-
-
 
 
 ## 3.4. Impact Mapping
