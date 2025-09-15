@@ -3578,6 +3578,9 @@ aki
 ### 8.6.1. About-the-Product Intro Video
 # Conclusiones
 ### Conclusiones y recomendaciones
+
+1. La investigación realizada permitió identificar que las ONGs en el Perú enfrentan limitaciones significativas en la gestión de proyectos debido a la falta de herramientas accesibles, organizadas y adaptadas a sus necesidades reales. Esta situación repercute en la comunicación interna, la eficiencia operativa y la capacidad de generar un impacto social sostenido, lo que confirma la relevancia de una solución tecnológica que integre gestión, supervisión y análisis en una sola plataforma.
+
 ### Video About-the-Team
   
 ---  
