@@ -2721,11 +2721,11 @@ Para la gestión del código fuente del proyecto **AidManager**, se utilizará u
 
 - **Landing Page:**  
   El código correspondiente a la Landing Page será gestionado en un repositorio específico en GitHub.
-    - **Repositorio:** https://github.com/Diseno-de-Experimentos-4446/Aid-Manager-Web-Application
+    - **Repositorio:** https://github.com/AidManager/AidManager-LandingPage
 
 - **Product Implementation:**  
   El desarrollo completo de la aplicación se manejará en otro repositorio dedicado a la implementación del producto final.
-    - **Repositorio:** https://github.com/Diseno-de-Experimentos-4446/Aid-Manager-Mobile-App
+    - **Repositorio:** https://github.com/AidManager/MobileApp
 
 ---
 
