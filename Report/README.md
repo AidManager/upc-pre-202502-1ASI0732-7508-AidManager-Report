@@ -37,9 +37,9 @@ Producto: AidManager
 # Registro de Versiones del Informe
 
 
-| Versión | Fecha      | Autor                                                                                                                                             | Descripción de modificaciones                                                                      |
-|---------|------------|---------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
-| 1.0      | 14/09/2025 | Barrutia Vaez, Ricardo Andree   <br/> Espinoza Inoñan, Fabiola Ximena <br/> Periche Quiroga, Piero Fernando <br/> Portales Ortiz, Diego Alejandro | Capitulo 1 <br/> Capitulo 2 <br/> Capitulo 3 <br/> Capitulo 4 <br/> Capitulo 5<br/> Mejora continua |
+| Versión | Fecha      | Autor                                                                                                                                             | Descripción de modificaciones                                                                       |
+| ------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| 1.0     | 14/09/2025 | Barrutia Vaez, Ricardo Andree   <br/> Espinoza Inoñan, Fabiola Ximena <br/> Periche Quiroga, Piero Fernando <br/> Portales Ortiz, Diego Alejandro | Capitulo 1 <br/> Capitulo 2 <br/> Capitulo 3 <br/> Capitulo 4 <br/> Capitulo 5<br/> Mejora continua |
 
 
 
@@ -1323,18 +1323,18 @@ A continuación, se presenta el escenario actual (**As-Is**) de nuestros usuario
 
 En esta sección definimos los **términos clave** utilizados por los usuarios y el equipo de desarrollo, con el fin de garantizar una comprensión común y coherente durante todo el proyecto.
 
-| **Término**             | **Definición**                                                                                                 |
-|-------------------------|---------------------------------------------------------------------------------------------------------------|
-| **Gestor de Proyectos** | Usuario responsable de planificar, asignar y supervisar las tareas dentro de la ONG.                         |
-| **Ayudante / Staff**    | Usuario que colabora en la ejecución de actividades y eventos, y reporta al gestor.                           |
-| **Tarea**               | Actividad específica asignada a un miembro del equipo, con fecha límite y objetivo claro.                     |
-| **Proyecto**            | Conjunto de tareas organizadas que buscan lograr un impacto social específico dentro de la ONG.               |
-| **MVP**                 | Producto Mínimo Viable, primera versión funcional de la solución con características esenciales.              |
-| **Dashboard**           | Interfaz visual que permite al gestor visualizar el estado de proyectos, tareas y comunicación.               |
-| **Inventario**          | Registro de insumos y materiales necesarios para llevar a cabo las actividades de la ONG.                     |
-| **Comunicación Directa**| Canal interno dentro de la plataforma que permite a los usuarios intercambiar mensajes o alertas rápidamente. |
-| **Landing Page**        | Página web introductoria para presentar el producto y captar el interés de los usuarios.                      |
-| **Suscripción**         | Plan de acceso a la plataforma basado en cantidad de usuarios registrados y funcionalidades disponibles.      |
+| **Término**              | **Definición**                                                                                                |
+| ------------------------ | ------------------------------------------------------------------------------------------------------------- |
+| **Gestor de Proyectos**  | Usuario responsable de planificar, asignar y supervisar las tareas dentro de la ONG.                          |
+| **Ayudante / Staff**     | Usuario que colabora en la ejecución de actividades y eventos, y reporta al gestor.                           |
+| **Tarea**                | Actividad específica asignada a un miembro del equipo, con fecha límite y objetivo claro.                     |
+| **Proyecto**             | Conjunto de tareas organizadas que buscan lograr un impacto social específico dentro de la ONG.               |
+| **MVP**                  | Producto Mínimo Viable, primera versión funcional de la solución con características esenciales.              |
+| **Dashboard**            | Interfaz visual que permite al gestor visualizar el estado de proyectos, tareas y comunicación.               |
+| **Inventario**           | Registro de insumos y materiales necesarios para llevar a cabo las actividades de la ONG.                     |
+| **Comunicación Directa** | Canal interno dentro de la plataforma que permite a los usuarios intercambiar mensajes o alertas rápidamente. |
+| **Landing Page**         | Página web introductoria para presentar el producto y captar el interés de los usuarios.                      |
+| **Suscripción**          | Plan de acceso a la plataforma basado en cantidad de usuarios registrados y funcionalidades disponibles.      |
 
 
 # Capítulo III: Requirements Specifications
@@ -2134,9 +2134,9 @@ Asimismo, se ha realizado un Trello para hacer seguimiento de nuestras tareas.
 <br>
 
 **Tablero de seguimiento en Trello:**  
-[Acceder al tablero de Trello](https://trello.com/invite/b/66c568966561935d142481d8/ATTI5751dc000e3f7d636dff7058d697c8dd6B2D7184/aidmanagermobile)
+[Acceder al tablero de Trello](https://trello.com/invite/b/68c85b3eb4ff2479a7135a32/ATTI73e2b3a9f5055d0f1b3d0328b76f8c5d6E5FD02E/aidmanager)
 <br>
-
+![Impact Mapping 1](../assets/Trello_Project.jpg)
 
 
 
