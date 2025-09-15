@@ -1205,7 +1205,7 @@ El User Task Matrix nos sirve para identificar los procesos que realizan ambos s
   <thead>
     <tr>
       <th rowspan="2">Título</th>
-      <th colspan="2">Gestor/th>
+      <th colspan="2">Gestor</th>
       <th colspan="2">Ayudante</th>
     </tr>
     <tr>
@@ -1308,8 +1308,8 @@ A continuación, se presenta el escenario actual (**As-Is**) de nuestros usuario
 
 ---
 
-![As-Is 1](../assets/asis1.png)  
-![As-Is 2](../assets/asis2.png)
+![As-Is 1](../assets/asis1.jpg)  
+![As-Is 2](../assets/asis2.jpg)
 
 ---
 
@@ -1372,8 +1372,8 @@ Este escenario muestra:
 
 ---
 
-![To-Be 1](../assets/tobe1.png)  
-![To-Be 2](../assets/tobe2.png)
+![To-Be 1](../assets/tobe1.jpg)  
+![To-Be 2](../assets/tobe2.jpg)
 
 ---
 
@@ -1386,24 +1386,24 @@ Este escenario muestra:
 ## 3.2. User Stories
 **Épicas:**<br>
 
-<table border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; text-align: center;">
-  <thead style="background-color: #008000; color: white;">
+<table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; text-align: center;">
+  <thead>
     <tr>
-      <th>EPX</th>
+      <th>EPICA</th>
       <th>Título Épica</th>
       <th>HU asignadas</th>
     </tr>
   </thead>
-  <tbody style="background-color: #006D8F; color: white;">
+  <tbody>
     <tr>
       <td>EP01</td>
       <td>Informar del producto y empresa</td>
-      <td style="background-color: #8B4513;">HU01 – HU05</td>
+      <td>HU01 – HU05</td>
     </tr>
     <tr>
       <td>EP02</td>
       <td>Gestionar Usuarios</td>
-      <td style="background-color: #5A3A2E;">HU06 – HU10</td>
+      <td>HU06 – HU10</td>
     </tr>
     <tr>
       <td>EP03</td>
@@ -1413,22 +1413,22 @@ Este escenario muestra:
     <tr>
       <td>EP04</td>
       <td>Gestionar Proyectos</td>
-      <td style="background-color: #8B4513;">HU14 – HU16</td>
+      <td>HU14 – HU16</td>
     </tr>
     <tr>
       <td>EP05</td>
       <td>Gestionar Tareas</td>
-      <td style="background-color: #9370DB;">HU17 – HU21</td>
+      <td>HU17 – HU21</td>
     </tr>
     <tr>
       <td>EP06</td>
       <td>Gestionar Fechas</td>
-      <td style="background-color: #DA70D6;">HU22 – HU24</td>
+      <td>HU22 – HU24</td>
     </tr>
     <tr>
       <td>EP07</td>
       <td>Gestionar la comunicación con el equipo</td>
-      <td style="background-color: #2E8B57;">HU25 – HU28</td>
+      <td>HU25 – HU28</td>
     </tr>
     <tr>
       <td>EP08</td>
