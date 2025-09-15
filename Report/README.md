@@ -2134,7 +2134,10 @@ Asimismo, se ha realizado un Trello para hacer seguimiento de nuestras tareas.
 <br>
 
 **Tablero de seguimiento en Trello:**  
+
 [Acceder al tablero de Trello](https://trello.com/invite/b/68c85b3eb4ff2479a7135a32/ATTI73e2b3a9f5055d0f1b3d0328b76f8c5d6E5FD02E/aidmanager)
+
+
 <br>
 ![Impact Mapping 1](../assets/Trello_Project.jpg)
 
