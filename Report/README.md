@@ -292,6 +292,14 @@ Creemos firmemente que, mediante el uso eficiente de la tecnología, es posible 
 
 ### 1.1.2 Perfiles de integrantes del equipo
 
+| Información                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Foto                                                      |
+|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------|
+| **Ricardo Andree Barrutia**<br><br>Código: U201714765<br><br>Conocimientos y Habilidades: <br> <br>Como estudiante de ingeniería de software he adquirido conocimientos de C++, Java y de Ionic. Con respecto a las habilidades más destacables de mi persona, considero que el trabajo en equipo es una de ellas. Además de la capacidad resolutiva a la par que adaptativa ante diversas situaciones.<br>                                                                                                                                                                                        | ![Ricardo Barrutia](../assets/participantes/img-ricardo.jpg) |
+| **Diego Alejandro Portales Ortiz**<br><br>Código: U202210192<br><br>Conocimientos y Habilidades: Estudiante del octavo ciclo de la carrera de Ingeniería de Software. Tengo experiencia en varios lenguajes de programación, incluyendo Python, C++, C# y JavaScript. Me destaco por mi capacidad para trabajar en equipo y contribuir activamente en los proyectos en los que participo. Estoy comprometido a aportar de manera eficiente e innovadora no sólo a mi equipo, si no también a la misma rama de estudio a la que pertenezco.<br><br>                                                 | ![Diego](../assets/participantes/img-diego.jpeg)             |
+| **Fabiola Ximena Espinoza Inoñan**<br><br>Código: u202214784<br><br>Conocimientos y Habilidades: <br><br>Mi nombre es Fabiola Espinoza, tengo 21 años y estudio Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Me considero una persona responsable, creativa y empática, con habilidades destacadas en el trabajo en equipo y la convivencia con otras personas. He participado en el programa Coder Bloom, 28h y más. Y actualmente soy coordinadora de ACM Women UPC.                                                                                                  | ![Fabiola Espinoza](../assets/participantes/img-fabiola.png) |
+| **Piero Fernando, Periche Quiroga**<br><br>Código: U202210192<br><br>Conocimientos y Habilidades:  <br><br> Mi nombre es Piero Periche Quiroga, estudiante de la carrera de Ingenieria de Software, 6to semestre en la Universidad Peruana de Ciencias Aplicadas. Tengo buen desempeño trabajando en equipo, aportando con ideas y tareas de manera asertiva. Tengo conocimientos en lenguajes como HTML y C++. Me considero responsable y puntual.                                                                                                                                                | ![Piero ](../assets/participantes/img-piero.png)          |
+
+
 ## 1.2. Solution Profile
 Nuestro perfil de solución se divide en 2 partes los “Antecedes y Problemática” y el proceso UX.
 ### 1.2.1. Antecedentes y problemática
@@ -2293,7 +2301,6 @@ En el caso de iOS nos enfocamos en mantener una persistencia de diseño para que
 
 #### 4.1.3.2.	Android Mobile Style Guidelines
 
-<img src="../assets/mobile-mock-up/image_104.png" alt="Analytics" width="200px">
 
 
 ## 4.2. Information Architecture
@@ -2482,7 +2489,6 @@ Como miembro de equipo deseo ver las tareas asignadas y las métricas del grupo.
 ## 4.6 Web Applications UX/UI Design
 
 ### 4.6.1. Web Applications Wireframes
-</br>
 
 **Segmento 1: Manager de ONG**
 <center><img src="../assets/app-web-wireframe/aww-1.png" alt="app web wireframe1" style="width:80%;"></center>
@@ -2520,7 +2526,6 @@ Como miembro de equipo deseo ver las tareas asignadas y las métricas del grupo.
 
 ### 4.6.3. Web Applications Mock-ups.
 
-</br>
 
 **Segmento 1: Manager de ONG**
 <center><img src="../assets/aidmanager-app-mockup/aam-1.png" alt="app web mock-up1" style="width:80%;"></center>
