@@ -2171,7 +2171,7 @@ Asimismo, se ha realizado un Trello para hacer seguimiento de nuestras tareas.
 **Tablero de seguimiento en Trello:**  
 [Acceder al tablero de Trello](https://trello.com/invite/b/66c568966561935d142481d8/ATTI445f430d1f124a40c314e5102dbf93440811CE5C/aidmanagermobile)
 <br>
-![Trello](images/trello.jpg)
+![Trello](C:\Users\Thear\OneDrive\Documentos\GitHub\upc-pre-202502-1ASI0732-7508-TaskFlow-Report\Report\images\Trello.jpg)
 
 
 
