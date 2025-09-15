@@ -2648,8 +2648,6 @@ Como miembro de equipo deseo ver las tareas asignadas y las métricas del grupo.
 ### 4.6.1. Web Applications Wireframes
 </br>
 
-[URL del Wireframe hecho en Figma](https://www.figma.com/file/u8S0RHE4Kbl69EwQSVf7jb/AidManager-app-web-Wireframe?type=design&node-id=0%3A1&mode=design&t=FQRKS9G6nW0lMIRj-1)
-
 **Segmento 1: Manager de ONG**
 <center><img src="../assets/app-web-wireframe/aww-1.png" alt="app web wireframe1" style="width:80%;"></center>
 <center><img src="../assets/app-web-wireframe/aww-2.png" alt="app web wireframe2" style="width:80%;"></center>
@@ -2687,8 +2685,6 @@ Como miembro de equipo deseo ver las tareas asignadas y las métricas del grupo.
 ### 4.6.3. Web Applications Mock-ups.
 
 </br>
-
-[URL del Mock-up de la Aplicación hecho en Figma](https://www.figma.com/file/n5BSEAK3X9lFN2M1eqnmQX/AidManager-Prototype?type=design&node-id=0%3A1&mode=design&t=dhyNolXNOfDSlBEG-1)
 
 **Segmento 1: Manager de ONG**
 <center><img src="../assets/aidmanager-app-mockup/aam-1.png" alt="app web mock-up1" style="width:80%;"></center>
