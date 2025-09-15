@@ -957,6 +957,7 @@ constantes actualizaciones y mejoras costosas.</td>
 </table>
 
 ## 2.2. Entrevistas
+Las entrevistas representan una estrategia de investigación que implica el intercambio de diálogo con el propósito de adquirir datos, empleando cuestionamientos específicos para explorar en profundidad el pensamiento y la visión de la persona objeto de estudio.
 
 ### 2.2.1. Diseño de entrevistas
 
@@ -998,6 +999,106 @@ Preguntas enfocadas en los empleados de la organización, considerando su experi
 
 
 ### 2.2.2. Registro de entrevistas
+Enlace del video de las entrevistas: **[Video de entrevistas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201923446_upc_edu_pe/ERy4AZSeh1dEpczjxwLeNRUB_WM5fG8o_DGLoWM-tBmgFw?e=8TziSF&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)**
+
+**Segmento Objetivo:** Team Leader (Gestores de Proyectos en ONG)
+
+##### Entrevista 1:
+    Nombre: Kevin Tumbalobos Cubas
+    Sexo: Masculino
+    Residencia: San Miguel
+    Inicio: 0:00
+    Fin: 5:39
+
+![Kevin Tumbalobos](images/entrevistas/entrevista-kevin-tumbalobos.jpg)
+
+- Descripción  
+  Kevin es gestor de proyectos en una ONG. Durante la entrevista mencionó que enfrenta dificultades al **asignar tareas y planificar actividades**, lo que hace que el proceso sea poco fluido. Actualmente utiliza Trello para organizar fases de trabajo y dar seguimiento al progreso.
+
+  Considera que una aplicación ideal debería permitir la **creación y asignación de tareas con fechas límite**, mejorar el **seguimiento de gastos por proyecto** y facilitar la **comunicación directa con los miembros**. Prefiere coordinar con su equipo por llamadas o mensajes de texto, y le gustaría recibir notificaciones de avances tanto en su celular como en su correo electrónico.
+
+---
+
+##### Entrevista 2:
+    Nombre: Francis Daniel Mamani Silva
+    Sexo: Masculino
+    Residencia: Pueblo Libre
+    Inicio: 5:40
+    Fin: 10:40
+
+![Francis Mamani](images/entrevistas/entrevista-francisco-mamani.jpg)
+
+- Descripción  
+  Francis es líder de proyectos en una ONG. Señala que sus principales retos son mantener una **comunicación clara y gestionar correctamente los tiempos**. Actualmente usa herramientas como Trello y Asana, además de reuniones periódicas por videollamada para coordinar avances.
+
+  Considera que lo más importante en una herramienta de gestión es la **asignación de tareas, el seguimiento en tiempo real y la visualización del progreso**. Valora la **personalización de la herramienta** para ajustarla a las necesidades de cada proyecto. Además, le gustaría recibir notificaciones en su celular. Evalúa la carga de trabajo tomando en cuenta el esfuerzo y eficiencia de cada miembro del equipo.
+
+---
+
+##### Entrevista 3:
+    Nombre: Oscar Aranda
+    Sexo: Masculino
+    Residencia: Lima, Perú
+    Inicio: 10:41
+    Fin: 14:05
+
+![Oscar Aranda](images/entrevistas/entrevista-oscar-aranda.jpg)
+
+- Descripción  
+  Oscar es gestor de un proyecto universitario en una ONG. Identifica como principales dificultades la **falta de seguimiento de tareas y la baja colaboración de los miembros**. Para comunicarse utiliza Google Meet o Discord, y emplea Trello para organizar actividades.
+
+  Considera que una aplicación de gestión debe ofrecer **seguimiento en tiempo real de las tareas** y un **calendario de actividades integrado**. Evalúa la eficiencia de su equipo en reuniones de retroalimentación donde se revisan avances y fallas.
+
+---
+
+**Segmento Objetivo:** Trabajadores del Equipo (Miembros de ONG)
+
+##### Entrevista 1:
+    Nombre: Cynthia Santa Cruz Vargas
+    Sexo: Femenino
+    Residencia: Lima, Perú
+    Inicio: 14:06
+    Fin: 20:35
+
+![Cynthia Santa Cruz](images/entrevistas/entrevista-cynthia-santa-cruz.jpg)
+
+- Descripción  
+  Cynthia es miembro de un equipo en una ONG. Su mayor reto es la **organización de las tareas y la falta de claridad de algunos compañeros**. Utiliza Office, Project y un sistema interno para organizar su trabajo.
+
+  Considera que una aplicación debería tener un **sistema eficaz de seguimiento del progreso**, con **notificaciones automáticas**. Prefiere comunicarse cara a cara o por correo electrónico. Le gustaría contar con una función para **registrar el tiempo que tarda en completar una tarea**, y recibir notificaciones en su celular.
+
+---
+
+##### Entrevista 2:
+    Nombre: Carla Córdova
+    Sexo: Femenino
+    Residencia: Lima, Perú
+    Inicio: 20:36
+    Fin: 25:47
+
+![Carla Cordova](images/entrevistas/entrevista-carla-cordova.jpg)
+
+- Descripción  
+  Carla es miembro de un equipo en una ONG. Menciona que una de sus dificultades es que **sus tareas se acumulan porque no logra organizarlas de manera eficiente**. Utiliza Trello para organizar sus responsabilidades.
+
+  Prefiere recibir las tareas en reuniones o mensajes por videollamada. Le gustaría que la aplicación le notifique sobre el progreso en el celular. Valora que la herramienta sea **ordenada, intuitiva y facilite la colaboración**. Sugiere que las tareas asignadas puedan **editarse y visualizarse en tiempo real**.
+
+---
+
+##### Entrevista 3:
+    Nombre: Mauricio Rojas
+    Sexo: Masculino
+    Residencia: Lima, Perú
+    Inicio: 25:50
+    Fin: 32:58
+
+![Mauricio Rojas](images/entrevistas/entrevista-mauricio-rojas.jpg)
+
+- Descripción  
+  Mauricio es miembro de un equipo en una ONG. Señala que enfrenta problemas porque las herramientas que utiliza son poco intuitivas. Para organizar sus actividades prefiere usar notas personales.
+
+  Le gustaría una aplicación que permita la **colaboración en tiempo real** con otros miembros. Valora la posibilidad de **categorizar tareas** y gestionar todas en un mismo lugar. Evalúa su progreso por el tiempo que le toma completar cada tarea y busca alternar entre tareas sencillas y complejas para equilibrar su carga.
+
 ### 2.2.3. Análisis de entrevistas
 ## 2.3. Needfinding
 
