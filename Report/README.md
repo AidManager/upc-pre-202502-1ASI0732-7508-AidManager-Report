@@ -547,13 +547,25 @@ Las soluciones propuestas abordan las **necesidades prioritarias** identificadas
 
 A continuación, se presenta la tabla de hipótesis siguiendo el enfoque Lean UX:
 
-| **Creencia** | **Validación** |
-|--------------|----------------|
-| Creemos que al implementar una función de **gestión de tareas intuitiva y eficiente** para los gestores de proyectos, aumentaremos la **retención de usuarios**. | Sabremos que estamos en lo correcto cuando observemos un **aumento del 20%** en el número de **usuarios activos recurrentes** dentro de los **primeros tres meses** de uso. |
-| Creemos que al ofrecer una vista centrada en el **análisis financiero** para gestionar presupuestos y gastos, mejoraremos la **retención de usuarios**. | Sabremos que estamos en lo correcto cuando observemos una **reducción del 25%** en las **consultas de soporte** sobre gestión financiera y un **aumento** en el **uso de esta funcionalidad**. |
-| Creemos que al proporcionar herramientas de **gestión, análisis y comunicación** que incrementen el **impacto de los proyectos**, mejoraremos la **retención de usuarios**. | Sabremos que estamos en lo correcto cuando observemos un **aumento del 60%** en la **tasa de usuarios recurrentes** y un **incremento medible** en el impacto de sus proyectos. |
-| Creemos que al implementar un sistema de **comunicación eficiente** entre gestores de proyectos y ayudantes, mejoraremos la **interacción** y **retención de usuarios**. | Sabremos que estamos en lo correcto cuando observemos un **aumento del 20%** en la **frecuencia de uso** de la función de comunicación dentro de los **primeros tres meses**. |
-| Creemos que al ofrecer un **plan mejorado** que permita a los gestores agregar más integrantes a sus cuentas, aumentaremos nuestras **ganancias**. | Sabremos que estamos en lo correcto cuando al menos el **10% de los usuarios** se **suscriba** al plan mejorado dentro de los **primeros seis meses**. |
+**Creemos que** al implementar una función de **gestión de tareas intuitiva y eficiente** para los gestores de proyectos, aumentaremos la **retención de usuarios**. 
+
+**Sabremos que** estamos en lo correcto cuando observemos un **aumento del 20%** en el número de **usuarios activos recurrentes** dentro de los **primeros tres meses** de uso. 
+
+**Creemos que** al ofrecer una vista centrada en el **análisis financiero** para gestionar presupuestos y gastos, mejoraremos la **retención de usuarios**. 
+
+**Sabremos que** estamos en lo correcto cuando observemos una **reducción del 25%** en las **consultas de soporte** sobre gestión financiera y un **aumento** en el **uso de esta funcionalidad**. 
+
+**Creemos que** al proporcionar herramientas de **gestión, análisis y comunicación** que incrementen el **impacto de los proyectos**, mejoraremos la **retención de usuarios**. 
+
+**Sabremos que** estamos en lo correcto cuando observemos un **aumento del 60%** en la **tasa de usuarios recurrentes** y un **incremento medible** en el impacto de sus proyectos.
+
+**Creemos que** al implementar un sistema de **comunicación eficiente** entre gestores de proyectos y ayudantes, mejoraremos la **interacción** y **retención de usuarios**. 
+
+**Sabremos que** estamos en lo correcto cuando observemos un **aumento del 20%** en la **frecuencia de uso** de la función de comunicación dentro de los **primeros tres meses**. 
+
+**Creemos que** al ofrecer un **plan mejorado** que permita a los gestores agregar más integrantes a sus cuentas, aumentaremos nuestras **ganancias**. 
+
+**Sabremos que** estamos en lo correcto cuando al menos el **10% de los usuarios** se **suscriba** al plan mejorado dentro de los **primeros seis meses**. 
 
 ---
 
@@ -880,10 +892,10 @@ Realizamos este análisis a fin de poder conocer el mercado al que nos enfrentam
 <thead>
 <tr class="header">
 <th><strong>SWOT</strong></th>
-<th><strong>Nosotros</strong></th>
+<th><strong>AidManager</strong></th>
 <th><strong>Jira</strong></th>
 <th><strong>Base Camp</strong></th>
-<th><strong>Log Alto</strong></th>
+<th><strong>Trello</strong></th>
 </tr>
 </thead>
 <tbody>
