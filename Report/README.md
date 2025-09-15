@@ -3320,11 +3320,11 @@ Se presentan los commits de los Integrantes del equipo
 
 [Contribuciones del repositorio]
 
-<img src="../assets/Insights/Screenshot 2025-04-25 230238.png" alt="imagen de las colaboraciones">   
+<img src="../assets/Insights/contribuciones.png" alt="imagen de las colaboraciones">   
 
 [Colaboradores del repositorio]
 
-<img src="/assets/Insights/ins.png" alt="imagen de los commits">  
+<img src="/assets/Insights/contribuciones2.png" alt="imagen de los commits">  
 
 [Registro de los commits donde se realizaron la mayor cantidad]
 
