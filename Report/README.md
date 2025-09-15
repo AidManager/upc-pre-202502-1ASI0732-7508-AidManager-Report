@@ -981,10 +981,26 @@ Estas preguntas se aplicaron a todos los entrevistados, independientemente del s
 
 Preguntas enfocadas en los gestores de organización, desde su perspectiva laboral y cotidiana:
 
-1. ¿Cuándo piensa en gestionar un proyecto en qué piensa principalmente?
-2. ¿Qué métodos utiliza para organizar a sus ayudantes y cómo les asigna tareas?
-3. ¿Qué herramientas usa para gestionar o planificar proyectos?
-4. ¿Cómo analiza sus datos (asimismo financieros), qué herramientas/métodos usa?
+
+1. ¿Cuáles son los mayores desafíos que enfrentas al gestionar un equipo de voluntarios o colaboradores en una ONG?
+
+2. ¿Qué herramientas utilizas actualmente para planificar y asignar tareas dentro de los proyectos sociales?
+
+3. ¿Cómo manejas el seguimiento del progreso de las tareas y actividades de los proyectos de la ONG?
+
+4. ¿Qué características consideras imprescindibles en una herramienta de gestión de proyectos para ONG?
+
+5. ¿Cómo prefieres comunicarte y coordinarte con los voluntarios o miembros de tu equipo?
+
+6. ¿Qué tan importante es para ti la posibilidad de visualizar el estado de las tareas y el impacto en tiempo real?
+
+7. ¿Qué mejoras te gustaría ver en las herramientas de gestión de proyectos que utilizas actualmente en la ONG?
+
+8. ¿Cómo te gustaría recibir notificaciones sobre el progreso de las tareas y los proyectos sociales?
+
+9. ¿Qué tan fácil te resulta distribuir la carga de trabajo y responsabilidades entre los miembros del equipo?
+
+10. ¿Cómo evalúas la eficiencia y el impacto de tu equipo después de completar un proyecto social?
 
 ---
 
@@ -992,11 +1008,25 @@ Preguntas enfocadas en los gestores de organización, desde su perspectiva labor
 
 Preguntas enfocadas en los empleados de la organización, considerando su experiencia en los eventos:
 
-1. ¿Qué actividades son las principales en los eventos y cómo se las asignan?
-2. ¿Cómo recolectan información de los participantes, qué herramientas?
-3. ¿Cómo hacen llegar esta información a los gestores de proyecto?
-4. Si sucede un inconveniente que se debe notificar al gestor del proyecto, ¿cómo se comunica con este? ¿Cree que la comunicación con el gestor de proyecto es efectiva?
+1. ¿Qué dificultades encuentras al organizar tus tareas diarias dentro de los proyectos de la ONG?
 
+2. ¿Qué herramientas utilizas para gestionar tu tiempo y tus responsabilidades en la organización?
+
+3. ¿Cómo prefieres recibir y gestionar las tareas asignadas por tu líder de proyecto?
+
+4. ¿Qué tan útil te resultaría una herramienta que te permita colaborar en tiempo real con otros miembros de la ONG?
+
+5. ¿Cómo te gustaría ser notificado sobre nuevas tareas o cambios en las asignaciones del proyecto?
+
+6. ¿Qué características valoras más en una aplicación de gestión de tareas para tu participación en la ONG?
+
+7. ¿Cómo evalúas tu propio progreso en relación con las tareas asignadas en el proyecto?
+
+8. ¿Qué tan importante es para ti poder visualizar todas tus tareas en un solo lugar dentro del proyecto?
+
+9. ¿Cómo manejas el equilibrio entre múltiples tareas o actividades simultáneas en la ONG?
+
+10. ¿Qué mejoras sugerirías para las herramientas de gestión de tareas que utilizas actualmente en tu trabajo en la ONG?
 
 ### 2.2.2. Registro de entrevistas
 Enlace del video de las entrevistas: **[Video de entrevistas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201923446_upc_edu_pe/ERy4AZSeh1dEpczjxwLeNRUB_WM5fG8o_DGLoWM-tBmgFw?e=8TziSF&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)**
@@ -1126,73 +1156,74 @@ A continuación, se presentan las representaciones gráficas de los dos perfiles
 ### 2.3.2. User Task Matrix
 <br>
 El User Task Matrix nos sirve para identificar los procesos que realizan ambos segmentos donde se pueden observar las similitudes respecto a la importancia y frecuencias de estos procesos. Esto es antes de implementar nuestra solución.
-<br>
-<table border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; text-align: center;">
-  <thead style="background-color: #3D4B66; color: white;">
+<table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; text-align: center;">
+  <thead>
     <tr>
       <th rowspan="2">Título</th>
-      <th colspan="2">Segmento 1</th>
-      <th colspan="2">Segmento 2</th>
+      <th colspan="2">Gestor/th>
+      <th colspan="2">Ayudante</th>
     </tr>
     <tr>
-      <th>Importancia</th>
+      <th>Impacto</th>
       <th>Frecuencia</th>
-      <th>Importancia</th>
+      <th>Impacto</th>
       <th>Frecuencia</th>
     </tr>
   </thead>
-  <tbody style="background-color: #1A2B3C; color: white;">
+  <tbody>
     <tr>
-      <td>Comunicar al equipo de sus tareas en un proyecto.</td>
-      <td style="background-color: #B26A00;">Alta</td>
-      <td style="background-color: #665100;">Media</td>
-      <td style="background-color: #B26A00;">Alta</td>
-      <td style="background-color: #4D5F3C;">Baja</td>
+      <td>Comunicar tareas al equipo</td>
+      <td>Alta</td>
+      <td>Media</td>
+      <td>Alta</td>
+      <td>Baja</td>
     </tr>
     <tr>
-      <td>Establecer fechas importantes o un cronograma orientado a las actividades a realizar.</td>
-      <td style="background-color: #B26A00;">Alta</td>
-      <td style="background-color: #665100;">Media</td>
-      <td style="background-color: #665100;">Media</td>
-      <td style="background-color: #4D5F3C;">Baja</td>
+      <td>Establecer fechas / cronograma</td>
+      <td>Alta</td>
+      <td>Media</td>
+      <td>Media</td>
+      <td>Baja</td>
     </tr>
     <tr>
-      <td>Evaluar los resultados del proyecto realizado.</td>
-      <td style="background-color: #B26A00;">Alta</td>
-      <td style="background-color: #665100;">Media</td>
-      <td style="background-color: #665100;">Media</td>
-      <td style="background-color: #4D5F3C;">Baja</td>
+      <td>Evaluar resultados del proyecto</td>
+      <td>Alta</td>
+      <td>Media</td>
+      <td>Media</td>
+      <td>Baja</td>
     </tr>
     <tr>
-      <td>Registrar información del proyecto.</td>
-      <td style="background-color: #B26A00;">Alta</td>
-      <td style="background-color: #665100;">Media</td>
-      <td style="background-color: #B26A00;">Alta</td>
-      <td style="background-color: #B26A00;">Alta</td>
+      <td>Registrar información del proyecto</td>
+      <td>Alta</td>
+      <td>Media</td>
+      <td>Alta</td>
+      <td>Alta</td>
     </tr>
     <tr>
-      <td>Planificar reuniones mensuales & anuales.</td>
-      <td style="background-color: #B26A00;">Alta</td>
-      <td style="background-color: #2F4F3E;">Baja</td>
-      <td style="background-color: #665100;">Media</td>
-      <td style="background-color: #4D5F3C;">Baja</td>
+      <td>Planificar reuniones</td>
+      <td>Alta</td>
+      <td>Baja</td>
+      <td>Media</td>
+      <td>Baja</td>
     </tr>
     <tr>
-      <td>Registrar datos en Excel.</td>
-      <td style="background-color: #B26A00;">Alta</td>
-      <td style="background-color: #665100;">Media</td>
-      <td style="background-color: #B26A00;">Alta</td>
-      <td style="background-color: #4D5F3C;">Baja</td>
+      <td>Registrar datos en Excel</td>
+      <td>Alta</td>
+      <td>Media</td>
+      <td>Alta</td>
+      <td>Baja</td>
     </tr>
     <tr>
       <td>Supervisar proyecto en ejecución</td>
-      <td style="background-color: #B26A00;">Alta</td>
-      <td style="background-color: #665100;">Media</td>
-      <td style="background-color: #B26A00;">Alta</td>
-      <td style="background-color: #B26A00;">Alta</td>
+      <td>Alta</td>
+      <td>Media</td>
+      <td>Alta</td>
+      <td>Alta</td>
     </tr>
   </tbody>
 </table>
+
+
 
 ### 2.3.3. User Journey Mapping
 
