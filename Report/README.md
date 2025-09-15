@@ -1130,6 +1130,51 @@ Enlace del video de las entrevistas: **[Video de entrevistas](https://upcedupe-m
   Le gustaría una aplicación que permita la **colaboración en tiempo real** con otros miembros. Valora la posibilidad de **categorizar tareas** y gestionar todas en un mismo lugar. Evalúa su progreso por el tiempo que le toma completar cada tarea y busca alternar entre tareas sencillas y complejas para equilibrar su carga.
 
 ### 2.2.3. Análisis de entrevistas
+**Segmento Objetivo: Líderes de equipo en ONG**
+
+- **Falta de Seguimiento y Colaboración:**  
+  El 75% de los líderes entrevistados mencionaron que uno de los mayores desafíos es la falta de seguimiento y la colaboración dentro de los proyectos sociales. Esto genera dificultades para coordinar tareas y garantizar que las actividades se ejecuten con el impacto esperado.
+
+- **Comunicación Clara y Efectiva:**  
+  Un 50% de los líderes destacó la importancia de mantener una comunicación fluida con voluntarios y colaboradores, considerándola clave para el éxito y la sostenibilidad de los proyectos.
+
+- **Uso de Herramientas Digitales (Trello y Asana):**  
+  El 100% de los líderes entrevistados utiliza Trello para asignar y organizar tareas en la ONG. Un 50% también menciona Asana como apoyo para planificar iniciativas sociales.
+
+- **Herramientas de Comunicación:**  
+  El 75% recurre a Google Meet o Discord para coordinarse, priorizando plataformas que permitan **videollamadas y reuniones rápidas** con los equipos.
+
+- **Asignación de Tareas y Seguimiento en Tiempo Real:**  
+  El 100% considera imprescindible que la herramienta de gestión permita **asignar tareas y dar seguimiento inmediato**, con visibilidad del avance de los proyectos sociales.
+
+- **Personalización y Calendario:**  
+  Un 50% señaló la necesidad de incluir **opciones de personalización** y un **calendario de actividades** que facilite la planificación de cronogramas comunitarios y entregables.
+
+- **Reuniones de Retroalimentación:**  
+  El 50% de los líderes evalúa la eficiencia de su equipo mediante **reuniones periódicas de revisión**, en las que se discuten fallas y se buscan soluciones para mejorar el impacto social de los proyectos.
+
+---
+
+**Segmento Objetivo: Miembros de equipo en ONG**
+
+- **Organización de Tareas:**  
+  El 100% de los miembros entrevistados mencionó que uno de los mayores desafíos es **organizar sus tareas dentro de los proyectos de la ONG**, especialmente cuando se acumulan y no logran priorizarlas de forma eficiente.
+
+- **Falta de Conocimiento o Capacitación:**  
+  Un 25% señaló que la falta de experiencia o conocimiento de algunos voluntarios dificulta aún más la coordinación del trabajo colectivo.
+
+- **Uso de Trello:**  
+  El 75% de los miembros utiliza **Trello** para organizar sus responsabilidades y coordinar con el equipo.
+
+- **Sistemas Internos:**  
+  Un 25% hace uso de **sistemas internos de la organización** para registrar y dar seguimiento a tareas específicas según el proyecto.
+
+- **Interfaz Intuitiva y Colaborativa:**  
+  El 100% valora que una aplicación sea **ordenada, fácil de usar y fomente la colaboración** entre los voluntarios y miembros de la ONG.
+
+- **Notificaciones en Tiempo Real:**  
+  El 75% prefiere recibir **notificaciones en el celular** sobre sus tareas asignadas, lo que les permite mantenerse al día con los avances y plazos de los proyectos sociales.
+
 ## 2.3. Needfinding
 
 En esta sección se desarrollaron **User Personas** basados en la información recolectada durante las entrevistas. El objetivo es identificar los comportamientos, necesidades y procesos actuales de cada segmento antes de la implementación de nuestra solución.
