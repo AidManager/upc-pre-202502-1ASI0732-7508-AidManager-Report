@@ -2728,11 +2728,11 @@ Para la gestión del código fuente del proyecto **AidManager**, se utilizará u
 
 - **Landing Page:**  
   El código correspondiente a la Landing Page será gestionado en un repositorio específico en GitHub.
-    - **Repositorio:** https://github.com/Diseno-de-Experimentos-4446/Aid-Manager-Web-Application
+    - **Repositorio:** https://github.com/AidManager/AidManager-LandingPage
 
 - **Product Implementation:**  
   El desarrollo completo de la aplicación se manejará en otro repositorio dedicado a la implementación del producto final.
-    - **Repositorio:** https://github.com/Diseno-de-Experimentos-4446/Aid-Manager-Mobile-App
+    - **Repositorio:** https://github.com/AidManager/MobileApp
 
 ---
 
@@ -3327,11 +3327,11 @@ Se presentan los commits de los Integrantes del equipo
 
 [Contribuciones del repositorio]
 
-<img src="../assets/Insights/Screenshot 2025-04-25 230238.png" alt="imagen de las colaboraciones">   
+<img src="../assets/Insights/contribuciones.png" alt="imagen de las colaboraciones">   
 
 [Colaboradores del repositorio]
 
-<img src="/assets/Insights/ins.png" alt="imagen de los commits">  
+<img src="/assets/Insights/contribuciones2.png" alt="imagen de los commits">  
 
 [Registro de los commits donde se realizaron la mayor cantidad]
 
@@ -3420,9 +3420,7 @@ Link: https://youtu.be/5C6CFJQ90q8
 # Conclusiones
 ### Conclusiones y recomendaciones
 
-1. La investigación realizada permitió identificar que las ONGs en el Perú enfrentan limitaciones significativas en la gestión de proyectos debido a la falta de herramientas accesibles, organizadas y adaptadas a sus necesidades reales. Esta situación repercute en la comunicación interna, la eficiencia operativa y la capacidad de generar un impacto social sostenido, lo que confirma la relevancia de una solución tecnológica que integre gestión, supervisión y análisis en una sola plataforma.
-2. La propuesta de AidManager, centrada en la simplicidad, accesibilidad y escalabilidad, contribuye directamente a superar los puntos de dolor detectados en los segmentos analizados. Al optimizar procesos como la asignación de tareas, el seguimiento en tiempo real y la comunicación fluida entre gestores y equipos, la solución fortalece la capacidad de las ONGs para maximizar recursos y aumentar su impacto en contextos globales, económicos y sociales .
-3. Es aconsejable establecer una estrategia de capacitación continua para gestores y miembros de equipo, con el fin de garantizar un uso adecuado de las funcionalidades y fomentar una cultura de gestión basada en datos que potencie el impacto social de los proyectos.
+En esta TB1 sentimos que dimos un buen primer paso como equipo: logramos ponernos de acuerdo en el alcance, organizamos el trabajo con roles claros y un backlog visible, y construimos entregables que reflejan lo que queremos lograr; hicimos prototipos, priorizamos historias y fuimos iterando con retroalimentación constante, lo que nos ayudó a alinear ideas y aprender a coordinarnos mejor; sentimos que tenemos una base sólida y un rumbo claro para la siguiente iteración, con un equipo que se comunica mejor, reparte mejor el trabajo y mantiene el foco en resultados.
 
 ### Video About-the-Team
   
