@@ -46,7 +46,17 @@ Producto: AidManager
 ---  
 # Project Report Collaboration Insights
 
+Este apartado tiene como objetivo describir la colaboración del equipo a lo largo del proyecto, resaltando cómo se distribuyeron y gestionaron las tareas durante las distintas fases del desarrollo. A continuación, se proporcionan capturas de pantalla de las interacciones y aportaciones realizadas en el repositorio de GitHub para cada una de las entregas clave, así como el enlace directo al repositorio.
 
+#### Repositorio de GitHub
+
+El repositorio utilizado para gestionar las versiones del código y realizar los reportes de cada entrega es accesible en el siguiente enlace: https://github.com/AidManager/upc-pre-202502-1ASI0732-7508-TaskFlow-Report.git
+
+En el **entregable inicial (TB1)** se sentaron las bases del proyecto mediante una introducción a la startup y a sus integrantes, detallando su perfil, misión, visión y las competencias de cada miembro. Asimismo, se efectuó un análisis de antecedentes y de la problemática a resolver aplicando Lean UX, lo cual permitió detectar problemas, establecer supuestos y formular hipótesis que orientaran el diseño del producto. Se construyó un **Lean UX Canvas** para organizar los objetivos, los segmentos de usuarios y las métricas de éxito. Finalmente, se llevó a cabo un estudio del mercado y de los competidores, identificando oportunidades para diferenciar la propuesta de solución.
+
+A continuación, se presenta el flujo de trabajo:
+
+![Insight](../assets/Insight.jpg)
 
 ---  
 # Student Outcome
