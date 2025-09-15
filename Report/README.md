@@ -2080,65 +2080,50 @@ mantener la integridad del código de organización <strong>para</strong> valida
 Se consideran las historias de usuario más importantes para el product backlog
 Asimismo, se ha realizado un Trello para hacer seguimiento de nuestras tareas.
 
-| **Título**                                                                                | **Descripción**                                                                                                                                          | **Story Points (1 / 2 / 3 / 5 / 8)** | **Sprint #** |
-| :---------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------- | :----------- |
-| **Crear campos de cultivo**                                                               | Como productor agrícola, quiero crear campos de cultivo para poder monitorear fácilmente el proceso agrícola del campo.                                  | 3                                    | Sprint 1     |
-| **Crear campo a través de la API RESTful**                                                | Como desarrollador, quiero crear un campo a través de la API para registrarlo en la base de datos.                                                       | 3                                    | Sprint 1     |
-| **Obtener información del campo a través de la API RESTful**                              | Como desarrollador, quiero obtener la información del campo a través de la API para mostrar los datos en la aplicación.                                  | 2                                    | Sprint 1     |
-| **Crear proceso agrícola a través de la API RESTful**                                     | Como desarrollador, quiero crear el proceso agrícola a través de la API para registrarlo en la base de datos.                                            | 2                                    | Sprint 1     |
-| **Crear actividad en el proceso agrícola**                                                | Como desarrollador, quiero crear actividades agrícolas a través de la API para registrarlas en la base de datos.                                         | 5                                    | Sprint 1     |
-| **Eliminar información del campo a través de la API RESTful**                             | Como desarrollador, quiero eliminar la información del campo a través de la API para eliminar los datos en la aplicación.                                | 3                                    | Sprint 1     |
-| **Obtener información del proceso agrícola por campo a través de la API RESTful**         | Como desarrollador, quiero obtener la información del proceso agrícola por campo a través de la API para mostrar los datos en la aplicación.             | 2                                    | Sprint 1     |
-| **Obtener información de la actividad agrícola a través de la API RESTful**               | Como desarrollador, quiero obtener la información de la actividad agrícola a través de la API para mostrar los datos en la aplicación.                   | 2                                    | Sprint 1     |
-| **Obtener información de la última actividad agrícola a través de la API RESTful**        | Como desarrollador, quiero obtener la información de la última actividad agrícola a través de la API para mostrar los datos en la aplicación.            | 3                                    | Sprint 1     |
-| **Terminar la plantación a través de la API RESTful**                                     | Como desarrollador, quiero terminar la plantación a través de la API para actualizar los datos en la aplicación.                                         | 3                                    | Sprint 1     |
-| **Programar fecha de riego de cultivos**                                                  | Como productor agrícola, quiero funcionalidades de apoyo en el riego de cultivos para mejorar el cuidado de los cultivos.                                | 5                                    | Sprint 1     |
-| **Realizar compra de productos para cultivos**                                            | Como productor agrícola, quiero realizar compras de productos para mis cultivos de manera online para optimizar mi trabajo.                              | 5                                    | Sprint 1     |
-| **Programar fechas de tratamiento de cultivos**                                           | Como productor agrícola, quiero funcionalidades de apoyo en el proceso de fumigación para mejorar el cuidado de los cultivos.                            | 5                                    | Sprint 1     |
-| **Gestionar el proceso de recolección de la cosecha**                                     | Como productor agrícola, quiero funcionalidades de apoyo en la recolección de la cosecha para gestionar de manera eficiente el inventario y los precios. | 5                                    | Sprint 1     |
-| **Realizar análisis financiero de los cultivos**                                          | Como productor agrícola, quiero realizar un análisis financiero para visualizar la utilidad de mi trabajo.                                               | 5                                    | Sprint 1     |
-| **Editar la información de la actividad del proceso agrícola a través de la API RESTful** | Como desarrollador, quiero editar la información de la actividad a través de la API para mostrar los datos en la aplicación.                             | 3                                    | Sprint 1     |
-| **Agregar trabajador a través de la API RESTful**                                         | Como desarrollador, quiero agregar trabajador a través de la API para registrarlo en la base de datos.                                                   | 3                                    | Sprint 1     |
-| **Obtener trabajadores a través de la API RESTful**                                       | Como desarrollador, quiero obtener información de los trabajadores a través de la API para registrarlo en la base de datos.                              | 2                                    | Sprint 1     |
-| **Eliminar trabajador a través de la API RESTful**                                        | Como desarrollador, quiero eliminar trabajador a través de la API para eliminar los datos en la aplicación.                                              | 3                                    | Sprint 1     |
-| **Registrar usuario**                                                                     | Implementar registro de usuario a través del API                                                                                                         | 4                                    | Sprint 1     |
-| **Iniciar sesión de usuario**                                                             | Crear funcionalidad de inicio de sesión mediante el API                                                                                                  | 3                                    | Sprint 1     |
-| **Obtener información del usuario**                                                       | Implementar endpoint para obtener información del usuario                                                                                                | 3                                    | Sprint 1     |
-| **Crear registro de plantación**                                                          | Crear registro de plantación a través de API                                                                                                             | 5                                    | Sprint 1     |
-| **Obtener información de la plantación**                                                  | Implementar endpoint para obtener información de la plantación                                                                                           | 4                                    | Sprint 1     |
-| **Finalizar ciclo de plantación**                                                         | Función para finalizar ciclo de plantación                                                                                                               | 6                                    | Sprint 1     |
-| **Registrar trabajador**                                                                  | Crear registro de trabajador a través del API                                                                                                            | 3                                    | Sprint 1     |
-| **Obtener información de trabajador**                                                     | Obtener información de registro de trabajadores                                                                                                          | 3                                    | Sprint 1     |
-| **Eliminar trabajador**                                                                   | Eliminar registro de trabajador a través del API                                                                                                         | 4                                    | Sprint 1     |
-| **Editar trabajador**                                                                     | Implementar edición de registro de trabajador                                                                                                            | 4                                    | Sprint 1     |
-| **Crear fechas de irrigación**                                                            | Crear fechas de irrigación mediante el API                                                                                                               | 5                                    | Sprint 1     |
-| **Obtener fechas de irrigación**                                                          | Obtener fechas de irrigación de un campo                                                                                                                 | 3                                    | Sprint 1     |
-| **Eliminar irrigación**                                                                   | Función para eliminar registros de irrigación                                                                                                            | 4                                    | Sprint 1     |
-| **Crear tratamiento**                                                                     | Crear registro de tratamiento para los cultivos                                                                                                          | 6                                    | Sprint 1     |
-| **Obtener tratamiento**                                                                   | Obtener información de tratamientos aplicados                                                                                                            | 3                                    | Sprint 1     |
-| **Eliminar tratamiento**                                                                  | Función para eliminar tratamientos de cultivos                                                                                                           | 4                                    | Sprint 1     |
-| **Crear cosecha**                                                                         | Implementar registro de cosecha a través del API                                                                                                         | 6                                    | Sprint 1     |
-| **Obtener cosecha**                                                                       | Obtener información de cosechas registradas                                                                                                              | 3                                    | Sprint 1     |
-| **Eliminar cosecha**                                                                      | Eliminar registros de cosechas                                                                                                                           | 4                                    | Sprint 1     |
-| **Crear financiamiento**                                                                  | Crear registro de financiamiento a través del API                                                                                                        | 5                                    | Sprint 1     |
-| **Obtener financiamiento**                                                                | Obtener información de financiamiento                                                                                                                    | 3                                    | Sprint 1     |
-| **Eliminar financiamiento**                                                               | Función para eliminar registros de financiamiento                                                                                                        | 4                                    | Sprint 1     |
-| **Procesar pagos de suscripción**                                                         | Implementar el procesamiento de pagos internamente en el sistema                                                                                         | 7                                    | Sprint 1     |
-| **Crear suscripción**                                                                     | Crear suscripción a través de la API para registrarla en la base de datos                                                                                | 3                                    | Sprint 1     |
-| **Obtener suscripción**                                                                   | Obtener información de la suscripción a través de la API para registrarlo en la base de datos                                                            | 2                                    | Sprint 1     |
-| **Renovar suscripción**                                                                   | Renovar la suscripción a través de la API                                                                                                                | 3                                    | Sprint 1     |
-| **Actualizar plan de suscripción**                                                        | Actualizar el plan de suscripción a través de la API                                                                                                     | 3                                    | Sprint 1     |
-| **Crear API Fake**                                                                        | Crear una API fake para poder avanzar el desarrollo de la web app                                                                                        | 2                                    | Sprint 1     |
-| **Barra de navegación en Landing Page**                                                   | Como visitante, quiero una barra de navegación en la página de inicio para tener acceso directo a la información de la aplicación.                       | 1                                    | Sprint 1     |
-| **Sección de Introducción en Landing Page**                                               | Como visitante, quiero una sección de introducción en la página de inicio para conocer de qué trata la aplicación.                                       | 1                                    | Sprint 1     |
-| **Sección de Funcionalidades en Landing Page**                                            | Como visitante, quiero conocer las funcionalidades de la aplicación en la página de inicio para saber cómo puedo usarla.                                 | 2                                    | Sprint 1     |
-| **Sección de cómo funciona en Landing Page**                                              | Como visitante, quiero entender cómo funciona la aplicación a través de la sección en la página de inicio.                                               | 1                                    | Sprint 1     |
-| **Sección de Testimonios en Landing Page**                                                | Como visitante, quiero leer testimonios de usuarios anteriores para conocer sus experiencias con la aplicación.                                          | 1                                    | Sprint 1     |
-| **Sección de contacto en Landing Page**                                                   | Como visitante, quiero tener un medio de contacto para poder comunicarme con el equipo de soporte.                                                       | 0.5                                  | Sprint 1     |
-| **Sección de footer en Landing Page**                                                     | Como visitante, quiero acceder a enlaces importantes desde el footer de la página de inicio.                                                             | 1                                    | Sprint 1     |
-| **Cambio de idioma en Landing Page**                                                      | Como visitante, quiero poder cambiar el idioma de la página de inicio para que sea más accesible.                                                        | 0.5                                  | Sprint 1     |
-
-
+<table border="1">
+  <thead>
+    <tr>
+      <th>Historia de Usuario</th>
+      <th>Descripción</th>
+      <th>Prioridad</th>
+      <th>Story Points (1/2/3/5/8)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>HU01</td><td>Ofrecer información de la empresa</td><td>Alta</td><td>3</td></tr>
+    <tr><td>HU02</td><td>Informar sobre los beneficios del producto</td><td>Alta</td><td>3</td></tr>
+    <tr><td>HU03</td><td>Conocer los testimonios de los clientes pasados</td><td>Media</td><td>3</td></tr>
+    <tr><td>HU05</td><td>Contactar con la empresa</td><td>Alta</td><td>2</td></tr>
+    <tr><td>HU06</td><td>Mostrar información de perfiles de miembros de equipo</td><td>Media</td><td>2</td></tr>
+    <tr><td>HU07</td><td>Mostrar información de perfiles de gestores</td><td>Alta</td><td>3</td></tr>
+    <tr><td>HU08</td><td>Mostrar información de perfil de la ONG</td><td>Alta</td><td>3</td></tr>
+    <tr><td>HU09</td><td>Editar información de perfil</td><td>Media</td><td>2</td></tr>
+    <tr><td>HU10</td><td>Autenticar usuarios por medio de código de organización</td><td>Alta</td><td>3</td></tr>
+    <tr><td>HU11</td><td>Mostrar lista de perfiles de miembros de equipo</td><td>Alta</td><td>3</td></tr>
+    <tr><td>HU12</td><td>Contactar a los miembros del equipo por medio de WhatsApp</td><td>Media</td><td>2</td></tr>
+    <tr><td>HU13</td><td>Eliminar Perfil de miembro de equipo</td><td>Media</td><td>3</td></tr>
+    <tr><td>HU14</td><td>Visualizar de listado de proyectos</td><td>Alta</td><td>3</td></tr>
+    <tr><td>HU15</td><td>Ingresar nuevo proyecto</td><td>Alta</td><td>3</td></tr>
+    <tr><td>HU16</td><td>Editar información de proyecto</td><td>Alta</td><td>3</td></tr>
+    <tr><td>HU17</td><td>Visualizar tareas</td><td>Media</td><td>2</td></tr>
+    <tr><td>HU18</td><td>Crear tarea</td><td>Media</td><td>2</td></tr>
+    <tr><td>HU19</td><td>Editar tarea</td><td>Alta</td><td>3</td></tr>
+    <tr><td>HU20</td><td>Cambio de estado de tarea</td><td>Alta</td><td>3</td></tr>
+    <tr><td>HU21</td><td>Eliminar una tarea</td><td>Alta</td><td>3</td></tr>
+    <tr><td>HU22</td><td>Visualizar de fechas vinculadas con las tareas y proyectos</td><td>Alta</td><td>3</td></tr>
+    <tr><td>HU23</td><td>Agregar una fecha importante</td><td>Media</td><td>2</td></tr>
+    <tr><td>HU24</td><td>Editar o Eliminar una fecha en específico</td><td>Alta</td><td>3</td></tr>
+    <tr><td>HU25</td><td>Visualizar “Posts” de la comunidad</td><td>Media</td><td>2</td></tr>
+    <tr><td>HU26</td><td>Postear un post</td><td>Media</td><td>3</td></tr>
+    <tr><td>HU27</td><td>Comentar o Reseñar un post</td><td>Alta</td><td>3</td></tr>
+    <tr><td>HU28</td><td>Eliminar un post</td><td>Alta</td><td>3</td></tr>
+    <tr><td>HU29</td><td>Visualizar las estadísticas del proyecto</td><td>Alta</td><td>3</td></tr>
+    <tr><td>HU30</td><td>Agregar datos de presupuesto</td><td>Media</td><td>2</td></tr>
+    <tr><td>HU31</td><td>Editar datos de presupuesto</td><td>Media</td><td>2</td></tr>
+    <tr><td>HU32</td><td>Implementar encriptación de contraseñas y código de organización</td><td>Media</td><td>3</td></tr>
+    <tr><td>HU33</td><td>Verificar que el código de organización sea correcto</td><td>Alta</td><td>3</td></tr>
+  </tbody>
+</table>
 <br>
 
 **Tablero de seguimiento en Trello:**  
