@@ -1378,7 +1378,7 @@ Este escenario muestra:
 ---
 
 **Enlace al mapa interactivo:**  
-[Ver en Miro](https://miro.com/welcomeonboard/NlNXV0pNbjkzNGhhN0RaVE1GZ2QxdEE0T1lxcExSSFRwOFFubkdVZlVMZ2Nuc0U2Z292TXVjZUFsZ3hlczJMWXwzNDU4NzY0NTIyNTI2OTE2NTk0fDI=?share_link_id=464993559168)
+[Ver en Miro](https://miro.com/welcomeonboard/bWFYbk5taHErYTV0YStFdFNwVFZvZTF3eTNsV25LNkhtYUIrb3pEWmN4MkpwaW1nZi90ZU1SSTFienhFOEFYSEl4TGVEYUlLanBjemhuYjN0N25waENlMVNNWGljYm1ORWFUbTlaYWFJcHdCQXlSb09TU1ppd25TaUpvbXZHNm1nbHpza3F6REdEcmNpNEFOMmJXWXBBPT0hdjE=?share_link_id=962634185128)
 
 ---
 
