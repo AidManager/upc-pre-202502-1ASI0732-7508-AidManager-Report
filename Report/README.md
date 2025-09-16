@@ -41,11 +41,30 @@ Producto: AidManager
 | ------- | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
 | 1.0     | 14/09/2025 | Barrutia Vaez, Ricardo Andree <br/> Espinoza Inoñan, Fabiola Ximena <br/> Periche Quiroga, Piero Fernando <br/> Portales Ortiz, Diego Alejandro | Capitulo 1 <br/> Capitulo 2 <br/> Capitulo 3 <br/> Capitulo 4 <br/> Capitulo 5<br/> Mejora continua |
 
----
+
+| Versión | Fecha      | Autor                                                                                                                                             | Descripción de modificaciones                                                                       |
+| ------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| 1.0     | 14/09/2025 | Barrutia Vaez, Ricardo Andree   <br/> Espinoza Inoñan, Fabiola Ximena <br/> Periche Quiroga, Piero Fernando <br/> Portales Ortiz, Diego Alejandro | Capitulo 1 <br/> Capitulo 2 <br/> Capitulo 3 <br/> Capitulo 4 <br/> Capitulo 5<br/> Mejora continua |
+
+
+
 
 # Project Report Collaboration Insights
 
 ---
+Este apartado tiene como objetivo describir la colaboración del equipo a lo largo del proyecto, resaltando cómo se distribuyeron y gestionaron las tareas durante las distintas fases del desarrollo. A continuación, se proporcionan capturas de pantalla de las interacciones y aportaciones realizadas en el repositorio de GitHub para cada una de las entregas clave, así como el enlace directo al repositorio.
+
+#### Repositorio de GitHub
+
+El repositorio utilizado para gestionar las versiones del código y realizar los reportes de cada entrega es accesible en el siguiente enlace: https://github.com/AidManager/upc-pre-202502-1ASI0732-7508-TaskFlow-Report.git
+
+En el **entregable inicial (TB1)** se sentaron las bases del proyecto mediante una introducción a la startup y a sus integrantes, detallando su perfil, misión, visión y las competencias de cada miembro. Asimismo, se efectuó un análisis de antecedentes y de la problemática a resolver aplicando Lean UX, lo cual permitió detectar problemas, establecer supuestos y formular hipótesis que orientaran el diseño del producto. Se construyó un **Lean UX Canvas** para organizar los objetivos, los segmentos de usuarios y las métricas de éxito. Finalmente, se llevó a cabo un estudio del mercado y de los competidores, identificando oportunidades para diferenciar la propuesta de solución.
+
+A continuación, se presenta el flujo de trabajo:
+
+![Insight](../assets/Insight.jpg)
+
+---  
 
 # Student Outcome
 
@@ -299,6 +318,7 @@ Creemos firmemente que, mediante el uso eficiente de la tecnología, es posible 
 
 ### 1.1.2 Perfiles de integrantes del equipo
 
+
 | Información                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Foto                                                         |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------- |
 | **Ricardo Andree Barrutia**<br><br>Código: U201714765<br><br>Conocimientos y Habilidades: <br> <br>Como estudiante de ingeniería de software he adquirido conocimientos de C++, Java y de Ionic. Con respecto a las habilidades más destacables de mi persona, considero que el trabajo en equipo es una de ellas. Además de la capacidad resolutiva a la par que adaptativa ante diversas situaciones.<br>                                                                                                                                        | ![Ricardo Barrutia](../assets/participantes/img-ricardo.jpg) |
@@ -306,6 +326,7 @@ Creemos firmemente que, mediante el uso eficiente de la tecnología, es posible 
 | **Fabiola Ximena Espinoza Inoñan**<br><br>Código: u202214784<br><br>Conocimientos y Habilidades: <br><br>Mi nombre es Fabiola Espinoza, tengo 21 años y estudio Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Me considero una persona responsable, creativa y empática, con habilidades destacadas en el trabajo en equipo y la convivencia con otras personas. He participado en el programa Coder Bloom, 28h y más. Y actualmente soy coordinadora de ACM Women UPC.                                                  | ![Fabiola Espinoza](../assets/participantes/img-fabiola.png) |
 | **Piero Fernando, Periche Quiroga**<br><br>Código: U202210192<br><br>Conocimientos y Habilidades: <br><br> Mi nombre es Piero Periche Quiroga, estudiante de la carrera de Ingenieria de Software, 6to semestre en la Universidad Peruana de Ciencias Aplicadas. Tengo buen desempeño trabajando en equipo, aportando con ideas y tareas de manera asertiva. Tengo conocimientos en lenguajes como HTML y C++. Me considero responsable y puntual.                                                                                                 | ![Piero ](../assets/participantes/img-piero.png)             |
 | **Giancarlo Sinuiri Mozombite**<br><br>Código: U201619022<br><br>Conocimientos y Habilidades: <br><br> Mi nombre es Giancarlo Sinuiri Mozombite, estudiante de la carrera de Ingenieria de Software, 7mo ciclo en la Universidad Peruana de Ciencias Aplicadas. Tengo conocimientos en lenguajes como C#, Javascript, Java y Python. Me considero responsable.                                                                                                                                                                                     | ![Giancarlo ](../assets/participantes/img-giancarlo.jpg)     |
+
 
 ## 1.2. Solution Profile
 
@@ -1866,11 +1887,14 @@ Asimismo, se ha realizado un Trello para hacer seguimiento de nuestras tareas.
     <tr><td>HU18</td><td>Verificar que el código de organización sea correcto</td><td>Alta</td><td>3</td></tr>
   </tbody>
 </table>
+
 <br>
 
 **Tablero de seguimiento en Trello:**  
-[Acceder al tablero de Trello](https://trello.com/invite/b/66c568966561935d142481d8/ATTI5751dc000e3f7d636dff7058d697c8dd6B2D7184/aidmanagermobile)
+[Acceder al tablero de Trello](https://trello.com/invite/b/68c85b3eb4ff2479a7135a32/ATTI73e2b3a9f5055d0f1b3d0328b76f8c5d6E5FD02E/aidmanager)
 <br>
+
+![Impact Mapping 1](../assets/Trello_Project.jpg)
 
 ## 3.4. Impact Mapping
 
@@ -2023,7 +2047,14 @@ En el caso de iOS nos enfocamos en mantener una persistencia de diseño para que
 
 <img src="../assets/mobile-mock-up/image_65.png" alt="LoginExample" width="200px">
 
+
 #### 4.1.3.2. Android Mobile Style Guidelines
+
+#### 4.1.3.2.	Android Mobile Style Guidelines
+
+<img src="../assets/mobile-mock-up/image_104.png" alt="Analytics" width="200px">
+
+
 
 ## 4.2. Information Architecture
 
@@ -2221,6 +2252,7 @@ Como miembro de equipo deseo ver las tareas asignadas y las métricas del grupo.
 ## 4.6 Web Applications UX/UI Design
 
 ### 4.6.1. Web Applications Wireframes
+</br>
 
 **Segmento 1: Manager de ONG**
 
@@ -2258,6 +2290,9 @@ Como miembro de equipo deseo ver las tareas asignadas y las métricas del grupo.
 ![Web Aplication WireflowSegmento2](/assets/wireflow-images/wireflo2.png)
 
 ### 4.6.3. Web Applications Mock-ups.
+
+</br>
+
 
 **Segmento 1: Manager de ONG**
 
