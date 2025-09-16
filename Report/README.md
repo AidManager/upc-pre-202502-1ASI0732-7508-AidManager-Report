@@ -1458,7 +1458,7 @@ Este escenario muestra:
     <tr>
       <td>EP09</td>
       <td>Implementación de Seguridad</td>
-      <td>HU18 – HU19</td>
+      <td>HU18</td>
     </tr>
   </tbody>
 </table>
@@ -1798,23 +1798,6 @@ observar las analíticas del proyecto <strong>para</strong> evaluar tendencias y
 </tr>
 </thead>
 <tbody>
-
-<tr class="odd">
-<td rowspan="2">EP09-HU18</td>
-<td rowspan="2">Implementar encriptación de contraseñas y código de organización</td>
-<td rowspan="2"><strong>Como</strong> desarrollador, <strong>quiero</strong>
-asegurar las contraseñas y códigos <strong>para</strong> salvaguardar los datos relevantes de mis usuarios y mantener confidencialidad.</td>
-<td><p><strong>Caso: La encriptación es realizada</strong></p>
-<p><strong>Given</strong> el desarrollador utiliza algoritmos de encriptación</p>
-<p><strong>When</strong> se ingresa una contraseña al api de la aplicación,</p>
-<p><strong>Then</strong> se guarda en la base de datos de manera encriptada.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Caso: Falla el proceso de encriptación</strong></p>
-<p><strong>Given</strong> el desarrollador utiliza algoritmos de encriptación</p>
-<p><strong>When</strong> se ingresa una contraseña al api de la aplicación y falla el proceso de encriptación,</p>
-<p><strong>Then</strong> se registra la anomalía y se devuelve un error.</p></td>
-</tr>
 </tbody>
 </table>
 
@@ -1828,7 +1811,7 @@ asegurar las contraseñas y códigos <strong>para</strong> salvaguardar los dato
 </colgroup>
 <thead>
 <tr class="header">
-<th rowspan="2">EP09-HU19</th>
+<th rowspan="2">EP09-HU18</th>
 <th rowspan="2">Verificar que el código de organización sea correcto</th>
 <th rowspan="2"><strong>Como</strong> desarrollador, <strong>quiero</strong>
 mantener la integridad del código de organización <strong>para</strong> validar el código de organización.</th>
@@ -1880,8 +1863,7 @@ Asimismo, se ha realizado un Trello para hacer seguimiento de nuestras tareas.
     <tr><td>HU15</td><td>Eliminar una tarea</td><td>Alta</td><td>3</td></tr>
     <tr><td>HU16</td><td>Visualizar de fechas vinculadas con las tareas y proyectos</td><td>Alta</td><td>3</td></tr>
     <tr><td>HU17</td><td>Visualizar las estadísticas del proyecto</td><td>Alta</td><td>3</td></tr>
-    <tr><td>HU18</td><td>Implementar encriptación de contraseñas y código de organización</td><td>Media</td><td>3</td></tr>
-    <tr><td>HU19</td><td>Verificar que el código de organización sea correcto</td><td>Alta</td><td>3</td></tr>
+    <tr><td>HU18</td><td>Verificar que el código de organización sea correcto</td><td>Alta</td><td>3</td></tr>
   </tbody>
 </table>
 <br>
