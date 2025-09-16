@@ -14,7 +14,7 @@ Sección: 7508
 
 Profesor: Julio Manuel Noriega Melendez
 
-Informe del Trabajo Parcial  - TP
+Informe del Trabajo Parcial - TP
 
 Startup: Los Tralaleros Web
 
@@ -22,258 +22,265 @@ Producto: AidManager
 
 ### Team Members:
 
-| Member                           | Code       |
-|----------------------------------|------------|
-| Barrutia Vaez, Ricardo Andree    | U201714765 |
-| Espinoza Inoñan, Fabiola Ximena  | U202214784 |
-| Periche Quiroga, Piero Fernando  | U202210192 |
-| Portales Ortiz, Diego Alejandro  | U202123501 |
-
+| Member                          | Code       |
+| ------------------------------- | ---------- |
+| Barrutia Vaez, Ricardo Andree   | U201714765 |
+| Espinoza Inoñan, Fabiola Ximena | U202214784 |
+| Periche Quiroga, Piero Fernando | U202210192 |
+| Portales Ortiz, Diego Alejandro | U202123501 |
+| Sinuiri Mozombite, Giancarlo    | U201619022 |
 
 **Septiembre del 2025**
+
 </div>
   
 ---  
 # Registro de Versiones del Informe
 
+| Versión | Fecha      | Autor                                                                                                                                           | Descripción de modificaciones                                                                       |
+| ------- | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| 1.0     | 14/09/2025 | Barrutia Vaez, Ricardo Andree <br/> Espinoza Inoñan, Fabiola Ximena <br/> Periche Quiroga, Piero Fernando <br/> Portales Ortiz, Diego Alejandro | Capitulo 1 <br/> Capitulo 2 <br/> Capitulo 3 <br/> Capitulo 4 <br/> Capitulo 5<br/> Mejora continua |
 
-| Versión | Fecha      | Autor                                                                                                                                             | Descripción de modificaciones                                                                      |
-|---------|------------|---------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
-| 1.0      | 14/09/2025 | Barrutia Vaez, Ricardo Andree   <br/> Espinoza Inoñan, Fabiola Ximena <br/> Periche Quiroga, Piero Fernando <br/> Portales Ortiz, Diego Alejandro | Capitulo 1 <br/> Capitulo 2 <br/> Capitulo 3 <br/> Capitulo 4 <br/> Capitulo 5<br/> Mejora continua |
+---
 
-
-
----  
 # Project Report Collaboration Insights
 
+---
 
-
----  
 # Student Outcome
-El curso contribuye al cumplimiento del Student Outcome ABET: **ABET – EAC - Student Outcome 4** <br> Criterio: *La capacidad de reconocer responsabilidades éticas y profesionales en situaciones de ingeniería y hacer juicios informados, que deben considerar el impacto de las soluciones de ingeniería en contextos globales, económicos, ambientales y sociales.*
+
+El curso contribuye al cumplimiento del Student Outcome ABET: **ABET – EAC - Student Outcome 4** <br> Criterio: _La capacidad de reconocer responsabilidades éticas y profesionales en situaciones de ingeniería y hacer juicios informados, que deben considerar el impacto de las soluciones de ingeniería en contextos globales, económicos, ambientales y sociales._
 
 En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 4.
 
-| Criterio específico                                                                                                                                    | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | Conclusiones                                                                                                                                                                                                                                                         |  
-|--------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
+| Criterio específico                                                                                                                                    | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | Conclusiones                                                                                                                                                                                                                                                         |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software                                                                  | TB1:<br/> **Barrutia Vaez, Ricardo Andree:** <br/> Durante el proyecto asumí mi responsabilidad ética al cumplir con mis tareas de manera honesta y comprometida, respetando los aportes de mis compañeros y asegurando que el trabajo reflejara transparencia y profesionalismo. <br/>**Espinoza Iñoñan, Fabiola Ximena:** <br/> Me comprometí a trabajar con responsabilidad y ética, cuidando que mis entregas fueran claras y confiables, y respetando siempre la labor de mis compañeros dentro del proyecto. <br/>**Periche Quiroga, Piero Fernando:** <br/>Asumí un rol responsable dentro del equipo, cumpliendo con mis obligaciones de manera ética y colaborativa, velando porque las decisiones tomadas beneficiaran al grupo y mantuvieran la integridad del proyecto. <br/>**Portales Ortiz, Diego Alejandro** <br/>Fui consciente de la importancia de actuar con ética y profesionalismo en cada actividad, cumpliendo con mis tareas asignadas de manera responsable y garantizando que mi aporte se realizara con compromiso y transparencia <br/> | Como equipo demostramos responsabilidad ética y profesional en cada fase del proyecto, cumpliendo con nuestras tareas de manera transparente y respetando el trabajo de los demás. Mantuvimos un compromiso constante con la calidad y la integridad del entregable. |
-| Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales | TB1:<br/>  **Barrutia Vaez, Ricardo Andree:** <br/>Al analizar las decisiones del proyecto reflexioné sobre cómo nuestra solución podía impactar en distintos contextos, considerando la viabilidad económica y la utilidad social de lo desarrollado. <br/>  **Espinoza Iñoñan, Fabiola Ximena**    <br/> Reconocí que nuestras decisiones debían tomar en cuenta no solo lo técnico, sino también los posibles efectos en los usuarios y en el entorno social, buscando siempre un equilibrio responsable.   <br/>   **Periche Quiroga, Piero Fernando**             <br/>Tuve en cuenta que la solución debía ser útil en diferentes contextos y que factores como lo económico y lo social podían influir en cómo la usarían las personas.  <br/>  **Portales Ortiz, Diego Alejandro**           <br/> Al participar en el proyecto tuve en cuenta que toda solución de software tiene un impacto que va más allá de lo tecnológico, por lo que procuré analizar también las implicancias sociales y económicas de lo que estábamos desarrollando. <br/>         | El grupo tuvo en cuenta que la solución no solo debía cumplir con lo técnico, sino también considerar su impacto en lo económico, social y ambiental. Esto nos ayudó a tomar mejores decisiones y hacer que la propuesta sea más útil en distintos contextos.                                                                                                                                                                                                                                                                     |
----  
+| Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales | TB1:<br/> **Barrutia Vaez, Ricardo Andree:** <br/>Al analizar las decisiones del proyecto reflexioné sobre cómo nuestra solución podía impactar en distintos contextos, considerando la viabilidad económica y la utilidad social de lo desarrollado. <br/> **Espinoza Iñoñan, Fabiola Ximena** <br/> Reconocí que nuestras decisiones debían tomar en cuenta no solo lo técnico, sino también los posibles efectos en los usuarios y en el entorno social, buscando siempre un equilibrio responsable. <br/> **Periche Quiroga, Piero Fernando** <br/>Tuve en cuenta que la solución debía ser útil en diferentes contextos y que factores como lo económico y lo social podían influir en cómo la usarían las personas. <br/> **Portales Ortiz, Diego Alejandro** <br/> Al participar en el proyecto tuve en cuenta que toda solución de software tiene un impacto que va más allá de lo tecnológico, por lo que procuré analizar también las implicancias sociales y económicas de lo que estábamos desarrollando. <br/>                                          | El grupo tuvo en cuenta que la solución no solo debía cumplir con lo técnico, sino también considerar su impacto en lo económico, social y ambiental. Esto nos ayudó a tomar mejores decisiones y hacer que la propuesta sea más útil en distintos contextos.        |
+
+---
+
 # Contenido
+
 ## Tabla de contenidos
 
 ### [Capítulo I: Introducción](https://github.com/G2-UPC-PRE-202402-SI730-WX53-DevDynasty/GastroGo-Report#cap%C3%ADtulo-i-introducci%C3%B3n-1)
+
 - [1.1. Startup Profile](https://github.com/G2-UPC-PRE-202402-SI730-WX53-DevDynasty/GastroGo-Report#11-startup-profile)
-    - [1.1.1 Descripción de la Startup](https://github.com/G2-UPC-PRE-202402-SI730-WX53-DevDynasty/GastroGo-Report#111-descripci%C3%B3n-de-la-startup)
-    - [1.1.2 Perfiles de integrantes del equipo](https://github.com/G2-UPC-PRE-202402-SI730-WX53-DevDynasty/GastroGo-Report#112-perfiles-de-integrantes-del-equipo)
+  - [1.1.1 Descripción de la Startup](https://github.com/G2-UPC-PRE-202402-SI730-WX53-DevDynasty/GastroGo-Report#111-descripci%C3%B3n-de-la-startup)
+  - [1.1.2 Perfiles de integrantes del equipo](https://github.com/G2-UPC-PRE-202402-SI730-WX53-DevDynasty/GastroGo-Report#112-perfiles-de-integrantes-del-equipo)
 - [1.2 Solution Profile](https://github.com/G2-UPC-PRE-202402-SI730-WX53-DevDynasty/GastroGo-Report#12-solution-profile)
-    - [1.2.1 Antecedentes y problemática](https://github.com/G2-UPC-PRE-202402-SI730-WX53-DevDynasty/GastroGo-Report#121-antecedentes-y-problem%C3%A1tica)
-    - [1.2.2 Lean UX Process](https://github.com/G2-UPC-PRE-202402-SI730-WX53-DevDynasty/GastroGo-Report#122-lean-ux-process)
-        - [1.2.2.1. Lean UX Problem Statements](https://github.com/G2-UPC-PRE-202402-SI730-WX53-DevDynasty/GastroGo-Report#1221-lean-ux-problem-statements)
-        - [1.2.2.2. Lean UX Assumptions](https://github.com/G2-UPC-PRE-202402-SI730-WX53-DevDynasty/GastroGo-Report#1222-lean-ux-assumptions)
-        - [1.2.2.3. Lean UX Hypothesis Statements](https://github.com/G2-UPC-PRE-202402-SI730-WX53-DevDynasty/GastroGo-Report#1223-lean-ux-hypothesis-statements)
-        - [1.2.2.4. Lean UX Canvas](https://github.com/G2-UPC-PRE-202402-SI730-WX53-DevDynasty/GastroGo-Report#1224-lean-ux-canvas)
+  - [1.2.1 Antecedentes y problemática](https://github.com/G2-UPC-PRE-202402-SI730-WX53-DevDynasty/GastroGo-Report#121-antecedentes-y-problem%C3%A1tica)
+  - [1.2.2 Lean UX Process](https://github.com/G2-UPC-PRE-202402-SI730-WX53-DevDynasty/GastroGo-Report#122-lean-ux-process)
+    - [1.2.2.1. Lean UX Problem Statements](https://github.com/G2-UPC-PRE-202402-SI730-WX53-DevDynasty/GastroGo-Report#1221-lean-ux-problem-statements)
+    - [1.2.2.2. Lean UX Assumptions](https://github.com/G2-UPC-PRE-202402-SI730-WX53-DevDynasty/GastroGo-Report#1222-lean-ux-assumptions)
+    - [1.2.2.3. Lean UX Hypothesis Statements](https://github.com/G2-UPC-PRE-202402-SI730-WX53-DevDynasty/GastroGo-Report#1223-lean-ux-hypothesis-statements)
+    - [1.2.2.4. Lean UX Canvas](https://github.com/G2-UPC-PRE-202402-SI730-WX53-DevDynasty/GastroGo-Report#1224-lean-ux-canvas)
 - [1.3. Segmentos objetivo](https://github.com/G2-UPC-PRE-202402-SI730-WX53-DevDynasty/GastroGo-Report#13-segmentos-objetivo)
 
 ### [Capítulo II: Requirements Elicitation & Analysis]()
+
 - [2.1. Competidores]()
-    - [2.1.1. Análisis competitivo]()
-    - [2.1.2. Estrategias y tácticas frente a competidores]()
+  - [2.1.1. Análisis competitivo]()
+  - [2.1.2. Estrategias y tácticas frente a competidores]()
 - [2.2. Entrevistas]()
-    - [2.2.1. Diseño de entrevistas]()
-    - [2.2.2. Registro de entrevistas]()
-    - [2.2.3. Análisis de entrevistas]()
+  - [2.2.1. Diseño de entrevistas]()
+  - [2.2.2. Registro de entrevistas]()
+  - [2.2.3. Análisis de entrevistas]()
 - [2.3. Needfinding]()
-    - [2.3.1. User Personas]()
-    - [2.3.2. User Task Matrix]()
-    - [2.3.3. User Journey Mapping]()
-    - [2.3.4. Empathy Mapping]()
-    - [2.3.5. As-is Scenario Mapping]()
+  - [2.3.1. User Personas]()
+  - [2.3.2. User Task Matrix]()
+  - [2.3.3. User Journey Mapping]()
+  - [2.3.4. Empathy Mapping]()
+  - [2.3.5. As-is Scenario Mapping]()
 - [2.4. Ubiquitous Language]()
 
 ### [Capítulo III: Requirements Specification]()
+
 - [3.1. To-Be Scenario Mapping]()
 - [3.2. User Stories]()
 - [3.3. Impact Mapping]()
 - [3.4. Product Backlog]()
 
-
 ### [Capítulo IV: Product Design]()
+
 - [4.1. Style Guidelines]()
-    - [4.1.1. General Style Guidelines]()
-    - [4.1.2. Web Style Guidelines]()
-    - [4.1.3. Mobile Style Guidelines]()
-        - [4.1.3.1. iOS Mobile Style Guidelines]()
-        - [4.1.3.2. Android Mobile Style Guidelines]()
+  - [4.1.1. General Style Guidelines]()
+  - [4.1.2. Web Style Guidelines]()
+  - [4.1.3. Mobile Style Guidelines]()
+    - [4.1.3.1. iOS Mobile Style Guidelines]()
+    - [4.1.3.2. Android Mobile Style Guidelines]()
 - [4.2. Information Architecture]()
-    - [4.2.1. Organization Systems]()
-    - [4.2.2. Labeling Systems]()
-    - [4.2.3. SEO Tags and Meta Tags]()
-    - [4.2.4. Searching Systems]()
-    - [4.2.5. Navigation Systems]()
+  - [4.2.1. Organization Systems]()
+  - [4.2.2. Labeling Systems]()
+  - [4.2.3. SEO Tags and Meta Tags]()
+  - [4.2.4. Searching Systems]()
+  - [4.2.5. Navigation Systems]()
 - [4.3. Landing Page UI Design]()
-    - [4.3.1. Landing Page Wireframe]()
-    - [4.3.2. Landing Page Mock-up]()
+  - [4.3.1. Landing Page Wireframe]()
+  - [4.3.2. Landing Page Mock-up]()
 - [4.4. Mobile Applications UX/UI Design]()
-    - [4.4.1. Mobile Applications Wireframes]()
-    - [4.4.2. Mobile Applications Wireflow Diagrams]()
-    - [4.4.3. Mobile Applications Mock-ups]()
-    - [4.4.4. Mobile Applications User Flow Diagrams]()
+  - [4.4.1. Mobile Applications Wireframes]()
+  - [4.4.2. Mobile Applications Wireflow Diagrams]()
+  - [4.4.3. Mobile Applications Mock-ups]()
+  - [4.4.4. Mobile Applications User Flow Diagrams]()
 - [4.5. Mobile Applications Prototyping]()
-    - [4.5.1. Android Mobile Applications Prototyping]()
-    - [4.5.2. iOS Mobile Applications Prototyping]()
+  - [4.5.1. Android Mobile Applications Prototyping]()
+  - [4.5.2. iOS Mobile Applications Prototyping]()
 - [4.6. Web Applications UX/UI Design]()
-    - [4.6.1. Web Applications Wireframes]()
-    - [4.6.2. Web Applications Wireflow Diagrams]()
-    - [4.6.3. Web Applications Mock-ups]()
-    - [4.6.4. Web Applications User Flow Diagrams]()
+  - [4.6.1. Web Applications Wireframes]()
+  - [4.6.2. Web Applications Wireflow Diagrams]()
+  - [4.6.3. Web Applications Mock-ups]()
+  - [4.6.4. Web Applications User Flow Diagrams]()
 - [4.7. Web Applications Prototyping]()
 - [4.8. Domain-Driven Software Architecture]()
-    - [4.8.1. Software Architecture Context Diagram]()
-    - [4.8.2. Software Architecture Container Diagrams]()
-    - [4.8.3. Software Architecture Components Diagrams]()
+  - [4.8.1. Software Architecture Context Diagram]()
+  - [4.8.2. Software Architecture Container Diagrams]()
+  - [4.8.3. Software Architecture Components Diagrams]()
 - [4.9. Software Object-Oriented Design]()
-    - [4.9.1. Class Diagrams]()
-    - [4.9.2. Class Dictionary]()
+  - [4.9.1. Class Diagrams]()
+  - [4.9.2. Class Dictionary]()
 - [4.10. Database Design]()
-    - [4.10.1. Relational/Non-Relational Database Diagram]()
-
+  - [4.10.1. Relational/Non-Relational Database Diagram]()
 
 ### [Capítulo V: Product Implementation, Validation & Deployment]()
+
 - [5.1. Software Configuration Management]()
-    - [5.1.1. Software Development Environment Configuration]()
-    - [5.1.2. Source Code Management]()
-    - [5.1.3. Source Code Style Guide & Conventions]()
-    - [5.1.4. Software Deployment Configuration]()
+  - [5.1.1. Software Development Environment Configuration]()
+  - [5.1.2. Source Code Management]()
+  - [5.1.3. Source Code Style Guide & Conventions]()
+  - [5.1.4. Software Deployment Configuration]()
 - [5.2. Landing Page, Services & Applications Implementation]()
-    - [5.2.1. Sprint 1]()
-        - [5.2.1.1. Sprint Planning 1]()
-        - [5.2.1.2. Sprint Backlog 1]()
-        - [5.2.1.3. Development Evidence for Sprint Review]()
-        - [5.2.1.4. Testing Suite Evidence for Sprint Review]()
-        - [5.2.1.5. Execution Evidence for Sprint Review]()
-        - [5.2.1.6. Services Documentation Evidence for Sprint Review]()
-        - [5.2.1.7. Software Deployment Evidence for Sprint Review]()
-        - [5.2.1.8. Team Collaboration Insights during Sprint]()
-    - [5.2.2. Sprint 2]()
-        - [5.2.2.1. Sprint Planning 2]()
-        - [5.2.2.2. Sprint Backlog 2]()
-        - [5.2.2.3. Development Evidence for Sprint Review]()
-        - [5.2.2.4. Testing Suite Evidence for Sprint Review]()
-        - [5.2.2.5. Execution Evidence for Sprint Review]()
-        - [5.2.2.6. Services Documentation Evidence for Sprint Review]()
-        - [5.2.2.7. Software Deployment Evidence for Sprint Review]()
-        - [5.2.2.8. Team Collaboration Insights during Sprint]()
-    - [5.2.3. Sprint 3]()
-        - [5.2.3.1. Sprint Planning 3]()
-        - [5.2.3.2. Sprint Backlog 3]()
-        - [5.2.3.3. Development Evidence for Sprint Review]()
-        - [5.2.3.4. Testing Suite Evidence for Sprint Review]()
-        - [5.2.3.5. Execution Evidence for Sprint Review]()
-        - [5.2.3.6. Services Documentation Evidence for Sprint Review]()
-        - [5.2.3.7. Software Deployment Evidence for Sprint Review]()
-        - [5.2.3.8. Team Collaboration Insights during Sprint]()
-    - [5.2.4. Sprint 4]()
-        - [5.2.4.1. Sprint Planning 4]()
-        - [5.2.4.2. Sprint Backlog 4]()
-        - [5.2.4.3. Development Evidence for Sprint Review]()
-        - [5.2.4.4. Testing Suite Evidence for Sprint Review]()
-        - [5.2.4.5. Execution Evidence for Sprint Review]()
-        - [5.2.4.6. Services Documentation Evidence for Sprint Review]()
-        - [5.2.4.7. Software Deployment Evidence for Sprint Review]()
-        - [5.2.4.8. Team Collaboration Insights during Sprint]()
+  - [5.2.1. Sprint 1]()
+    - [5.2.1.1. Sprint Planning 1]()
+    - [5.2.1.2. Sprint Backlog 1]()
+    - [5.2.1.3. Development Evidence for Sprint Review]()
+    - [5.2.1.4. Testing Suite Evidence for Sprint Review]()
+    - [5.2.1.5. Execution Evidence for Sprint Review]()
+    - [5.2.1.6. Services Documentation Evidence for Sprint Review]()
+    - [5.2.1.7. Software Deployment Evidence for Sprint Review]()
+    - [5.2.1.8. Team Collaboration Insights during Sprint]()
+  - [5.2.2. Sprint 2]()
+    - [5.2.2.1. Sprint Planning 2]()
+    - [5.2.2.2. Sprint Backlog 2]()
+    - [5.2.2.3. Development Evidence for Sprint Review]()
+    - [5.2.2.4. Testing Suite Evidence for Sprint Review]()
+    - [5.2.2.5. Execution Evidence for Sprint Review]()
+    - [5.2.2.6. Services Documentation Evidence for Sprint Review]()
+    - [5.2.2.7. Software Deployment Evidence for Sprint Review]()
+    - [5.2.2.8. Team Collaboration Insights during Sprint]()
+  - [5.2.3. Sprint 3]()
+    - [5.2.3.1. Sprint Planning 3]()
+    - [5.2.3.2. Sprint Backlog 3]()
+    - [5.2.3.3. Development Evidence for Sprint Review]()
+    - [5.2.3.4. Testing Suite Evidence for Sprint Review]()
+    - [5.2.3.5. Execution Evidence for Sprint Review]()
+    - [5.2.3.6. Services Documentation Evidence for Sprint Review]()
+    - [5.2.3.7. Software Deployment Evidence for Sprint Review]()
+    - [5.2.3.8. Team Collaboration Insights during Sprint]()
+  - [5.2.4. Sprint 4]()
+    - [5.2.4.1. Sprint Planning 4]()
+    - [5.2.4.2. Sprint Backlog 4]()
+    - [5.2.4.3. Development Evidence for Sprint Review]()
+    - [5.2.4.4. Testing Suite Evidence for Sprint Review]()
+    - [5.2.4.5. Execution Evidence for Sprint Review]()
+    - [5.2.4.6. Services Documentation Evidence for Sprint Review]()
+    - [5.2.4.7. Software Deployment Evidence for Sprint Review]()
+    - [5.2.4.8. Team Collaboration Insights during Sprint]()
 - [5.3. Validation Interviews]()
-    - [5.3.1. Diseño de Entrevistas]()
-    - [5.3.2. Registro de Entrevistas]()
-    - [5.3.3. Evaluaciones según heurísticas]()
+  - [5.3.1. Diseño de Entrevistas]()
+  - [5.3.2. Registro de Entrevistas]()
+  - [5.3.3. Evaluaciones según heurísticas]()
 - [5.4. Video About-the-Product]()
 
-
-
 ### [Capítulo VI: Product Verification & Validation]()
-- [6.1. Testing Suites & Validation]()
-    - [6.1.1. Core Entities Unit Tests]()
-    - [6.1.2. Core Integration Tests]()
-    - [6.1.3. Core Behavior-Driven Development]()
-    - [6.1.4. Core System Tests]()
-- [6.2. Static Testing & Verification]()
-    - [6.2.1. Static Code Analysis]()
-        - [6.2.1.1. Coding standard & Code conventions]()
-        - [6.2.1.2. Code Quality & Code Security]()
-    - [6.2.2. Reviews]()
-- [6.3. Validation Interviews]()
-    - [6.3.1. Diseño de Entrevistas]()
-    - [6.3.2. Registro de Entrevistas]()
-    - [6.3.3. Evaluaciones según heurísticas]()
-- [6.4. Auditoría de Experiencias de Usuario]()
-    - [6.4.1. Auditoría realizada]()
-        - [6.4.1.1. Información del grupo auditado]()
-        - [6.4.1.2. Cronograma de auditoría realizada]()
-        - [6.4.1.3. Contenido de auditoría realizada]()
-    - [6.4.2. Auditoría recibida]()
-        - [6.4.2.1. Información del grupo auditor]()
-        - [6.4.2.2. Cronograma de auditoría recibida]()
-        - [6.4.2.3. Contenido de auditoría recibida]()
-        - [6.4.2.4. Resumen de modificaciones para subsanar hallazgos]()
 
+- [6.1. Testing Suites & Validation]()
+  - [6.1.1. Core Entities Unit Tests]()
+  - [6.1.2. Core Integration Tests]()
+  - [6.1.3. Core Behavior-Driven Development]()
+  - [6.1.4. Core System Tests]()
+- [6.2. Static Testing & Verification]()
+  - [6.2.1. Static Code Analysis]()
+    - [6.2.1.1. Coding standard & Code conventions]()
+    - [6.2.1.2. Code Quality & Code Security]()
+  - [6.2.2. Reviews]()
+- [6.3. Validation Interviews]()
+  - [6.3.1. Diseño de Entrevistas]()
+  - [6.3.2. Registro de Entrevistas]()
+  - [6.3.3. Evaluaciones según heurísticas]()
+- [6.4. Auditoría de Experiencias de Usuario]()
+  - [6.4.1. Auditoría realizada]()
+    - [6.4.1.1. Información del grupo auditado]()
+    - [6.4.1.2. Cronograma de auditoría realizada]()
+    - [6.4.1.3. Contenido de auditoría realizada]()
+  - [6.4.2. Auditoría recibida]()
+    - [6.4.2.1. Información del grupo auditor]()
+    - [6.4.2.2. Cronograma de auditoría recibida]()
+    - [6.4.2.3. Contenido de auditoría recibida]()
+    - [6.4.2.4. Resumen de modificaciones para subsanar hallazgos]()
 
 ### [Capítulo VII: DevOps Practices]()
-- [7.1. Continuous Integration]()
-    - [7.1.1. Tools and Practices]()
-    - [7.1.2. Build & Test Suite Pipeline Components]()
-- [7.2. Continuous Delivery]()
-    - [7.2.1. Tools and Practices]()
-    - [7.2.2. Stages Deployment Pipeline Components]()
-- [7.3. Continuous Deployment]()
-    - [7.3.1. Tools and Practices]()
-    - [7.3.2. Production Deployment Pipeline Components]()
-- [7.4. Continuous Monitoring]()
-    - [7.4.1. Tools and Practices]()
-    - [7.4.2. Monitoring Pipeline Components]()
-    - [7.4.3. Alerting Pipeline Components]()
-    - [7.4.4. Notification Pipeline Components]()
 
+- [7.1. Continuous Integration]()
+  - [7.1.1. Tools and Practices]()
+  - [7.1.2. Build & Test Suite Pipeline Components]()
+- [7.2. Continuous Delivery]()
+  - [7.2.1. Tools and Practices]()
+  - [7.2.2. Stages Deployment Pipeline Components]()
+- [7.3. Continuous Deployment]()
+  - [7.3.1. Tools and Practices]()
+  - [7.3.2. Production Deployment Pipeline Components]()
+- [7.4. Continuous Monitoring]()
+  - [7.4.1. Tools and Practices]()
+  - [7.4.2. Monitoring Pipeline Components]()
+  - [7.4.3. Alerting Pipeline Components]()
+  - [7.4.4. Notification Pipeline Components]()
 
 ### [Capítulo VIII: Experiment-Driven Development]()
+
 - [8.1. Experiment Planning]()
-    - [8.1.1. As-Is Summary]()
-    - [8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims]()
-    - [8.1.3. Experiment-Ready Questions]()
-    - [8.1.4. Question Backlog]()
-    - [8.1.5. Experiment Cards]()
+  - [8.1.1. As-Is Summary]()
+  - [8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims]()
+  - [8.1.3. Experiment-Ready Questions]()
+  - [8.1.4. Question Backlog]()
+  - [8.1.5. Experiment Cards]()
 - [8.2. Experiment Design]()
-    - [8.2.1. Hypotheses]()
-    - [8.2.2. Domain Business Metrics]()
-    - [8.2.3. Measures]()
-    - [8.2.4. Conditions]()
-    - [8.2.5. Scale Calculations and Decisions]()
-    - [8.2.6. Methods Selection]()
-    - [8.2.7. Data Analytics: Goals, KPIs and Metrics Selection]()
-    - [8.2.8. Web and Mobile Tracking Plan]()
+  - [8.2.1. Hypotheses]()
+  - [8.2.2. Domain Business Metrics]()
+  - [8.2.3. Measures]()
+  - [8.2.4. Conditions]()
+  - [8.2.5. Scale Calculations and Decisions]()
+  - [8.2.6. Methods Selection]()
+  - [8.2.7. Data Analytics: Goals, KPIs and Metrics Selection]()
+  - [8.2.8. Web and Mobile Tracking Plan]()
 - [8.3. Experimentation]()
-    - [8.3.1. To-Be User Stories]()
-    - [8.3.2. To-Be Product Backlog]()
-    - [8.3.3. Pipeline-supported Experiment-Driven To-Be Software Platform Lifecycle]()
-        - [8.3.3.1. To-Be Sprint Backlogs]()
-        - [8.3.3.2. Implemented To-Be Landing Page Evidence]()
-        - [8.3.3.3. Implemented To-Be Frontend-Web Application Evidence]()
-        - [8.3.3.4. Implemented To-Be Native-Mobile Application Evidence]()
-        - [8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence]()
-        - [8.3.3.6. Team Collaboration Insights]()
-    - [8.3.4. To-Be Validation Interviews]()
-        - [8.3.4.1. Diseño de Entrevistas]()
-        - [8.3.4.2. Registro de Entrevistas]()
+  - [8.3.1. To-Be User Stories]()
+  - [8.3.2. To-Be Product Backlog]()
+  - [8.3.3. Pipeline-supported Experiment-Driven To-Be Software Platform Lifecycle]()
+    - [8.3.3.1. To-Be Sprint Backlogs]()
+    - [8.3.3.2. Implemented To-Be Landing Page Evidence]()
+    - [8.3.3.3. Implemented To-Be Frontend-Web Application Evidence]()
+    - [8.3.3.4. Implemented To-Be Native-Mobile Application Evidence]()
+    - [8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence]()
+    - [8.3.3.6. Team Collaboration Insights]()
+  - [8.3.4. To-Be Validation Interviews]()
+    - [8.3.4.1. Diseño de Entrevistas]()
+    - [8.3.4.2. Registro de Entrevistas]()
 - [8.4. Experiment Aftermath & Analysis]()
-    - [8.4.1. Analysis and Interpretation of Results]()
-    - [8.4.2. Re-scored and Re-prioritized Question Backlog]()
+  - [8.4.1. Analysis and Interpretation of Results]()
+  - [8.4.2. Re-scored and Re-prioritized Question Backlog]()
 - [8.5. Continuous Learning]()
-    - [8.5.1. Shareback Session Artifacts: Learning Workflow]()
+  - [8.5.1. Shareback Session Artifacts: Learning Workflow]()
 - [8.6. To-Be Software Platform Pre-launch]()
-    - [8.6.1. About-the-Product Intro Video]()
+  - [8.6.1. About-the-Product Intro Video]()
+
 ---
 
 # Capítulo I: Introducción
+
 ## 1.1. Startup Profile
+
 Esta sección introduce a nuestro equipo y presenta la esencia de nuestra startup.
 
 ### 1.1.1. Descripción de la Startup
@@ -287,21 +294,23 @@ Con una visión centrada en la **solidaridad nacional** y la proyección hacia u
 Creemos firmemente que, mediante el uso eficiente de la tecnología, es posible construir un entorno más justo, inclusivo y eficiente, donde cada proyecto social logre alcanzar su máximo potencial y donde las barreras administrativas ya no limiten el deseo de ayudar.
 
 ---
-![logo](../assets/logo.png)
 
+![logo](../assets/logo.png)
 
 ### 1.1.2 Perfiles de integrantes del equipo
 
-| Información                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Foto                                                      |
-|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------|
-| **Ricardo Andree Barrutia**<br><br>Código: U201714765<br><br>Conocimientos y Habilidades: <br> <br>Como estudiante de ingeniería de software he adquirido conocimientos de C++, Java y de Ionic. Con respecto a las habilidades más destacables de mi persona, considero que el trabajo en equipo es una de ellas. Además de la capacidad resolutiva a la par que adaptativa ante diversas situaciones.<br>                                                                                                                                                                                        | ![Ricardo Barrutia](../assets/participantes/img-ricardo.jpg) |
-| **Diego Alejandro Portales Ortiz**<br><br>Código: U202210192<br><br>Conocimientos y Habilidades: Estudiante del octavo ciclo de la carrera de Ingeniería de Software. Tengo experiencia en varios lenguajes de programación, incluyendo Python, C++, C# y JavaScript. Me destaco por mi capacidad para trabajar en equipo y contribuir activamente en los proyectos en los que participo. Estoy comprometido a aportar de manera eficiente e innovadora no sólo a mi equipo, si no también a la misma rama de estudio a la que pertenezco.<br><br>                                                 | ![Diego](../assets/participantes/img-diego.jpeg)             |
-| **Fabiola Ximena Espinoza Inoñan**<br><br>Código: u202214784<br><br>Conocimientos y Habilidades: <br><br>Mi nombre es Fabiola Espinoza, tengo 21 años y estudio Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Me considero una persona responsable, creativa y empática, con habilidades destacadas en el trabajo en equipo y la convivencia con otras personas. He participado en el programa Coder Bloom, 28h y más. Y actualmente soy coordinadora de ACM Women UPC.                                                                                                  | ![Fabiola Espinoza](../assets/participantes/img-fabiola.png) |
-| **Piero Fernando, Periche Quiroga**<br><br>Código: U202210192<br><br>Conocimientos y Habilidades:  <br><br> Mi nombre es Piero Periche Quiroga, estudiante de la carrera de Ingenieria de Software, 6to semestre en la Universidad Peruana de Ciencias Aplicadas. Tengo buen desempeño trabajando en equipo, aportando con ideas y tareas de manera asertiva. Tengo conocimientos en lenguajes como HTML y C++. Me considero responsable y puntual.                                                                                                                                                | ![Piero ](../assets/participantes/img-piero.png)          |
-
+| Información                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Foto                                                         |
+| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------- |
+| **Ricardo Andree Barrutia**<br><br>Código: U201714765<br><br>Conocimientos y Habilidades: <br> <br>Como estudiante de ingeniería de software he adquirido conocimientos de C++, Java y de Ionic. Con respecto a las habilidades más destacables de mi persona, considero que el trabajo en equipo es una de ellas. Además de la capacidad resolutiva a la par que adaptativa ante diversas situaciones.<br>                                                                                                                                        | ![Ricardo Barrutia](../assets/participantes/img-ricardo.jpg) |
+| **Diego Alejandro Portales Ortiz**<br><br>Código: U202210192<br><br>Conocimientos y Habilidades: Estudiante del octavo ciclo de la carrera de Ingeniería de Software. Tengo experiencia en varios lenguajes de programación, incluyendo Python, C++, C# y JavaScript. Me destaco por mi capacidad para trabajar en equipo y contribuir activamente en los proyectos en los que participo. Estoy comprometido a aportar de manera eficiente e innovadora no sólo a mi equipo, si no también a la misma rama de estudio a la que pertenezco.<br><br> | ![Diego](../assets/participantes/img-diego.jpeg)             |
+| **Fabiola Ximena Espinoza Inoñan**<br><br>Código: u202214784<br><br>Conocimientos y Habilidades: <br><br>Mi nombre es Fabiola Espinoza, tengo 21 años y estudio Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Me considero una persona responsable, creativa y empática, con habilidades destacadas en el trabajo en equipo y la convivencia con otras personas. He participado en el programa Coder Bloom, 28h y más. Y actualmente soy coordinadora de ACM Women UPC.                                                  | ![Fabiola Espinoza](../assets/participantes/img-fabiola.png) |
+| **Piero Fernando, Periche Quiroga**<br><br>Código: U202210192<br><br>Conocimientos y Habilidades: <br><br> Mi nombre es Piero Periche Quiroga, estudiante de la carrera de Ingenieria de Software, 6to semestre en la Universidad Peruana de Ciencias Aplicadas. Tengo buen desempeño trabajando en equipo, aportando con ideas y tareas de manera asertiva. Tengo conocimientos en lenguajes como HTML y C++. Me considero responsable y puntual.                                                                                                 | ![Piero ](../assets/participantes/img-piero.png)             |
+| **Giancarlo Sinuiri Mozombite**<br><br>Código: U201619022<br><br>Conocimientos y Habilidades: <br><br> Mi nombre es Giancarlo Sinuiri Mozombite, estudiante de la carrera de Ingenieria de Software, 7mo ciclo en la Universidad Peruana de Ciencias Aplicadas. Tengo conocimientos en lenguajes como C#, Javascript, Java y Python. Me considero responsable.                                                                                                                                                                                     | ![Giancarlo ](../assets/participantes/img-giancarlo.jpg)     |
 
 ## 1.2. Solution Profile
+
 Nuestro perfil de solución se divide en 2 partes los “Antecedes y Problemática” y el proceso UX.
+
 ### 1.2.1. Antecedentes y problemática
 
 **Antecedentes:**
@@ -399,6 +408,7 @@ Las **ONG en Perú** enfrentan una notoria falta de organización que limita su 
 Esta falta de organización no solo perjudica la imagen de las ONG, sino que también reduce la **eficacia de sus iniciativas** y disminuye el alcance e impacto que podrían lograr.
 
 Por otro lado, los productos de gestión actualmente disponibles en el mercado son, en su mayoría:
+
 - **Costosos**, y por ende poco accesibles para la mayoría de ONG peruanas, que operan con recursos limitados.
 - **Excesivamente complejos**, con funcionalidades que no se ajustan a sus necesidades reales, lo cual dificulta la adopción y genera resistencia entre sus equipos.
 
@@ -406,6 +416,7 @@ Por otro lado, los productos de gestión actualmente disponibles en el mercado s
 > ¿Cómo podemos ofrecer una **solución de gestión de proyectos accesible**, adaptada a las **necesidades reales de las ONG en Perú**, que les permita optimizar sus operaciones, mejorar su eficiencia y aumentar su impacto social?
 
 #### 1.2.2.2. Lean UX Assumptions
+
 **Business Outcome**<br>
 
 En esta sección vamos a usar las métricas de Montaña conceptualizada por Jeff Gothelf e implementaremos algunas de las “pirate metrics” para poder definir los niveles de la montaña para llegar poder analizar los comportamientos de nuestros usuarios y analizar que parte del User Journey es relevante para nosotros y hacer assumptions de como actuarán nuestros usuarios en base al producto.<br>
@@ -422,6 +433,7 @@ Referral:(top) [5% users] Finalmente de los usuarios que retuvimos esperamos que
 
 **Users**
 En esta sección creamos un Proto-Persona como un assumption de cómo son nuestros usuarios enfocándonos más en el aspecto de actitud.<br>
+
 <table>
 <colgroup>
 <col style="width: 25%" />
@@ -545,7 +557,6 @@ Las soluciones propuestas abordan las **necesidades prioritarias** identificadas
 
 ---
 
-
 ### 1.2.2.3. Lean UX Hypothesis Statement
 
 ---
@@ -554,25 +565,25 @@ Las soluciones propuestas abordan las **necesidades prioritarias** identificadas
 
 A continuación, se presenta la tabla de hipótesis siguiendo el enfoque Lean UX:
 
-**Creemos que** al implementar una función de **gestión de tareas intuitiva y eficiente** para los gestores de proyectos, aumentaremos la **retención de usuarios**. 
+**Creemos que** al implementar una función de **gestión de tareas intuitiva y eficiente** para los gestores de proyectos, aumentaremos la **retención de usuarios**.
 
-**Sabremos que** estamos en lo correcto cuando observemos un **aumento del 20%** en el número de **usuarios activos recurrentes** dentro de los **primeros tres meses** de uso. 
+**Sabremos que** estamos en lo correcto cuando observemos un **aumento del 20%** en el número de **usuarios activos recurrentes** dentro de los **primeros tres meses** de uso.
 
-**Creemos que** al ofrecer una vista centrada en el **análisis financiero** para gestionar presupuestos y gastos, mejoraremos la **retención de usuarios**. 
+**Creemos que** al ofrecer una vista centrada en el **análisis financiero** para gestionar presupuestos y gastos, mejoraremos la **retención de usuarios**.
 
-**Sabremos que** estamos en lo correcto cuando observemos una **reducción del 25%** en las **consultas de soporte** sobre gestión financiera y un **aumento** en el **uso de esta funcionalidad**. 
+**Sabremos que** estamos en lo correcto cuando observemos una **reducción del 25%** en las **consultas de soporte** sobre gestión financiera y un **aumento** en el **uso de esta funcionalidad**.
 
-**Creemos que** al proporcionar herramientas de **gestión, análisis y comunicación** que incrementen el **impacto de los proyectos**, mejoraremos la **retención de usuarios**. 
+**Creemos que** al proporcionar herramientas de **gestión, análisis y comunicación** que incrementen el **impacto de los proyectos**, mejoraremos la **retención de usuarios**.
 
 **Sabremos que** estamos en lo correcto cuando observemos un **aumento del 60%** en la **tasa de usuarios recurrentes** y un **incremento medible** en el impacto de sus proyectos.
 
-**Creemos que** al implementar un sistema de **comunicación eficiente** entre gestores de proyectos y ayudantes, mejoraremos la **interacción** y **retención de usuarios**. 
+**Creemos que** al implementar un sistema de **comunicación eficiente** entre gestores de proyectos y ayudantes, mejoraremos la **interacción** y **retención de usuarios**.
 
-**Sabremos que** estamos en lo correcto cuando observemos un **aumento del 20%** en la **frecuencia de uso** de la función de comunicación dentro de los **primeros tres meses**. 
+**Sabremos que** estamos en lo correcto cuando observemos un **aumento del 20%** en la **frecuencia de uso** de la función de comunicación dentro de los **primeros tres meses**.
 
-**Creemos que** al ofrecer un **plan mejorado** que permita a los gestores agregar más integrantes a sus cuentas, aumentaremos nuestras **ganancias**. 
+**Creemos que** al ofrecer un **plan mejorado** que permita a los gestores agregar más integrantes a sus cuentas, aumentaremos nuestras **ganancias**.
 
-**Sabremos que** estamos en lo correcto cuando al menos el **10% de los usuarios** se **suscriba** al plan mejorado dentro de los **primeros seis meses**. 
+**Sabremos que** estamos en lo correcto cuando al menos el **10% de los usuarios** se **suscriba** al plan mejorado dentro de los **primeros seis meses**.
 
 ---
 
@@ -581,6 +592,7 @@ A continuación, se presenta la tabla de hipótesis siguiendo el enfoque Lean UX
 Para el éxito de nuestro proyecto, es fundamental identificar si los usuarios realmente están **interesados** en nuestra propuesta **innovadora**.
 
 Aunque existan herramientas similares, necesitamos confirmar si nuestra solución:
+
 - Es **necesaria** en el contexto de las ONG peruanas.
 - **Satisface** sus necesidades específicas de gestión de proyectos.
 
@@ -600,9 +612,8 @@ Adicionalmente, desarrollaremos una **landing page** orientada a captar el inter
 
 ---
 
-
-
 #### 1.2.2.4. Lean UX Canvas
+
 En esta sección juntamos la información de los procesos UX y los juntamos en este canvas.
 
 ![Lean Ux Canvas](../assets/leanuxcanvas.png)
@@ -613,21 +624,22 @@ La segmentación de nuestros usuarios clave nos permite comprender mejor sus nec
 
 ---
 
-| **Criterio**                   | **Segmento 1: Gestor de Proyectos ONG**                                                                                                       | **Segmento 2: Ayudante de Eventos ONG**                                                                                                      |
-|--------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
-| **Variables**                  | Gestor de proyectos encargado de planificar, organizar y supervisar actividades dentro de una ONG.                                           | Ayudante operativo que colabora en la ejecución de eventos y actividades sociales como parte del equipo de apoyo.                            |
-| **Geográfica**                 | Las ONG en Perú aplican análisis de datos estratégicos para maximizar recursos y optimizar sus proyectos sociales. *(DigitalForNonprofits, 2023)* | La correcta recolección y análisis de datos por parte de ayudantes contribuye a mejorar las condiciones de vida de comunidades vulnerables. *(OHCHR, 2022)* |
-| **Demográfica**                | - Edad: 25 a 50+ años <br> - Género: Masculino y Femenino                                                                                     | - Edad: 18 a 35 años <br> - Género: Masculino y Femenino                                                                                      |
-| **Psicológica**                | - Enfocados en lograr un **impacto significativo** en sus campañas. <br> - Buscan **aumentar eficiencia** y **reducir gastos innecesarios**.  | - Motivados por contribuir activamente al éxito de las actividades sociales. <br> - Desean sentirse útiles y parte del cambio.                |
-| **Comportamiento Funcional**   | - **Actitudes:** Lidera proyectos, coordina equipos, asigna presupuestos, define objetivos y lugares de ejecución. <br> - **Conocimientos:** Tiene experiencia organizativa, pero carece de herramientas específicas para el sector social. | - **Actitudes:** Apoya logísticamente en eventos, anima y guía a los participantes, recoge información clave para los gestores. <br> - **Conocimientos:** Sabe cómo interactuar con el público y garantizar un ambiente ordenado y acogedor. |
+| **Criterio**                 | **Segmento 1: Gestor de Proyectos ONG**                                                                                                                                                                                                     | **Segmento 2: Ayudante de Eventos ONG**                                                                                                                                                                                                      |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Variables**                | Gestor de proyectos encargado de planificar, organizar y supervisar actividades dentro de una ONG.                                                                                                                                          | Ayudante operativo que colabora en la ejecución de eventos y actividades sociales como parte del equipo de apoyo.                                                                                                                            |
+| **Geográfica**               | Las ONG en Perú aplican análisis de datos estratégicos para maximizar recursos y optimizar sus proyectos sociales. _(DigitalForNonprofits, 2023)_                                                                                           | La correcta recolección y análisis de datos por parte de ayudantes contribuye a mejorar las condiciones de vida de comunidades vulnerables. _(OHCHR, 2022)_                                                                                  |
+| **Demográfica**              | - Edad: 25 a 50+ años <br> - Género: Masculino y Femenino                                                                                                                                                                                   | - Edad: 18 a 35 años <br> - Género: Masculino y Femenino                                                                                                                                                                                     |
+| **Psicológica**              | - Enfocados en lograr un **impacto significativo** en sus campañas. <br> - Buscan **aumentar eficiencia** y **reducir gastos innecesarios**.                                                                                                | - Motivados por contribuir activamente al éxito de las actividades sociales. <br> - Desean sentirse útiles y parte del cambio.                                                                                                               |
+| **Comportamiento Funcional** | - **Actitudes:** Lidera proyectos, coordina equipos, asigna presupuestos, define objetivos y lugares de ejecución. <br> - **Conocimientos:** Tiene experiencia organizativa, pero carece de herramientas específicas para el sector social. | - **Actitudes:** Apoya logísticamente en eventos, anima y guía a los participantes, recoge información clave para los gestores. <br> - **Conocimientos:** Sabe cómo interactuar con el público y garantizar un ambiente ordenado y acogedor. |
 
 ---
-
 
 # Capitulo II: Requiriments Elicitation & Analysis
 
 ## 2.1. Competidores
+
 ### 2.1.1. Análisis competitivo
+
 Realizamos este análisis a fin de poder conocer el mercado al que nos enfrentamos en un inicio, para de esta manera poder evaluar las estrategias adoptadas por plataformas ya existentes, y así aprender de sus aciertos y errores.
 
 <table>
@@ -885,7 +897,6 @@ Realizamos este análisis a fin de poder conocer el mercado al que nos enfrentam
     </tr>
 </table>
 
-
 ### 2.1.2. Estrategias y tácticas frente a competidores<br>
 
 <table>
@@ -964,6 +975,7 @@ constantes actualizaciones y mejoras costosas.</td>
 </table>
 
 ## 2.2. Entrevistas
+
 Las entrevistas representan una estrategia de investigación que implica el intercambio de diálogo con el propósito de adquirir datos, empleando cuestionamientos específicos para explorar en profundidad el pensamiento y la visión de la persona objeto de estudio.
 
 ### 2.2.1. Diseño de entrevistas
@@ -987,7 +999,6 @@ Estas preguntas se aplicaron a todos los entrevistados, independientemente del s
 #### **Entrevistas - Usuario Segmento 1 (Gestor)**
 
 Preguntas enfocadas en los gestores de organización, desde su perspectiva laboral y cotidiana:
-
 
 1. ¿Cuáles son los mayores desafíos que enfrentas al gestionar un equipo de voluntarios o colaboradores en una ONG?
 
@@ -1036,11 +1047,13 @@ Preguntas enfocadas en los empleados de la organización, considerando su experi
 10. ¿Qué mejoras sugerirías para las herramientas de gestión de tareas que utilizas actualmente en tu trabajo en la ONG?
 
 ### 2.2.2. Registro de entrevistas
+
 Enlace del video de las entrevistas: **[Video de entrevistas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201923446_upc_edu_pe/ERy4AZSeh1dEpczjxwLeNRUB_WM5fG8o_DGLoWM-tBmgFw?e=8TziSF&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)**
 
 **Segmento Objetivo:** Team Leader (Gestores de Proyectos en ONG)
 
 ##### Entrevista 1:
+
     Nombre: Kevin Tumbalobos Cubas
     Sexo: Masculino
     Residencia: San Miguel
@@ -1057,6 +1070,7 @@ Enlace del video de las entrevistas: **[Video de entrevistas](https://upcedupe-m
 ---
 
 ##### Entrevista 2:
+
     Nombre: Francis Daniel Mamani Silva
     Sexo: Masculino
     Residencia: Pueblo Libre
@@ -1073,6 +1087,7 @@ Enlace del video de las entrevistas: **[Video de entrevistas](https://upcedupe-m
 ---
 
 ##### Entrevista 3:
+
     Nombre: Oscar Aranda
     Sexo: Masculino
     Residencia: Lima, Perú
@@ -1091,6 +1106,7 @@ Enlace del video de las entrevistas: **[Video de entrevistas](https://upcedupe-m
 **Segmento Objetivo:** Trabajadores del Equipo (Miembros de ONG)
 
 ##### Entrevista 1:
+
     Nombre: Cynthia Santa Cruz Vargas
     Sexo: Femenino
     Residencia: Lima, Perú
@@ -1107,12 +1123,12 @@ Enlace del video de las entrevistas: **[Video de entrevistas](https://upcedupe-m
 ---
 
 ##### Entrevista 2:
+
     Nombre: Carla Córdova
     Sexo: Femenino
     Residencia: Lima, Perú
     Inicio: 20:36
     Fin: 25:47
-
 
 ![Carla Cordova](../assets/entrevistas/entrevista-carla-cordova.jpg)
 
@@ -1124,6 +1140,7 @@ Enlace del video de las entrevistas: **[Video de entrevistas](https://upcedupe-m
 ---
 
 ##### Entrevista 3:
+
     Nombre: Mauricio Rojas
     Sexo: Masculino
     Residencia: Lima, Perú
@@ -1138,6 +1155,7 @@ Enlace del video de las entrevistas: **[Video de entrevistas](https://upcedupe-m
   Le gustaría una aplicación que permita la **colaboración en tiempo real** con otros miembros. Valora la posibilidad de **categorizar tareas** y gestionar todas en un mismo lugar. Evalúa su progreso por el tiempo que le toma completar cada tarea y busca alternar entre tareas sencillas y complejas para equilibrar su carga.
 
 ### 2.2.3. Análisis de entrevistas
+
 **Segmento Objetivo: Líderes de equipo en ONG**
 
 - **Falta de Seguimiento y Colaboración:**  
@@ -1205,8 +1223,8 @@ A continuación, se presentan las representaciones gráficas de los dos perfiles
 
 ---
 
-
 ### 2.3.2. User Task Matrix
+
 <br>
 El User Task Matrix nos sirve para identificar los procesos que realizan ambos segmentos donde se pueden observar las similitudes respecto a la importancia y frecuencias de estos procesos. Esto es antes de implementar nuestra solución.
 <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; text-align: center;">
@@ -1276,8 +1294,6 @@ El User Task Matrix nos sirve para identificar los procesos que realizan ambos s
   </tbody>
 </table>
 
-
-
 ### 2.3.3. User Journey Mapping
 
 El **User Journey Mapping** es fundamental para comprender el recorrido que realizan nuestros segmentos en situaciones comunes dentro de su entorno laboral. A través de esta herramienta, identificamos sus **problemas**, **experiencias**, **emociones** y **oportunidades**, permitiéndonos enfocar nuestra solución en lo que realmente necesitan.
@@ -1326,24 +1342,22 @@ A continuación, se presenta el escenario actual (**As-Is**) de nuestros usuario
 
 ---
 
-
 ## 2.4. Ubiquitous Language
 
 En esta sección definimos los **términos clave** utilizados por los usuarios y el equipo de desarrollo, con el fin de garantizar una comprensión común y coherente durante todo el proyecto.
 
-| **Término**             | **Definición**                                                                                                 |
-|-------------------------|---------------------------------------------------------------------------------------------------------------|
-| **Gestor de Proyectos** | Usuario responsable de planificar, asignar y supervisar las tareas dentro de la ONG.                         |
-| **Ayudante / Staff**    | Usuario que colabora en la ejecución de actividades y eventos, y reporta al gestor.                           |
-| **Tarea**               | Actividad específica asignada a un miembro del equipo, con fecha límite y objetivo claro.                     |
-| **Proyecto**            | Conjunto de tareas organizadas que buscan lograr un impacto social específico dentro de la ONG.               |
-| **MVP**                 | Producto Mínimo Viable, primera versión funcional de la solución con características esenciales.              |
-| **Dashboard**           | Interfaz visual que permite al gestor visualizar el estado de proyectos, tareas y comunicación.               |
-| **Inventario**          | Registro de insumos y materiales necesarios para llevar a cabo las actividades de la ONG.                     |
-| **Comunicación Directa**| Canal interno dentro de la plataforma que permite a los usuarios intercambiar mensajes o alertas rápidamente. |
-| **Landing Page**        | Página web introductoria para presentar el producto y captar el interés de los usuarios.                      |
-| **Suscripción**         | Plan de acceso a la plataforma basado en cantidad de usuarios registrados y funcionalidades disponibles.      |
-
+| **Término**              | **Definición**                                                                                                |
+| ------------------------ | ------------------------------------------------------------------------------------------------------------- |
+| **Gestor de Proyectos**  | Usuario responsable de planificar, asignar y supervisar las tareas dentro de la ONG.                          |
+| **Ayudante / Staff**     | Usuario que colabora en la ejecución de actividades y eventos, y reporta al gestor.                           |
+| **Tarea**                | Actividad específica asignada a un miembro del equipo, con fecha límite y objetivo claro.                     |
+| **Proyecto**             | Conjunto de tareas organizadas que buscan lograr un impacto social específico dentro de la ONG.               |
+| **MVP**                  | Producto Mínimo Viable, primera versión funcional de la solución con características esenciales.              |
+| **Dashboard**            | Interfaz visual que permite al gestor visualizar el estado de proyectos, tareas y comunicación.               |
+| **Inventario**           | Registro de insumos y materiales necesarios para llevar a cabo las actividades de la ONG.                     |
+| **Comunicación Directa** | Canal interno dentro de la plataforma que permite a los usuarios intercambiar mensajes o alertas rápidamente. |
+| **Landing Page**         | Página web introductoria para presentar el producto y captar el interés de los usuarios.                      |
+| **Suscripción**          | Plan de acceso a la plataforma basado en cantidad de usuarios registrados y funcionalidades disponibles.      |
 
 # Capítulo III: Requirements Specifications
 
@@ -1352,6 +1366,7 @@ En esta sección definimos los **términos clave** utilizados por los usuarios y
 El **To-Be Scenario Mapping** representa el escenario futuro ideal que nuestros usuarios vivirán una vez implementada nuestra solución. A través de este mapeo, visualizamos cómo cambiarán y mejorarán los procesos actuales, abordando los puntos de dolor identificados en el escenario As-Is.
 
 Este escenario muestra:
+
 - La **optimización de tareas** mediante herramientas digitales adaptadas a las necesidades de las ONG.
 - Una **comunicación fluida y directa** entre gestores y ayudantes.
 - La **eficiencia operativa** en la planificación, ejecución y monitoreo de proyectos.
@@ -1365,6 +1380,7 @@ Este escenario muestra:
 ---
 
 **Gestor de Proyectos:**
+
 - Planifica y asigna tareas desde una plataforma intuitiva.
 - Supervisa el progreso de cada tarea y recibe notificaciones en tiempo real.
 - Mantiene un control financiero básico, visualizando presupuestos y gastos.
@@ -1373,6 +1389,7 @@ Este escenario muestra:
 ---
 
 **Ayudante/Staff:**
+
 - Recibe tareas claras con fechas y descripciones específicas.
 - Marca tareas como completadas desde su dispositivo móvil o PC.
 - Puede consultar información del proyecto y notificar cualquier incidencia al gestor de forma inmediata.
@@ -1390,8 +1407,8 @@ Este escenario muestra:
 
 ---
 
-
 ## 3.2. User Stories
+
 **Épicas:**<br>
 
 <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; text-align: center;">
@@ -1406,51 +1423,45 @@ Este escenario muestra:
     <tr>
       <td>EP01</td>
       <td>Informar del producto y empresa</td>
-      <td>HU01 – HU05</td>
+      <td>HU01 – HU03</td>
     </tr>
     <tr>
       <td>EP02</td>
       <td>Gestionar Usuarios</td>
-      <td>HU06 – HU10</td>
+      <td>HU04 – HU06</td>
     </tr>
     <tr>
       <td>EP03</td>
       <td>Gestionar miembros de equipo</td>
-      <td>HU11 – HU13</td>
+      <td>HU07 – HU08</td>
     </tr>
     <tr>
       <td>EP04</td>
       <td>Gestionar Proyectos</td>
-      <td>HU14 – HU16</td>
+      <td>HU09 – HU11</td>
     </tr>
     <tr>
       <td>EP05</td>
       <td>Gestionar Tareas</td>
-      <td>HU17 – HU21</td>
+      <td>HU12 – HU15</td>
     </tr>
     <tr>
       <td>EP06</td>
       <td>Gestionar Fechas</td>
-      <td>HU22 – HU24</td>
+      <td>HU16</td>
     </tr>
     <tr>
       <td>EP07</td>
-      <td>Gestionar la comunicación con el equipo</td>
-      <td>HU25 – HU28</td>
-    </tr>
-    <tr>
-      <td>EP08</td>
       <td>Gestionar Análisis</td>
-      <td>HU29 – HU31</td>
+      <td>HU17</td>
     </tr>
     <tr>
       <td>EP09</td>
       <td>Implementación de Seguridad</td>
-      <td>HU32 – HU33</td>
+      <td>HU18 – HU19</td>
     </tr>
   </tbody>
 </table>
-
 
 <!-- Historias Usuario -->
 <p><strong>Historias Usuario:</strong><br>
@@ -1521,54 +1532,7 @@ leer testimonios de clientes anteriores <strong>para</strong> saber si han tenid
 </tr>
 
 <tr class="odd">
-<td rowspan="2">EP01-HU04</td>
-<td rowspan="2">Informarse sobre los diferentes planes de precio</td>
-<td rowspan="2"><strong>Como</strong> visitante, <strong>quiero</strong>
-ver los diferentes planes de precio <strong>para</strong> elegir el que mejor se ajuste a mi presupuesto.</td>
-<td><p><strong>Given</strong> el usuario está en la sección de precios,</p>
-<p><strong>When</strong> revisa la comparación de planes,</p>
-<p><strong>Then</strong> debería ver una comparación clara de los diferentes planes de precios disponibles.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Given</strong> el usuario está en la sección de precios,</p>
-<p><strong>When</strong> no encuentra información sobre los planes,</p>
-<p><strong>Then</strong> debería ver un mensaje de error indicando que los precios no están disponibles.</p></td>
-</tr>
-
-<tr class="odd">
-<td rowspan="2">EP01-HU05</td>
-<td rowspan="2">Contactar con la empresa</td>
-<td rowspan="2"><strong>Como</strong> usuario, <strong>quiero</strong>
-poder contactar con la empresa <strong>para</strong> resolver mis dudas.</td>
-<td><p><strong>Given</strong> el usuario está en la sección de contactos,</p>
-<p><strong>When</strong> revisa las opciones de comunicación</p>
-<p><strong>Then</strong> debería ver opciones para contactar con la empresa (teléfono, email, formulario de contacto).</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Given</strong> el usuario está en la sección de contacto,</p>
-<p><strong>When</strong> no encuentra opciones de contacto,</p>
-<p><strong>Then</strong> debería ver un mensaje de error indicando que los métodos de contacto no están disponibles.</p></td>
-</tr>
-
-<tr class="odd">
-<td rowspan="2">EP02-HU06</td>
-<td rowspan="2">Mostrar información de perfiles de miembros de equipo.</td>
-<td rowspan="2"><strong>Como</strong> gestor, <strong>quiero</strong>
-ver la información de los miembros de equipo <strong>para</strong> realizar un monitoreo de identidad y tener información de contacto.</td>
-<td><p><strong>Caso: Se ve la información del perfil<br />
-Given</strong> el gestor está en la vista donde están los perfiles de integrantes,</p>
-<p><strong>When</strong> selecciona un perfil,</p>
-<p><strong>Then</strong> aparece una información del miembro de equipo incluyendo su nombre e información de contacto.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Caso: No se ve la información del perfil</strong></p>
-<p><strong>Given</strong> el gestor está en la vista donde están los perfiles de integrantes,</p>
-<p><strong>When</strong> selecciona un perfil y no ve la información del perfil</p>
-<p><strong>Then</strong> aparece un mensaje de error pidiendo que recargue el perfil.</p></td>
-</tr>
-
-<tr class="odd">
-<td rowspan="2">EP02-HU07</td>
+<td rowspan="2">EP02-HU04</td>
 <td rowspan="2">Mostrar información de perfiles de gestores</td>
 <td rowspan="2"><strong>Como</strong> miembro de equipo, <strong>quiero</strong>
 conocer la información de los gestores de equipo <strong>para</strong> saber más de mis superiores e información de contacto.</td>
@@ -1585,24 +1549,7 @@ conocer la información de los gestores de equipo <strong>para</strong> saber m�
 </tr>
 
 <tr class="odd">
-<td rowspan="2">EP02-HU08</td>
-<td rowspan="2">Mostrar información de perfil de la ONG</td>
-<td rowspan="2"><strong>Como</strong> usuario, <strong>quiero</strong>
-conocer más de la organización de la cual participo <strong>para</strong> informarme de la misión y visión de esta misma.</td>
-<td><p><strong>Caso: Se muestra la información de la ONG</strong></p>
-<p><strong>Given</strong> el usuario se encuentra en el menú principal o en la sección de proyectos,</p>
-<p><strong>When</strong> selecciona el botón con el nombre de la organización,</p>
-<p><strong>Then</strong> ve la información correspondiente de la organización.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Caso: Se muestra la información de la ONG desde el usuario gestor</strong></p>
-<p><strong>Given</strong> el gestor se encuentra en el menú principal o en la sección de proyectos,</p>
-<p><strong>When</strong> selecciona el botón con el nombre de la organización,</p>
-<p><strong>Then</strong> ve la información correspondiente de la organización y la opción de editar esta misma información.</p></td>
-</tr>
-
-<tr class="odd">
-<td rowspan="2">EP02-HU09</td>
+<td rowspan="2">EP02-HU05</td>
 <td rowspan="2">Editar información de perfil</td>
 <td rowspan="2"><strong>Como</strong> usuario, <strong>quiero</strong>
 poder editar mi perfil <strong>para</strong> actualizar mi información de contacto o errores que haya realizado al registrarme.</td>
@@ -1630,7 +1577,7 @@ poder editar mi perfil <strong>para</strong> actualizar mi información de conta
 </colgroup>
 <thead>
 <tr class="header">
-<th rowspan="2">EP02-HU10</th>
+<th rowspan="2">EP02-HU06</th>
 <th rowspan="2">Autenticar usuarios por medio de código de organización</th>
 <th rowspan="2"><strong>Como</strong> gestor, <strong>quiero</strong>
 invitar a un miembro de equipo usando un código de organización <strong>para</strong> que este pueda registrarse a la organización.</th>
@@ -1647,7 +1594,7 @@ invitar a un miembro de equipo usando un código de organización <strong>para</
 </thead>
 <tbody>
 <tr class="odd">
-<td rowspan="2">EP03-HU11</td>
+<td rowspan="2">EP03-HU07</td>
 <td rowspan="2">Mostrar lista de perfiles de miembros de equipo.</td>
 <td rowspan="2"><strong>Como</strong> gestor, <strong>quiero</strong>
 ver un listado de los miembros y sus contactos <strong>para</strong> poder contactar fácilmente a los miembros del equipo.</td>
@@ -1663,24 +1610,7 @@ ver un listado de los miembros y sus contactos <strong>para</strong> poder conta
 </tr>
 
 <tr class="odd">
-<td rowspan="2">EP03-HU12</td>
-<td rowspan="2">Contactar a los miembros del equipo por medio de WhatsApp</td>
-<td rowspan="2"><strong>Como</strong> usuario, <strong>quiero</strong>
-conocer los contactos de mis compañeros <strong>para</strong> poder mantener una comunicación.</td>
-<td><p><strong>Caso: El link de WhatsApp direcciona a la aplicación</strong></p>
-<p><strong>Given</strong> el usuario está en la lista de miembros,</p>
-<p><strong>When</strong> presiona el botón de WhatsApp y acepte los permisos para redireccionar a la aplicación,</p>
-<p><strong>Then</strong> se redirecciona a la aplicación de WhatsApp con el número del perfil.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Caso: El link de WhatsApp falla.</strong></p>
-<p><strong>Given</strong> el usuario está en la lista de miembros,</p>
-<p><strong>When</strong> presiona el botón de WhatsApp y no acepta los permisos para redireccionar a la aplicación,</p>
-<p><strong>Then</strong> sale un mensaje mencionando que debe aceptar los permisos para redireccionar a aplicaciones.</p></td>
-</tr>
-
-<tr class="odd">
-<td rowspan="2">EP03-HU13</td>
+<td rowspan="2">EP03-HU08</td>
 <td rowspan="2">Eliminar Perfil de miembro de equipo</td>
 <td rowspan="2"><strong>Como</strong> gestor, <strong>quiero</strong>
 eliminar un perfil de miembro de equipo <strong>para</strong> liberar espacio para nuevas cuentas o concluir la participación de un miembro de equipo.</td>
@@ -1696,7 +1626,7 @@ eliminar un perfil de miembro de equipo <strong>para</strong> liberar espacio pa
 </tr>
 
 <tr class="odd">
-<td rowspan="2">EP04-HU14</td>
+<td rowspan="2">EP04-HU09</td>
 <td rowspan="2">Visualizar de listado de proyectos</td>
 <td rowspan="2"><strong>Como</strong> usuario, <strong>quiero</strong>
 ver el listado de proyectos de mi interés <strong>para</strong> evaluar la información relacionada.</td>
@@ -1713,7 +1643,7 @@ ver el listado de proyectos de mi interés <strong>para</strong> evaluar la info
 </tr>
 
 <tr class="odd">
-<td rowspan="2">EP04-HU15</td>
+<td rowspan="2">EP04-HU10</td>
 <td rowspan="2">Ingresar nuevo proyecto</td>
 <td rowspan="2"><strong>Como</strong> gestor, <strong>quiero</strong>
 ingresar un nuevo proyecto <strong>para</strong> hacerle su seguimiento administrativo.</td>
@@ -1730,7 +1660,7 @@ ingresar un nuevo proyecto <strong>para</strong> hacerle su seguimiento administ
 </tr>
 
 <tr class="odd">
-<td rowspan="2">EP04-HU16</td>
+<td rowspan="2">EP04-HU11</td>
 <td rowspan="2">Editar información de proyecto</td>
 <td rowspan="2"><strong>Como</strong> gestor, <strong>quiero</strong>
 editar la información del proyecto <strong>para</strong> actualizar cambios como ubicación o descripción.</td>
@@ -1745,7 +1675,7 @@ editar la información del proyecto <strong>para</strong> actualizar cambios com
 </tr>
 
 <tr class="odd">
-<td rowspan="2">EP05-HU17</td>
+<td rowspan="2">EP05-HU12</td>
 <td rowspan="2">Visualizar tareas</td>
 <td rowspan="2"><strong>Como</strong> gestor, <strong>quiero</strong>
 ver las tareas del proyecto <strong>para</strong> evaluar los pendientes relacionados a las tareas.</td>
@@ -1762,7 +1692,7 @@ ver las tareas del proyecto <strong>para</strong> evaluar los pendientes relacio
 </tr>
 
 <tr class="odd">
-<td rowspan="2">EP05-HU18</td>
+<td rowspan="2">EP05-HU13</td>
 <td rowspan="2">Crear tarea</td>
 <td rowspan="2"><strong>Como</strong> gestor, <strong>quiero</strong>
 crear tareas <strong>para</strong> organizar a mi equipo.</td>
@@ -1779,24 +1709,7 @@ crear tareas <strong>para</strong> organizar a mi equipo.</td>
 </tr>
 
 <tr class="odd">
-<td rowspan="2">EP05-HU19</td>
-<td rowspan="2">Editar tarea</td>
-<td rowspan="2"><strong>Como</strong> gestor, <strong>quiero</strong>
-editar alguna tarea <strong>para</strong> aumentar la fecha de expiración o cambiar al miembro de equipo asignado</td>
-<td><p><strong>Caso: Se edita la tarea correctamente</strong></p>
-<p><strong>Given</strong> el gestor está en la sección de tareas,</p>
-<p><strong>When</strong> presiona el botón de editar tarea y cambia el ingresa la fecha de expiración, el estado de la tarea o a quien está asignada la tarea.</p>
-<p><strong>Then</strong> se muestra un mensaje confirmando que se actualizo la tarea y se actualiza la columna donde está.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Caso: No se edita la tarea correctamente</strong></p>
-<p><strong>Given</strong> el gestor está en la sección de tareas,</p>
-<p><strong>When</strong> presiona el botón de editar tarea y cambia el ingresa la fecha de expiración, el estado de la tarea o a quien está asignada la tarea con un dato erróneo.</p>
-<p><strong>Then</strong> se muestra un mensaje solicitando que se ingrese información valida o mostrando el error.</p></td>
-</tr>
-
-<tr class="odd">
-<td rowspan="2">EP05-HU20</td>
+<td rowspan="2">EP05-HU14</td>
 <td rowspan="2">Cambio de estado de tarea</td>
 <td rowspan="2"><strong>Como</strong> miembro de equipo, <strong>quiero</strong>
 cambiar el estado de mi tarea <strong>para</strong> dar a saber cómo va mi progreso.</td>
@@ -1824,7 +1737,7 @@ cambiar el estado de mi tarea <strong>para</strong> dar a saber cómo va mi prog
 </colgroup>
 <thead>
 <tr class="header">
-<th rowspan="2">EP05-HU21</th>
+<th rowspan="2">EP05-HU15</th>
 <th rowspan="2">Eliminar una tarea</th>
 <th rowspan="2"><strong>Como</strong> gestor, <strong>quiero</strong>
 eliminar una tarea <strong>para</strong> quitar una tarea que no correspondía con el proyecto.</th>
@@ -1842,7 +1755,7 @@ eliminar una tarea <strong>para</strong> quitar una tarea que no correspondía c
 </thead>
 <tbody>
 <tr class="odd">
-<td rowspan="2">EP06-HU22</td>
+<td rowspan="2">EP06-HU16</td>
 <td rowspan="2">Visualizar de fechas vinculadas con las tareas y proyectos</td>
 <td rowspan="2"><strong>Como</strong> usuario, <strong>quiero</strong>
 revisar las fechas correspondientes de las tareas y proyectos <strong>para</strong> asegurarme que se cumplan a tiempo y organizar tiempos.</td>
@@ -1858,108 +1771,6 @@ revisar las fechas correspondientes de las tareas y proyectos <strong>para</stro
 <p><strong>Then</strong> se muestra un mensaje solicitando que se recargue.</p></td>
 </tr>
 
-<tr class="odd">
-<td rowspan="2">EP06-HU23</td>
-<td rowspan="2">Agregar una fecha relacionada a tarea</td>
-<td rowspan="2"><strong>Como</strong> gestor, <strong>quiero</strong>
-agregar una fecha importante <strong>para</strong> organizar los tiempos del equipo.</td>
-<td><p><strong>Caso: Se ingresa una fecha</strong></p>
-<p><strong>Given</strong> el gestor está en la sección de calendario,</p>
-<p><strong>When</strong> ingresa los datos como nombre, fecha y descripción,</p>
-<p><strong>Then</strong> se agrega en la fecha seleccionada la fecha importante.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Caso: Se ingresan datos inválidos</strong></p>
-<p><strong>Given</strong> el gestor está en la sección de calendario,</p>
-<p><strong>When</strong> ingresa datos inválidos para el nombre, fecha y descripción,</p>
-<p><strong>Then</strong> se muestra un mensaje mencionando que los datos son inválidos.</p></td>
-</tr>
-
-<tr class="odd">
-<td rowspan="2">EP06-HU24</td>
-<td rowspan="2">Editar o Eliminar una fecha en especifico</td>
-<td rowspan="2"><strong>Como</strong> gestor, <strong>quiero</strong>
-editar o eliminar una fecha <strong>para</strong> evitar un error o cambiar la fecha que ingrese previamente.</td>
-<td><p><strong>Caso: Se realiza una operación con el calendario</strong></p>
-<p><strong>Given</strong> el gestor está en la sección de calendario,</p>
-<p><strong>When</strong> presiona el botón de editar e ingresa los datos o presiona el botón de eliminar,</p>
-<p><strong>Then</strong> los cambios se realizan según la operación y se actualiza el calendario.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Caso: Realizar una operación de calendario falla.</strong></p>
-<p><strong>Given</strong> el gestor está en la sección de calendario,</p>
-<p><strong>When</strong> presiona el botón de editar e ingresa los datos o presiona el botón de eliminar y sucede un error al realizar la operación,</p>
-<p><strong>Then</strong> se muestra un mensaje informando del error y solicitando que intente de nuevo.</p></td>
-</tr>
-
-<tr class="odd">
-<td rowspan="2">EP07-HU25</td>
-<td rowspan="2">Visualizar “Posts” de la comunidad</td>
-<td rowspan="2"><strong>Como</strong> usuario, <strong>quiero</strong>
-saber de la comunidad de la organización <strong>para</strong> saber de los progresos de mis colegas e inspirarme en el cambio que se está generando.</td>
-<td><p><strong>Caso: Se muestra un listado de posts.</strong></p>
-<p><strong>Given</strong> el usuario está la sección de comunidad, <strong>When</strong> carga esta sección,</p>
-<p><strong>Then</strong> se muestran los posts de la organización.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Caso: Ocurre un error al mostrar el listado de posts.</strong></p>
-<p><strong>Given</strong> el usuario está la sección de comunidad, <strong>When</strong> no carga esta sección,</p>
-<p><strong>Then</strong> se solicita recargar por medio de un mensaje.</p></td>
-</tr>
-
-<tr class="odd">
-<td rowspan="2">EP07-HU26</td>
-<td rowspan="2">Postear un post</td>
-<td rowspan="2"><strong>Como</strong> gestor, <strong>quiero</strong>
-agregar un post <strong>para</strong> mostrar a los integrantes de la organización el progreso que se está logrando.</td>
-<td><p><strong>Caso: Se crea un post</strong></p>
-<p><strong>Given</strong> el gestor está en la sección de comunidad,</p>
-<p><strong>When</strong> presiona el botón de agregar post e ingresa la información como título, descripción e imagen referencial,</p>
-<p><strong>Then</strong> el post es agregado a la lista de posts y se muestra un mensaje confirmando la publicación.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Caso: Falla la creación un post</strong></p>
-<p><strong>Given</strong> el gestor está en la sección de comunidad,</p>
-<p><strong>When</strong> presiona el botón de agregar post e ingresa incorrectamente la información como título, descripción o imagen referencial,</p>
-<p><strong>Then</strong> se muestra un mensaje de error solicitando que se ingresen bien los datos.</p></td>
-</tr>
-
-<tr class="odd">
-<td rowspan="2">EP07-HU27</td>
-<td rowspan="2">Comentar o Reseñar un post</td>
-<td rowspan="2"><strong>Como</strong> miembro de equipo, <strong>quiero</strong>
-dar mi opinión y reseñar un post <strong>para</strong> compartir con mis colegas lo que pienso e interactuar con la comunidad.</td>
-<td><p><strong>Caso: se realiza un comentario y reseña a un post</strong></p>
-<p><strong>Given</strong> el miembro de equipo está en la sección de comunidad,</p>
-<p><strong>When</strong> ingresa su reseña y comentario,</p>
-<p><strong>Then</strong> aparece el comentario en la sección de comentarios del post.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Caso: falla en realizarse un comentario y reseña a un post</strong></p>
-<p><strong>Given</strong> el miembro de equipo está en la sección de comunidad,</p>
-<p><strong>When</strong> ingresa su reseña y comentario y este no carga,</p>
-<p><strong>Then</strong> se muestra un mensaje de error solicitando que reintente comentar.</p></td>
-</tr>
-
-<tr class="odd">
-<td rowspan="2">EP07-HU28</td>
-<td rowspan="2">Eliminar un post</td>
-<td rowspan="2"><strong>Como</strong> gestor, <strong>quiero</strong>
-eliminar un post <strong>para</strong> corregir algún post erróneo.</td>
-<td><p><strong>Caso: Se elimina un post</strong></p>
-<p><strong>Given</strong> el gestor está en la sección de comunidad,</p>
-<p><strong>When</strong> presiona el botón de eliminar post y se confirma esta operación.</p>
-<p><strong>Then</strong> se muestra un mensaje confirmando la eliminación del post.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Caso: Falla la eliminación un post</strong></p>
-<p><strong>Given</strong> el gestor está en la sección de comunidad,</p>
-<p><strong>When</strong> presiona el botón de eliminar post y tarda en procesarse la operación,</p>
-<p><strong>Then</strong> se muestra un mensaje de error pidiendo que intente de nuevo.</p></td>
-</tr>
-</tbody>
-</table>
-
 <!-- Tabla con HU29–HU32 -->
 <table>
 <colgroup>
@@ -1970,7 +1781,7 @@ eliminar un post <strong>para</strong> corregir algún post erróneo.</td>
 </colgroup>
 <thead>
 <tr class="header">
-<th rowspan="2">EP08-HU29</th>
+<th rowspan="2">EP08-HU17</th>
 <th rowspan="2">Visualizar las estadísticas del proyecto</th>
 <th rowspan="2"><strong>Como</strong> gestor, <strong>quiero</strong>
 observar las analíticas del proyecto <strong>para</strong> evaluar tendencias y revisar el progreso.</th>
@@ -1987,38 +1798,9 @@ observar las analíticas del proyecto <strong>para</strong> evaluar tendencias y
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
-<td rowspan="2">EP08-HU30</td>
-<td rowspan="2">Agregar datos de presupuesto</td>
-<td rowspan="2"><strong>Como</strong> gestor, <strong>quiero</strong>
-gestionar las prioridades de las tareas <strong>para</strong> asegurar que las tareas más importantes se completen primero.</td>
-<td><p><strong>Given</strong> el gestor está en la sección de prioridades,</p>
-<p><strong>When</strong> establece prioridades para las tareas,</p>
-<p><strong>Then</strong> debería ver las tareas organizadas según las prioridades establecidas.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Given</strong> el gestor está en la sección de prioridades,</p>
-<p><strong>When</strong> no puede gestionar prioridades,</p>
-<p><strong>Then</strong> debería ver un mensaje de error indicando que la gestión de prioridades no está funcionando.</p></td>
-</tr>
 
 <tr class="odd">
-<td rowspan="2">EP08-HU31</td>
-<td rowspan="2">Editar datos de presupuesto</td>
-<td rowspan="2"><strong>Como</strong> gestor, <strong>quiero</strong>
-revisar el estado de las tareas <strong>para</strong> asegurarse de que todas las tareas se están completando según lo planeado.</td>
-<td><p><strong>Given</strong> el gestor está en la sección de estado de tareas,</p>
-<p><strong>When</strong> revisa el estado de las tareas,</p>
-<p><strong>Then</strong> debería ver el estado actual de todas las tareas (completadas, en progreso, pendientes).</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Given</strong> el gestor está en la sección de estado de tareas,</p>
-<p><strong>When</strong> no puede ver el estado de las tareas,</p>
-<p><strong>Then</strong> debería ver un mensaje de error indicando que la información del estado de tareas no está disponible.</p></td>
-</tr>
-
-<tr class="odd">
-<td rowspan="2">EP09-HU32</td>
+<td rowspan="2">EP09-HU18</td>
 <td rowspan="2">Implementar encriptación de contraseñas y código de organización</td>
 <td rowspan="2"><strong>Como</strong> desarrollador, <strong>quiero</strong>
 asegurar las contraseñas y códigos <strong>para</strong> salvaguardar los datos relevantes de mis usuarios y mantener confidencialidad.</td>
@@ -2046,7 +1828,7 @@ asegurar las contraseñas y códigos <strong>para</strong> salvaguardar los dato
 </colgroup>
 <thead>
 <tr class="header">
-<th rowspan="2">EP09-HU33</th>
+<th rowspan="2">EP09-HU19</th>
 <th rowspan="2">Verificar que el código de organización sea correcto</th>
 <th rowspan="2"><strong>Como</strong> desarrollador, <strong>quiero</strong>
 mantener la integridad del código de organización <strong>para</strong> validar el código de organización.</th>
@@ -2066,17 +1848,8 @@ mantener la integridad del código de organización <strong>para</strong> valida
 </tbody>
 </table>
 
-
-
-
-
-
-
-
-
-
-
 ## 3.3. Product Backlog
+
 Se consideran las historias de usuario más importantes para el product backlog
 Asimismo, se ha realizado un Trello para hacer seguimiento de nuestras tareas.
 
@@ -2093,35 +1866,22 @@ Asimismo, se ha realizado un Trello para hacer seguimiento de nuestras tareas.
     <tr><td>HU01</td><td>Ofrecer información de la empresa</td><td>Alta</td><td>3</td></tr>
     <tr><td>HU02</td><td>Informar sobre los beneficios del producto</td><td>Alta</td><td>3</td></tr>
     <tr><td>HU03</td><td>Conocer los testimonios de los clientes pasados</td><td>Media</td><td>3</td></tr>
-    <tr><td>HU05</td><td>Contactar con la empresa</td><td>Alta</td><td>2</td></tr>
-    <tr><td>HU06</td><td>Mostrar información de perfiles de miembros de equipo</td><td>Media</td><td>2</td></tr>
-    <tr><td>HU07</td><td>Mostrar información de perfiles de gestores</td><td>Alta</td><td>3</td></tr>
-    <tr><td>HU08</td><td>Mostrar información de perfil de la ONG</td><td>Alta</td><td>3</td></tr>
-    <tr><td>HU09</td><td>Editar información de perfil</td><td>Media</td><td>2</td></tr>
-    <tr><td>HU10</td><td>Autenticar usuarios por medio de código de organización</td><td>Alta</td><td>3</td></tr>
-    <tr><td>HU11</td><td>Mostrar lista de perfiles de miembros de equipo</td><td>Alta</td><td>3</td></tr>
-    <tr><td>HU12</td><td>Contactar a los miembros del equipo por medio de WhatsApp</td><td>Media</td><td>2</td></tr>
-    <tr><td>HU13</td><td>Eliminar Perfil de miembro de equipo</td><td>Media</td><td>3</td></tr>
-    <tr><td>HU14</td><td>Visualizar de listado de proyectos</td><td>Alta</td><td>3</td></tr>
-    <tr><td>HU15</td><td>Ingresar nuevo proyecto</td><td>Alta</td><td>3</td></tr>
-    <tr><td>HU16</td><td>Editar información de proyecto</td><td>Alta</td><td>3</td></tr>
-    <tr><td>HU17</td><td>Visualizar tareas</td><td>Media</td><td>2</td></tr>
-    <tr><td>HU18</td><td>Crear tarea</td><td>Media</td><td>2</td></tr>
-    <tr><td>HU19</td><td>Editar tarea</td><td>Alta</td><td>3</td></tr>
-    <tr><td>HU20</td><td>Cambio de estado de tarea</td><td>Alta</td><td>3</td></tr>
-    <tr><td>HU21</td><td>Eliminar una tarea</td><td>Alta</td><td>3</td></tr>
-    <tr><td>HU22</td><td>Visualizar de fechas vinculadas con las tareas y proyectos</td><td>Alta</td><td>3</td></tr>
-    <tr><td>HU23</td><td>Agregar una fecha importante</td><td>Media</td><td>2</td></tr>
-    <tr><td>HU24</td><td>Editar o Eliminar una fecha en específico</td><td>Alta</td><td>3</td></tr>
-    <tr><td>HU25</td><td>Visualizar “Posts” de la comunidad</td><td>Media</td><td>2</td></tr>
-    <tr><td>HU26</td><td>Postear un post</td><td>Media</td><td>3</td></tr>
-    <tr><td>HU27</td><td>Comentar o Reseñar un post</td><td>Alta</td><td>3</td></tr>
-    <tr><td>HU28</td><td>Eliminar un post</td><td>Alta</td><td>3</td></tr>
-    <tr><td>HU29</td><td>Visualizar las estadísticas del proyecto</td><td>Alta</td><td>3</td></tr>
-    <tr><td>HU30</td><td>Agregar datos de presupuesto</td><td>Media</td><td>2</td></tr>
-    <tr><td>HU31</td><td>Editar datos de presupuesto</td><td>Media</td><td>2</td></tr>
-    <tr><td>HU32</td><td>Implementar encriptación de contraseñas y código de organización</td><td>Media</td><td>3</td></tr>
-    <tr><td>HU33</td><td>Verificar que el código de organización sea correcto</td><td>Alta</td><td>3</td></tr>
+    <tr><td>HU04</td><td>Mostrar información de perfiles de gestores</td><td>Alta</td><td>3</td></tr>
+    <tr><td>HU05</td><td>Editar información de perfil</td><td>Media</td><td>2</td></tr>
+    <tr><td>HU06</td><td>Autenticar usuarios por medio de código de organización</td><td>Alta</td><td>3</td></tr>
+    <tr><td>HU07</td><td>Mostrar lista de perfiles de miembros de equipo</td><td>Alta</td><td>3</td></tr>
+    <tr><td>HU08</td><td>Eliminar Perfil de miembro de equipo</td><td>Media</td><td>3</td></tr>
+    <tr><td>HU09</td><td>Visualizar de listado de proyectos</td><td>Alta</td><td>3</td></tr>
+    <tr><td>HU10</td><td>Ingresar nuevo proyecto</td><td>Alta</td><td>3</td></tr>
+    <tr><td>HU11</td><td>Editar información de proyecto</td><td>Alta</td><td>3</td></tr>
+    <tr><td>HU12</td><td>Visualizar tareas</td><td>Media</td><td>2</td></tr>
+    <tr><td>HU13</td><td>Crear tarea</td><td>Media</td><td>2</td></tr>
+    <tr><td>HU14</td><td>Cambio de estado de tarea</td><td>Alta</td><td>3</td></tr>
+    <tr><td>HU15</td><td>Eliminar una tarea</td><td>Alta</td><td>3</td></tr>
+    <tr><td>HU16</td><td>Visualizar de fechas vinculadas con las tareas y proyectos</td><td>Alta</td><td>3</td></tr>
+    <tr><td>HU17</td><td>Visualizar las estadísticas del proyecto</td><td>Alta</td><td>3</td></tr>
+    <tr><td>HU18</td><td>Implementar encriptación de contraseñas y código de organización</td><td>Media</td><td>3</td></tr>
+    <tr><td>HU19</td><td>Verificar que el código de organización sea correcto</td><td>Alta</td><td>3</td></tr>
   </tbody>
 </table>
 <br>
@@ -2130,15 +1890,12 @@ Asimismo, se ha realizado un Trello para hacer seguimiento de nuestras tareas.
 [Acceder al tablero de Trello](https://trello.com/invite/b/66c568966561935d142481d8/ATTI5751dc000e3f7d636dff7058d697c8dd6B2D7184/aidmanagermobile)
 <br>
 
-
-
-
-
 ## 3.4. Impact Mapping
 
 El **Impact Mapping** nos permite visualizar cómo nuestra solución contribuye a lograr los objetivos de negocio, alineando las metas con las necesidades de los usuarios y las funcionalidades clave del producto.
 
 A través de estos mapas, identificamos:
+
 - **Qué queremos lograr** (objetivo principal).
 - **Quiénes** pueden ayudarnos o verse afectados (actores clave).
 - **Cómo** pueden contribuir o qué comportamientos esperamos (impactos).
@@ -2213,9 +1970,9 @@ Estos colores complementarios enriquecen la identidad visual, manteniendo cohere
 
 Nuestra selección tipográfica fue pensada para combinar modernidad, elegancia y legibilidad, asegurando una comunicación clara y atractiva.
 
-| **Tipografía** | **Descripción** |
-|----------------|-----------------|
-| **Poppins**    | Tipografía moderna y limpia, de estilo geométrico, ideal para transmitir profesionalismo y eficiencia. Su excelente legibilidad la hace perfecta para interfaces intuitivas. |
+| **Tipografía** | **Descripción**                                                                                                                                                                   |
+| -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Poppins**    | Tipografía moderna y limpia, de estilo geométrico, ideal para transmitir profesionalismo y eficiencia. Su excelente legibilidad la hace perfecta para interfaces intuitivas.      |
 | **Lora**       | Tipografía serif elegante y tradicional, que aporta un toque de prestigio. Su combinación con Poppins equilibra lo contemporáneo con la confianza y seriedad del sector benéfico. |
 
 <br>
@@ -2229,6 +1986,7 @@ Nuestra selección tipográfica fue pensada para combinar modernidad, elegancia 
 El logotipo de AidManager representa a una figura vista desde arriba, con los brazos abiertos, en tonos verde-azulados. Este diseño simboliza **apertura, apoyo y generosidad**, valores centrales de nuestra startup.
 
 Nuestra identidad visual transmite:
+
 - **Solidaridad** hacia las comunidades necesitadas.
 - **Esperanza** para quienes buscan ayuda.
 - **Renovación** a través de soluciones tecnológicas accesibles.
@@ -2238,7 +1996,8 @@ El logo actúa como un emblema de nuestro compromiso con la ayuda directa, fomen
 <br>
 <center><img src="../assets/StyleGuidelines-images/LogoAidManager.jpg" alt="Logo AidManager" style="width:70%"><br><br></center>
 
-### 4.1.2.	Web Style Guidelines
+### 4.1.2. Web Style Guidelines
+
 Descripción de los elementos que se utilizaran en el web app
 
 **Background:** (primary, secondary, terniary)
@@ -2246,15 +2005,16 @@ Descripción de los elementos que se utilizaran en el web app
 Para el background se hace uso del color FFFFF para resaltar la pagina y para separar secciones D9ED8F
 ![Background Preview web](../assets/StyleGuidelines-images/Search.png)
 
-
 **Text Styles:** (H1, H2, p, a,)
 
 Para el texto se escogieron colores que combinan con la temática de la pagina y que facilitan la lectura del usuario
+
 <center><img src="../assets/StyleGuidelines-images/aam-6.png" alt="app web mock-up6" style="width:80%;"></center>
 
 **Button Styles:** (Button, dropdowns, Switches)
 
 Para los botones el color cambia según el color del fondo
+
 <center><img src="../assets/StyleGuidelines-images/aww-13.png" alt="app web wireframe13" style="width:80%;"></center>
 
 **Icons:** (Fondo blanco con los iconos que vamos a usar)
@@ -2264,29 +2024,24 @@ Tendremos iconografía de búsqueda, lápiz, ropa, reciclaje, icono de gráfico,
 
 **Misc**
 Se determina el color y posición según la sección
-<center><img src="../assets/StyleGuidelines-images/aww-10.png" alt="app web wireframe10" style="width:80%;"></center>
 
+<center><img src="../assets/StyleGuidelines-images/aww-10.png" alt="app web wireframe10" style="width:80%;"></center>
 
 Se muestra un style guidelines general que engloba la mayoría de diseño:
 
 <center><img src="../assets/StyleGuidelines-images/StyleGuidelines.png" alt="Guidelines" style="width:80%;"></center>
 
+### 4.1.3. Mobile Style Guidelines
 
-
-### 4.1.3.	Mobile Style Guidelines
 Asimismo como hicimos con el web Style Guidelines seguimos un approach parecido para ambos dispositivos android y iOS
 
 En el caso de iOS nos enfocamos en mantener una persistencia de diseño para que existan muchas diferencias con la contraparte de android.
 
-#### 4.1.3.1.	iOS Mobile Style Guidelines
-
+#### 4.1.3.1. iOS Mobile Style Guidelines
 
 <img src="../assets/mobile-mock-up/image_65.png" alt="LoginExample" width="200px">
 
-
-#### 4.1.3.2.	Android Mobile Style Guidelines
-
-
+#### 4.1.3.2. Android Mobile Style Guidelines
 
 ## 4.2. Information Architecture
 
@@ -2300,8 +2055,8 @@ El sistema de organización se basa en un **flujo secuencial**, guiando al usuar
 
 - Los usuarios siguen un **workflow estructurado**, pero también disponen de **accesos directos** para navegar rápidamente entre secciones.
 - Se implementa una **jerarquía visual diferenciada** según el tipo de usuario:
-    - **Gestores de proyecto**: Acceso prioritario a herramientas de gestión y supervisión.
-    - **Miembros de equipo**: Acceso centrado en tareas asignadas y comunicación.
+  - **Gestores de proyecto**: Acceso prioritario a herramientas de gestión y supervisión.
+  - **Miembros de equipo**: Acceso centrado en tareas asignadas y comunicación.
 
 ---
 
@@ -2310,16 +2065,17 @@ El sistema de organización se basa en un **flujo secuencial**, guiando al usuar
 El sistema de etiquetado está diseñado para ser **claro y directo**, facilitando la comprensión de la aplicación.
 
 - Los principales **labels** o etiquetas de navegación son:
-    - **Home**
-    - **Projects**
-    - **Community**
-    - **Profile**
+  - **Home**
+  - **Projects**
+  - **Community**
+  - **Profile**
 
 Estos términos fueron seleccionados para representar de forma concisa las funciones clave, asegurando que los usuarios puedan identificar rápidamente las secciones más relevantes.
 
 ---
 
-### 4.2.3.	SEO and Meta Tags
+### 4.2.3. SEO and Meta Tags
+
 Meta & SEO (Search Engine Optimization) Tags: sirven para que la página web donde promocionamos la aplicación sea encontrada fácilmente es lo que sale al encontrar la página en el buscador (se ponen en el <"head"> de la landing page o en la página store)
 Título:
 
@@ -2331,7 +2087,7 @@ Título:
 Descripción:
 
 ```
- <meta name = "description" content = "Gestiona, Recolecta, Analiza y Visualiza los datos y colaboradores de tus proyectos todo en un solo lugar."/> 
+ <meta name = "description" content = "Gestiona, Recolecta, Analiza y Visualiza los datos y colaboradores de tus proyectos todo en un solo lugar."/>
 
 ```
 
@@ -2342,16 +2098,22 @@ Palabras Clave:
 
 ```
 
-### 4.2.4.	Searching Systems
+### 4.2.4. Searching Systems
+
 **¿Que se busca?:** El usuario busca su proyecto para gestionar. **¿Qué resultados se mostrarán?:** Se debe de mostrar cards y entre ellas el proyecto que está revisando.<br>
 
 **Interfaz de búsqueda:** El dashboard muestra en el sidebar las secciones una vez se selecciona la sección de proyectos se mostrarán las cards con sus proyectos, el usuario selecciona el proyecto específico y se hacen las redirecciones a su proyecto para gestionar específicas.
 
-### 4.2.5.	Navigation Systems
+### 4.2.5. Navigation Systems
+
 La navegación de la Mobile App se estará basando en un Sistema de navegación Global donde por medio de las cards en el dashboard o los labels en el side-bar e incluso el bottom-nav. el usuario se redirija a la sección seleccionada. Asimismo, se usa la navegación local para ver información dedicada a las secciones.
-## 4.3.	Landing Page UI Design
+
+## 4.3. Landing Page UI Design
+
 Esta sección está orientada a mostrar el diseño de nuestra landing page la cual es necesaria para presentarnos y promover nuestro producto a los usuarios.
-### 4.3.1.	Landing Page Wireframe
+
+### 4.3.1. Landing Page Wireframe
+
 ![image_130](../assets/landing-wireframe/image_130.png)
 ![image_37](../assets/landing-wireframe/image_37.png)
 ![image_68](../assets/landing-wireframe/image_68.png)
@@ -2360,7 +2122,8 @@ Esta sección está orientada a mostrar el diseño de nuestra landing page la cu
 ![image_21](../assets/landing-wireframe/image_21.png)
 ![image_38](../assets/landing-wireframe/image_38.png)
 
-### 4.3.2.	Landing Page Mock-up
+### 4.3.2. Landing Page Mock-up
+
 ![image_63](../assets/landing-mock-up/image_63.png)
 ![image_88](../assets/landing-mock-up/image_88.png)
 ![image_107](../assets/landing-mock-up/image_107.png)
@@ -2369,9 +2132,12 @@ Esta sección está orientada a mostrar el diseño de nuestra landing page la cu
 ![image_57](../assets/landing-mock-up/image_57.png)
 ![image_80](../assets/landing-mock-up/image_80.png)
 
-## 4.4.	Mobile Applications UX/UI Design
+## 4.4. Mobile Applications UX/UI Design
+
 Aquí nos enfocamos en mostrar el diseño de nuestra solución móvil.
-#### 4.4.1.	Mobile Application Wireframe
+
+#### 4.4.1. Mobile Application Wireframe
+
 ![image_1](../assets/mobile-wireframe/image_1.png)
 ![image_14](../assets/mobile-wireframe/image_14.png)
 ![image_28](../assets/mobile-wireframe/image_28.png)
@@ -2392,7 +2158,7 @@ Aquí nos enfocamos en mostrar el diseño de nuestra solución móvil.
 ![image_119](../assets/mobile-wireframe/image_119.png)
 ![image_29](../assets/mobile-wireframe/image_29.png)
 
-### 4.4.2.	Mobile Application Wireflow Diagram
+### 4.4.2. Mobile Application Wireflow Diagram
 
 Gestor de Proyectos necesita ver el listado de proyectos y las tareas asignadas a estos.<br>
 
@@ -2417,7 +2183,7 @@ Como miembro de equipo deseo ver las tareas asignadas y las métricas del grupo.
 
 ![image_58](../assets/mobile-wireflow/image_58.png)
 
-### 4.4.3.	Mobile Application Mock-ups
+### 4.4.3. Mobile Application Mock-ups
 
 ![image_3](../assets/mobile-mock-up/image_3.png)
 ![image_10](../assets/mobile-mock-up/image_10.png)
@@ -2453,8 +2219,7 @@ Como miembro de equipo deseo ver las tareas asignadas y las métricas del grupo.
 ![image_52](../assets/mobile-mock-up/image_120.png)
 ![image_52](../assets/mobile-mock-up/image_127.png)
 
-
-### 4.4.4.	Mobile Application Userflow Diagram
+### 4.4.4. Mobile Application Userflow Diagram
 
 ![image_52](/../assets/mobile-userflow/image_41.png)
 ![image_52](../assets/mobile-userflow/image_66.png)
@@ -2476,6 +2241,7 @@ Como miembro de equipo deseo ver las tareas asignadas y las métricas del grupo.
 ### 4.6.1. Web Applications Wireframes
 
 **Segmento 1: Manager de ONG**
+
 <center><img src="../assets/app-web-wireframe/aww-1.png" alt="app web wireframe1" style="width:80%;"></center>
 <center><img src="../assets/app-web-wireframe/aww-2.png" alt="app web wireframe2" style="width:80%;"></center>
 <center><img src="../assets/app-web-wireframe/aww-3.png" alt="app web wireframe3" style="width:80%;"></center>
@@ -2490,8 +2256,8 @@ Como miembro de equipo deseo ver las tareas asignadas y las métricas del grupo.
 <center><img src="../assets/app-web-wireframe/aww-12.png" alt="app web wireframe12" style="width:80%;"></center>
 <center><img src="../assets/app-web-wireframe/aww-13.png" alt="app web wireframe13" style="width:80%;"></center>
 
-
 **Segmento 2: Equipo de ONG**
+
 <center><img src="../assets/app-web-wireframe/aww-14.png" alt="app web wireframe14" style="width:80%;"></center>
 <center><img src="../assets/app-web-wireframe/aww-15.png" alt="app web wireframe15" style="width:80%;"></center>
 <center><img src="../assets/app-web-wireframe/aww-16.png" alt="app web wireframe16" style="width:80%;"></center>
@@ -2511,8 +2277,8 @@ Como miembro de equipo deseo ver las tareas asignadas y las métricas del grupo.
 
 ### 4.6.3. Web Applications Mock-ups.
 
-
 **Segmento 1: Manager de ONG**
+
 <center><img src="../assets/aidmanager-app-mockup/aam-1.png" alt="app web mock-up1" style="width:80%;"></center>
 <center><img src="../assets/aidmanager-app-mockup/aam-1.png" alt="app web mock-up1" style="width:80%;"></center>
 <center><img src="../assets/aidmanager-app-mockup/aam-2.png" alt="app web mock-up2" style="width:80%;"></center>
@@ -2528,8 +2294,8 @@ Como miembro de equipo deseo ver las tareas asignadas y las métricas del grupo.
 <center><img src="../assets/aidmanager-app-mockup/aam-12.png" alt="app web mock-up12" style="width:80%;"></center>
 <center><img src="../assets/aidmanager-app-mockup/aam-13.png" alt="app web mock-up13" style="width:80%;"></center>
 
-
 **Segmento 2: Equipo de ONG**
+
 <center><img src="../assets/aidmanager-app-mockup/aam-14.png" alt="app web mock-up14" style="width:80%;"></center>
 <center><img src="../assets/aidmanager-app-mockup/aam-15.png" alt="app web mock-up15" style="width:80%;"></center>
 <center><img src="../assets/aidmanager-app-mockup/aam-16.png" alt="app web mock-up16" style="width:80%;"></center>
@@ -2583,7 +2349,7 @@ Para el desarrollo de los prototipos de la **interfaz móvil** de AidManager, se
 
 ### **Video del Prototipo Funcional:**
 
-[Ver Video del Prototipo]([https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211894_upc_edu_pe/Ec5ztdvdCSNBsrwPHs9oaPwBUkfUaqyH38pDoOj_rVYPTg?e=nVMy6P&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202214784_upc_edu_pe/EXgxC3tcw85KkDGyOHjqfHIBSMt5Gqac3dwT7y5jJECUqQ?e=gKw15Z&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D))
+[Ver Video del Prototipo](<[https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211894_upc_edu_pe/Ec5ztdvdCSNBsrwPHs9oaPwBUkfUaqyH38pDoOj_rVYPTg?e=nVMy6P&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202214784_upc_edu_pe/EXgxC3tcw85KkDGyOHjqfHIBSMt5Gqac3dwT7y5jJECUqQ?e=gKw15Z&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)>)
 
 ---
 
@@ -2615,7 +2381,6 @@ El **Component Level Diagram** explora la estructura interna de cada contenedor,
 ![C4_Components4](../assets/c4_components4.png)  
 ![C4_Components5](../assets/c4_components5.png.png)
 
-
 ## 4.9. Software Object-Oriented Design
 
 ### 4.9.1. Class Diagrams
@@ -2630,17 +2395,16 @@ A continuación, se presenta el **Diagrama de Clases** del sistema AidManager, d
 
 En esta sección se detallan las **clases principales** que conforman la arquitectura orientada a objetos del sistema:
 
-| **Clase**          | **Descripción**                                                                                          |
-|--------------------|----------------------------------------------------------------------------------------------------------|
+| **Clase**          | **Descripción**                                                                                                                                                                    |
+| ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **User**           | Representa a los usuarios registrados en la plataforma, tanto **gestores** como **miembros de equipo**. Incluye métodos para gestionar cuentas, autenticación y datos de contacto. |
-| **ProjectManager** | Clase específica para los **gestores de proyectos**. Contiene métodos para planificar, asignar tareas y supervisar proyectos. |
-| **Assistant**      | Representa a los **asistentes** que colaboran en eventos y proyectos. Incluye atributos relacionados con su rol operativo y tareas asignadas. |
-| **Project**        | Define los **proyectos** gestionados en la plataforma. Contiene atributos como nombre, descripción, estado y métodos para actualizar su progreso. |
+| **ProjectManager** | Clase específica para los **gestores de proyectos**. Contiene métodos para planificar, asignar tareas y supervisar proyectos.                                                      |
+| **Assistant**      | Representa a los **asistentes** que colaboran en eventos y proyectos. Incluye atributos relacionados con su rol operativo y tareas asignadas.                                      |
+| **Project**        | Define los **proyectos** gestionados en la plataforma. Contiene atributos como nombre, descripción, estado y métodos para actualizar su progreso.                                  |
 
 ---
 
 Estas clases forman la base de la lógica de negocio de AidManager, facilitando la gestión eficiente de los elementos clave dentro de la aplicación.
-
 
 ## 4.10. Database Diagram
 
@@ -2651,15 +2415,14 @@ A continuación se presenta el **Diagrama de Base de Datos** que respalda el fun
 ![Database Diagram](../assets/database.png)
 
 Este diseño permite:
+
 - Una gestión eficiente de **usuarios**, diferenciando gestores y asistentes.
 - Registro y seguimiento detallado de **proyectos** y **tareas**.
 - Integración con funciones como control de fechas, estadísticas y comunicación interna.
 
 El modelo relacional asegura la **integridad de los datos** y la escalabilidad del sistema conforme crezcan las operaciones de la organización.
 
-
 # Capítulo V: Product Implementation
-
 
 ## 5.1. Software Configuration Management
 
@@ -2673,9 +2436,9 @@ A continuación, se detallan las herramientas y entornos utilizados durante el d
 
 - **Herramienta:** Figma
 - **Propósito:** Figma fue la plataforma utilizada para el diseño visual de la aplicación, permitiéndonos crear:
-    - **Wireframes** (bocetos de estructura de la app).
-    - **Mock-ups** (diseños visuales detallados).
-    - Prototipos interactivos tanto para **aplicaciones web como móviles**.
+  - **Wireframes** (bocetos de estructura de la app).
+  - **Mock-ups** (diseños visuales detallados).
+  - Prototipos interactivos tanto para **aplicaciones web como móviles**.
 
 Figma es una herramienta colaborativa basada en la nube, ampliamente usada en el diseño de interfaces UX/UI, lo que facilitó la visualización y validación temprana de la experiencia de usuario.
 
@@ -2695,11 +2458,10 @@ Figma es una herramienta colaborativa basada en la nube, ampliamente usada en el
 ---
 
 ### Beneficios de esta configuración:
+
 - Facilita la **colaboración remota** del equipo de diseño y desarrollo.
 - Permite iterar rápidamente sobre la interfaz con herramientas visuales.
 - Despliegue ágil de versiones funcionales accesibles desde cualquier dispositivo.
-
-
 
 ### 5.1.2. Source Code Management
 
@@ -2711,11 +2473,12 @@ Para la gestión del código fuente del proyecto **AidManager**, se utilizará u
 
 - **Landing Page:**  
   El código correspondiente a la Landing Page será gestionado en un repositorio específico en GitHub.
-    - **Repositorio:** https://github.com/AidManager/AidManager-LandingPage
+
+  - **Repositorio:** https://github.com/AidManager/AidManager-LandingPage
 
 - **Product Implementation:**  
   El desarrollo completo de la aplicación se manejará en otro repositorio dedicado a la implementación del producto final.
-    - **Repositorio:** https://github.com/AidManager/MobileApp
+  - **Repositorio:** https://github.com/AidManager/MobileApp
 
 ---
 
@@ -2738,23 +2501,24 @@ Se adoptará **GitFlow** como metodología de control de versiones, permitiendo 
 ##### **Ramas de Desarrollo:**
 
 - **Feature:**
-    - Se crea desde **Develop**.
-    - Se utiliza para el desarrollo de nuevas funcionalidades.
-    - Una vez completada y probada, se fusiona nuevamente a **Develop** y se elimina.
+  - Se crea desde **Develop**.
+  - Se utiliza para el desarrollo de nuevas funcionalidades.
+  - Una vez completada y probada, se fusiona nuevamente a **Develop** y se elimina.
 
 ---
 
 ##### **Ramas de Apoyo:**
 
 - **Release:**
-    - Nace desde **Develop**.
-    - Sirve para la preparación de una nueva **versión estable**, enfocándose en la corrección de errores y ajustes menores.
-    - Se fusiona tanto en **Main** como en **Develop** al finalizar.
+
+  - Nace desde **Develop**.
+  - Sirve para la preparación de una nueva **versión estable**, enfocándose en la corrección de errores y ajustes menores.
+  - Se fusiona tanto en **Main** como en **Develop** al finalizar.
 
 - **Hotfix:**
-    - Se crea desde **Main**.
-    - Se utiliza para solucionar **problemas críticos** detectados en producción.
-    - Se fusiona tanto en **Main** como en **Develop** una vez corregidos los errores.
+  - Se crea desde **Main**.
+  - Se utiliza para solucionar **problemas críticos** detectados en producción.
+  - Se fusiona tanto en **Main** como en **Develop** una vez corregidos los errores.
 
 ---
 
@@ -2763,7 +2527,6 @@ Se adoptará **GitFlow** como metodología de control de versiones, permitiendo 
 - Facilita el **trabajo colaborativo** y paralelo.
 - Permite una clara separación entre **desarrollo**, **pruebas** y **producción**.
 - Mejora la gestión de versiones y la **entrega continua**.
-
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
@@ -2815,9 +2578,9 @@ La configuración del despliegue de AidManager se basa en herramientas modernas 
 
 - Utilizamos **GitHub** como plataforma principal de versionado.
 - Aplicamos la metodología **GitFlow**, garantizando:
-    - Un flujo de trabajo ordenado.
-    - Ramas específicas para desarrollo, lanzamientos y correcciones.
-    - Revisión continua y controlada del código.
+  - Un flujo de trabajo ordenado.
+  - Ramas específicas para desarrollo, lanzamientos y correcciones.
+  - Revisión continua y controlada del código.
 
 ---
 
@@ -2830,32 +2593,35 @@ La configuración del despliegue de AidManager se basa en herramientas modernas 
 ---
 
 ### Beneficios:
+
 - Control detallado del **código fuente** con un estilo uniforme.
 - Flujo de trabajo ágil y seguro mediante GitHub y GitFlow.
 - Despliegue automatizado y accesible con Vercel, facilitando el acceso a versiones actualizadas del producto.
 
-
 ## 5.2. Software Implementation & Deployment
+
 ### 5.2.1. Sprint Backlogs
 
-| Id   | Title            | Id   | Title                           | Description                                                                           | Estimations (Hours) | Assigned To             | Status |
-|------|------------------|------|---------------------------------|---------------------------------------------------------------------------------------|---------------------|-------------------------|--------|
-| CC01 | Projects | C01  | Correciones y Conexion de bounded context de Projects | Correciones de la API y Front End, Asimismo conectarlos	 |           2        | Piero Periche Quiroga   | Done   |
-| CC02 | Teams | C02 | Correciones y Conexion de bounded context de Teams | Correciones de la API y Front End, Asimismo conectarlos    	 |          2      | Piero Periche Quiroga   | Done   |
-| CC03 | Tasks | C03 | Correciones y Conexion de bounded context de Tasks | Correciones de la API y Front End, Asimismo conectarlos	 |   	             2        | Diego Portales Ortiz    | Done   |
-| CC04 | Dashboard | C04 | Correciones y Conexion de bounded context para los Dashboards de Analytics | Correciones de la API y Front End, Asimismo conectarlos	 |   	           3        | Diego Portales Ortiz    | Done   |
-| CC05 | Home | C05 | Correciones y Conexion de bounded context relacionado a Home | Correciones de la API y Front End, Asimismo conectarlos	 |   	       2             | Fabiola Espinoza Inoñan | Done   |
-| CC06 | Calendar | C06 | Correciones y Conexion de bounded context relacionado con Calendar | Correciones de la API y Front End, Asimismo conectarlos	 |   	       3            | Fabiola Espinoza Inoñan | Done   |
-| CC07 | Analytics | C07 | Correciones y Conexion de bounded context Analytics | Correciones de la API y Front End, Asimismo conectarlos	 |            2        | Ricardo Barrutia Vaez   | Done   |
-| CC08 | Users | C08 | Correciones y Conexion de bounded context relacionado a los usuarios | Correciones de la API y Front End, Asimismo conectarlos	 |          3          | Ricardo Barrutia Vaez   | Done   |
+| Id   | Title     | Id  | Title                                                                      | Description                                             | Estimations (Hours) | Assigned To             | Status |
+| ---- | --------- | --- | -------------------------------------------------------------------------- | ------------------------------------------------------- | ------------------- | ----------------------- | ------ |
+| CC01 | Projects  | C01 | Correciones y Conexion de bounded context de Projects                      | Correciones de la API y Front End, Asimismo conectarlos | 2                   | Piero Periche Quiroga   | Done   |
+| CC02 | Teams     | C02 | Correciones y Conexion de bounded context de Teams                         | Correciones de la API y Front End, Asimismo conectarlos | 2                   | Piero Periche Quiroga   | Done   |
+| CC03 | Tasks     | C03 | Correciones y Conexion de bounded context de Tasks                         | Correciones de la API y Front End, Asimismo conectarlos | 2                   | Diego Portales Ortiz    | Done   |
+| CC04 | Dashboard | C04 | Correciones y Conexion de bounded context para los Dashboards de Analytics | Correciones de la API y Front End, Asimismo conectarlos | 3                   | Diego Portales Ortiz    | Done   |
+| CC05 | Home      | C05 | Correciones y Conexion de bounded context relacionado a Home               | Correciones de la API y Front End, Asimismo conectarlos | 2                   | Fabiola Espinoza Inoñan | Done   |
+| CC06 | Calendar  | C06 | Correciones y Conexion de bounded context relacionado con Calendar         | Correciones de la API y Front End, Asimismo conectarlos | 3                   | Fabiola Espinoza Inoñan | Done   |
+| CC07 | Analytics | C07 | Correciones y Conexion de bounded context Analytics                        | Correciones de la API y Front End, Asimismo conectarlos | 2                   | Ricardo Barrutia Vaez   | Done   |
+| CC08 | Users     | C08 | Correciones y Conexion de bounded context relacionado a los usuarios       | Correciones de la API y Front End, Asimismo conectarlos | 3                   | Ricardo Barrutia Vaez   | Done   |
 
 ### 5.2.2. Implemented Landing Page Evidence
+
 Se presenta la implementación de la landing page
 Los botones call to action funcionales y redirigiendo a los enlaces requeridos en el contexto de nuestra aplicación.
 
 <center><img src="../assets/Implementations/Landing_implementation.jpg" alt="WebApp deployed" style="width:80%;"></center>
 
 ### 5.2.3. Implemented Frontend-Web Application Evidence
+
 Se presenta la implementación de la aplicación Front End, en esta entrega se dejaron las funcionalidades de manera optima mas la conexión de base de datos requiere cambios.
 
 <center><img src="../assets/Implementations/WEBAplications.jpg" alt="WebApp deployed" style="width:80%;"></center>
@@ -2953,9 +2719,8 @@ AidRecruits podrá actualizar este acuerdo cuando lo estime conveniente. En tal 
 
 Este acuerdo se rige por las leyes de la **República del Perú**. En caso de controversia, ambas partes se someten a la jurisdicción de los juzgados y tribunales de **Lima Metropolitana**, con renuncia expresa a cualquier otro fuero.
 
-
-
 ### 5.2.5. Implemented Native-Mobile Application Evidence
+
 Se presenta la implementación de la aplicación móvil, en esta entrega se puede considerar la implementación mas completa.
 
 ### 5.2.6. Implemented RESTful API and/or Serverless Backend Evidence
@@ -2963,10 +2728,10 @@ Se presenta la implementación de la aplicación móvil, en esta entrega se pued
 Se presenta la implementación de la aplicación back end, se toma en cuenta también la base de datos en un servicio cloud.
 
 Primero que nada evidencias del funcionamiento en swagger
+
 <center><img src="../assets/Implementations/Swagger.png" alt="swagger deployed" style="width:80%;"></center>
 
 Como es TB1, no se llegó a realizar el despliegue en un servicio cloud, pero se tiene la evidencia de que la API funciona correctamente en el entorno local.
-
 
 ### 5.2.7. RESTful API documentation
 
@@ -3005,7 +2770,9 @@ GET
 Get Analytics by Company Id
 
 ```
+
 #### Authentication
+
 ```
 
 
@@ -3042,7 +2809,9 @@ GET
 /api/v1/comments/user/{userId}
 Get comments by User Id
 ```
+
 #### Company
+
 ```
 
 GET
@@ -3091,7 +2860,9 @@ GET
 /api/v1/payment-detail/{id}
 
 ```
+
 #### PostInteraction
+
 ```
 
 POST
@@ -3108,6 +2879,7 @@ GET
 /api/v1/posts/post-interaction/user/{userId}
 Get all favorite posts by user id
 ```
+
 #### Posts
 
 ```
@@ -3150,6 +2922,7 @@ GET
 /api/v1/posts/liked/{userId}
 Get all liked posts by user id
 ```
+
 #### Projects
 
 ```
@@ -3215,7 +2988,6 @@ Get all favorite projects by user
 ```
 
 #### TaskItems
-
 
 ```
 
@@ -3306,110 +3078,186 @@ Obtains all deleted users
 
 Se presentan los commits de los Integrantes del equipo
 
-<img src="../assets/Insights/commits.png" alt="imagen de las colaboraciones">  
+<img src="../assets/Insights/commits.png" alt="imagen de las colaboraciones">
 
 [Contribuciones del repositorio]
 
-<img src="../assets/Insights/contribuciones.png" alt="imagen de las colaboraciones">   
+<img src="../assets/Insights/contribuciones.png" alt="imagen de las colaboraciones">
 
 [Colaboradores del repositorio]
 
-<img src="/assets/Insights/contribuciones2.png" alt="imagen de los commits">  
+<img src="/assets/Insights/contribuciones2.png" alt="imagen de los commits">
 
 [Registro de los commits donde se realizaron la mayor cantidad]
 
 ## 5.3. Video About-the-Product
+
 Link: https://youtu.be/5C6CFJQ90q8
 
-
 # Capítulo VI: Product Verification & Validation
+
 ## 6.1. Testing Suites & Validation
+
 ### 6.1.1. Core Entities Unit Tests
+
 ### 6.1.2. Core Integration Tests
+
 ### 6.1.3. Core Behavior-Driven Development
+
 ### 6.1.4. Core System Tests
+
 ## 6.2. Static Testing & Verification
+
 ### 6.2.1. Static Code Analysis
+
 #### 6.2.1.1. Coding Standard & Code Conventions
+
 #### 6.2.1.2. Code Quality & Code Security
+
 ### 6.2.2. Reviews
+
 ## 6.3. Validation Interviews
+
 ### 6.3.1. Diseño de Entrevistas
+
 ### 6.3.2. Registro de Entrevistas
+
 ### 6.3.3. Evaluaciones según heurísticas
+
 ## 6.4. Auditoría de Experiencias de Usuario
+
 ### 6.4.1. Auditoría realizada
+
 #### 6.4.1.1. Información del grupo auditado
+
 #### 6.4.1.2. Cronograma de auditoría realizada
+
 #### 6.4.1.3. Contenido de auditoría realizada
+
 ### 6.4.2. Auditoría recibida
+
 #### 6.4.2.1. Información del grupo auditor
+
 #### 6.4.2.2. Cronograma de auditoría recibida
+
 #### 6.4.2.3. Contenido de auditoría recibida
+
 #### 6.4.2.4. Resumen de modificaciones para subsanar hallazgos
 
 # Capítulo VII: DevOps Practices
+
 ## 7.1. Continuous Integration
+
 ### 7.1.1. Tools and Practices
+
 ### 7.1.2. Build & Test Suite Pipeline Components
+
 ## 7.2. Continuous Delivery
+
 ### 7.2.1. Tools and Practices
+
 ### 7.2.2. Stages Deployment Pipeline Components
+
 ## 7.3. Continuous Deployment
+
 ### 7.3.1. Tools and Practices
+
 ### 7.3.2. Production Deployment Pipeline Components
+
 ## 7.4. Continuous Monitoring
+
 ### 7.4.1. Tools and Practices
+
 ### 7.4.2. Monitoring Pipeline Components
+
 ### 7.4.3. Alerting Pipeline Components
+
 ### 7.4.4. Notification Pipeline Components
 
 # Capítulo VIII: Experiment-Driven Development
+
 ## 8.1. Experiment Planning
+
 ### 8.1.1. As-Is Summary
+
 ### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims
+
 ### 8.1.3. Experiment-Ready Questions
+
 ### 8.1.4. Question Backlog
+
 ### 8.1.5. Experiment Cards
+
 ## 8.2. Experiment Design
+
 ### 8.2.1. Hypotheses
+
 ### 8.2.2. Domain Business Metrics
+
 ### 8.2.3. Measures
+
 ### 8.2.4. Conditions
+
 ### 8.2.5. Scale Calculations and Decisions
+
 ### 8.2.6. Methods Selection
+
 ### 8.2.7. Data Analytics: Goals, KPIs and Metrics Selection
+
 ### 8.2.8. Web and Mobile Tracking Plan
+
 ## 8.3. Experimentation
+
 ### 8.3.1. To-Be User Stories
+
 ### 8.3.2. To-Be Product Backlog
+
 ### 8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle
+
 #### 8.3.3.1. To-Be Sprint Backlogs
+
 #### 8.3.3.2. Implemented To-Be Landing Page Evidence
+
 #### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
+
 #### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
+
 #### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
+
 #### 8.3.3.6. Team Collaboration Insights
+
 ### 8.3.4. To-Be Validation Interviews
+
 #### 8.3.4.1. Diseño de Entrevistas
+
 #### 8.3.4.2. Registro de Entrevistas
+
 ## 8.4. Experiment Aftermath & Analysis
+
 ### 8.4.1. Analysis and Interpretation of Results
+
 ### 8.4.2. Re-scored and Re-prioritized Question Backlog
+
 ## 8.5. Continuous Learning
+
 ### 8.5.1. Shareback Session Artifacts: Learning Workflow
+
 ## 8.6. To-Be Software Platform Pre-launch
+
 ### 8.6.1. About-the-Product Intro Video
+
 # Conclusiones
+
 ### Conclusiones y recomendaciones
 
 En esta TB1 sentimos que dimos un buen primer paso como equipo: logramos ponernos de acuerdo en el alcance, organizamos el trabajo con roles claros y un backlog visible, y construimos entregables que reflejan lo que queremos lograr; hicimos prototipos, priorizamos historias y fuimos iterando con retroalimentación constante, lo que nos ayudó a alinear ideas y aprender a coordinarnos mejor; sentimos que tenemos una base sólida y un rumbo claro para la siguiente iteración, con un equipo que se comunica mejor, reparte mejor el trabajo y mantiene el foco en resultados.
 
 ### Video About-the-Team
-  
----  
-# Bibliografía
-  
 
----  
+---
+
+# Bibliografía
+
+---
+
 # Anexos
