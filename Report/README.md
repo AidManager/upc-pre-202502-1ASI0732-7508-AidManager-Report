@@ -3167,29 +3167,243 @@ Link: https://youtu.be/5C6CFJQ90q8
 
 ### 7.1.1. Tools and Practices
 
+En AidManager usamos GitHub como repositorio central y GitHub Actions como plataforma de CI. Las pruebas automatizadas son la piedra angular de la calidad; por eso el pipeline de CI está organizado para ejecutar:
+
+- **NUnit** — framework para pruebas unitarias e integración.
+
+- **FluentAssertions** — librería de aserciones para hacer los mensajes de fallo legibles y los asserts expresivos.
+
+- **SpecFlow (Gherkin)** — para casos BDD; los feature files (.feature) se transforman en tests que se ejecutan con NUnit.
+
+- **NUnit3TestAdapter** y **Microsoft.NET.Test.Sdk** en los proyectos de tests para descubrimiento y ejecución tanto local como en CI.
+
+
+Prácticas aplicadas:
+
+- Ejecutar la suite en cada `push` y `pull_request` sobre `feature/*`, `develop` y `testing`.
+
+- Separar tests por proyectos/categorías (`Unit`, `Integration`, `Specs/BDD`) para controlar alcance y tiempo de ejecución.
+
+- Mantener tests rápidos en `Unit` y mover tests lentos a `Integration` o `Specs` (ejecutados en jobs diferentes).
+
+- Usar FluentAssertions sistemáticamente para obtener fallos claros en CI y facilitar resolución de PRs rojos.
+
+- Versionar y revisar feature files Gherkin para mantener la trazabilidad entre requisitos y tests.
+
 ### 7.1.2. Build & Test Suite Pipeline Components
+
+**Objetivo:** compilar y validar automáticamente que los cambios pasan las pruebas antes de permitir merge o despliegue.
+
+**Activadores (on)**: `push` y `pull_request` en ramas `feature/*`, `develop`, `testing`.
+
+**Pasos mínimos del pipeline (resumen):**
+
+1. `actions/checkout@v3` — clonar el repo.
+2. `actions/setup-dotnet@v3` — instalar el SDK .NET (ej. 8.0).
+3. `dotnet restore` — restaurar paquetes NuGet.
+4. `dotnet build --configuration Release` — compilar.
+5. `dotnet test` — ejecutar tests por proyecto/categoría (Unit → Integration → Specs).
+6. Subir artefactos de resultados (`.trx`) y generar badge/estado.
+7. Reportar en PR (comentario resumen) si falla.
+
+**YAML ejemplo** (archivo: `.github/workflows/build-test-suite.yml`):
+
+name: Build & Test Suite
+
+on:
+  push:
+    branches: [ develop, testing, 'feature/**' ]
+  pull_request:
+    branches: [ develop, testing ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        project: [ "tests/AidManager.UnitTests/AidManager.UnitTests.csproj",
+                   "tests/AidManager.IntegrationTests/AidManager.IntegrationTests.csproj",
+                   "tests/AidManager.Specs/AidManager.Specs.csproj" ]
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Restore
+        run: dotnet restore AidManager-BackEnd.sln
+
+      - name: Build
+        run: dotnet build AidManager-BackEnd.sln --configuration Release --no-restore
+
+      - name: Run tests (matrix)
+        run: |
+          dotnet test ${{ matrix.project }} --configuration Release --no-build --logger "trx;LogFileName=$(basename ${{ matrix.project }}).trx"
+
+      - name: Upload all test results
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-results
+          path: '**/*.trx'
+
+**Puntos clave técnicos**
+
+- Ejecutamos proyectos de tests por separado para poder **paralelizar** y **filtrar por categoría** (Unit/Integration/Specs) con `--filter "Category=Unit"`.
+- Los `.trx` generados son artefactos para auditoría y análisis.
+- Si un job falla, el workflow falla → protección de rama impide merge.
 
 ## 7.2. Continuous Delivery
 
 ### 7.2.1. Tools and Practices
 
+El pipeline de entrega (CD) usa GitHub Actions como orquestador y se conecta con el servicio de hosting elegido (Railway/Azure/Railway CLI según conveniencia). Principios aplicados:
+
+- **Faseada**: sólo artefactos que pasaron todas las pruebas son empaquetados para staging/producción.
+- **Gates**: `testing` actúa como entorno de validación; sólo tras pasar smoke tests en `testing` se promueve a `main`/producción.
+- **Trazabilidad**: guardar `.trx` y logs asociados al run para auditoría.
+- **Secrets**: credenciales almacenadas en GitHub Secrets (p. ej. `RAILWAY_TOKEN`, `AZURE_CREDENTIALS`), nunca en código.
 ### 7.2.2. Stages Deployment Pipeline Components
+
+**Etapas sugeridas en CD:**
+
+1. **Build & Test** (ya ejecutado en CI).
+2. **Package**: `dotnet publish` o build de imagen Docker.
+3. **Deploy to Staging**: despliegue automatizado tras merge a `testing`.
+4. **Smoke / SpecFlow smoke scenarios**: ejecutar un conjunto reducido de SpecFlow (end-to-end básicos) contra staging.
+5. **Approval / Promote**: aprobación manual o gated merge para production.
+
+**Snippet de deploy a staging (simplificado):**
+
+name: Deploy to Staging
+
+on:
+  push:
+    branches: [ testing ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build-and-test
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '8.0.x'
+      - run: dotnet publish AidManager-BackEnd.sln -c Release -o ./publish
+      - run: npm install -g @railway/cli
+      - run: railway login --token ${{ secrets.RAILWAY_TOKEN }}
+      - run: railway up --environment testing
+      - name: Run smoke SpecFlow scenarios
+        run: dotnet test ./tests/AidManager.Specs/AidManager.Specs.csproj --filter "Category=Smoke" --logger "trx;LogFileName=smoke.trx"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: smoke-results
+          path: '**/smoke.trx'
+
 
 ## 7.3. Continuous Deployment
 
 ### 7.3.1. Tools and Practices
 
+Continuous Deployment (CD automático a producción) puede habilitarse sólo cuando la suite de tests + smoke scenarios son robustos:
+
+- Recomendación: **no habilitar despliegue automático a producción** sin gate de aprobación humana o feature flags.
+- Si se habilita: `main` → workflow que construye, prueba (Unit+Integration+Specs), publica artefacto y despliega (Railway/Azure).
+- Incluir rollback automático (script que detecta fallo en smoke tests post-deploy y revierte).
+
 ### 7.3.2. Production Deployment Pipeline Components
+
+**Pipeline prod** (activado en push a `main` o con `workflow_dispatch` y approval step):
+
+- build → test → publish → deploy → post-deploy smoke tests → notify (Slack/Email).
+- Usar `workflow_dispatch` + `environment` protection para forzar aprobación si se desea.
+- Guardar releases y tags (`vX.Y.Z`) para trazabilidad.
+
+Ejemplo (acción final de deploy a producción):
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build-test-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '8.0.x'
+      - run: dotnet restore
+      - run: dotnet build -c Release
+      - run: dotnet test --no-build -c Release
+      - run: dotnet publish -c Release -o ./publish
+      - env:
+          RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
+        run: |
+          npm i -g @railway/cli
+          railway login --token $RAILWAY_TOKEN
+          railway up --production
+      - name: Notify success
+        if: success()
+        uses: actions/github-script@v6
+        with:
+          script: |
+            github.issues.createComment({
+              issue_number: 1,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: "Deployment to production completed successfully."
+            })
+
 
 ## 7.4. Continuous Monitoring
 
 ### 7.4.1. Tools and Practices
 
+Para monitorizar la calidad y salud de los pipelines usamos mecanismos disponibles en GitHub Actions y herramientas de reporting:
+
+- **GitHub Actions runs** como fuente primaria de estado: duración de jobs, porcentaje de tests fallidos, historial de runs.
+- **Artefactos `.trx`** para inspección de fallos.
+- **Reports HTML / SpecFlow+ LivingDoc** (opcional) para visualizar el estado de los features.
+- **Badges** en README informando build status y test coverage.
+- **Notificaciones**: enviar resumen de fallos por Slack/Teams/Email con `actions/github-script`, `slack-notify` action o webhooks.
+
 ### 7.4.2. Monitoring Pipeline Components
+
+- **Test run history**: usar el histórico de Actions para detectar regresiones en tests.
+- **Coverage**: agregar generación de coverage (coverlet) en `dotnet test` y publicar resultado (badge).
+    - Ejemplo: `dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=cobertura`.
+- **SpecFlow reports**: generar reportes legibles para QA (HTML o LivingDoc) y subirlos como artefacto.
 
 ### 7.4.3. Alerting Pipeline Components
 
+- **Alert triggers**: run failed, test failure rate > X, new flaky test detected.
+- **Delivery channels**: Slack/Email/GitHub PR comment.
+- **Auto-comment**: si CI falla en un PR, el workflow publica un comentario con resumen y link al log.
+
+Snippet para comentar en PR si falla:
+
+- name: Comment PR on failure
+  if: failure()
+  uses: actions/github-script@v6
+  with:
+    script: |
+      const body = "CI failed: revisa los logs de Actions. Tests fallidos: (ver artifacts).";
+      github.issues.createComment({
+        issue_number: context.issue.number,
+        owner: context.repo.owner,
+        repo: context.repo.repo,
+        body
+      });
+
+
 ### 7.4.4. Notification Pipeline Components
+
+- **Slack**: usar `rtCamp/action-slack-notify` o `slackapi/slack-github-action` para enviar un resumen rápido de estado.
+- **Email**: enviar reporte automatizado de runs nocturnos o semanal con tests inestables.
+- **GitHub PR comments**: resumen inmediato en el PR para acelerar corrección.
 
 # Capítulo VIII: Experiment-Driven Development
 
