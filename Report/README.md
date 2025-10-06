@@ -3121,7 +3121,7 @@ Para realizar las pruebas unitarias y de integracion se ha usado el marco de pru
 
 Se muestra evidencia de los test a las historios de usuario del proyecto
 
-![[gsm-1.png]]
+![[../assets/gsm-1.png]]
 
 ![[gsm-2.png]]
 
