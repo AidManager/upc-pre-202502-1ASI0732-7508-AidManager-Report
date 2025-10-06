@@ -3115,12 +3115,49 @@ Link: https://youtu.be/5C6CFJQ90q8
 
 ## 6.1. Testing Suites & Validation
 
+Para realizar las pruebas unitarias y de integracion se ha usado el marco de pruebas NUnit que es de codigo abierto para todos los lenguajes .NET.
+
 ### 6.1.1. Core Entities Unit Tests
+
+Se muestra evidencia de los test a las historios de usuario del proyecto
+
+![[Pasted image 20251006045708.png]]
+
+![[Pasted image 20251006045851.png]]
+
+![[Pasted image 20251006051626.png]]
+
+![[Pasted image 20251006050016.png]]
+
+![[Pasted image 20251006050048.png]]
+
+![[Pasted image 20251006050559.png]]
+
+![[Pasted image 20251006050623.png]]
+
+![[Pasted image 20251006050652.png]]
+
+![[Pasted image 20251006050231.png]]
+
+![[Pasted image 20251006050259.png]]
+
+![[Pasted image 20251006050335.png]]
+
+![[Pasted image 20251006050419.png]]
+
+![[Pasted image 20251006050803.png]]
+
+![[Pasted image 20251006050824.png]]
 
 ### 6.1.2. Core Integration Tests
 
 ### 6.1.3. Core Behavior-Driven Development
 
+![[Pasted image 20251006054525.png]]
+
+![[Pasted image 20251006054541.png]]
+
+![[Pasted image 20251006054557.png]]
 ### 6.1.4. Core System Tests
 
 ## 6.2. Static Testing & Verification

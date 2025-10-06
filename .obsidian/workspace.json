@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Report/README.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -44,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de archivos"
+              "title": "Files"
             }
           },
           {
@@ -160,17 +160,27 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir selector rápido": false,
-      "graph:Abrir vista gráfica": false,
-      "canvas:Crear nuevo lienzo": false,
-      "daily-notes:Abrir la nota de hoy": false,
-      "templates:Insertar plantilla": false,
-      "command-palette:Abrir paleta de comandos": false,
-      "bases:Crear nueva base": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
     }
   },
   "active": "6bb75bb094f73786",
   "lastOpenFiles": [
-    "assets/Insight.jpg"
+    "assets/Pasted image 20251006054525.png",
+    "assets/Pasted image 20251006054557.png",
+    "Report/README.md",
+    "assets/Pasted image 20251006054541.png",
+    "assets/Pasted image 20251006045851.png",
+    "assets/Pasted image 20251006045708.png",
+    "assets/Pasted image 20251006051626.png",
+    "assets/Pasted image 20251006051434.png",
+    "assets/Pasted image 20251006050824.png",
+    "assets/Pasted image 20251006050803.png",
+    "assets/Pasted image 20251006050652.png"
   ]
 }
