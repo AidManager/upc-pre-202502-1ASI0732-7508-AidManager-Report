@@ -3121,52 +3121,52 @@ Para realizar las pruebas unitarias y de integracion se ha usado el marco de pru
 
 Se muestra evidencia de los test a las historios de usuario del proyecto
 
-![[Pasted image 20251006045708.png]]
+![[gsm-1.png]]
 
-![[Pasted image 20251006045851.png]]
+![[gsm-2.png]]
 
-![[Pasted image 20251006051626.png]]
+![[gsm-17.png]]
 
-![[Pasted image 20251006050016.png]]
+![[gsm-4.png]]
 
-![[Pasted image 20251006050048.png]]
+![[gsm-6.png]]
 
-![[Pasted image 20251006050559.png]]
+![[gsm-11.png]]
 
-![[Pasted image 20251006050623.png]]
+![[gsm-12.png]]
 
-![[Pasted image 20251006050652.png]]
+![[gsm-13.png]]
 
-![[Pasted image 20251006050231.png]]
+![[gsm-5.png]]
 
-![[Pasted image 20251006050259.png]]
+![[gsm-7.png]]
 
-![[Pasted image 20251006050335.png]]
+![[gsm-9.png]]
 
-![[Pasted image 20251006050419.png]]
+![[gsm-10.png]]
 
-![[Pasted image 20251006050803.png]]
+![[gsm-14.png]]
 
-![[Pasted image 20251006050824.png]]
+![[gsm-15.png]]
 
 ### 6.1.2. Core Integration Tests
 
-![[Pasted image 20251006160900.png]]
+![[gsm-21.png]]
 
 ### 6.1.3. Core Behavior-Driven Development
 
-![[Pasted image 20251006054525.png]]
+![[gsm-18.png]]
 
-![[Pasted image 20251006054541.png]]
+![[gsm-19.png]]
 
 
 ### 6.1.4. Core System Tests
 
-![[Pasted image 20251006162503.png]]
+![[gsm-22.png]]
 
-![[Pasted image 20251006162524.png]]
+![[gsm-23.png]]
 
-![[Pasted image 20251006162539.png]]
+![[gsm-24.png]]
 
 ## 6.2. Static Testing & Verification
 
