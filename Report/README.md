@@ -3209,247 +3209,380 @@ Se muestra evidencia de los test a las historios de usuario del proyecto
 # Capítulo VII: DevOps Practices
 
 ## 7.1. Continuous Integration
+### 7.1.1. Tools and Practices.
+En esta sección, se detallan las herramientas y prácticas utilizadas durante el desarrollo del proyecto. Estas herramientas jugaron un papel fundamental en la implementación exitosa del proyecto y en la garantía de su calidad y eficiencia.
 
-### 7.1.1. Tools and Practices
+* GitHub Actions sirvió como plataforma central para la gestión del código fuente y el control de versiones. Facilitó el despliegue de producción desde la rama master hacia la aplicación web en Azure.
 
-En AidManager usamos GitHub como repositorio central y GitHub Actions como plataforma de CI. Las pruebas automatizadas son la piedra angular de la calidad; por eso el pipeline de CI está organizado para ejecutar:
+<br>
+<img src="../assets/github-actions-logo.png" alt="imagen de Integration UpdateProjectWithTasks">  
 
-- **NUnit** — framework para pruebas unitarias e integración.
+### 7.1.2. Build & Test Suite Pipeline Components.
 
-- **FluentAssertions** — librería de aserciones para hacer los mensajes de fallo legibles y los asserts expresivos.
+Se implementó un pipeline de compilación y ejecución de pruebas automatizadas utilizando **GitHub Actions**, con el objetivo de validar la calidad y funcionamiento del backend desarrollado en .NET 8 antes de su despliegue.
 
-- **SpecFlow (Gherkin)** — para casos BDD; los feature files (.feature) se transforman en tests que se ejecutan con NUnit.
+El pipeline se activa automáticamente al realizar `push` o `pull_request` en las ramas `main`, `testing` o `pipeline-test`. Este asegura que el código se descargue, compile correctamente, restaure sus dependencias y que la suite completa de pruebas unitarias y de integración se ejecute satisfactoriamente.
 
-- **NUnit3TestAdapter** y **Microsoft.NET.Test.Sdk** en los proyectos de tests para descubrimiento y ejecución tanto local como en CI.
+## Estructura del Pipeline
+
+El pipeline está definido en el archivo `.github/workflows/build-test-suite.yml`, compuesto por los siguientes pasos:
+
+1. **Clonación del repositorio**  
+   Descarga el código fuente para trabajar con la versión más reciente.
+
+2. **Configuración del SDK de .NET 8**  
+   Se instala la versión 8 del SDK de .NET para asegurar la compatibilidad con el proyecto.
+
+3. **Restauración de dependencias**  
+   Se restauran los paquetes NuGet necesarios para compilar el proyecto.
+
+4. **Compilación de la solución**  
+   El proyecto se compila en modo Release para garantizar que el código está listo para producción.
+
+5. **Ejecución de la suite de pruebas**  
+   Se ejecutan todas las pruebas unitarias e integración definidas en la solución, asegurando la calidad del código.
+
+```yaml
+steps:
+  - uses: actions/checkout@v3
+  - uses: actions/setup-dotnet@v3
+    with:
+      dotnet-version: '8.0.x'
+  - run: dotnet restore AidManager-BackEnd.sln
+  - run: dotnet build AidManager-BackEnd.sln --configuration Release --no-restore
+  - run: dotnet test AidManager-BackEnd.sln --configuration Release --no-build --verbosity normal --logger "trx"
+```
+
+<img src="../assets/gh-actions-one.jpg" alt="imagen de Integration UpdateProjectWithTasks">  
+<br>
+<br>
 
 
-Prácticas aplicadas:
+<img src="../assets/gh-actions-two.jpg" alt="imagen de Integration UpdateProjectWithTasks">  
 
-- Ejecutar la suite en cada `push` y `pull_request` sobre `feature/*`, `develop` y `testing`.
-
-- Separar tests por proyectos/categorías (`Unit`, `Integration`, `Specs/BDD`) para controlar alcance y tiempo de ejecución.
-
-- Mantener tests rápidos en `Unit` y mover tests lentos a `Integration` o `Specs` (ejecutados en jobs diferentes).
-
-- Usar FluentAssertions sistemáticamente para obtener fallos claros en CI y facilitar resolución de PRs rojos.
-
-- Versionar y revisar feature files Gherkin para mantener la trazabilidad entre requisitos y tests.
-
-### 7.1.2. Build & Test Suite Pipeline Components
-
-**Objetivo:** compilar y validar automáticamente que los cambios pasan las pruebas antes de permitir merge o despliegue.
-
-**Activadores (on)**: `push` y `pull_request` en ramas `feature/*`, `develop`, `testing`.
-
-**Pasos mínimos del pipeline (resumen):**
-
-1. `actions/checkout@v3` — clonar el repo.
-2. `actions/setup-dotnet@v3` — instalar el SDK .NET (ej. 8.0).
-3. `dotnet restore` — restaurar paquetes NuGet.
-4. `dotnet build --configuration Release` — compilar.
-5. `dotnet test` — ejecutar tests por proyecto/categoría (Unit → Integration → Specs).
-6. Subir artefactos de resultados (`.trx`) y generar badge/estado.
-7. Reportar en PR (comentario resumen) si falla.
-
-**YAML ejemplo** (archivo: `.github/workflows/build-test-suite.yml`):
-
-name: Build & Test Suite
-
-on:
-  push:
-    branches: [ develop, testing, 'feature/**' ]
-  pull_request:
-    branches: [ develop, testing ]
-
-jobs:
-  build-and-test:
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        project: [ "tests/AidManager.UnitTests/AidManager.UnitTests.csproj",
-                   "tests/AidManager.IntegrationTests/AidManager.IntegrationTests.csproj",
-                   "tests/AidManager.Specs/AidManager.Specs.csproj" ]
-    steps:
-      - uses: actions/checkout@v3
-
-      - name: Setup .NET
-        uses: actions/setup-dotnet@v3
-        with:
-          dotnet-version: '8.0.x'
-
-      - name: Restore
-        run: dotnet restore AidManager-BackEnd.sln
-
-      - name: Build
-        run: dotnet build AidManager-BackEnd.sln --configuration Release --no-restore
-
-      - name: Run tests (matrix)
-        run: |
-          dotnet test ${{ matrix.project }} --configuration Release --no-build --logger "trx;LogFileName=$(basename ${{ matrix.project }}).trx"
-
-      - name: Upload all test results
-        uses: actions/upload-artifact@v4
-        with:
-          name: test-results
-          path: '**/*.trx'
-
-**Puntos clave técnicos**
-
-- Ejecutamos proyectos de tests por separado para poder **paralelizar** y **filtrar por categoría** (Unit/Integration/Specs) con `--filter "Category=Unit"`.
-- Los `.trx` generados son artefactos para auditoría y análisis.
-- Si un job falla, el workflow falla → protección de rama impide merge.
 
 ## 7.2. Continuous Delivery
 
-### 7.2.1. Tools and Practices
+### 7.2.1. Tools and Practices.
+<!-- Benchmark en HTML embebido dentro de Markdown -->
 
-El pipeline de entrega (CD) usa GitHub Actions como orquestador y se conecta con el servicio de hosting elegido (Railway/Azure/Railway CLI según conveniencia). Principios aplicados:
+<h2>Benchmark</h2>
 
-- **Faseada**: sólo artefactos que pasaron todas las pruebas son empaquetados para staging/producción.
-- **Gates**: `testing` actúa como entorno de validación; sólo tras pasar smoke tests en `testing` se promueve a `main`/producción.
-- **Trazabilidad**: guardar `.trx` y logs asociados al run para auditoría.
-- **Secrets**: credenciales almacenadas en GitHub Secrets (p. ej. `RAILWAY_TOKEN`, `AZURE_CREDENTIALS`), nunca en código.
-### 7.2.2. Stages Deployment Pipeline Components
+<table border="1" cellspacing="0" cellpadding="8">
+  <tr>
+    <th colspan="4" style="text-align:left;">
+      <strong>¿Por qué llevar a cabo este análisis?</strong><br/>
+      Realizar un análisis competitivo es importante ya que es esencial para averiguar qué hacen las diferentes opciones que podremos tener. Asimismo, nos otorga la capacidad de reconocer sus fortalezas, oportunidades y debilidades y así poder tomar una decisión.
+    </th>
+  </tr>
+  <tr>
+    <th>Nombre</th>
+    <th>Jenkins</th>
+    <th>Bamboo</th>
+    <th>Azure DevOps</th>
+  </tr>
+  <tr>
+    <td><strong>Logo</strong></td>
+    <td><img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Jenkins_logo.svg" alt="Jenkins" width="80"/></td>
+    <td><img src="https://cdn.prod.website-files.com/6203daf47137054c031fa0e6/66bf5b4bf7dece48d211a4ac_Atlassian%20Bamboo.svg" alt="Bamboo" width="100"/></td>
+    <td><img src="https://cdn.iconscout.com/icon/free/png-256/free-azure-devops-3628645-3029870.png" alt="Azure DevOps" width="100"/></td>
+  </tr>
+  <tr>
+    <td><strong>Perfil</strong><br/>Overview</td>
+    <td>Jenkins es un servidor open source para la integración continua. Es una herramienta extensible que permite compilar y probar software de forma continua, lo que facilita a los desarrolladores integrar cambios en un proyecto y entregar nuevas versiones a los usuarios.</td>
+    <td>Bamboo es una herramienta de integración continua de Atlassian que reúne compilaciones, pruebas y versiones automatizadas en un solo flujo de trabajo. Permite automatizar el flujo desde el código hasta la implementación, lo que facilita la entrega continua.</td>
+    <td>Azure DevOps es un conjunto de servicios y herramientas proporcionado por Microsoft para gestionar todo el ciclo de vida del desarrollo de software. Esta plataforma es muy utilizada para las empresas que desean integrar metodologías ágiles y prácticas modernas implementando la metodología DevOps.</td>
+  </tr>
+  <tr>
+    <td><strong>Perfil de Producto</strong><br/>Fortalezas</td>
+    <td>
+      <ul>
+        <li>Ofrece una amplia gama de plugins.</li>
+        <li>Gran comunidad de usuarios y soporte.</li>
+        <li>Open source y flexible.</li>
+        <li><strong>Ventajas:</strong> Integración continua, extensibilidad y comunidad.</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Integra perfectamente con otros productos de Atlassian como JIRA y Bitbucket.</li>
+        <li>Proporciona una interfaz intuitiva y fácil de usar.</li>
+        <li><strong>Ventajas:</strong> Integración con Atlassian, seguimiento automatizado.</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Proporciona servicios de compilación, gestión de repositorios, testing, integración y despliegue continuo.</li>
+        <li><strong>Ventajas:</strong> Integración nativa con Azure, control de calidad y seguridad de código.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Desventajas</strong></td>
+    <td>
+      <ul>
+        <li><strong>Complejidad inicial:</strong> Configurar Jenkins puede ser complicado debido a su amplia gama de opciones y complementos.</li>
+        <li><strong>Mantenimiento:</strong> Requiere actualizaciones y mantenimiento regular para evitar problemas de seguridad.</li>
+        <li><strong>Escalabilidad:</strong> A medida que crece, puede volverse más difícil de administrar.</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li><strong>Costo:</strong> Bamboo no es de código abierto y requiere una licencia, lo que puede ser costoso para algunas organizaciones.</li>
+        <li><strong>Menos personalización:</strong> Aunque es fácil de usar, tiene menos opciones de personalización en comparación con Jenkins.</li>
+        <li><strong>Dependencia de Atlassian:</strong> Si no utilizas otros productos de Atlassian, algunas características pueden no ser tan útiles.</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li><strong>Curva de aprendizaje:</strong> Puede llevar tiempo familiarizarse con todas las características de Azure DevOps.</li>
+        <li><strong>Integración limitada con otras herramientas:</strong> Aunque funciona bien con Azure, la integración con otras herramientas puede ser menos fluida.</li>
+        <li><strong>Costo:</strong> Algunas características avanzadas pueden requerir una suscripción de pago.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
-**Etapas sugeridas en CD:**
+### 7.2.2. Stages Deployment Pipeline Components.
 
-1. **Build & Test** (ya ejecutado en CI).
-2. **Package**: `dotnet publish` o build de imagen Docker.
-3. **Deploy to Staging**: despliegue automatizado tras merge a `testing`.
-4. **Smoke / SpecFlow smoke scenarios**: ejecutar un conjunto reducido de SpecFlow (end-to-end básicos) contra staging.
-5. **Approval / Promote**: aprobación manual o gated merge para production.
+Se implementó un pipeline de integración continua (CI) utilizando **GitHub Actions** para automatizar la validación del backend desarrollado en .NET 8. Este pipeline se activa al realizar `push` o `pull_request` en las ramas `main`, `testing` o `pipeline-test`.
 
-**Snippet de deploy a staging (simplificado):**
+El objetivo del pipeline es asegurar que el código se descargue, compile, restaure sus dependencias y pase las pruebas unitarias antes de cualquier despliegue.
 
-name: Deploy to Staging
+---
+
+##Estructura del Pipeline
+
+El pipeline está definido en el archivo `.github/workflows/ci-cd.yml`, y está compuesto por los siguientes pasos:
+
+1. **Clonación del repositorio**
+2. **Configuración del SDK de .NET 8**
+3. **Restauración de dependencias**
+4. **Compilación del proyecto**
+5. **Ejecución de pruebas unitarias**
+
+```yaml
+steps:
+  - uses: actions/checkout@v3
+  - uses: actions/setup-dotnet@v3
+    with:
+      dotnet-version: '8.0.x'
+  - run: dotnet restore AidManager-BackEnd.sln
+  - run: dotnet build AidManager-BackEnd.sln --configuration Release --no-restore
+  - run: dotnet test AidManager-BackEnd.sln --configuration Release --no-build 
+```
+Resultado de la ejecucion: Visualizacion del archivo .yml
+1. Visualizacion del archivo .yml
+   <br>
+   <img src="../assets/pipe1.png" alt="imagen de Visualizacion del archivo .yml">
+
+2. Inicio del pipeline tras un commit en la rama pipeline-test
+   <br>
+   <img src="../assets/pipe2.png" alt="imagen de pipeline">
+
+3. Resultado general del build test
+   <br>
+   <img src="../assets/pipe3.png" alt="imagen de Build Test">
+
+4. Logs detallados del pipeline
+   <br>
+   <img src="../assets/pipe4.png" alt="imagen de detalles del pipeline">
+
+5. Compilacion y pruebas unitarias exitosa
+   <br>
+   <img src="../assets/pipe5.png" alt="imagen de compilacion y pruebas unitarias exitosa">
+
+## 7.3. Continuous deployment
+### 7.3.1. Tools and Practices.
+<h2>Benchmark</h2>
+
+<table border="1" cellspacing="0" cellpadding="8">
+  <tr>
+    <th colspan="4" style="text-align:left;">
+      <strong>¿Por qué llevar a cabo este análisis?</strong><br/>
+      Realizar un análisis competitivo es importante ya que es esencial para averiguar qué hacen las diferentes opciones que podremos tener. Asimismo, nos otorga la capacidad de reconocer sus fortalezas, oportunidades y debilidades y así poder tomar una decisión.
+    </th>
+  </tr>
+  <tr>
+    <th>Nombre</th>
+    <th>GitHub Actions</th>
+    <th>Jenkins</th>
+    <th>GitLab CI/CD</th>
+  </tr>
+  <tr>
+    <td><strong>Logo</strong></td>
+    <td><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="80" alt="GitHub Actions Logo"/></td>
+    <td><img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Jenkins_logo.svg" width="80" alt="Jenkins Logo"/></td>
+    <td><img src="https://about.gitlab.com/images/press/logo/png/gitlab-icon-rgb.png" width="80" alt="GitLab Logo"/></td>
+  </tr>
+  <tr>
+    <td><strong>Perfil</strong><br/>Overview</td>
+    <td>GitHub Actions es un servicio de CI/CD integrado directamente en GitHub que permite automatizar flujos de trabajo y gestión de repositorios.</td>
+    <td>Jenkins es una herramienta de automatización de código abierto que permite la integración continua y la entrega continua (CI/CD).</td>
+    <td>GitLab CI/CD es una característica integrada en GitLab para la automatización del ciclo de vida del desarrollo de software.</td>
+  </tr>
+  <tr>
+    <td><strong>Perfil de Producto</strong><br/>Fortalezas</td>
+    <td>
+      <ul>
+        <li><strong>Integración Profunda:</strong> Totalmente integrado con GitHub.</li>
+        <li><strong>Personalización:</strong> Permite flujos personalizados con acciones reutilizables.</li>
+        <li><strong>Comunidad y Ecosistema:</strong> Amplia comunidad y acciones disponibles.</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li><strong>Flexibilidad:</strong> Altamente personalizable con una gran variedad de plugins.</li>
+        <li><strong>Escalabilidad:</strong> Administra proyectos grandes y complejos.</li>
+        <li><strong>Gran Comunidad:</strong> Amplio soporte activo.</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li><strong>Integración Completa:</strong> Integrado en todo el ecosistema GitLab.</li>
+        <li><strong>Automatización Extensa:</strong> CI/CD, Issues, Repos, Monitorización y más.</li>
+        <li><strong>Registros y Reportes:</strong> Visibilidad completa y herramientas de análisis.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Desventajas</strong></td>
+    <td>
+      <ul>
+        <li><strong>Curva de Aprendizaje:</strong> Configurar flujos personalizados puede ser complejo.</li>
+        <li><strong>Límites de uso:</strong> Recursos limitados en planes gratuitos.</li>
+        <li><strong>Almacenamiento y ejecución:</strong> Restricciones para usuarios gratuitos.</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li><strong>Configuración compleja:</strong> Requiere conocimiento técnico para configurar y mantener.</li>
+        <li><strong>Escalado Manual:</strong> La administración puede volverse compleja con el crecimiento.</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li><strong>Requerimientos de Infraestructura:</strong> Puede necesitar runners propios.</li>
+        <li><strong>Complejidad:</strong> Algunas configuraciones requieren más tiempo y planificación.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+### 7.3.2. Production Deployment Pipeline Components.
+
+Este apartado describe la configuración y ejecución del pipeline de despliegue a producción del proyecto **AidManager-General-BackEnd** utilizando GitHub Actions y Railway.
+
+### Configuración del Workflow
+
+El workflow `deploy-to-production.yml` se activa automáticamente cuando se hace `push` a la rama `testing`, permitiendo automatizar las etapas de build, test y despliegue del proyecto.
+
+```yaml
+name: AidManager CI/CD Pipeline
 
 on:
   push:
-    branches: [ testing ]
-
-jobs:
-  deploy:
-    runs-on: ubuntu-latest
-    needs: build-and-test
-    steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-dotnet@v3
-        with:
-          dotnet-version: '8.0.x'
-      - run: dotnet publish AidManager-BackEnd.sln -c Release -o ./publish
-      - run: npm install -g @railway/cli
-      - run: railway login --token ${{ secrets.RAILWAY_TOKEN }}
-      - run: railway up --environment testing
-      - name: Run smoke SpecFlow scenarios
-        run: dotnet test ./tests/AidManager.Specs/AidManager.Specs.csproj --filter "Category=Smoke" --logger "trx;LogFileName=smoke.trx"
-      - uses: actions/upload-artifact@v4
-        with:
-          name: smoke-results
-          path: '**/smoke.trx'
-
-
-## 7.3. Continuous Deployment
-
-### 7.3.1. Tools and Practices
-
-Continuous Deployment (CD automático a producción) puede habilitarse sólo cuando la suite de tests + smoke scenarios son robustos:
-
-- Recomendación: **no habilitar despliegue automático a producción** sin gate de aprobación humana o feature flags.
-- Si se habilita: `main` → workflow que construye, prueba (Unit+Integration+Specs), publica artefacto y despliega (Railway/Azure).
-- Incluir rollback automático (script que detecta fallo en smoke tests post-deploy y revierte).
-
-### 7.3.2. Production Deployment Pipeline Components
-
-**Pipeline prod** (activado en push a `main` o con `workflow_dispatch` y approval step):
-
-- build → test → publish → deploy → post-deploy smoke tests → notify (Slack/Email).
-- Usar `workflow_dispatch` + `environment` protection para forzar aprobación si se desea.
-- Guardar releases y tags (`vX.Y.Z`) para trazabilidad.
-
-Ejemplo (acción final de deploy a producción):
-
-on:
-  push:
-    branches: [ main ]
+    branches: [testing]  # Rama de despliegue
 
 jobs:
   build-test-deploy:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v3
+
       - uses: actions/setup-dotnet@v3
         with:
           dotnet-version: '8.0.x'
-      - run: dotnet restore
-      - run: dotnet build -c Release
-      - run: dotnet test --no-build -c Release
-      - run: dotnet publish -c Release -o ./publish
-      - env:
-          RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
-        run: |
-          npm i -g @railway/cli
-          railway login --token $RAILWAY_TOKEN
-          railway up --production
-      - name: Notify success
-        if: success()
-        uses: actions/github-script@v6
-        with:
-          script: |
-            github.issues.createComment({
-              issue_number: 1,
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              body: "Deployment to production completed successfully."
-            })
 
+      - run: dotnet restore AidManager-BackEnd.sln
 
+      - run: dotnet build AidManager-BackEnd.sln --configuration Release --no-restore
+
+      - run: dotnet test AidManager-BackEnd.sln --configuration Release --no-build
+
+      - run: npm install -g @railway/cli
+
+      - run: railway login --token ${{ secrets.RAILWAY_TOKEN }}
+
+      - run: railway up --production
+```
+
+### Éxito en ejecución del pipeline:
+![Pipeline Success](../assets/deploy1.png)
 ## 7.4. Continuous Monitoring
+
+Esta sección describe las herramientas, prácticas y componentes implementados para garantizar una estrategia efectiva de monitoreo continuo, enfocada en asegurar la disponibilidad del sistema, detectar fallas de forma proactiva y mejorar la confiabilidad general del servicio.
 
 ### 7.4.1. Tools and Practices
 
-Para monitorizar la calidad y salud de los pipelines usamos mecanismos disponibles en GitHub Actions y herramientas de reporting:
+Se utilizaron diversas herramientas orientadas a monitoreo de aplicaciones distribuidas:
 
-- **GitHub Actions runs** como fuente primaria de estado: duración de jobs, porcentaje de tests fallidos, historial de runs.
-- **Artefactos `.trx`** para inspección de fallos.
-- **Reports HTML / SpecFlow+ LivingDoc** (opcional) para visualizar el estado de los features.
-- **Badges** en README informando build status y test coverage.
-- **Notificaciones**: enviar resumen de fallos por Slack/Teams/Email con `actions/github-script`, `slack-notify` action o webhooks.
+- **Prometheus:** Para la recolección de métricas del backend y contenedores. <img src="https://miro.medium.com/v2/resize:fit:800/1*XE0ObomSZ6cwRHKNZ751Vg.png" alt="Prometheus"/>
+- **Grafana:** Visualización de métricas clave mediante dashboards personalizables. <img src="https://images.icon-icons.com/2699/PNG/512/grafana_logo_icon_171049.png" alt="Grafana"/>
+- **Elastic Stack (Elasticsearch, Logstash, Kibana):** Gestión centralizada de logs para facilitar auditorías, trazabilidad y diagnóstico. <img src="https://www.dariawan.com/media/images/tech-elastic-stack.width-400.png" alt="Elastic Stack"/>
+- **Firebase Crashlytics:** Diagnóstico de errores en tiempo real en la aplicación móvil. <img src="https://i.ibb.co/21P5WbHf/1-u-Jfn7k-Aw-O6d-Q2z-Paca8-MKA-removebg-preview.png" alt="Firebase Crashlytics"/>
+- **StatusCake:** Verificación continua de disponibilidad en endpoints críticos. <img src="https://dka575ofm4ao0.cloudfront.net/pages-transactional_logos/retina/177420/horizontal-logo-blackberry-text.png" alt="Statuscake"/>
+
+Prácticas clave aplicadas:
+
+- **Establecimiento de líneas base:** Se definieron indicadores de referencia de uso de CPU, memoria y latencia por servicio.
+- **Monitoreo de métricas clave:** Incluye uso de recursos, tiempos de respuesta, tasa de errores HTTP, disponibilidad y actividad por módulo.
+- **Monitoreo sintético:** Simulación de peticiones a rutas específicas como `/health` para asegurar disponibilidad continua.
+- **Registro centralizado:** Logs del backend, frontend y base de datos son recolectados y almacenados en Elasticsearch mediante Filebeat.
+- **Cheques de salud automatizados:** Incluidos en el pipeline de despliegue, ejecutados antes de habilitar cada servicio.
 
 ### 7.4.2. Monitoring Pipeline Components
 
-- **Test run history**: usar el histórico de Actions para detectar regresiones en tests.
-- **Coverage**: agregar generación de coverage (coverlet) en `dotnet test` y publicar resultado (badge).
-    - Ejemplo: `dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=cobertura`.
-- **SpecFlow reports**: generar reportes legibles para QA (HTML o LivingDoc) y subirlos como artefacto.
+El pipeline de monitoreo está compuesto por múltiples módulos para recolectar, almacenar y analizar datos operativos.
+
+**Agentes de recolección de datos:**
+- **Node Exporter:** Métricas del sistema operativo en servidores Linux.
+- **cAdvisor:** Métricas de uso de contenedores.
+- **Filebeat:** Recolección de logs desde múltiples fuentes.
+
+**Agregación y almacenamiento:**
+- **Prometheus Server:** Almacenamiento de métricas de series temporales.
+- **Elasticsearch:** Indexación de logs para búsqueda eficiente.
+- **InfluxDB:** Base de datos de métricas con alta frecuencia de escritura.
+
+**Procesamiento y análisis:**
+- **Logstash:** Transformación de logs antes de enviarlos a Elasticsearch.
+- **Kibana:** Interfaz para visualización y exploración de registros.
+- **Grafana:** Dashboards para monitoreo en tiempo real.
+- **Alertmanager:** Encargado de gestionar alertas generadas desde Prometheus.
 
 ### 7.4.3. Alerting Pipeline Components
 
-- **Alert triggers**: run failed, test failure rate > X, new flaky test detected.
-- **Delivery channels**: Slack/Email/GitHub PR comment.
-- **Auto-comment**: si CI falla en un PR, el workflow publica un comentario con resumen y link al log.
+**Generación de alertas:**
+- **Reglas en Prometheus:** Condiciones configuradas para métricas como uso de CPU elevado, errores HTTP 5xx, y caídas en servicios críticos.
+- **StatusCake:** Alertas cuando la API o servicios clave no están disponibles.
 
-Snippet para comentar en PR si falla:
+**Gestión de alertas:**
+- **Alertmanager:** Agrupación y envío de alertas a través de múltiples canales.
+- **OpsGenie:** Enrutamiento automatizado hacia el equipo responsable según nivel de severidad.
 
-- name: Comment PR on failure
-  if: failure()
-  uses: actions/github-script@v6
-  with:
-    script: |
-      const body = "CI failed: revisa los logs de Actions. Tests fallidos: (ver artifacts).";
-      github.issues.createComment({
-        issue_number: context.issue.number,
-        owner: context.repo.owner,
-        repo: context.repo.repo,
-        body
-      });
-
+**Integración y escalación:**
+- **PagerDuty:** Escalación programada para incidentes fuera del horario laboral.
+- **Slack:** Canal específico para alertas técnicas y colaboración en incidentes.
 
 ### 7.4.4. Notification Pipeline Components
 
-- **Slack**: usar `rtCamp/action-slack-notify` o `slackapi/slack-github-action` para enviar un resumen rápido de estado.
-- **Email**: enviar reporte automatizado de runs nocturnos o semanal con tests inestables.
-- **GitHub PR comments**: resumen inmediato en el PR para acelerar corrección.
+**Configuración de notificaciones:**
+- **Alertmanager:** Define receptores y reglas de enrutamiento por tipo de alerta.
+- **Webhooks:** Integración con sistemas externos y dashboards de operación.
 
+**Canales de notificación:**
+- **Correo electrónico:** Notificaciones automáticas de errores críticos y fallas de disponibilidad.
+- **SMS (Twilio):** Para notificaciones de incidentes urgentes al equipo de soporte.
+
+**Aplicaciones de mensajería:**
+- **Slack:** Alertas en tiempo real para el equipo de desarrollo y operaciones.
+- **Microsoft Teams:** Integración para notificaciones al equipo de gestión y análisis.
+
+**Paneles de control:**
+- **Grafana:** Visualización del estado de los servicios, métricas clave y alertas.
+- **Kibana:** Exploración de eventos, errores y logs históricos en múltiples entornos.
 # Capítulo VIII: Experiment-Driven Development
 
 ## 8.1. Experiment Planning
