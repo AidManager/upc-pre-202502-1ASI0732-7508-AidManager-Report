@@ -169,11 +169,13 @@
       "bases:Create new base": false
     }
   },
-  "active": "dcd6429ea1c76724",
+  "active": "20b570764922eda4",
   "lastOpenFiles": [
-    "assets/insights-20252/mobilapp.png",
+    "assets/to-be-implemented/to-be-backend-1.png",
+    "Report/README.md",
     "assets/insights-20252/backend.png",
     "assets/insights-20252/frontend.png",
+    "assets/insights-20252/mobilapp.png",
     "assets/insights-20252/landing.png",
     "assets/insights-20252",
     "assets/Nueva carpeta",
@@ -182,8 +184,6 @@
     "assets/gsm-11.png",
     "assets/gsm-10.png",
     "assets/gsm-9.png",
-    "assets/gsm-8.png",
-    "assets/gsm-7.png",
-    "Report/README.md"
+    "assets/gsm-8.png"
   ]
 }

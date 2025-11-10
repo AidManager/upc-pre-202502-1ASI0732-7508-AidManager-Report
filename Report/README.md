@@ -3121,52 +3121,53 @@ Para realizar las pruebas unitarias y de integracion se ha usado el marco de pru
 
 Se muestra evidencia de los test a las historios de usuario del proyecto
 
-![[../assets/gsm-1.png]]
 
-![[gsm-2.png]]
+![](../assets/gsm-1.png)
 
-![[gsm-17.png]]
+![](../assets/gsm-2.png)
 
-![[gsm-4.png]]
+![](../assets/gsm-17.png)
 
-![[gsm-6.png]]
+![](../assets/gsm-4.png)
 
-![[gsm-11.png]]
+![](../assets/gsm-6.png)
 
-![[gsm-12.png]]
+![](../assets/gsm-11.png)
 
-![[gsm-13.png]]
+![](../assets/gsm-12.png)
 
-![[gsm-5.png]]
+![](../assets/gsm-13.png)
 
-![[gsm-7.png]]
+![](../assets/gsm-5.png)
 
-![[gsm-9.png]]
+![](../assets/gsm-7.png)
 
-![[gsm-10.png]]
+![](../assets/gsm-9.png)
 
-![[gsm-14.png]]
+![](../assets/gsm-10.png)
 
-![[gsm-15.png]]
+![](../assets/gsm-14.png)
+
+![](../assets/gsm-15.png)
 
 ### 6.1.2. Core Integration Tests
 
-![[gsm-21.png]]
+![](../assets/gsm-21.png)
 
 ### 6.1.3. Core Behavior-Driven Development
 
-![[gsm-18.png]]
+![](../assets/gsm-18.png)
 
-![[gsm-19.png]]
 
+![](../assets/gsm-19.png)
 
 ### 6.1.4. Core System Tests
 
-![[gsm-22.png]]
+![](../assets/gsm-22.png)
 
-![[gsm-23.png]]
+![](../assets/gsm-23.png)
 
-![[gsm-24.png]]
+![](../assets/gsm-24.png)
 
 ## 6.2. Static Testing & Verification
 
@@ -3972,20 +3973,19 @@ A continuación, se detalla el Sprint Backlog con las tareas desarrolladas:
 #### 8.3.3.2. Implemented To-Be Landing Page Evidence
 
 Se evidencian capturas de la implementación de la landing page desplegado en Vercel. Se realizaron mejoras de optimización, usando Bundle con Vite y uso de @layer components para crear clases reutilizables Link de landing page: [https://landing-page-aid-manager-37nb.vercel.app](https://landing-page-aid-manager-37nb.vercel.app/)
-![[to-be-landing-page-1.png]]
+![](../assets/to-be-implemented/to-be-landing-page-1.png)
 
-![[to-be-landing-page-2.png]]
+![](../assets/to-be-implemented/to-be-landing-page-2.png)
 
-![[to-be-landing-page-3.png]]
+![](../assets/to-be-implemented/to-be-landing-page-3.png)
 
-![[to-be-landing-page-4.png]]
+![](../assets/to-be-implemented/to-be-landing-page-4.png)
 
-![[to-be-landing-page-5.png]]
+![](../assets/to-be-implemented/to-be-landing-page-5.png)
 
-![[to-be-landing-page-derf.png]]
+![](../assets/to-be-implemented/to-be-landing-page-derf.png)
 
-![[to-be-landing-page-6.png]]
-
+![](../assets/to-be-implemented/to-be-landing-page-6.png)
 
 #### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
 
@@ -3993,50 +3993,50 @@ Se evidencia la aplicación web desplegada y con la implementación de los exper
 
 **Dashboard de Analíticas:** Implementación del experiment card para visualización de métricas del proyecto. Incluye gráficos de progreso, distribución de tareas y presupuestos categorizados para monitoreo integral.
 
-![[to-be-front-1.jpeg]]
+![](../assets/to-be-implemented/to-be-front-1.jpeg)
 
 
 **Gestión con Tablero Kanban:** Validación del experiment card para gestión visual de tareas. Sistema Kanban con columnas To-Do, Doing y Done para coordinación eficiente del equipo.
 
-![[to-be-front-2.jpeg]]
+![](../assets/to-be-implemented/to-be-front-2.jpeg)
 
 
 **Sistema de Calendario:** Implementación del experiment card para gestión temporal centralizada. Calendario interactivo con indicadores visuales y navegación optimizada para planificación de proyectos.
 
-![[to-be-front-3.jpeg]]
+![](../assets/to-be-implemented/to-be-front-3.jpeg)
 
 
 **Perfil de Usuario:** Validación del experiment card para gestión personalizada de tareas. Vista individual con filtros avanzados que promueve responsabilidad personal del equipo.
 
-![[to-be-front-4.jpeg]]
+![](../assets/to-be-implemented/to-be-front-4.jpeg)
 
 #### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
 
 Se evidencia el despliegue de la aplicación móvil Aid Manager versión 1.0.0 a través de Firebase App Distribution.
 
-![[to-be-mobile.jpeg]]
+![](../assets/to-be-implemented/to-be-mobile.jpeg)
 
 #### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
 
 Se evidencia el Swagger desplegado con Render, así como el link de un endpoint que se consume en el frontend. Link de Swagger: [https://aid-manager-general-backend.onrender.com/swagger/index.html](https://aid-manager-general-backend.onrender.com/swagger/index.html)
 
-![[to-be-backend-render.jpeg]]
+![](../assets/to-be-implemented/to-be-backend-render.jpeg)
 
-![[to-be-backend-derf.jpeg]]
+![](../assets/to-be-implemented/to-be-backend-derf.jpeg)
 
-![[to-be-backend-1.png]]
+![](../assets/to-be-implemented/to-be-backend-1.png)
 
-![[to-be-backend-2.png]]
+![](../assets/to-be-implemented/to-be-backend-2.png)
 
-![[to-be-backend-3.png]]
+![](../assets/to-be-implemented/to-be-backend-3.png)
 
-![[to-be-backend-4.png]]
+![](../assets/to-be-implemented/to-be-backend-4.png)
 
-![[to-be-backend-5.png]]
+![](../assets/to-be-implemented/to-be-backend-5.png)
 
-![[to-be-backend-6.png]]
+![](../assets/to-be-implemented/to-be-backend-6.png)
 
-![[to-be-backend-7.png]]
+![](../assets/to-be-implemented/to-be-backend-7.png)
 
 #### 8.3.3.6. Team Collaboration Insights
 
@@ -4044,20 +4044,20 @@ Se evidencian insights de los repositorios de Github donde se han trabajado las 
 
 Insights de repositorio de landing page Link: [https://github.com/AidManager/AidManager-LandingPage](https://github.com/AidManager/AidManager-LandingPage)
 
-![[assets/insights-20252/landing.png]]
+![](../assets/insights-20252/landing.png)
 
 
 Insights de repositorio de frontend Link: [https://github.com/AidManager/AidManager-FrontendWeb](https://github.com/AidManager/AidManager-FrontendWeb)
 
-![[frontend.png]]
+![](../assets/insights-20252/frontend.png)
 
 Insights de repositorio de backend Link: [https://github.com/AidManager/Aid-Manager-General-BackEnd](https://github.com/AidManager/Aid-Manager-General-BackEnd)
 
-![[backend.png]]
+![](../assets/insights-20252/backend.png)
 
 Insights de repositorio de mobile Link: [https://github.com/AidManager/MobileApp](https://github.com/AidManager/MobileApp)
 
-![[mobilapp.png]]
+![](../assets/insights-20252/mobilapp.png)
 
 ### 8.3.4. To-Be Validation Interviews
 
@@ -4114,7 +4114,7 @@ Navegador: Chrome
 
 Momento de la entrevista: [0:00]
 
-![[assets/entrevistas-finales/Luis.png]]
+![](../assets/entrevistas-finales/Luis.png)
 
 Resumen de la entrevista:
 
@@ -4134,7 +4134,7 @@ Navegador: Chrome
 
 Momento de la entrevista: [0:00]
 
-![[aliz.png]]
+![](../assets/entrevistas-finales/aliz.png)
 
 
 Resumen de la entrevista:
@@ -4155,7 +4155,7 @@ Navegador: Chrome
 
 Momento de la entrevista: [0:00]
 
-![[Keyli.png]]
+![](../assets/entrevistas-finales/Keyli.png)
 
 Resumen de la entrevista:
 
@@ -4177,7 +4177,7 @@ Navegador: Chrome
 
 Momento de la entrevista: [0:00]
 
-![[tere.png]]
+![](../assets/entrevistas-finales/tere.png)
 
 Resumen de la entrevista:
 
@@ -4197,7 +4197,7 @@ Navegador: Chrome
 
 Momento de la entrevista: [0:00]
 
-![[isa.png]]
+![](../assets/entrevistas-finales/isa.png)
 
 Resumen de la entrevista:
 
@@ -4217,7 +4217,7 @@ Navegador: Chrome
 
 Momento de la entrevista: [0:00]
 
-![[fa.png]]
+![](../assets/entrevistas-finales/fa.png)
 
 Resumen de la entrevista:
 
@@ -4318,7 +4318,7 @@ El video tiene como objetivo mostrar cómo AidManager facilita la gestión de ta
 
 #### Screenshot del video:
 
-![[AidManager-Video.png]]
+![](../assets/AidManager-Video.png)
 
 # Video About The Team
 
