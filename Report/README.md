@@ -3174,17 +3174,468 @@ Se muestra evidencia de los test a las historios de usuario del proyecto
 
 #### 6.2.1.1. Coding Standard & Code Conventions
 
+Landing Page:
+
+- Arquitectura Modular y Separación de Responsabilidades
+    
+
+Estructura organizada del Proyecto debido a que se implementa una arquitectura modular ejemplar siguiendo las mejores prácticas de React.
+
+Cada componente tiene su propia carpeta con archivos JSX y CSS separados, facilitando el mantenimiento, escalabilidad y reutilización del código. Esta estructura permite que múltiples desarrolladores trabajen simultáneamente sin conflictos y sigue el principio de responsabilidad única.
+
+<img src="../assets/cap6/1 folder-structure.png" alt="imagen de estructura de folder">
+
+- Convenciones de Nomenclatura React (PascalCase)
+    
+
+El código cumple estrictamente con las convenciones de nomenclatura de React usando PascalCase para todos los componentes.
+
+Esto mejora la legibilidad, permite diferenciación inmediata entre componentes React y elementos HTML, y facilita la detección de errores durante el desarrollo.
+
+<img src="../assets/cap6/2 code-components.png" alt="imagen de componentes de codigo">
+
+- Implementación Correcta de React Hooks
+    
+
+Su funcionalidad es para la gestión de Estado y Efectos, el código demuestra un uso correcto y profesional de React Hooks (useState y useEffect) siguiendo las reglas de hooks y mejores prácticas.
+
+La implementación incluye cleanup de event listeners, gestión apropiada de dependencias, y manejo de estado local sin mutaciones directas, lo que garantiza un comportamiento predecible y eficiente.
+
+<img src="../assets/cap6/3 burger-code.png" alt="imagen burger code">
+
+Web Application:
+
+- Arquitectura Modular y Separación de Responsabilidades
+    
+
+Estructura organizada del proyecto debido a que se implementa una arquitectura modular ejemplar siguiendo las mejores prácticas de Vue.js.
+
+El proyecto mantiene una separación clara de responsabilidades con carpetas dedicadas para modelos (entities), servicios (API communication), componentes reutilizables organizados por funcionalidad, páginas principales, y gestión de estado centralizada con Vue.
+
+Esta estructura permite que múltiples desarrolladores trabajen simultáneamente sin conflictos, facilita el mantenimiento y escalabilidad del código, y sigue el principio de responsabilidad única donde cada archivo tiene un propósito específico y bien definido. Arquitectura de front-end modular basada en la separación de responsabilidades
+
+<img src="../assets/cap6/4 web-folder-structure.png" alt="imagen estructura folder de web">
+
+- Gestión de estado centralizada con vue
+    
+
+Implementación de store centralizado para el manejo de estado global siguiendo las mejores prácticas de Vue con una estructura bien organizada.
+
+El store incluye state para gestión del usuario y formularios, mutations con nombres descriptivos para modificaciones síncronas del estado, actions para operaciones asíncronas de actualización de datos, e integración con localStorage para persistencia de sesión.
+
+Esta implementación garantiza un flujo de datos predecible, facilita el debugging, y permite compartir estado entre componentes de manera eficiente sin prop drilling.
+
+<img src="../assets/cap6/5 code-store.png" alt="imagen code store">
+
+- Modelos de dominio bien estructurados
+    
+
+Implementación de entidades de dominio con constructores claros y propiedades bien definidas que reflejan fielmente el modelo de negocio. Los modelos como User.entity.js definen constructores explícitos con todos los parámetros necesarios, utilizan nombres de propiedades descriptivos y consistentes, y mantienen una estructura clara que refleja el dominio del negocio.
+
+Esta implementación facilita la validación de datos, mejora la legibilidad del código, reduce errores de tipeo en propiedades, y permite un mapeo directo entre los datos de la API y los objetos del frontend.
+
+<img src="../assets/cap6/6 code-entity.png" alt="imagen code entity">
+
+- Manejo Robusto de Errores y Operaciones Asíncronas
+    
+
+Implementación consistente de manejo de errores y operaciones asíncronas siguiendo las mejores prácticas de JavaScript moderno con async/await.
+
+El código utiliza bloques try-catch sistemáticamente en todos los métodos de servicio para capturar errores, proporciona mensajes de error descriptivos con console.error que incluyen contexto específico como IDs y parámetros, y maneja correctamente las promesas con async/await evitando callback hell.
+
+Esta implementación garantiza una experiencia de usuario más estable, facilita el debugging en desarrollo, previene crashes inesperados de la aplicación, y proporciona información valiosa para el monitoreo en producción.
+
+<img src="../assets/cap6/7 code-user.png" alt="imagen code user">
+
+API:
+
+- Arquitectura Limpia y Patrones de Diseño Consistentes
+    
+
+Implementación sistemática de Domain-Driven Design (DDD) y arquitectura en capas siguiendo las mejores prácticas de desarrollo gestion con .NET.
+
+El código utiliza una estructura arquitectónica bien definida organizando el proyecto en bounded contexts claramente separados (Authentication, Collaborate, IAM, ManageCosts, ManageTasks, Payment, UserProfile), implementa el patrón Repository con interfaces bien definidas que separan la lógica de dominio de la infraestructura de datos, y mantiene consistencia en la nomenclatura usando PascalCase para clases y métodos públicos (UserCommandService, CreateProjectCommand) y camelCase para parámetros y variables locales.
+
+El código también implementa primary constructors de C# de manera consistente en todas las clases de servicio, como en public class AnalyticsCommandService(IAnalyticsRepository analyticsRepository, IUnitOfWork unitOfWork), y utiliza convenciones de nombres descriptivos que expresan claramente la intención del código.
+
+Esta implementación garantiza mantenibilidad a largo plazo del código, facilita la comprensión del dominio de negocio por parte de nuevos desarrolladores, promueve la reutilización de componentes y establece una base sólida para el crecimiento y evolución del sistema.
+
+<img src="../assets/cap6/8 back-folder-structure.png" alt="imagen back folder structure">
+
+- Manejo Robusto de Errores y Operaciones Asíncronas
+    
+
+Implementación consistente de manejo de errores y operaciones asíncronas siguiendo las mejores prácticas de C# moderno con async/await.
+
+El código utiliza bloques try-catch sistemáticamente en todos los métodos de servicio para capturar errores, proporciona mensajes de error descriptivos con Console.WriteLine que incluyen contexto específico como IDs y parámetros, y maneja correctamente las promesas con async/await evitando deadlocks. Los servicios implementan transacciones de base de datos robustas con rollback automático en caso de error, como se observa en BaseRepository donde cada operación utiliza using (var trans = Context.Database.BeginTransaction()) con manejo explícito de commit y rollback.
+
+Esta implementación garantiza una experiencia de usuario más estable, facilita el debugging en desarrollo, previene crashes inesperados de la aplicación, y proporciona información valiosa para el monitoreo en producción.
+
+bloques try-catch
+
+<img src="../assets/cap6/9 code-try-catch.png" alt="imagen code try catch">
+
+Async/Await
+
+<img src="../assets/cap6/10 code-async.png" alt="imagen code async">
+
+Transaction handling
+
+<img src="../assets/cap6/11 code-repository.png" alt="imagen repositiorio de codigo">
+
+- Configuración Diferenciada por Entorno y Gestión Segura de Variables
+    
+
+Implementación de configuración adaptativa por entorno con gestión segura de variables de entorno y logging contextual.
+
+El código implementa configuración diferenciada por entorno de ejecución, cargando variables de entorno de forma segura usando Env.Load() y Environment.GetEnvironmentVariable("CONN_STRING"), configura diferentes niveles de logging según el entorno (LogLevel.Information para desarrollo y LogLevel.Error para producción), y habilita características específicas de debugging como EnableSensitiveDataLogging() y EnableDetailedErrors() únicamente en entornos de desarrollo. La configuración también incluye la detección automática del entorno mediante builder.Environment.IsDevelopment() y builder.Environment.IsProduction() para aplicar configuraciones específicas sin intervención manual.
+
+Esta implementación garantiza seguridad en producción al ocultar información sensible, optimiza el rendimiento reduciendo el logging innecesario en producción, facilita el debugging en desarrollo con información detallada, y permite despliegues automáticos sin cambios de configuración manual.
+
+<img src="../assets/cap6/12 api-db.png" alt="imagen api database">
 #### 6.2.1.2. Code Quality & Code Security
 
+Durante el desarrollo del sistema **AidManager**, se aplicaron prácticas orientadas a garantizar la calidad del código y su seguridad. Las medidas implementadas incluyen:
+
+- Linting automático mediante herramientas como ESLint (frontend) y SonarLint (backend), lo que permitió detectar y corregir errores de estilo, declaraciones redundantes o malas prácticas de programación.
+    
+- Uso de revisiones por pares (code reviews) en cada solicitud de merge (pull request), garantizando la validación cruzada de lógica, rendimiento y claridad.
+    
+- Gestión segura de credenciales y secretos, utilizando variables de entorno (`.env`) para almacenar claves API, tokens y credenciales, evitando exposición en el repositorio.
+    
+- Separación de capas siguiendo principios de arquitectura limpia (Clean Architecture) para evitar lógica de negocio en el controlador o acceso inseguro a la base de datos.
+    
+- Uso de control de versiones (Git) con ramas organizadas (`main`, `dev`, `feature/*`) que facilitaron trazabilidad, integración continua y rollback cuando fue necesario.
+    
+
+Estas prácticas no solo fortalecen la base del software, sino que también reducen el riesgo de fallos en producción y mejoran la seguridad de los datos manejados por la plataforma.
+
 ### 6.2.2. Reviews
+
+Durante el desarrollo del sistema **AidManager**, se llevaron a cabo revisiones periódicas del producto con el objetivo de validar el avance, identificar mejoras y garantizar la alineación con los requerimientos del usuario. Las principales revisiones realizadas fueron:
+
+#### Sprint Reviews
+
+[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#sprint-reviews)
+
+Al final de cada sprint se realizaron reuniones de revisión (Sprint Review) donde se presentaron los entregables funcionales al equipo y se recolectaron observaciones clave. Estas sesiones incluyeron:
+
+- Demostraciones del sistema en su estado actual.
+- Validación de historias de usuario completadas.
+- Feedback inmediato por parte de los integrantes del grupo.
+- Ajustes propuestos para el siguiente sprint.
+
+#### Peer Reviews de Código
+
+[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#peer-reviews-de-c%C3%B3digo)
+
+Cada componente desarrollado pasó por un proceso de revisión entre pares (peer review) antes de ser fusionado en la rama principal. En este proceso se revisaron aspectos como:
+
+- Claridad del código y legibilidad.
+- Cumplimiento de convenciones establecidas.
+- Detección de errores lógicos o redundancias.
+- Posibles mejoras en rendimiento y seguridad.
 
 ## 6.3. Validation Interviews
 
 ### 6.3.1. Diseño de Entrevistas
 
+Estas preguntas se aplicaron a todos los entrevistados de validación para recopilar información demográfica y de uso tecnológico, relevante para el contexto de la solución AidManager.
+
+Nombre Completo: (Para identificación interna y seguimiento, si es necesario).
+
+Edad: (Dato demográfico).
+
+Rol Actual / Ocupación: (Confirmar su alineación con el segmento objetivo).
+
+¿En qué distrito reside / Dónde desarrolla principalmente sus actividades? (Contexto geográfico).
+
+¿Qué tipo de navegador web utiliza con mayor frecuencia para actividades laborales/voluntariado? (Ej. Chrome, Firefox, Safari, Edge).
+
+¿Qué dispositivos utiliza con mayor frecuencia para acceder a herramientas o plataformas digitales (ordenador, tablet, smartphone)?
+
+---
+
+#### Segmento 1: (Managers) Gestor de proyectos de ONG
+
+[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#segmento-1-managers-gestor-de-proyectos-de-ong)
+
+- "Después de la interacción, ¿te resultó fácil saber dónde ir o qué hacer en cada momento? ¿Encontraste alguna sección confusa o dónde te perdiste?"
+    
+- "Cuando realizaste las tareas (ej. al crear un proyecto o asignar una tarea), ¿tuviste claro si la acción se había completado con éxito, si había un error, o qué estaba ocurriendo? ¿Recibiste feedback adecuado?"
+    
+- "Para las tareas que realizaste (ej. crear proyecto, asignar tarea), ¿qué tan rápido o fácil te pareció completarlas? ¿Hubo algo que te tomó más tiempo de lo esperado o que sentiste que podría ser más directo?"
+    
+- "Si cometiste un error o quisiste deshacer algo, ¿te resultó fácil corregirlo o volver atrás? ¿Sentiste que tenías control sobre la aplicación?"
+    
+- "Los términos usados en la aplicación (ej. 'proyecto', 'tarea', 'team Register Code') y el diseño general (botones, iconos), ¿te parecieron consistentes y fáciles de entender? ¿Se alinean con lo que esperas de una herramienta de gestión?"
+    
+- "¿Qué te pareció el diseño visual de la aplicación? ¿Sentiste que había información innecesaria o que la interfaz estaba recargada?"
+    
+- "Pensando en tus desafíos actuales de gestión, ¿crees que AidManager, tal como lo probaste, te ayudaría a resolver alguno de esos problemas? ¿Cuál específicamente?"
+    
+- "Si tuvieras que priorizar las funcionalidades que probaste o imaginaste, ¿cuáles serían las más valiosas para ti? ¿Hay alguna funcionalidad clave que sentiste que faltaba o que te gustaría ver mejorada?"
+    
+
+---
+
+#### Segmento 2: (TeamMembers) Ayudante de Eventos ONG
+
+[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#segmento-2-teammembers-ayudante-de-eventos-ong)
+
+- "Al buscar tus tareas o la información de un proyecto, ¿te pareció que la información estaba clara y era fácil de entender? ¿Las etiquetas o textos tenían sentido para ti?"
+    
+- "Cuando necesitaste encontrar una tarea específica o los detalles de un evento, ¿te resultó sencillo llegar a esa información? ¿Hubo algo que te costó encontrar?"
+    
+- "Para las tareas que realizaste (ej. marcar tarea como completada), ¿qué tan fácil te resultó ejecutar esa acción? ¿Cómo supiste que tu acción se había guardado correctamente?"
+    
+- "Al intentar comunicarte con tu gestor, ¿te pareció un proceso intuitivo? ¿Crees que este canal te permitiría una comunicación efectiva en tu rol de voluntario?"
+    
+- "El diseño general de la aplicación, ¿te pareció coherente entre las diferentes pantallas? ¿Hubo algo que te llamó la atención positivamente o negativamente en la parte visual?"
+    
+- "¿Crees que usar una herramienta como AidManager, tal como la probaste, mejoraría tu experiencia como voluntario o simplificaría alguna parte de tu participación?"
+    
+- "Si pudieras darle una sugerencia basada en tu experiencia de hoy, ¿cuál sería? ¿Qué te gustaría ver añadido o cambiado para que fuera aún más útil para ti?"
+
 ### 6.3.2. Registro de Entrevistas
 
+## Segmento 1: (Managers) Gestores de proyectos ONG
+
+**Nombre:** Diego Ávalos 
+**Edad:** 28 
+**Ocupación:** Comunicación de Eventos y RRPP 
+**Browser:** Chrome 
+**Device:** Laptop, Celular (en campo) 
+**Distrito:** San Isidro 
+**Timing:** 0:30 (Inicio de la entrevista)
+
+<img src="../assets/cap6/13 diego V2.png" alt="imagen entrevista 1">
+
+
+Diego Ávalos, quien se dedica a la comunicación de eventos y relaciones públicas para diversas ONGs, utiliza Chrome en su laptop o celular para trabajar. Durante la entrevista, se le mostró una demo de una herramienta de gestión de proyectos para ONGs, que incluía funcionalidades como la gestión de tareas, analíticas, un calendario y la creación de publicaciones.
+
+En su experiencia con la herramienta, Diego encontró que la información de las tareas era digerible y entendible, pero sugirió que los plazos y las funciones podrían ser más definidos para una mejor comprensión. Le resultó complicado encontrar información específica y el historial de eventos pasados debido a que la información estaba descentralizada. Sin embargo, marcar las tareas como completadas fue sencillo y le gustó la confirmación visual de que su acción se había guardado correctamente. La comunicación con el gestor a través de la aplicación le pareció intuitiva y útil, a pesar de no saber si los mensajes se recibían de inmediato.
+
+En cuanto al diseño, la coherencia visual y el uso de colores le resultaron agradables y no generaron distracciones. Diego cree que esta herramienta de gestión de proyectos mejoraría significativamente su experiencia como voluntario, ya que permitiría un seguimiento integral de los proyectos y reduciría la necesidad de buscar información en correos o chats dispersos. Como sugerencia, propuso añadir un calendario que permitiera visualizar los eventos y tareas por días, con la posibilidad de vincularse con otras aplicaciones de calendario como Google Calendar u Outlook.
+
+---
+
+**Nombre:** Isabel Hoffmann 
+**Edad:** 51 
+**Ocupación:** Gestión de eventos 
+**Browser:** Chrome 
+**Device:** Laptop, Celular 
+**Distrito:** La Libertad 
+**Timing:** 13:22
+
+Isabel es gestora de proyectos de ONG donde menciona que el uso de excel y la baja comunicación puede generar problemas a la hora de organizarse. En la entrevista un poco breve menciona que le encanto la propuesta y que esta muy interesada en la seccion de analiticas de la solucion ya que menciona que el seguimiento financiero y gestion de tareas es sumamente relevante en su rubro.
+
+<img src="../assets/cap6/14 maria V2.png" alt="imagen entrevista 2">
+
+---
+
+**Nombre:** Maria Hoffmann 
+**Edad:** 51 
+**Ocupación:** Gestion de eventos 
+**Browser:** Chrome 
+**Device:** Laptop, Celular 
+**Distrito:** La Libertad 
+**Timing:** 40:00
+
+Maria trabaja como gestora de eventos en una ONG donde ya ha participado de distintos proyectos de ayuda social, maneja un equipo de voluntarios en cada equipo y menciona que se comunica con ellos via whatsapp. Cuando Maria prueba la app se ve interesada en saber las restriciones que tiene los voluntarios respecto as sus tareas, es decir que solo vean aquellas tareas que les corresponden, adicionalmente, menciona que la UI de la aplicacion movil es muy fluida y se siente profesional, efficiente y rapida. Como comentario final se sorprende de la velocidad y simpleza del proceso que implica usar la aplicacion movil.
+
+<img src="../assets/cap6/15 mariah V2.png" alt="imagen entrevista 3">
+
+## Segmento 2: (TeamMembers) Ayudante de Eventos ONG
+
+
+**Nombre:** Alvaro Jimenez Agapito  
+**Edad:** 19 
+**Ocupación:** Voluntario de ONG 
+**Browser:** Google Chrome  
+**Device:** Laptop Toshiba  
+**Distrito:** Miraflores, Lima  
+**Timing:** 25:02
+
+<img src="../assets/cap6/16 interview-3-validation.png" alt="imagen entrevista 4">
+
+Alvaro Jimenez Agapito, Voluntario de ONG, utiliza herramientas manuales como hojas de cálculo y registros en papel para gestionar los proyectos. Con AidManager, encontró que la información de las tareas era clara, pero sugirió que sería útil tener más detalles visibles sin abrir cada tarea. La interfaz fue intuitiva, aunque al principio le costó entender cómo filtrar las tareas correctamente.
+
+Marcar tareas como completadas fue fácil y recibió una confirmación visual clara. La comunicación con el lider del proyecto fue buena, pero sugirió un chat en tiempo real o notificaciones para mejorar la efectividad. El diseño de la aplicación le pareció coherente, aunque recomendó mejorar el contraste de los textos pequeños.
+
+Alvaro cree que AidManager mejoraría su experiencia como voluntario y recomendó añadir un sistema de notificaciones y una vista de calendario para facilitar la planificación y evitar olvidar fechas importantes.
+
+---
+
+**Nombre:** Luis Eduardo
+**Edad:** 21
+**Ocupación:** Voluntario de ONG
+**Browser:** Chrome
+**Device:** Laptop y Movil
+**Distrito:** SanBorja, Lima  
+**Timing:** 59:38
+
+<img src="../assets/cap6/17 luis V2.png" alt="imagen entrevista 5">
+
+Luis Eduardo, un joven de 21 años residente en San Borja, es estudiante de Ingeniería de Software y colabora como TEAM Member en diversas ONGs. Para sus actividades de voluntariado y estudio, prefiere los navegadores web Brave o Chrome y utiliza principalmente su computadora y laptop.
+
+Durante la demostración de la aplicación (que asumo fue para él, dado que se inicia una nueva sección de demo después de su presentación), se le mostró el flujo de ingreso a la plataforma, donde el usuario debe introducir credenciales y un código de ONG provisto por el gestor. Se resaltó la vista principal donde aparecen los posts de su project manager y la sección de proyectos. Como TEAM Member, Luis Eduardo no puede agregar proyectos, pero sí puede observar los que tiene asignados y moverlos según su estado (ej. a "done"), después de un proceso de validación. También se le presentó la sección de analíticas, la cual se actualiza mensualmente (con planes de futura actualización en vivo), y la función de calendario, donde debería ver las fechas de las tareas de sus proyectos.
+
+**Nombre:** Diego Bazán 
+**Edad:** 25 años 
+**Ocupación:** Estudiante y Asesor de ventas para una ONG 
+**Browser:** Chrome 
+**Device:** Laptop 
+**Distrito:** San Isidro 
+**Timing:** 1:07:00
+
+<img src="../assets/cap6/18 bazan V2.png" alt="imagen entrevista 6">
+
+Diego Bazán, un estudiante de 25 años con más de dos años de experiencia como asesor de ventas para una ONG, fue entrevistado sobre su percepción de una herramienta de gestión de proyectos. Para él, la información general y las etiquetas en la herramienta eran entendibles y digeribles, pero notó que los plazos extendidos y la desorganización en la creación de eventos y gestión de ventas dificultaban el proceso. Sugirió que los plazos y funciones deberían estar más definidos para mayor claridad y entendimiento.
+
+Al buscar tareas específicas o detalles de eventos, Diego encontró complicaciones debido a que la información estaba descentralizada, haciendo difícil localizar lo necesario para la creación del evento o la asignación de roles. También le resultó difícil encontrar el historial de eventos pasados.
+
+Marcar las tareas como completadas fue un proceso fácil, y le agradó la confirmación visual (un "check verde") que le daba seguridad de que su acción se había guardado correctamente. Como mejora, sugirió un mensaje de confirmación que pudiera ser anexado al correo para doble verificación y visibilidad para el equipo.
+
+La comunicación con el gestor a través de la herramienta le pareció bastante intuitiva, con un botón visible que llevaba a un chat o formulario directo. Aunque no sabía si los mensajes se recibían de forma inmediata, tenía la confirmación de envío y que serían leídos.
+
+El diseño visual de la aplicación le pareció perfecto, coherente y ordenado, con colores que no generaban distracciones ni fatiga. Destacó la claridad como primordial y el tamaño de las letras como adecuado.
+
+Diego cree que una herramienta como Aid Manager mejoraría "definitivamente" su experiencia como voluntario y simplificaría su participación. La considera "perfecta" para la organización y seguimiento integral de tareas y proyectos para todo un equipo, ya que reduce la necesidad de buscar información dispersa en correos o chats primitivos. Su principal sugerencia para mejorar la herramienta es la adición de un tipo de calendario integrado donde pueda visualizar eventos y tareas organizados por días, con la posibilidad de vincular alertas a otras aplicaciones de calendario como Google Calendar u Outlook.
+
+
 ### 6.3.3. Evaluaciones según heurísticas
+
+CARRERA: Ingeniería de Software 
+CURSO: Diseño de Experimentos de Ingeniería de Software 
+SECCIÓN: 3326 
+PROFESOR: Noriega Melendez, Julio Manuel
+AUDITOR: AidRecruits
+
+SITE o APP A EVALUAR: AidManager
+
+TAREAS A EVALUAR: El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+Tareas a Evaluar: El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+Registro de un usuario nuevo (Gestor de Proyectos). Selección y pago de plan de suscripción. Añadir un nuevo proyecto. Agendar reuniones o hitos de proyecto. Actualizar información de un proyecto. Visualizar estadísticas de proyectos en el Dashboard (Web). Enviar consultas a un gestion. Eliminar un proyecto. Monitoreo rápido de información de proyectos (Móvil). Registrar/Editar proyecto desde la aplicación móvil.
+
+Tareas No Incluidas en esta Versión: Cualquier funcionalidad no cubierta o no principal para esta etapa de validación, tales como el cambio de datos de perfil, implementación de CRM en su totalidad en móvil, etc
+
+| Nivel | Descripción                                                                                                                                                                                   |
+| ----- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1     | Problema superficial puede ser fácilmente superador por el usuario ó ocurre con muy poco frecuencia No necesita ser arreglado a no ser que exista disponibilidad de tiempo                    |
+| 2     | Problema menor puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase |
+| 3     | Problema mayor ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe signar una prioridad alta.                                 |
+| 4     | Problema muy grave un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.                              |
+
+|#|Problema|Escala de Severidad|Heurística/Principio violada(o)|
+|---|---|---|---|
+|1|Problemas en el proceso de registro de cuenta: Hubo un "error técnico" durante el registro y las restricciones de contraseña (mayúscula, minúscula, admiración) requirieron guía verbal, lo que dificultó la primera impresión.|3|Usabilidad: Prevención de errores / Ayuda y documentación / Coincidencia entre el sistema y el mundo real.|
+|2|Confusión y dificultad en el proceso de selección de fecha para la instalación: Un usuario "se perdió" y tuvo que ser guiado para seleccionar la fecha correcta en el calendario.|3|Usabilidad: Reconocimiento en lugar de recuerdo / Prevención de errores / Flexibilidad y eficiencia de uso.|
+|3|Falta de opción de idioma español en la interfaz.|3|Diseño Inclusivo: Localización / Accesibilidad.|
+|4|Problemas de visibilidad de scroll: Usuarios tuvieron que ser guiados para desplazarse hacia abajo y encontrar campos adicionales o selecciones de horario en formularios (ej. añadir proyecto, agendar instalación, secciones iniciales de Landing Page).|2|Usabilidad: Visibilidad del estado del sistema / Estética y diseño minimalista.|
+|5|Falta de opciones avanzadas de facturación y exportación de datos para el segmento gestion: El usuario gestion deseaba opciones de facturación más detalladas (ej. RUC, nombre de empresa) y la capacidad de descargar datos del dashboard (ej. Excel) para análisis.|2|Usabilidad: Flexibilidad y eficiencia de uso / Coincidencia entre el sistema y el mundo real.|
+|6|Iconografía o etiquetado poco claro: El significado del icono "ojo" para ver más información de la proyecto no fue inmediatamente claro para un usuario. Hubo ligera confusión entre "nombre" y "tipo" de proyecto, y "título" y "descripción" para preguntas.|2|Usabilidad: Reconocimiento en lugar de recuerdo / Coincidencia entre el sistema y el mundo real.|
+|7|Incapacidad para subir fotos a la información de la proyecto.|2|Usabilidad: Flexibilidad y eficiencia de uso (característica esperada).|
+|8|Información de perfil estática: La sección de perfil del usuario mostraba datos fijos debido a problemas de conexión con la base de datos, lo que afectó la expectativa del usuario de ver su información dinámica.|1|Usabilidad: Coincidencia entre el sistema y el mundo real (limitación técnica impactando la expectativa).|
+|9|Interrupciones o pausas en la aplicación móvil: Se observó una pausa inicial o problema de carga antes de que el usuario pudiera interactuar completamente con la aplicación móvil.|1|Usabilidad: Visibilidad del estado del sistema / Tiempos de respuesta.|
+#### Problema #1: Problemas en el proceso de registro de cuenta y restricciones de contraseña.
+
+Severidad: 3 Heurística violada: Usabilidad: Prevención de errores / Ayuda y documentación / Coincidencia entre el sistema y el mundo real.
+
+Problema: Durante el proceso de registro de una nueva cuenta, se reportó un "error técnico" no relacionado con la contraseña que interrumpió el flujo. Adicionalmente, las restricciones de contraseña (requiriendo una mayúscula, una minúscula y un signo de admiración) no fueron comunicadas claramente en la interfaz, lo que obligó al entrevistador a brindar guía verbal ("Básicamente, la contraseña tiene una restricción que solicita que se tenga una mayúscula, una minúscula de admiración."). Esta falta de claridad y el error técnico inicial generan frustración y dificultan la primera interacción del usuario con la aplicación, afectando la experiencia de incorporación.
+
+Recomendación:
+
+Manejo de Errores: Investigar y resolver la causa del "error técnico" reportado durante el registro. Todos los errores deben ser comunicados al usuario de forma clara, con un lenguaje sencillo y ofreciendo una solución o indicando los siguientes pasos. Visibilidad de Restricciones de Contraseña: Mostrar las restricciones de contraseña de forma clara y visible junto al campo de entrada (ej., "La contraseña debe tener al menos 8 caracteres, incluyendo una mayúscula, una minúscula y un carácter especial como !"). Validar la entrada en tiempo real con feedback instantáneo al usuario para guiarlo hacia una contraseña válida antes de enviar el formulario.
+
+#### Problema #2: Confusión y dificultad en el proceso de selección de fecha para la agenda de hitos.
+
+
+Severidad: 3 Heurística violada: Usabilidad: Reconocimiento en lugar de recuerdo / Prevención de errores / Flexibilidad y eficiencia de uso.
+
+Problema: Un usuario durante la prueba del agendamiento de un hito o reunión de proyecto expresó confusión ("acá me perdí") y tuvo dificultades para seleccionar una fecha correctamente, requiriendo intervención del entrevistador ("creo que debe presionar 2 meses, creo para que se registre correctamente. No, acá me perdí pásale ahí un botón, no, no selecciono la fecha"). Esto sugiere que la interacción con el calendario o el selector de fechas no es intuitiva, o que la confirmación de la selección no es suficientemente clara, impidiendo al usuario completar la tarea de forma autónoma.
+
+Recomendación:
+
+Claridad del Selector de Fechas: Revisar el diseño del componente del selector de fechas para asegurar que sea intuitivo. Feedback Visual: Proporcionar un feedback visual claro e inmediato cuando una fecha es seleccionada (ej. resaltando la fecha, o mostrando la fecha seleccionada en un resumen). Guía Explícita: Si hay pasos adicionales (ej., presionar "2 meses"), deben ser explícitos en la interfaz, no implícitos o que requieran conjeturas del usuario. Asegurar que haya un botón de "confirmar" o "siguiente" bien visible una vez que la selección esté completa.
+
+#### Problema #3: Falta de opción de idioma español en la interfaz.
+
+
+Severidad: 3 Heurística violada: Diseño Inclusivo: Localización / Accesibilidad.
+
+Problema: Un usuario recomendó explícitamente que la aplicación "sea también en idioma, en en español, español". Aunque la entrevista se realizó en español, la interfaz de usuario de la aplicación no ofrecía una opción clara para cambiar el idioma, sugiriendo que podría estar configurada en inglés o no ser adaptable. Esto limita la accesibilidad y la usabilidad para los usuarios hispanohablantes nativos, lo que es crítico en un mercado como Perú.
+
+Recomendación:
+
+Soporte Multi-idioma: Implementar un sistema de localización que permita traducir toda la interfaz de usuario al español y a otros idiomas relevantes. Selector de Idioma Visible: Colocar un selector de idioma de fácil acceso (ej., en el encabezado, pie de página o configuración del perfil) para que los usuarios puedan cambiar el idioma según sus preferencias. Detección Automática (Opcional): Considerar la detección del idioma del navegador o del dispositivo para ofrecer la aplicación en el idioma preferido del usuario por defecto, siempre con la opción de cambiarlo.
+
+#### Problema #4: Problemas de visibilidad de scroll y falta de indicación de contenido oculto (y botones pequeños).
+
+
+Severidad: 2 Heurística violada: Usabilidad: Visibilidad del estado del sistema / Estética y diseño minimalista. Problema: En múltiples ocasiones, los entrevistadores tuvieron que indicar a los usuarios que "bajen" o "hagan scroll hacia abajo" para poder ver campos adicionales en formularios (como al añadir un proyecto, ingresar el correo y país en el registro, o ver las opciones de horarios para agendar un hito). Esto indica que no hay suficientes indicadores visuales (ej., barras de scroll, elementos "cortados" en la parte inferior de la pantalla) que sugieran la presencia de contenido más allá del área visible inicial, lo que interrumpe el flujo del usuario y puede llevar a la omisión de información importante. Adicionalmente, la mención de "botones pequeños" puede contribuir a la dificultad de interacción, haciendo que los usuarios no los perciban o les cueste interactuar con ellos, especialmente si están cerca de los bordes o requieren scroll.
+
+Recomendación:
+
+Indicadores Visuales de Scroll: Asegurar que los formularios y secciones largas tengan barras de desplazamiento visibles o que los elementos se "corten" sutilmente en el borde inferior de la pantalla para indicar que hay más contenido. Optimización del Espacio: Rediseñar las interfaces para que los campos más importantes sean visibles sin necesidad de scroll inicial, especialmente en los primeros pasos de un proceso. Diseño Responsivo: Confirmar que la aplicación se adapta correctamente a diferentes tamaños de pantalla, minimizando la necesidad de scroll vertical excesivo en resoluciones comunes. Tamaño de Botones: Revisar el tamaño de los botones interactivos para asegurar que sean fácilmente visibles y se pueda interactuar con ellos sin dificultad, siguiendo las guías de diseño de interfaz de usuario para botones táctiles (ej. un tamaño mínimo de 48x48 dp).
+
+#### Problema #5: Ambigüedad en la entrada de datos de prueba.
+
+
+Severidad: 2 Heurística violada: Usabilidad: Consistencia y estándares / Ayuda y documentación.
+
+Problema: Durante el proceso de pago simulado, los usuarios tuvieron dudas sobre cómo ingresar los datos de la tarjeta de prueba. Específicamente, se les tuvo que indicar verbalmente que la fecha de expiración debía ser "mayor" a la actual (ej. "28"), y hubo confusión sobre cómo llenar el número de tarjeta de prueba ("repetir el número 42, o sea, eso lo pongo 42 muchas... me imagino que es hasta el límite"). Esta falta de instrucciones claras en la interfaz para datos de prueba genera fricción y dependencia de la guía externa, lo que sería un problema en un entorno de usuario real.
+
+Recomendación:
+
+Instrucciones Claras para Datos de Prueba: En entornos de prueba o demostración, añadir instrucciones explícitas y sencillas sobre cómo introducir los datos de prueba (ej., "Para fines de demostración, use MM/AA: 12/28" o "Ingrese 16 dígitos cualesquiera, ejemplo: 4242..."). Validación en Tiempo Real: Implementar validaciones en tiempo real para los campos que ofrezcan feedback inmediato y claro sobre el formato esperado. Campos de Entrada Estándar: Asegurarse de que los campos de entrada sigan convenciones estándar de la industria para tipos de datos como números de tarjeta o fechas.
+
+#### Problema #6: Falta de opciones avanzadas de gestión y exportación de datos para el segmento de Gestor de Proyectos, y centralización de analíticas.
+
+
+Severidad: 2 Heurística violada: Usabilidad: Flexibilidad y eficiencia de uso / Coincidencia entre el sistema y el mundo real.
+
+Problema: El usuario del segmento de Gestor de Proyectos expresó la necesidad de funcionalidades de gestión de proyectos más robustas, como la capacidad de incluir datos específicos del proyecto (ej. presupuesto asignado, tipo de tarea) en los reportes, lo cual no estaba visiblemente disponible. Además, solicitó opciones de filtrado más avanzadas en el dashboard (ej. por trimestre, por mes) y la capacidad de exportar datos a formatos como Excel, para un análisis más profundo ("una opción de descarga en Excel también me sirve porque a esos datos hay que tratarlos más"). Se mencionó también que "la vista de analíticas podría ser más centralizada y que tenga distintas áreas", lo que sugiere una necesidad de una visión más comprensiva y personalizable de los datos del proyecto. Esto indica que la aplicación, en su estado actual, no satisface completamente las necesidades de gestión y análisis de datos más complejas de un usuario de perfil gestion.
+
+Recomendación:
+
+Gestión de Proyectos gestion: Expandir las opciones de reportes para incluir campos para información corporativa y de proyecto detallada (presupuesto, hitos, responsabilidades, etc.) y permitir la generación de informes detallados. Filtros Avanzados en Dashboard: Añadir opciones de filtrado de tiempo más granulares (ej. día, semana, mes, trimestre, año) y personalizables en el dashboard, permitiendo a los usuarios segmentar y analizar datos por diferentes criterios de proyecto (ej. por estado, por tipo de tarea, por miembro del equipo). Exportación de Datos: Implementar funcionalidades de exportación de datos del dashboard a formatos comunes como CSV o Excel para permitir a los usuarios realizar análisis externos. Centralización de Analíticas: Rediseñar la sección de analíticas para ofrecer una vista más consolidada y personalizable, permitiendo a los usuarios visualizar diferentes aspectos del rendimiento del proyecto en un solo lugar y navegar fácilmente entre ellos.
+
+#### Problema #7: Iconografía o etiquetado poco claro.
+
+
+Severidad: 2 Heurística violada: Usabilidad: Reconocimiento en lugar de recuerdo / Coincidencia entre el sistema y el mundo real.
+
+Problema: Un usuario tuvo dudas sobre el significado del icono de "ojito" en la interfaz ("el del ojito no estaba seguro. ¿Para qué era?"). Además, se observó una ligera confusión entre los términos "nombre" y "tipo" de proyecto al registrar un nuevo proyecto, y entre "título" y "descripción". Estas inconsistencias o ambigüedades en la terminología y la iconografía requieren que el usuario adivine o dependa de la guía, lo que reduce la eficiencia y aumenta la carga cognitiva.
+
+Recomendación:
+
+Iconografía Intuitiva: Utilizar iconos universalmente reconocibles o añadir etiquetas de texto debajo de los iconos. Considerar tooltips al pasar el cursor sobre los iconos para proporcionar una descripción. Claridad Terminológica: Revisar la terminología utilizada en toda la aplicación para asegurar consistencia y que coincida con el lenguaje que los usuarios esperarían. Utilizar etiquetas claras para campos como "Nombre del Proyecto" y "Tipo de Proyecto", o "Asunto de la Pregunta" y "Detalle de la Pregunta". Pruebas de Usabilidad Continua: Realizar más pruebas con usuarios para identificar cualquier otra área donde el etiquetado o la iconografía puedan ser ambiguos.
+
+#### Problema #8: Ausencia de la función para adjuntar archivos o documentos a proyectos.
+
+
+Severidad: 2 Heurística violada: Usabilidad: Flexibilidad y eficiencia de uso.
+
+Problema: Un usuario sugirió la adición de una funcionalidad para "colocarle las fotos, ahí hay imágenes" al registrar o gestionar un proyecto. Adaptando este comentario, se infiere que la capacidad de adjuntar documentos relevantes al proyecto (como planes, imágenes, reportes, etc.) no estaba presente. Esta característica, que es común y esperada en aplicaciones de gestión de proyectos, no estaba disponible. Su ausencia limita la capacidad del usuario para centralizar y contextualizar la información de sus proyectos de manera visual y documental, lo que podría mejorar significativamente la experiencia y la utilidad de la aplicación para los Gestores de Proyectos.
+
+Recomendación:
+
+Implementar Carga de Archivos: Desarrollar e integrar una funcionalidad que permita a los usuarios adjuntar documentos, imágenes y otros archivos relevantes a sus proyectos. Beneficios Claros: Comunicar cómo esta característica puede enriquecer la experiencia del usuario (ej., "Adjunte planes, presupuestos y recursos clave a su proyecto", "Centralice toda la información de su proyecto").
+
+#### Problema #9: Pausas o cargas iniciales en la aplicación móvil.
+
+Severidad: 1 Heurística violada: Usabilidad: Visibilidad del estado del sistema / Tiempos de respuesta.
+
+Problema: Se observó una pausa o un momento de carga inicial en la aplicación móvil antes de que el usuario pudiera ingresar su contraseña y acceder a la interfaz. Aunque no impidió el uso, cualquier retraso inicial en el acceso puede generar una percepción de lentitud o ineficiencia en la aplicación.
+
+Recomendación:
+
+Optimización del Rendimiento: Optimizar el rendimiento de la aplicación móvil para reducir los tiempos de carga inicial y asegurar una experiencia fluida desde el primer momento. Indicadores de Carga: Si la carga es inevitable, proporcionar un indicador visual claro (ej., spinner, barra de progreso) para que el usuario sepa que la aplicación está funcionando y no está congelada. Aspectos Positivos Destacados: Durante la validación, los usuarios también mencionaron aspectos positivos importantes de EcoGuardian:
+
+Tareas asignadas visibles solo por miembros del equipo: Los usuarios percibieron positivamente la funcionalidad de que las tareas asignadas sean visibles únicamente para los miembros del equipo relevantes. Esto fomenta la claridad y reduce el ruido informativo, siendo una característica bien recibida para la gestión de tareas. Layout similar a aplicaciones de CRM y gestión: La familiaridad del layout con aplicaciones de CRM y gestión existentes fue un punto a favor. Esto reduce la curva de aprendizaje y hace que la interfaz sea intuitiva para los usuarios familiarizados con este tipo de herramientas. Diseño atractivo: Los usuarios expresaron que "les gustó mucho cómo quedó" el diseño general de la aplicación, lo que contribuye a una experiencia de usuario más agradable y profesional. Procesos rápidos: La velocidad de los procesos fue un aspecto muy valorado, indicando que "los procesos son super rápidos lo cual está excelente". La eficiencia en las operaciones es crucial para la productividad y la satisfacción del usuario.
 
 ## 6.4. Auditoría de Experiencias de Usuario
 
