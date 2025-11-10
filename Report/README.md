@@ -3508,7 +3508,7 @@ Diego cree que una herramienta como Aid Manager mejoraría "definitivamente" su 
 
 CARRERA: Ingeniería de Software 
 CURSO: Diseño de Experimentos de Ingeniería de Software 
-SECCIÓN: 3326 
+SECCIÓN: 7508
 PROFESOR: Noriega Melendez, Julio Manuel
 AUDITOR: AidRecruits
 
