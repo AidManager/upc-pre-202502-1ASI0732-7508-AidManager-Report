@@ -3462,8 +3462,6 @@ Actualmente, las ONG en Perú enfrentan una serie de desafíos relacionados con 
 
 #### Herramientas utilizadas actualmente
 
-[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#herramientas-utilizadas-actualmente)
-
 - **Microsoft Excel:** Es la herramienta más utilizada para llevar registros financieros y planificar tareas, aunque presenta limitaciones para colaboración y seguimiento en tiempo real.
 - **WhatsApp / Correo electrónico:** Utilizados como medios principales de comunicación entre gestores y equipos, lo cual genera dispersión, falta de trazabilidad y pérdida de información.
 - **Reuniones presenciales o por videollamada:** Son el medio más formal para coordinar acciones, pero requieren tiempo, logística y disponibilidad simultánea.
@@ -3471,8 +3469,6 @@ Actualmente, las ONG en Perú enfrentan una serie de desafíos relacionados con 
 ---
 
 #### Problemas identificados
-
-[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#problemas-identificados)
 
 - Fragmentación en la gestión de información.
 - Dificultad para realizar seguimiento de tareas asignadas.
@@ -3484,8 +3480,6 @@ Actualmente, las ONG en Perú enfrentan una serie de desafíos relacionados con 
 
 #### Necesidad de mejora
 
-[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#necesidad-de-mejora)
-
 Existe una oportunidad significativa para implementar una solución **todo-en-uno** que integre planificación, comunicación, análisis financiero y gestión de tareas, en un entorno centralizado y accesible. Esto permitiría mejorar la eficiencia operativa, reducir errores de coordinación y facilitar la transparencia del impacto social generado por cada ONG.
 
 ### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims
@@ -3495,8 +3489,6 @@ En esta sección se listan los insumos en bruto que alimentan el diseño de nues
 ---
 
 #### Assumptions
-
-[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#assumptions)
 
 - Las ONG desean digitalizar su gestión pero no cuentan con herramientas accesibles ni adaptadas a su contexto.
 - Los gestores de proyectos tienen disposición para adoptar nuevas tecnologías si estas no requieren capacitación extensa.
@@ -3508,8 +3500,6 @@ En esta sección se listan los insumos en bruto que alimentan el diseño de nues
 
 #### Knowledge Gaps
 
-[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#knowledge-gaps)
-
 - ¿Cuáles son las principales razones por las que las ONG no usan soluciones existentes como Trello o Jira?
 - ¿Qué funcionalidades consideran imprescindibles los gestores al momento de organizar sus proyectos?
 - ¿Qué tan dispuestos están los usuarios a pagar por una plataforma de gestión si actualmente usan medios gratuitos como Excel o WhatsApp?
@@ -3520,8 +3510,6 @@ En esta sección se listan los insumos en bruto que alimentan el diseño de nues
 
 #### Ideas
 
-[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#ideas)
-
 - Incluir un onboarding simplificado con tutorial interactivo para nuevos usuarios.
 - Implementar recordatorios automáticos para tareas pendientes vía notificación push.
 - Usar un sistema de tags para clasificar proyectos por tipo, zona de impacto o prioridad.
@@ -3531,8 +3519,6 @@ En esta sección se listan los insumos en bruto que alimentan el diseño de nues
 ---
 
 #### Claims
-
-[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#claims)
 
 - “Las ONG peruanas tienen necesidades tecnológicas específicas que no están siendo atendidas por plataformas genéricas.”
 - “Una solución ágil y adaptada a las ONG puede mejorar sustancialmente la eficiencia operativa.”
@@ -3559,8 +3545,6 @@ Esta sección presenta un conjunto de **preguntas listas para experimentar**, d
 
 #### Validación del modelo de negocio
 
-[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#validaci%C3%B3n-del-modelo-de-negocio)
-
 - ¿Están dispuestos los gestores a pagar por una suscripción mensual/anual por una herramienta que centraliza tareas, finanzas y comunicación?
 - ¿El precio por cuenta adicional representa una barrera significativa para organizaciones en crecimiento?
 - ¿Qué tipo de planes o esquemas de pago serían más atractivos para organizaciones con presupuestos limitados?
@@ -3569,8 +3553,6 @@ Esta sección presenta un conjunto de **preguntas listas para experimentar**, d
 
 #### Validación de impacto y retención
 
-[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#validaci%C3%B3n-de-impacto-y-retenci%C3%B3n)
-
 - ¿Qué tan seguido ingresan los usuarios a la plataforma para monitorear tareas o revisar presupuestos?
 - ¿Los usuarios continuarían usando la plataforma después del primer mes?
 - ¿Los usuarios perciben una mejora tangible en la organización de sus proyectos sociales?
@@ -3578,8 +3560,6 @@ Esta sección presenta un conjunto de **preguntas listas para experimentar**, d
 ---
 
 #### Validación de atracción y recomendación
-
-[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#validaci%C3%B3n-de-atracci%C3%B3n-y-recomendaci%C3%B3n)
 
 - ¿Los usuarios recomendarían esta herramienta a otras ONG?
 - ¿Qué elementos de la landing page captan más la atención del visitante?
@@ -3604,35 +3584,24 @@ Estas preguntas permitirán diseñar experimentos enfocados, como pruebas de usa
 
 ## Experiment Card 1: Implementación de Gráficos Analíticos para el Desempeño del Proyecto
 
-[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#experiment-card-1-implementaci%C3%B3n-de-gr%C3%A1ficos-anal%C3%ADticos-para-el-desempe%C3%B1o-del-proyecto)
-
 ### **Question**
-
-[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#question)
 
 ¿La implementación de gráficos analíticos en AidManager mejora la toma de decisiones y la visibilidad del desempeño del proyecto?
 
 ### **Why (¿Por qué es importante para el negocio?)**
 
-[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#why-por-qu%C3%A9-es-importante-para-el-negocio)
-
 Los gráficos analíticos proporcionan a los usuarios una forma visual y clara de evaluar el progreso y desempeño de sus proyectos. Esto puede ayudar a los gestores a identificar rápidamente áreas de mejora y tomar decisiones informadas para optimizar los plazos y resultados.
 
 ### **What (¿Cuál es la manera más fácil de validarlo?)**
-
-[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#what-cu%C3%A1l-es-la-manera-m%C3%A1s-f%C3%A1cil-de-validarlo)
 
 Desarrollar gráficos analíticos que muestren métricas clave del proyecto, como el progreso general, las tareas completadas y los retrasos. Realizar un análisis A/B entre un grupo de usuarios con acceso a estos gráficos y un grupo de control sin ellos, midiendo el impacto en la eficiencia de la gestión de proyectos.
 
 ### **Hypothesis**
 
-[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#hypothesis)
-
 Los usuarios que tienen acceso a gráficos analíticos mejorarán su capacidad de gestionar proyectos y tomar decisiones, aumentando la eficiencia del proyecto en un 15%.
 
 ### **Métricas**
 
-[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#m%C3%A9tricas)
 
 - Tasa de toma de decisiones informadas (medida por la cantidad de cambios realizados basados en la información de los gráficos)
 - Tiempo promedio para completar proyectos
@@ -3640,14 +3609,10 @@ Los usuarios que tienen acceso a gráficos analíticos mejorarán su capacidad d
 
 ### **Metas**
 
-[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#metas)
-
 - Incrementar la eficiencia de la gestión de proyectos en un 15%.
 - Aumentar el uso de los gráficos analíticos en un 20%.
 
 ### **Análisis Previo**
-
-[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#an%C3%A1lisis-previo)
 
 Sin herramientas visuales para el análisis del desempeño, los usuarios se han basado principalmente en informes textuales, lo que podría dificultar la rápida identificación de áreas críticas dentro de los proyectos.
 
@@ -3655,35 +3620,23 @@ Sin herramientas visuales para el análisis del desempeño, los usuarios se han 
 
 ## Experiment Card 2: Gestión de Tareas con Estado "Todo", "In Process" y "Done"
 
-[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#experiment-card-2-gesti%C3%B3n-de-tareas-con-estado-todo-in-process-y-done)
-
 ### **Question**
-
-[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#question-1)
 
 ¿El uso de un gestor de tareas con estados "Todo", "In Process" y "Done" mejora la organización y el seguimiento de tareas en AidManager?
 
 ### **Why (¿Por qué es importante para el negocio?)**
 
-[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#why-por-qu%C3%A9-es-importante-para-el-negocio-1)
-
 Un sistema visual y claro de gestión de tareas, donde los usuarios puedan ver el estado de cada tarea, facilita el seguimiento del progreso y mejora la organización dentro de los equipos. Esto podría mejorar la eficiencia operativa y la entrega de proyectos a tiempo.
 
 ### **What (¿Cuál es la manera más fácil de validarlo?)**
-
-[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#what-cu%C3%A1l-es-la-manera-m%C3%A1s-f%C3%A1cil-de-validarlo-1)
 
 Implementar un sistema de gestión de tareas en tres estados: "Todo", "In Process" y "Done". Realizar un test A/B entre un grupo que utiliza este sistema y un grupo de control sin el sistema, para evaluar cómo afecta a la productividad y al cumplimiento de plazos.
 
 ### **Hypothesis**
 
-[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#hypothesis-1)
-
 Los usuarios que utilizan el sistema de gestión de tareas con los estados definidos aumentarán la eficiencia de la gestión de proyectos en un 20%.
 
 ### **Métricas**
-
-[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#m%C3%A9tricas-1)
 
 - Número de tareas completadas dentro del tiempo asignado
 - Tiempo promedio de transición entre estados
@@ -3691,14 +3644,10 @@ Los usuarios que utilizan el sistema de gestión de tareas con los estados defin
 
 ### **Metas**
 
-[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#metas-1)
-
 - Aumentar la tasa de tareas completadas dentro del tiempo en un 25%.
 - Reducir el tiempo promedio de transición entre estados en un 15%.
 
 ### **Análisis Previo**
-
-[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#an%C3%A1lisis-previo-1)
 
 Los usuarios han experimentado dificultades para visualizar el progreso de las tareas y a menudo pierden de vista el estado actual de cada tarea dentro del proyecto.
 
@@ -3706,35 +3655,23 @@ Los usuarios han experimentado dificultades para visualizar el progreso de las t
 
 ## Experiment Card 3: Impacto de la Mejora de la Visibilidad de Tareas Pendientes en la Productividad
 
-[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#experiment-card-3-impacto-de-la-mejora-de-la-visibilidad-de-tareas-pendientes-en-la-productividad)
-
 ### **Question**
-
-[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#question-2)
 
 ¿La mejora en la visibilidad de las tareas pendientes mediante el sistema de "Todo", "In Process" y "Done" incrementa la productividad general del equipo?
 
 ### **Why (¿Por qué es importante para el negocio?)**
 
-[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#why-por-qu%C3%A9-es-importante-para-el-negocio-2)
-
 Un sistema claro para visualizar las tareas pendientes puede ayudar a los usuarios a enfocarse en lo que es importante en cada momento, aumentando su productividad y reduciendo el tiempo perdido en la gestión de tareas.
 
 ### **What (¿Cuál es la manera más fácil de validarlo?)**
-
-[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#what-cu%C3%A1l-es-la-manera-m%C3%A1s-f%C3%A1cil-de-validarlo-2)
 
 Implementar el sistema de gestión de tareas con los tres estados mencionados y medir la eficiencia del equipo en términos de tiempo de entrega y número de tareas completadas antes de la fecha límite.
 
 ### **Hypothesis**
 
-[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#hypothesis-2)
-
 Mejorar la visibilidad de las tareas pendientes mediante la implementación de un sistema organizado de "Todo", "In Process" y "Done" incrementará la productividad del equipo en un 30%.
 
 ### **Métricas**
-
-[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#m%C3%A9tricas-2)
 
 - Número de tareas completadas dentro del tiempo límite
 - Tiempo promedio de finalización de tareas
@@ -3742,14 +3679,11 @@ Mejorar la visibilidad de las tareas pendientes mediante la implementación de u
 
 ### **Metas**
 
-[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#metas-2)
 
 - Incrementar la productividad del equipo en un 30%.
 - Reducir el tiempo de finalización de tareas en un 20%.
 
 ### **Análisis Previo**
-
-[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#an%C3%A1lisis-previo-2)
 
 Los equipos han reportado dificultades para gestionar las tareas debido a la falta de un sistema claro de priorización y seguimiento. Las tareas pendientes no siempre son visibles o bien gestionadas, lo que causa retrasos en el proyecto.
 
@@ -3784,8 +3718,6 @@ En esta sección se definen las **medidas clave** que permitirán evaluar el �
 
 #### Métricas cuantitativas
 
-[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#m%C3%A9tricas-cuantitativas)
-
 |Métrica|Descripción|Objetivo esperado|
 |---|---|---|
 |**Tasa de activación**|Porcentaje de usuarios que completan el registro y configuran su primer proyecto|≥ 45% de usuarios nuevos|
@@ -3800,8 +3732,6 @@ En esta sección se definen las **medidas clave** que permitirán evaluar el �
 
 #### Métricas cualitativas
 
-[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#m%C3%A9tricas-cualitativas)
-
 - **Satisfacción del usuario (NPS)**: Recogida mediante encuestas post-uso sobre la utilidad del sistema.
 - **Feedback abierto en entrevistas de validación**: Comentarios sobre facilidad de uso, velocidad, claridad y percepción de impacto.
 - **Percepción de impacto social**: Evaluaciones sobre si la plataforma ayudó a mejorar la ejecución del proyecto social.
@@ -3809,8 +3739,6 @@ En esta sección se definen las **medidas clave** que permitirán evaluar el �
 ---
 
 #### Indicadores de validación mínima
-
-[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#indicadores-de-validaci%C3%B3n-m%C3%ADnima)
 
 - Si el **NPS** es mayor a **+30**, se considera validado el enfoque de experiencia de usuario.
 - Si al menos el **60% de los gestores** indican que prefieren la solución frente a sus métodos actuales (Excel/WhatsApp), se valida la propuesta de valor.
@@ -3820,23 +3748,15 @@ En esta sección se definen las **medidas clave** que permitirán evaluar el �
 
 ## **Experimental Condition:**
 
-[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#experimental-condition)
-
 ### **Pregunta de investigación**
-
-[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#pregunta-de-investigaci%C3%B3n)
 
 ¿El sistema de gráficos analíticos mejora la visibilidad del desempeño del proyecto y ayuda en la toma de decisiones?
 
 ### **Hipótesis**
 
-[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#hip%C3%B3tesis-1)
-
 Los usuarios que tienen acceso a los gráficos analíticos mejorarán su capacidad para gestionar proyectos, aumentando la eficiencia en la toma de decisiones y la finalización de tareas.
 
 ### **Condición experimental**
-
-[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#condici%C3%B3n-experimental)
 
 Los usuarios que participen en el grupo experimental tendrán acceso a gráficos analíticos que muestren el progreso del proyecto, como el porcentaje de tareas completadas, los plazos cumplidos y los retrasos. El objetivo es medir cómo el acceso a estos gráficos mejora la productividad de los proyectos y la toma de decisiones informadas.
 
@@ -3844,23 +3764,15 @@ Los usuarios que participen en el grupo experimental tendrán acceso a gráficos
 
 ### **Control Condition:**
 
-[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#control-condition)
-
 ### **Pregunta de investigación**
-
-[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#pregunta-de-investigaci%C3%B3n-1)
 
 ¿El sistema de gestión de tareas con estados "Todo", "In Process" y "Done" mejora la eficiencia y organización de los proyectos?
 
 ### **Hipótesis**
 
-[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#hip%C3%B3tesis-2)
-
 Los usuarios que utilicen el sistema de gestión de tareas con los estados definidos ("Todo", "In Process", "Done") aumentarán la eficiencia de los proyectos gestionados.
 
 ### **Condición control**
-
-[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#condici%C3%B3n-control)
 
 Los usuarios en el grupo de control seguirán utilizando el sistema tradicional de gestión de tareas sin una visualización clara de los estados de las tareas. No tendrán acceso a los gráficos analíticos ni a las mejoras de organización que permite la gestión de tareas con estados definidos.
 
@@ -3879,8 +3791,6 @@ Esta sección define los criterios y decisiones a tomar en función de los resul
 ---
 
 #### ✔ Reglas de decisión para escalar (thresholds)
-
-[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#-reglas-de-decisi%C3%B3n-para-escalar-thresholds)
 
 - **Gráficos analíticos se escalarán** si el 60% de los usuarios activos en el experimento reportan mejoras en toma de decisiones **y** hay un aumento de al menos **20% en finalización de tareas**.
 - **Sistema de estados de tareas se escalará** si el 70% de los proyectos experimentales registran **una disminución del tiempo promedio por tarea** o un incremento en tareas "Done".
@@ -3949,8 +3859,6 @@ Con el objetivo de evaluar en tiempo real el comportamiento de los usuarios en l
 
 #### Herramienta de Tracking Seleccionada
 
-[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#herramienta-de-tracking-seleccionada)
-
 La herramienta elegida para el seguimiento es **Google Analytics 4 (GA4)**, por su capacidad multiplataforma, soporte de eventos personalizados, y su integración sencilla con Firebase para la app móvil.
 
 Además, se utilizará **Google Tag Manager (GTM)** para facilitar la gestión de eventos sin necesidad de intervención directa en el código.
@@ -3958,8 +3866,6 @@ Además, se utilizará **Google Tag Manager (GTM)** para facilitar la gestión
 ---
 
 #### Eventos y Acciones a Rastrear
-
-[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#eventos-y-acciones-a-rastrear)
 
 |**Categoría**|**Evento de Tracking**|**Propósito**|
 |---|---|---|
@@ -3980,8 +3886,6 @@ Además, se utilizará **Google Tag Manager (GTM)** para facilitar la gestión
 
 #### Segmentación
 
-[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#segmentaci%C3%B3n)
-
 Los datos serán segmentados por:
 
 - Tipo de usuario: **Manager**, **TeamMember**,
@@ -3994,8 +3898,6 @@ Los datos serán segmentados por:
 
 #### Objetivo del Tracking
 
-[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#objetivo-del-tracking)
-
 - Validar hipótesis clave mediante comportamiento real
 - Optimizar los flujos de usuario (UX) a partir de los embudos de conversión
 - Identificar puntos de abandono o fricción
@@ -4005,8 +3907,6 @@ Los datos serán segmentados por:
 ---
 
 #### Consideraciones de Privacidad
-
-[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#consideraciones-de-privacidad)
 
 - Se implementará el anonimato de IP y eventos conforme al reglamento **GDPR** y **Ley de Protección de Datos Personales en Perú (Ley 29733)**.
 - Se incluirá un consentimiento de cookies y política de privacidad explícita en el sitio y la app.
@@ -4056,36 +3956,36 @@ A continuación, se detalla el Sprint Backlog con las tareas desarrolladas:
 
 ---
 
-|User story|Id|Title|Description|Estimation (Hours)|Assigned To|Status|
-|---|---|---|---|---|---|---|
-|US-AM-01 – Registro de nuevos proyectos sociales|T1|Backend: Crear endpoint de registro|Implementar `POST /projects` con validaciones de campos obligatorios|5|Sebastián Ramírez Hoffmann|Done|
-||T2|Frontend: Formulario de registro|UI para registrar proyectos con conexión al backend y validación|4|Juan Cuadros|Done|
-|US-AM-02 – Listado de proyectos asignados|T3|Backend: Endpoint de proyectos asignados|Implementar `GET /volunteers/{id}/projects` con datos filtrados|3|Manuel Peña|Done|
-||T4|Frontend: Vista de proyectos asignados|Tabla dinámica con filtros por fecha y estado del proyecto|3|Juan Cuadros|Done|
-|US-AM-03 – Asignación de tareas a voluntarios|T5|Backend: Endpoint de asignación|Crear `POST /tasks/assign` para asignar tareas con lógica de validación|5|Nicolás Esteban|Done|
-||T6|Frontend: Vista de asignación|Selector de voluntarios para tareas desde vista de proyecto|4|Sebastián Ramírez Méndez|Done|
-|US-AM-04 – Seguimiento de tareas|T7|Backend: Actualización de tareas|Endpoint `PATCH /tasks/{id}` para progreso y comentarios|4|Manuel Peña|Done|
-||T8|Frontend: Vista de seguimiento|Visualización de progreso con barra de avance y comentarios|4|Sebastián Ramírez Méndez|Done|
-|US-AM-05 – Dashboard con estado de proyectos|T9|Backend: KPIs generales|Crear endpoint de métricas de avance y estados por proyecto|5|Nicolás Esteban|Done|
-||T10|Frontend: Dashboard de estado|Mostrar gráficas e indicadores clave de los proyectos|5|Juan Cuadros|Done|
+| User story                                       | Id  | Title                                    | Description                                                             | Estimation (Hours) | Assigned To                     | Status |
+| ------------------------------------------------ | --- | ---------------------------------------- | ----------------------------------------------------------------------- | ------------------ | ------------------------------- | ------ |
+| US-AM-01 – Registro de nuevos proyectos sociales | T1  | Backend: Crear endpoint de registro      | Implementar `POST /projects` con validaciones de campos obligatorios    | 5                  | Barrutia Vaez, Ricardo Andree   | Done   |
+|                                                  | T2  | Frontend: Formulario de registro         | UI para registrar proyectos con conexión al backend y validación        | 4                  | Espinoza Inoñan, Fabiola Ximena | Done   |
+| US-AM-02 – Listado de proyectos asignados        | T3  | Backend: Endpoint de proyectos asignados | Implementar `GET /volunteers/{id}/projects` con datos filtrados         | 3                  | Periche Quiroga, Piero Fernando | Done   |
+|                                                  | T4  | Frontend: Vista de proyectos asignados   | Tabla dinámica con filtros por fecha y estado del proyecto              | 3                  | Espinoza Inoñan, Fabiola Ximena | Done   |
+| US-AM-03 – Asignación de tareas a voluntarios    | T5  | Backend: Endpoint de asignación          | Crear `POST /tasks/assign` para asignar tareas con lógica de validación | 5                  | Portales Ortiz, Diego Alejandro | Done   |
+|                                                  | T6  | Frontend: Vista de asignación            | Selector de voluntarios para tareas desde vista de proyecto             | 4                  | Barrutia Vaez, Ricardo Andree   | Done   |
+| US-AM-04 – Seguimiento de tareas                 | T7  | Backend: Actualización de tareas         | Endpoint `PATCH /tasks/{id}` para progreso y comentarios                | 4                  | Periche Quiroga, Piero Fernando | Done   |
+|                                                  | T8  | Frontend: Vista de seguimiento           | Visualización de progreso con barra de avance y comentarios             | 4                  | Sinuiri Mozombite, Giancarlo    | Done   |
+| US-AM-05 – Dashboard con estado de proyectos     | T9  | Backend: KPIs generales                  | Crear endpoint de métricas de avance y estados por proyecto             | 5                  | Portales Ortiz, Diego Alejandro | Done   |
+|                                                  | T10 | Frontend: Dashboard de estado            | Mostrar gráficas e indicadores clave de los proyectos                   | 5                  | Sinuiri Mozombite, Giancarlo    | Done   |
 
 #### 8.3.3.2. Implemented To-Be Landing Page Evidence
 
 Se evidencian capturas de la implementación de la landing page desplegado en Vercel. Se realizaron mejoras de optimización, usando Bundle con Vite y uso de @layer components para crear clases reutilizables Link de landing page: [https://landing-page-aid-manager-37nb.vercel.app](https://landing-page-aid-manager-37nb.vercel.app/)
+![[to-be-landing-page-1.png]]
 
-[![Seccion de landing page hero](https://github.com/disenio-de-experimentos-4446/Report/raw/main/assets/to-be-implemented/to-be-landing-page-1.png)](https://github.com/disenio-de-experimentos-4446/Report/blob/main/assets/to-be-implemented/to-be-landing-page-1.png)
+![[to-be-landing-page-2.png]]
 
-[![Seccion de Que hacemos](https://github.com/disenio-de-experimentos-4446/Report/raw/main/assets/to-be-implemented/to-be-landing-page-2.png)](https://github.com/disenio-de-experimentos-4446/Report/blob/main/assets/to-be-implemented/to-be-landing-page-2.png)
+![[to-be-landing-page-3.png]]
 
-[![Seccion de beneficios](https://github.com/disenio-de-experimentos-4446/Report/raw/main/assets/to-be-implemented/to-be-landing-page-3.png)](https://github.com/disenio-de-experimentos-4446/Report/blob/main/assets/to-be-implemented/to-be-landing-page-3.png)
+![[to-be-landing-page-4.png]]
 
-[![Seccion de alianzas](https://github.com/disenio-de-experimentos-4446/Report/raw/main/assets/to-be-implemented/to-be-landing-page-4.png)](https://github.com/disenio-de-experimentos-4446/Report/blob/main/assets/to-be-implemented/to-be-landing-page-4.png)
+![[to-be-landing-page-5.png]]
 
-[![Seccion de testimonios](https://github.com/disenio-de-experimentos-4446/Report/raw/main/assets/to-be-implemented/to-be-landing-page-5.png)](https://github.com/disenio-de-experimentos-4446/Report/blob/main/assets/to-be-implemented/to-be-landing-page-5.png)
+![[to-be-landing-page-derf.png]]
 
-[![Seccion de contacto](https://github.com/disenio-de-experimentos-4446/Report/raw/main/assets/to-be-implemented/to-be-landing-page-derf.png)](https://github.com/disenio-de-experimentos-4446/Report/blob/main/assets/to-be-implemented/to-be-landing-page-derf.png)
+![[to-be-landing-page-6.png]]
 
-[![Seccion de nekofooter](https://github.com/disenio-de-experimentos-4446/Report/raw/main/assets/to-be-implemented/to-be-landing-page-6.png)](https://github.com/disenio-de-experimentos-4446/Report/blob/main/assets/to-be-implemented/to-be-landing-page-6.png)
 
 #### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
 
@@ -4093,75 +3993,77 @@ Se evidencia la aplicación web desplegada y con la implementación de los exper
 
 **Dashboard de Analíticas:** Implementación del experiment card para visualización de métricas del proyecto. Incluye gráficos de progreso, distribución de tareas y presupuestos categorizados para monitoreo integral.
 
-[![Dashboard de Analíticas con métricas del proyecto](https://github.com/disenio-de-experimentos-4446/Report/raw/main/assets/to-be-implemented/to-be-front-1.jpeg)](https://github.com/disenio-de-experimentos-4446/Report/blob/main/assets/to-be-implemented/to-be-front-1.jpeg)
+![[to-be-front-1.jpeg]]
+
 
 **Gestión con Tablero Kanban:** Validación del experiment card para gestión visual de tareas. Sistema Kanban con columnas To-Do, Doing y Done para coordinación eficiente del equipo.
 
-[![Vista detallada del proyecto con gestión de tareas Kanban](https://github.com/disenio-de-experimentos-4446/Report/raw/main/assets/to-be-implemented/to-be-front-2.jpeg)](https://github.com/disenio-de-experimentos-4446/Report/blob/main/assets/to-be-implemented/to-be-front-2.jpeg)
+![[to-be-front-2.jpeg]]
+
 
 **Sistema de Calendario:** Implementación del experiment card para gestión temporal centralizada. Calendario interactivo con indicadores visuales y navegación optimizada para planificación de proyectos.
 
-[![Sistema de calendario integrado para gestión temporal](https://github.com/disenio-de-experimentos-4446/Report/raw/main/assets/to-be-implemented/to-be-front-3.jpeg)](https://github.com/disenio-de-experimentos-4446/Report/blob/main/assets/to-be-implemented/to-be-front-3.jpeg)
+![[to-be-front-3.jpeg]]
+
 
 **Perfil de Usuario:** Validación del experiment card para gestión personalizada de tareas. Vista individual con filtros avanzados que promueve responsabilidad personal del equipo.
 
-[![Perfil de usuario y gestión personal de tareas](https://github.com/disenio-de-experimentos-4446/Report/raw/main/assets/to-be-implemented/to-be-front-4.jpeg)](https://github.com/disenio-de-experimentos-4446/Report/blob/main/assets/to-be-implemented/to-be-front-4.jpeg)
+![[to-be-front-4.jpeg]]
 
 #### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
 
 Se evidencia el despliegue de la aplicación móvil Aid Manager versión 1.0.0 a través de Firebase App Distribution.
 
-[![Firebase App Distribution - Aid Manager Mobile v1.0.0](https://github.com/disenio-de-experimentos-4446/Report/raw/main/assets/to-be-implemented/to-be-mobile.jpeg)](https://github.com/disenio-de-experimentos-4446/Report/blob/main/assets/to-be-implemented/to-be-mobile.jpeg)
+![[to-be-mobile.jpeg]]
 
 #### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
 
 Se evidencia el Swagger desplegado con Render, así como el link de un endpoint que se consume en el frontend. Link de Swagger: [https://aid-manager-general-backend.onrender.com/swagger/index.html](https://aid-manager-general-backend.onrender.com/swagger/index.html)
 
-[![Endpoints de Aidmanager](https://github.com/disenio-de-experimentos-4446/Report/raw/main/assets/to-be-implemented/to-be-backend-render.jpeg)](https://github.com/disenio-de-experimentos-4446/Report/blob/main/assets/to-be-implemented/to-be-backend-render.jpeg)
+![[to-be-backend-render.jpeg]]
 
-[![Endpoints de Aidmanager](https://github.com/disenio-de-experimentos-4446/Report/raw/main/assets/to-be-implemented/to-be-backend-derf.jpeg)](https://github.com/disenio-de-experimentos-4446/Report/blob/main/assets/to-be-implemented/to-be-backend-derf.jpeg)
+![[to-be-backend-derf.jpeg]]
 
-[![Endpoints de Aidmanager](https://github.com/disenio-de-experimentos-4446/Report/raw/main/assets/to-be-implemented/to-be-backend-1.png)](https://github.com/disenio-de-experimentos-4446/Report/blob/main/assets/to-be-implemented/to-be-backend-1.png)
+![[to-be-backend-1.png]]
 
-[![Endpoints de Aidmanager](https://github.com/disenio-de-experimentos-4446/Report/raw/main/assets/to-be-implemented/to-be-backend-2.png)](https://github.com/disenio-de-experimentos-4446/Report/blob/main/assets/to-be-implemented/to-be-backend-2.png)
+![[to-be-backend-2.png]]
 
-[![Endpoints de Aidmanager](https://github.com/disenio-de-experimentos-4446/Report/raw/main/assets/to-be-implemented/to-be-backend-3.png)](https://github.com/disenio-de-experimentos-4446/Report/blob/main/assets/to-be-implemented/to-be-backend-3.png)
+![[to-be-backend-3.png]]
 
-[![Endpoints de Aidmanager](https://github.com/disenio-de-experimentos-4446/Report/raw/main/assets/to-be-implemented/to-be-backend-4.png)](https://github.com/disenio-de-experimentos-4446/Report/blob/main/assets/to-be-implemented/to-be-backend-4.png)
+![[to-be-backend-4.png]]
 
-[![Endpoints de Aidmanager](https://github.com/disenio-de-experimentos-4446/Report/raw/main/assets/to-be-implemented/to-be-backend-5.png)](https://github.com/disenio-de-experimentos-4446/Report/blob/main/assets/to-be-implemented/to-be-backend-5.png)
+![[to-be-backend-5.png]]
 
-[![Endpoints de Aidmanager](https://github.com/disenio-de-experimentos-4446/Report/raw/main/assets/to-be-implemented/to-be-backend-6.png)](https://github.com/disenio-de-experimentos-4446/Report/blob/main/assets/to-be-implemented/to-be-backend-6.png)
+![[to-be-backend-6.png]]
 
-[![Endpoints de Aidmanager](https://github.com/disenio-de-experimentos-4446/Report/raw/main/assets/to-be-implemented/to-be-backend-7.png)](https://github.com/disenio-de-experimentos-4446/Report/blob/main/assets/to-be-implemented/to-be-backend-7.png)
+![[to-be-backend-7.png]]
 
 #### 8.3.3.6. Team Collaboration Insights
 
-Se evidencian insights de los repositorios de Github donde se han trabajado las implementaciones. Link de organización: [https://github.com/orgs/disenio-de-experimentos-4446/repositories](https://github.com/orgs/disenio-de-experimentos-4446/repositories)
+Se evidencian insights de los repositorios de Github donde se han trabajado las implementaciones. Link de organización: [https://github.com/orgs/AidManager/repositories](https://github.com/orgs/AidManager/repositories)
 
-Insights de repositorio de landing page Link: [https://github.com/disenio-de-experimentos-4446/LandingPage-AidManager](https://github.com/disenio-de-experimentos-4446/LandingPage-AidManager)
+Insights de repositorio de landing page Link: [https://github.com/AidManager/AidManager-LandingPage](https://github.com/AidManager/AidManager-LandingPage)
 
-[![Landing page Aidmanager](https://github.com/disenio-de-experimentos-4446/Report/raw/main/assets/insights%208.3/landing.png)](https://github.com/disenio-de-experimentos-4446/Report/blob/main/assets/insights%208.3/landing.png)
+![[assets/insights-20252/landing.png]]
 
-Insights de repositorio de frontend Link: [https://github.com/disenio-de-experimentos-4446/Aid-Manager-Web-Application](https://github.com/disenio-de-experimentos-4446/Aid-Manager-Web-Application)
 
-[![Landing page Aidmanager](https://github.com/disenio-de-experimentos-4446/Report/raw/main/assets/insights%208.3/front.png)](https://github.com/disenio-de-experimentos-4446/Report/blob/main/assets/insights%208.3/front.png)
+Insights de repositorio de frontend Link: [https://github.com/AidManager/AidManager-FrontendWeb](https://github.com/AidManager/AidManager-FrontendWeb)
 
-Insights de repositorio de backend Link: [https://github.com/disenio-de-experimentos-4446/Aid-Manager-General-BackEnd](https://github.com/disenio-de-experimentos-4446/Aid-Manager-General-BackEnd)
+![[frontend.png]]
 
-[![Landing page Aidmanager](https://github.com/disenio-de-experimentos-4446/Report/raw/main/assets/insights%208.3/back.png)](https://github.com/disenio-de-experimentos-4446/Report/blob/main/assets/insights%208.3/back.png)
+Insights de repositorio de backend Link: [https://github.com/AidManager/Aid-Manager-General-BackEnd](https://github.com/AidManager/Aid-Manager-General-BackEnd)
 
-Insights de repositorio de mobile Link: [https://github.com/disenio-de-experimentos-4446/Aid-Manager-Mobile-App](https://github.com/disenio-de-experimentos-4446/Aid-Manager-Mobile-App)
+![[backend.png]]
 
-[![Landing page Aidmanager](https://github.com/disenio-de-experimentos-4446/Report/raw/main/assets/insights%208.3/mobile.png)](https://github.com/disenio-de-experimentos-4446/Report/blob/main/assets/insights%208.3/mobile.png)
+Insights de repositorio de mobile Link: [https://github.com/AidManager/MobileApp](https://github.com/AidManager/MobileApp)
+
+![[mobilapp.png]]
 
 ### 8.3.4. To-Be Validation Interviews
 
 #### 8.3.4.1. Diseño de Entrevistas
 
 ##### 1. **Preguntas Generales:**
-
-[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#1-preguntas-generales)
 
 - ¿Cuál es tu nombre completo?
 - ¿Qué edad tienes?
@@ -4170,8 +4072,6 @@ Insights de repositorio de mobile Link: [https://github.com/disenio-de-experime
 - ¿Que dispositivos usas?
 
 ##### **Preguntas para Gestores de Proyectos**
-
-[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#preguntas-para-gestores-de-proyectos)
 
 - ¿Qué te parece el diseño de la landing page de AidManager? ¿Es clara y fácil de navegar para gestionar tus proyectos?
 - ¿La interfaz de la aplicación web te resulta intuitiva al asignar tareas y gestionar proyectos? ¿Te fue fácil encontrar las funciones clave?
@@ -4184,8 +4084,6 @@ Insights de repositorio de mobile Link: [https://github.com/disenio-de-experime
 ---
 
 #### **Preguntas para Voluntarios**
-
-[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#preguntas-para-voluntarios)
 
 - ¿Qué te parece el diseño de la landing page de AidManager? ¿Te resulta clara y fácil de navegar para encontrar tus tareas asignadas?
 - ¿La interfaz de la aplicación web es fácil de usar? ¿Pudiste encontrar rápidamente las tareas y eventos que te han sido asignados?
@@ -4202,8 +4100,6 @@ video de las entrevistas: [https://youtu.be/EnOEZSLR6A8](https://youtu.be/EnOEZ
 
 # Segmento 1
 
-[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#segmento-1)
-
 Nombre: Luis Eduardo Herrera González
 
 Edad: 21 años
@@ -4218,7 +4114,7 @@ Navegador: Chrome
 
 Momento de la entrevista: [0:00]
 
-[![Luis entrevista](https://github.com/disenio-de-experimentos-4446/Report/raw/main/assets/entrevistas-finales/Luis.png)](https://github.com/disenio-de-experimentos-4446/Report/blob/main/assets/entrevistas-finales/Luis.png)
+![[assets/entrevistas-finales/Luis.png]]
 
 Resumen de la entrevista:
 
@@ -4238,7 +4134,8 @@ Navegador: Chrome
 
 Momento de la entrevista: [0:00]
 
-[![Ariana entrevista](https://github.com/disenio-de-experimentos-4446/Report/raw/main/assets/entrevistas-finales/aliz.png)](https://github.com/disenio-de-experimentos-4446/Report/blob/main/assets/entrevistas-finales/aliz.png)
+![[aliz.png]]
+
 
 Resumen de la entrevista:
 
@@ -4258,15 +4155,13 @@ Navegador: Chrome
 
 Momento de la entrevista: [0:00]
 
-[![Keisi Entrevista final](https://github.com/disenio-de-experimentos-4446/Report/raw/main/assets/entrevistas-finales/Keyli.png)](https://github.com/disenio-de-experimentos-4446/Report/blob/main/assets/entrevistas-finales/Keyli.png)
+![[Keyli.png]]
 
 Resumen de la entrevista:
 
 Keisy, utiliza su celular y laptop en su día a día. En cuanto a la landing page de la plataforma, menciona que la interfaz es bastante clara, pero tiene algunas reservas sobre el uso del color verde, ya que lo asocia con la ecología, lo cual le parece apropiado. Sin embargo, encuentra que los íconos en la página son demasiado separados y sugirió que podrían ser más dinámicos y mejor organizados. Además, comenta que le gustaría que la navegación fuera más interactiva, con más movimiento y animaciones, para hacer la experiencia más atractiva visualmente para miembros de equipo. Respecto a la funcionalidad de crear posts, Kazy no entendió bien cómo funcionaba al principio, pero después de la explicación, sugirió que podría mejorar para que sea más claro y fácil de usar. También mencionó que los posts deberían incluir imágenes y que la opción para crear estos dentro de la organización podría ser más explicativa, similar a una plataforma como Facebook, donde se publican actualizaciones de proyectos. Finalmente, sugiere que la plataforma podría tener más interactividad y animaciones para hacerla más atractiva y funcional en su conjunto, especialmente en la página de inicio.
 
 # Segmento 2
-
-[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#segmento-2)
 
 Nombre: María Teresa
 
@@ -4282,7 +4177,7 @@ Navegador: Chrome
 
 Momento de la entrevista: [0:00]
 
-[![Maria Entrevista](https://github.com/disenio-de-experimentos-4446/Report/raw/main/assets/entrevistas-finales/tere.png)](https://github.com/disenio-de-experimentos-4446/Report/blob/main/assets/entrevistas-finales/tere.png)
+![[tere.png]]
 
 Resumen de la entrevista:
 
@@ -4302,7 +4197,7 @@ Navegador: Chrome
 
 Momento de la entrevista: [0:00]
 
-[![Isa entrevista](https://github.com/disenio-de-experimentos-4446/Report/raw/main/assets/entrevistas-finales/isa.png)](https://github.com/disenio-de-experimentos-4446/Report/blob/main/assets/entrevistas-finales/isa.png)
+![[isa.png]]
 
 Resumen de la entrevista:
 
@@ -4322,7 +4217,7 @@ Navegador: Chrome
 
 Momento de la entrevista: [0:00]
 
-[![fabrizzio entrevista](https://github.com/disenio-de-experimentos-4446/Report/raw/main/assets/entrevistas-finales/fa.png)](https://github.com/disenio-de-experimentos-4446/Report/blob/main/assets/entrevistas-finales/fa.png)
+![[fa.png]]
 
 Resumen de la entrevista:
 
@@ -4359,8 +4254,6 @@ El aprendizaje continuo ha sido un pilar fundamental en el desarrollo de **AidM
 
 #### Formato de la Shareback Session
 
-[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#formato-de-la-shareback-session)
-
 Estas sesiones fueron diseñadas para promover un espacio colaborativo donde los integrantes del equipo pudieran compartir sus aprendizajes, desafíos y buenas prácticas adquiridas durante cada ciclo de desarrollo. La estructura seguida fue:
 
 1. Introducción y objetivos de la sesión.
@@ -4369,8 +4262,6 @@ Estas sesiones fueron diseñadas para promover un espacio colaborativo donde los
 4. Registro de acciones para mejorar procesos, tecnología y colaboración.
 
 #### Documentación de los Aprendizajes
-
-[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#documentaci%C3%B3n-de-los-aprendizajes)
 
 Cada sesión generó artefactos que fueron almacenados en un repositorio interno accesible para todo el equipo. Esta documentación permitió visibilizar el progreso del equipo y fomentar la reutilización de soluciones. Los aprendizajes se registraron utilizando el siguiente formato:
 
@@ -4382,13 +4273,9 @@ Cada sesión generó artefactos que fueron almacenados en un repositorio interno
 
 #### Integración con la Mejora Continua
 
-[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#integraci%C3%B3n-con-la-mejora-continua)
-
 Los aprendizajes extraídos fueron discutidos y reaplicados en las retrospectivas de sprint, permitiendo ajustar prácticas de desarrollo, pruebas, comunicación y despliegue. Esto aseguró que el conocimiento no se quede aislado, sino que retroalimente el proceso ágil adoptado por el equipo.
 
 #### Artefactos de la Sesión
-
-[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#artefactos-de-la-sesi%C3%B3n)
 
 A continuación, se presentan ejemplos de artefactos generados durante las sesiones de aprendizaje:
 
@@ -4422,26 +4309,18 @@ El video tiene como objetivo mostrar cómo AidManager facilita la gestión de ta
 
 #### Enlaces del video:
 
-[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#enlaces-del-video)
-
 - _Microsoft Stream_*: [Ver video en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a359_upc_edu_pe/EYbJuyXOTX9DtQJzU_p6V7ABlDaHvU3h3Ei1NwjH5P03sA?e=yPsjN4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 - **YouTube**: [Ver video en YouTube](https://www.youtube.com/watch?v=2cZpH5GsaWg)
 
 #### Duración del video:
 
-[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#duraci%C3%B3n-del-video)
-
 **01:15 segundos**
 
 #### Screenshot del video:
 
-[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#screenshot-del-video)
-
-[![Screenshot del video de presentación de AidManager](https://github.com/disenio-de-experimentos-4446/Report/raw/main/assets/AidManager-Video.png)](https://github.com/disenio-de-experimentos-4446/Report/blob/main/assets/AidManager-Video.png)
+![[AidManager-Video.png]]
 
 # Video About The Team
-
-[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#video-about-the-team)
 
 Se adjunta el video about the team realizado con los testimonios de nuestros miembros de equipo
 
