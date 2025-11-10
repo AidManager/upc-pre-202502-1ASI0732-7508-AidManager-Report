@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "25f06e70ac87ce35",
+        "id": "2cd479fd962b4a66",
         "type": "tabs",
         "children": [
           {
-            "id": "eb6f312f6b2ae1b7",
+            "id": "dcd6429ea1c76724",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -44,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de archivos"
+              "title": "Files"
             }
           },
           {
@@ -160,31 +160,30 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir selector rápido": false,
-      "graph:Abrir vista gráfica": false,
-      "canvas:Crear nuevo lienzo": false,
-      "daily-notes:Abrir la nota de hoy": false,
-      "templates:Insertar plantilla": false,
-      "command-palette:Abrir paleta de comandos": false,
-      "bases:Crear nueva base": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
     }
   },
-  "active": "eb6f312f6b2ae1b7",
+  "active": "20b570764922eda4",
   "lastOpenFiles": [
-    "assets/cap6/13 diego V2.png",
-    "assets/cap6/17 luis V2.png",
-    "assets/cap6/16 interview-3-validation.png",
-    "assets/cap6/15 mariah V2.png",
-    "assets/cap6/14 maria V2.png",
-    "assets/cap6/13 diego.png",
-    "assets/cap6/12 api-db.png",
-    "assets/cap6/11 code-repository.png",
-    "assets/cap6/10 code-async.png",
-    "assets/cap6/9 code-try-catch.png",
-    "assets/cap6/8 back-folder-structure.png",
-    "assets/cap6",
-    "assets/cap7",
+    "assets/to-be-implemented/to-be-backend-1.png",
+    "Report/README.md",
+    "assets/insights-20252/backend.png",
+    "assets/insights-20252/frontend.png",
+    "assets/insights-20252/mobilapp.png",
+    "assets/insights-20252/landing.png",
+    "assets/insights-20252",
     "assets/Nueva carpeta",
-    "Report/README.md"
+    "assets/gsm-13.png",
+    "assets/gsm-12.png",
+    "assets/gsm-11.png",
+    "assets/gsm-10.png",
+    "assets/gsm-9.png",
+    "assets/gsm-8.png"
   ]
 }
