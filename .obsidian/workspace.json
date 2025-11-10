@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Report/README.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -169,19 +169,21 @@
       "bases:Create new base": false
     }
   },
-  "active": "dcd6429ea1c76724",
+  "active": "20b570764922eda4",
   "lastOpenFiles": [
+    "assets/to-be-implemented/to-be-backend-1.png",
+    "Report/README.md",
+    "assets/insights-20252/backend.png",
+    "assets/insights-20252/frontend.png",
+    "assets/insights-20252/mobilapp.png",
+    "assets/insights-20252/landing.png",
+    "assets/insights-20252",
+    "assets/Nueva carpeta",
     "assets/gsm-13.png",
     "assets/gsm-12.png",
     "assets/gsm-11.png",
     "assets/gsm-10.png",
     "assets/gsm-9.png",
-    "assets/gsm-8.png",
-    "assets/gsm-7.png",
-    "assets/gsm-5.png",
-    "assets/gsm-6.png",
-    "assets/gsm-4.png",
-    "assets/gsm-2.png",
-    "Report/README.md"
+    "assets/gsm-8.png"
   ]
 }

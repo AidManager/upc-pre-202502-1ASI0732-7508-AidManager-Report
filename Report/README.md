@@ -3121,52 +3121,53 @@ Para realizar las pruebas unitarias y de integracion se ha usado el marco de pru
 
 Se muestra evidencia de los test a las historios de usuario del proyecto
 
-![[../assets/gsm-1.png]]
 
-![[gsm-2.png]]
+![](../assets/gsm-1.png)
 
-![[gsm-17.png]]
+![](../assets/gsm-2.png)
 
-![[gsm-4.png]]
+![](../assets/gsm-17.png)
 
-![[gsm-6.png]]
+![](../assets/gsm-4.png)
 
-![[gsm-11.png]]
+![](../assets/gsm-6.png)
 
-![[gsm-12.png]]
+![](../assets/gsm-11.png)
 
-![[gsm-13.png]]
+![](../assets/gsm-12.png)
 
-![[gsm-5.png]]
+![](../assets/gsm-13.png)
 
-![[gsm-7.png]]
+![](../assets/gsm-5.png)
 
-![[gsm-9.png]]
+![](../assets/gsm-7.png)
 
-![[gsm-10.png]]
+![](../assets/gsm-9.png)
 
-![[gsm-14.png]]
+![](../assets/gsm-10.png)
 
-![[gsm-15.png]]
+![](../assets/gsm-14.png)
+
+![](../assets/gsm-15.png)
 
 ### 6.1.2. Core Integration Tests
 
-![[gsm-21.png]]
+![](../assets/gsm-21.png)
 
 ### 6.1.3. Core Behavior-Driven Development
 
-![[gsm-18.png]]
+![](../assets/gsm-18.png)
 
-![[gsm-19.png]]
 
+![](../assets/gsm-19.png)
 
 ### 6.1.4. Core System Tests
 
-![[gsm-22.png]]
+![](../assets/gsm-22.png)
 
-![[gsm-23.png]]
+![](../assets/gsm-23.png)
 
-![[gsm-24.png]]
+![](../assets/gsm-24.png)
 
 ## 6.2. Static Testing & Verification
 
@@ -3456,37 +3457,502 @@ Snippet para comentar en PR si falla:
 
 ### 8.1.1. As-Is Summary
 
+Actualmente, las ONG en Perú enfrentan una serie de desafíos relacionados con la gestión de sus proyectos, recursos humanos y fondos financieros. A pesar de contar con personal comprometido y voluntad de generar impacto, la mayoría de estas organizaciones no dispone de herramientas adecuadas para optimizar su operativa interna.
+
+---
+
+#### Herramientas utilizadas actualmente
+
+- **Microsoft Excel:** Es la herramienta más utilizada para llevar registros financieros y planificar tareas, aunque presenta limitaciones para colaboración y seguimiento en tiempo real.
+- **WhatsApp / Correo electrónico:** Utilizados como medios principales de comunicación entre gestores y equipos, lo cual genera dispersión, falta de trazabilidad y pérdida de información.
+- **Reuniones presenciales o por videollamada:** Son el medio más formal para coordinar acciones, pero requieren tiempo, logística y disponibilidad simultánea.
+
+---
+
+#### Problemas identificados
+
+- Fragmentación en la gestión de información.
+- Dificultad para realizar seguimiento de tareas asignadas.
+- Poca claridad en roles, metas y avance de proyectos.
+- Limitado uso de datos para evaluar impacto y tomar decisiones.
+- Comunicación ineficiente y poco estructurada entre los miembros del equipo.
+
+---
+
+#### Necesidad de mejora
+
+Existe una oportunidad significativa para implementar una solución **todo-en-uno** que integre planificación, comunicación, análisis financiero y gestión de tareas, en un entorno centralizado y accesible. Esto permitiría mejorar la eficiencia operativa, reducir errores de coordinación y facilitar la transparencia del impacto social generado por cada ONG.
+
 ### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims
+
+En esta sección se listan los insumos en bruto que alimentan el diseño de nuestros experimentos. Se clasifican en cuatro categorías: **supuestos (assumptions)**, **lagunas de conocimiento (knowledge gaps)**, **ideas** y **afirmaciones (claims)** que influencian la estrategia de validación.
+
+---
+
+#### Assumptions
+
+- Las ONG desean digitalizar su gestión pero no cuentan con herramientas accesibles ni adaptadas a su contexto.
+- Los gestores de proyectos tienen disposición para adoptar nuevas tecnologías si estas no requieren capacitación extensa.
+- Los voluntarios y ayudantes valoran la claridad en tareas y comunicación directa con el gestor.
+- La falta de adopción tecnológica se debe más a desconocimiento que a resistencia al cambio.
+- La gestión financiera es un punto crítico que influye directamente en la sostenibilidad de los proyectos sociales.
+
+---
+
+#### Knowledge Gaps
+
+- ¿Cuáles son las principales razones por las que las ONG no usan soluciones existentes como Trello o Jira?
+- ¿Qué funcionalidades consideran imprescindibles los gestores al momento de organizar sus proyectos?
+- ¿Qué tan dispuestos están los usuarios a pagar por una plataforma de gestión si actualmente usan medios gratuitos como Excel o WhatsApp?
+- ¿Qué porcentaje del tiempo se pierde actualmente en tareas de coordinación que podrían automatizarse?
+- ¿Qué nivel de digitalización tienen las ONGs fuera de Lima y cómo afecta esto la viabilidad del producto?
+
+---
+
+#### Ideas
+
+- Incluir un onboarding simplificado con tutorial interactivo para nuevos usuarios.
+- Implementar recordatorios automáticos para tareas pendientes vía notificación push.
+- Usar un sistema de tags para clasificar proyectos por tipo, zona de impacto o prioridad.
+- Diseñar dashboards visuales que faciliten el seguimiento del impacto social por proyecto.
+- Ofrecer un modo offline que sincronice datos al recuperar conexión, útil para zonas rurales.
+
+---
+
+#### Claims
+
+- “Las ONG peruanas tienen necesidades tecnológicas específicas que no están siendo atendidas por plataformas genéricas.”
+- “Una solución ágil y adaptada a las ONG puede mejorar sustancialmente la eficiencia operativa.”
+- “La adopción de tecnología en el tercer sector está limitada por la falta de productos asequibles y adecuados, no por falta de interés.”
+- “La mejora en la gestión interna tiene un efecto directo en el impacto social de los proyectos.”
+- “La comunicación fluida entre gestores y ayudantes puede reducir errores y tiempos muertos en la ejecución de actividades.”
 
 ### 8.1.3. Experiment-Ready Questions
 
+Esta sección presenta un conjunto de **preguntas listas para experimentar**, diseñadas para validar las hipótesis clave planteadas previamente. Cada pregunta busca descubrir información crítica sobre el comportamiento, las necesidades y la aceptación del usuario hacia la solución propuesta.
+
+---
+
+#### Validación del producto y su utilidad
+
+- ¿Los gestores de ONG consideran que una plataforma especializada puede reemplazar sus métodos actuales como Excel o WhatsApp?
+- ¿Qué funcionalidades consideran imprescindibles para organizar sus proyectos de forma efectiva?
+- ¿Los ayudantes entienden fácilmente las tareas asignadas dentro de la plataforma?
+- ¿La plataforma permite una comunicación más eficiente que los medios actuales?
+
+---
+
+#### Validación del modelo de negocio
+
+- ¿Están dispuestos los gestores a pagar por una suscripción mensual/anual por una herramienta que centraliza tareas, finanzas y comunicación?
+- ¿El precio por cuenta adicional representa una barrera significativa para organizaciones en crecimiento?
+- ¿Qué tipo de planes o esquemas de pago serían más atractivos para organizaciones con presupuestos limitados?
+
+---
+
+#### Validación de impacto y retención
+
+- ¿Qué tan seguido ingresan los usuarios a la plataforma para monitorear tareas o revisar presupuestos?
+- ¿Los usuarios continuarían usando la plataforma después del primer mes?
+- ¿Los usuarios perciben una mejora tangible en la organización de sus proyectos sociales?
+
+---
+
+#### Validación de atracción y recomendación
+
+- ¿Los usuarios recomendarían esta herramienta a otras ONG?
+- ¿Qué elementos de la landing page captan más la atención del visitante?
+- ¿Qué canal de comunicación (redes, email, referidos) genera más registros?
+
+---
+
+Estas preguntas permitirán diseñar experimentos enfocados, como pruebas de usabilidad, entrevistas, encuestas y análisis de métricas, que servirán para evaluar el nivel de aceptación del producto, la utilidad real de sus funciones y la viabilidad del modelo de negocio.
+
 ### 8.1.4. Question Backlog
 
+- ¿Cuánto tiempo de gestión y seguimiento de tareas se ahorrará con el uso de AidManager en comparación con métodos tradicionales como Excel o WhatsApp?
+- ¿Cómo influirá el uso de un sistema de comunicación interno en la rapidez y eficacia de la coordinación entre gestores y ayudantes?
+- ¿Qué impacto tendrá la visualización en tiempo real del avance de proyectos en la toma de decisiones de los gestores?
+- ¿La herramienta de gestión financiera permitirá detectar desviaciones presupuestarias de manera más rápida que los métodos actuales?
+- ¿Qué porcentaje de organizaciones estaría dispuesto a pagar por un plan mejorado después de probar el sistema por tres meses?
+- ¿La inclusión de dashboards visuales incrementará el uso semanal de la aplicación por parte de los gestores?
+- ¿Qué funcionalidades son percibidas como imprescindibles por los ayudantes de proyectos en campo?
+- ¿Cuánto mejora la satisfacción del usuario al contar con una única plataforma para comunicación, gestión y seguimiento?
+
 ### 8.1.5. Experiment Cards
+
+## Experiment Card 1: Implementación de Gráficos Analíticos para el Desempeño del Proyecto
+
+### **Question**
+
+¿La implementación de gráficos analíticos en AidManager mejora la toma de decisiones y la visibilidad del desempeño del proyecto?
+
+### **Why (¿Por qué es importante para el negocio?)**
+
+Los gráficos analíticos proporcionan a los usuarios una forma visual y clara de evaluar el progreso y desempeño de sus proyectos. Esto puede ayudar a los gestores a identificar rápidamente áreas de mejora y tomar decisiones informadas para optimizar los plazos y resultados.
+
+### **What (¿Cuál es la manera más fácil de validarlo?)**
+
+Desarrollar gráficos analíticos que muestren métricas clave del proyecto, como el progreso general, las tareas completadas y los retrasos. Realizar un análisis A/B entre un grupo de usuarios con acceso a estos gráficos y un grupo de control sin ellos, midiendo el impacto en la eficiencia de la gestión de proyectos.
+
+### **Hypothesis**
+
+Los usuarios que tienen acceso a gráficos analíticos mejorarán su capacidad de gestionar proyectos y tomar decisiones, aumentando la eficiencia del proyecto en un 15%.
+
+### **Métricas**
+
+
+- Tasa de toma de decisiones informadas (medida por la cantidad de cambios realizados basados en la información de los gráficos)
+- Tiempo promedio para completar proyectos
+- Nivel de satisfacción del usuario con los gráficos analíticos
+
+### **Metas**
+
+- Incrementar la eficiencia de la gestión de proyectos en un 15%.
+- Aumentar el uso de los gráficos analíticos en un 20%.
+
+### **Análisis Previo**
+
+Sin herramientas visuales para el análisis del desempeño, los usuarios se han basado principalmente en informes textuales, lo que podría dificultar la rápida identificación de áreas críticas dentro de los proyectos.
+
+---
+
+## Experiment Card 2: Gestión de Tareas con Estado "Todo", "In Process" y "Done"
+
+### **Question**
+
+¿El uso de un gestor de tareas con estados "Todo", "In Process" y "Done" mejora la organización y el seguimiento de tareas en AidManager?
+
+### **Why (¿Por qué es importante para el negocio?)**
+
+Un sistema visual y claro de gestión de tareas, donde los usuarios puedan ver el estado de cada tarea, facilita el seguimiento del progreso y mejora la organización dentro de los equipos. Esto podría mejorar la eficiencia operativa y la entrega de proyectos a tiempo.
+
+### **What (¿Cuál es la manera más fácil de validarlo?)**
+
+Implementar un sistema de gestión de tareas en tres estados: "Todo", "In Process" y "Done". Realizar un test A/B entre un grupo que utiliza este sistema y un grupo de control sin el sistema, para evaluar cómo afecta a la productividad y al cumplimiento de plazos.
+
+### **Hypothesis**
+
+Los usuarios que utilizan el sistema de gestión de tareas con los estados definidos aumentarán la eficiencia de la gestión de proyectos en un 20%.
+
+### **Métricas**
+
+- Número de tareas completadas dentro del tiempo asignado
+- Tiempo promedio de transición entre estados
+- Nivel de satisfacción de los usuarios con el sistema de gestión de tareas
+
+### **Metas**
+
+- Aumentar la tasa de tareas completadas dentro del tiempo en un 25%.
+- Reducir el tiempo promedio de transición entre estados en un 15%.
+
+### **Análisis Previo**
+
+Los usuarios han experimentado dificultades para visualizar el progreso de las tareas y a menudo pierden de vista el estado actual de cada tarea dentro del proyecto.
+
+---
+
+## Experiment Card 3: Impacto de la Mejora de la Visibilidad de Tareas Pendientes en la Productividad
+
+### **Question**
+
+¿La mejora en la visibilidad de las tareas pendientes mediante el sistema de "Todo", "In Process" y "Done" incrementa la productividad general del equipo?
+
+### **Why (¿Por qué es importante para el negocio?)**
+
+Un sistema claro para visualizar las tareas pendientes puede ayudar a los usuarios a enfocarse en lo que es importante en cada momento, aumentando su productividad y reduciendo el tiempo perdido en la gestión de tareas.
+
+### **What (¿Cuál es la manera más fácil de validarlo?)**
+
+Implementar el sistema de gestión de tareas con los tres estados mencionados y medir la eficiencia del equipo en términos de tiempo de entrega y número de tareas completadas antes de la fecha límite.
+
+### **Hypothesis**
+
+Mejorar la visibilidad de las tareas pendientes mediante la implementación de un sistema organizado de "Todo", "In Process" y "Done" incrementará la productividad del equipo en un 30%.
+
+### **Métricas**
+
+- Número de tareas completadas dentro del tiempo límite
+- Tiempo promedio de finalización de tareas
+- Nivel de satisfacción del usuario con la visibilidad de las tareas pendientes
+
+### **Metas**
+
+
+- Incrementar la productividad del equipo en un 30%.
+- Reducir el tiempo de finalización de tareas en un 20%.
+
+### **Análisis Previo**
+
+Los equipos han reportado dificultades para gestionar las tareas debido a la falta de un sistema claro de priorización y seguimiento. Las tareas pendientes no siempre son visibles o bien gestionadas, lo que causa retrasos en el proyecto.
 
 ## 8.2. Experiment Design
 
 ### 8.2.1. Hypotheses
 
+A continuación, se presentan las principales hipótesis del proyecto AidManager, siguiendo la estructura de Lean UX. Cada hipótesis responde a una necesidad concreta detectada en los usuarios y se puede validar mediante pruebas reales con el MVP y entrevistas.
+
+---
+
+|**Hipótesis**|**Cómo lo validaremos**|
+|---|---|
+|Creemos que al ofrecer una **interfaz sencilla para asignar tareas**, los gestores podrán trabajar más rápido.|Observaremos un aumento del **20% en la creación de tareas** durante las primeras semanas.|
+|Creemos que al implementar un **módulo financiero claro**, los gestores podrán planificar mejor sus recursos.|El **uso del módulo financiero** alcanzará al menos un **50% de adopción** entre proyectos activos.|
+|Creemos que una **comunicación integrada** mejorará la coordinación equipo-gestor.|Se observará un **incremento del 20% en la frecuencia de mensajes** enviados dentro del sistema.|
+|Creemos que una **plataforma orientada a ONGs peruanas** generará mayor adopción que herramientas genéricas.|Al menos un **60% de los entrevistados** preferirá nuestra solución sobre herramientas existentes.|
+|Creemos que una **versión premium con más cuentas** atraerá a ONGs en expansión.|Un **10% de usuarios** migrará al plan premium en los primeros seis meses.|
+|Creemos que una **landing page informativa** generará interés inicial suficiente para validar demanda.|Mediremos una tasa de conversión de **al menos 10%** de visitantes a registros en lista de espera.|
+
+---
+
+Cada una de estas hipótesis se vincula directamente con funcionalidades clave del MVP y será contrastada con datos reales a través de pruebas controladas, entrevistas y análisis de comportamiento de los usuarios.
+
 ### 8.2.2. Domain Business Metrics
 
+A continuación, se presentan las métricas oficiales que serán utilizadas para evaluar el impacto del producto en el dominio de gestión de proyectos para ONG:
+
+| Métrica                                                 | Descripción                                                                         | Fórmula de Cálculo                                                                                      | Fuente de Datos                             | Meta Deseada                             | Frecuencia |
+| ------------------------------------------------------- | ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | ------------------------------------------- | ---------------------------------------- | ---------- |
+| **Tasa de Retención de Usuarios Activos**               | Mide cuántos usuarios continúan utilizando la plataforma después del onboarding.    | Retención = (Usuarios activos en mes n / Usuarios activos en mes n-1) × 100                             | Registro de sesiones en backend / Analytics | ≥ 60% mensual                            | Mensual    |
+| **Porcentaje de Tareas Completadas a Tiempo**           | Evalúa la eficiencia en la ejecución de tareas dentro de los proyectos.             | % Tareas a Tiempo = (Tareas completadas antes o en la fecha límite / Total de tareas completadas) × 100 | Base de datos de tareas                     | ≥ 75%                                    | Por Sprint |
+| **Nivel de Uso del Módulo de Comunicación**             | Mide el grado de interacción entre los miembros del equipo dentro de la plataforma. | Uso = Número de mensajes o interacciones por proyecto / Número de usuarios del proyecto                 | Logs de mensajería interna                  | ≥ 20 interacciones por proyecto / semana | Semanal    |
+| **Tiempo Promedio de Respuesta entre Gestor y Miembro** | Mide la fluidez en la comunicación.                                                 | Tiempo Promedio = Σ (Tiempo de respuesta) / Total de respuestas                                         | Registro de mensajes internos               | ≤ 2 horas                                | Semanal    |
+| **Incremento de Proyectos Finalizados**                 | Evalúa si la plataforma contribuye a la gestión eficiente de proyectos.             | Incremento = Proyectos finalizados con AidManager − Proyectos finalizados antes del uso                 | Entrevistas + Dashboard                     | +20% en 3 meses                          | Trimestral |
 ### 8.2.3. Measures
+
+En esta sección se definen las **medidas clave** que permitirán evaluar el éxito o fracaso de los experimentos. Estas métricas se alinean con los resultados esperados del usuario y del negocio, permitiendo validar o refutar las hipótesis formuladas.
+
+---
+
+#### Métricas cuantitativas
+
+|Métrica|Descripción|Objetivo esperado|
+|---|---|---|
+|**Tasa de activación**|Porcentaje de usuarios que completan el registro y configuran su primer proyecto|≥ 45% de usuarios nuevos|
+|**Retención mensual**|Porcentaje de usuarios activos que retornan a la plataforma al siguiente mes|≥ 60%|
+|**Tasa de tareas completadas**|Porcentaje de tareas asignadas que son marcadas como completadas por los ayudantes|≥ 80% de cumplimiento|
+|**Uso del módulo financiero**|Número de veces que los usuarios acceden al módulo de análisis financiero|≥ 50 sesiones por semana|
+|**Frecuencia de uso de la mensajería**|Cantidad de mensajes enviados entre gestores y ayudantes en la plataforma|≥ 20 mensajes por proyecto|
+|**Tasa de mejora de plan**|Porcentaje de usuarios que cambian a un plan premium por necesidad de más cuentas|≥ 10% de los usuarios activos|
+|**Tasa de referencia**|Porcentaje de usuarios que recomiendan la plataforma a otras ONG|≥ 5%|
+
+---
+
+#### Métricas cualitativas
+
+- **Satisfacción del usuario (NPS)**: Recogida mediante encuestas post-uso sobre la utilidad del sistema.
+- **Feedback abierto en entrevistas de validación**: Comentarios sobre facilidad de uso, velocidad, claridad y percepción de impacto.
+- **Percepción de impacto social**: Evaluaciones sobre si la plataforma ayudó a mejorar la ejecución del proyecto social.
+
+---
+
+#### Indicadores de validación mínima
+
+- Si el **NPS** es mayor a **+30**, se considera validado el enfoque de experiencia de usuario.
+- Si al menos el **60% de los gestores** indican que prefieren la solución frente a sus métodos actuales (Excel/WhatsApp), se valida la propuesta de valor.
+- Si el uso del módulo de tareas supera el **70%** de los proyectos registrados, se valida la funcionalidad central.
 
 ### 8.2.4. Conditions
 
+## **Experimental Condition:**
+
+### **Pregunta de investigación**
+
+¿El sistema de gráficos analíticos mejora la visibilidad del desempeño del proyecto y ayuda en la toma de decisiones?
+
+### **Hipótesis**
+
+Los usuarios que tienen acceso a los gráficos analíticos mejorarán su capacidad para gestionar proyectos, aumentando la eficiencia en la toma de decisiones y la finalización de tareas.
+
+### **Condición experimental**
+
+Los usuarios que participen en el grupo experimental tendrán acceso a gráficos analíticos que muestren el progreso del proyecto, como el porcentaje de tareas completadas, los plazos cumplidos y los retrasos. El objetivo es medir cómo el acceso a estos gráficos mejora la productividad de los proyectos y la toma de decisiones informadas.
+
+---
+
+### **Control Condition:**
+
+### **Pregunta de investigación**
+
+¿El sistema de gestión de tareas con estados "Todo", "In Process" y "Done" mejora la eficiencia y organización de los proyectos?
+
+### **Hipótesis**
+
+Los usuarios que utilicen el sistema de gestión de tareas con los estados definidos ("Todo", "In Process", "Done") aumentarán la eficiencia de los proyectos gestionados.
+
+### **Condición control**
+
+Los usuarios en el grupo de control seguirán utilizando el sistema tradicional de gestión de tareas sin una visualización clara de los estados de las tareas. No tendrán acceso a los gráficos analíticos ni a las mejoras de organización que permite la gestión de tareas con estados definidos.
+
 ### 8.2.5. Scale Calculations and Decisions
+
+Esta sección define los criterios y decisiones a tomar en función de los resultados obtenidos durante los experimentos, tanto para el sistema de **gráficos analíticos** como para la **gestión de tareas con estados definidos**.
+
+|**Condición**|**Resultado Esperado**|**Decisión**|
+|---|---|---|
+|Validación total|- Los usuarios del grupo experimental usan los gráficos de forma recurrente.  <br>- Aumenta el porcentaje de tareas completadas y decisiones efectivas.|Escalar los **gráficos analíticos** a todos los usuarios y convertirlo en funcionalidad principal.|
+|Validación del tablero Kanban|- Los usuarios del grupo de control muestran mejoras claras con la visualización "Todo", "In Process", "Done".|Incorporar el **sistema de estados de tareas** como parte central de la UX del módulo de tareas.|
+|Validación parcial|- Solo se cumple una de las dos métricas clave (por ejemplo, mayor visibilidad pero sin aumento en tareas finalizadas).|Iterar sobre la funcionalidad (por ejemplo, simplificar gráficos o mejorar onboarding del sistema de tareas).|
+|Resultado inconcluso|- El uso fue bajo, o los resultados muestran mucha variabilidad según el tipo de usuario u ONG.|Ajustar la segmentación de usuarios o rediseñar los dashboards/estados según tipo de proyecto.|
+|Invalidación|- No hay diferencia significativa entre grupo control y experimental.  <br>- El sistema añade complejidad sin mejoras en productividad.|Descartar la funcionalidad en su forma actual y considerar otras soluciones (como alertas automatizadas o dashboards simplificados).|
+
+---
+
+#### ✔ Reglas de decisión para escalar (thresholds)
+
+- **Gráficos analíticos se escalarán** si el 60% de los usuarios activos en el experimento reportan mejoras en toma de decisiones **y** hay un aumento de al menos **20% en finalización de tareas**.
+- **Sistema de estados de tareas se escalará** si el 70% de los proyectos experimentales registran **una disminución del tiempo promedio por tarea** o un incremento en tareas "Done".
+- Se considerará **validación parcial** si solo se cumple uno de los dos indicadores clave en cada funcionalidad.
+- Si **ninguno de los objetivos mínimos se cumple**, se considera **invalidado** y se propone rediseño o descarte.
 
 ### 8.2.6. Methods Selection
 
+Para analizar los datos y validar las hipótesis de nuestro producto AidManager, evaluamos tres herramientas ampliamente utilizadas en el mercado: **Google Analytics**, **Matomo** y **Plausible Analytics**. Esta evaluación se basó en criterios relevantes como: precio, privacidad, facilidad de integración, nivel de personalización, escalabilidad y enfoque hacia organizaciones sin fines de lucro.
+
+|Característica|Google Analytics|Matomo|Plausible Analytics|
+|---|---|---|---|
+|Precio|Gratis (GA4) / Premium (GA360)|Gratis (self-hosted) / Premium (cloud-hosted)|Pago mensual (modelo transparente, open source)|
+|Privacidad de datos|Datos almacenados en servidores de Google|Alto control de privacidad, self-hosted|Sin cookies, cumple con GDPR, datos anónimos|
+|Facilidad de implementación|Alta, especialmente en ecosistema Google|Alta (self-hosted), media (cloud)|Muy alta, se integra con una línea de código|
+|Nivel de personalización|Avanzado, requiere curva de aprendizaje|Muy alto, informes personalizables|Básico pero efectivo|
+|Integraciones|Amplia (Google Ads, Firebase, etc.)|CMS, e-commerce, CRMs|Compatible con CMS modernos|
+|Visualización de datos|Dashboards avanzados, informes completos|Dashboards editables, exportación a Excel|Gráficos simples y fáciles de entender|
+|Soporte y comunidad|Documentación extensa, comunidad activa|Comunidad fuerte, soporte en versión de pago|Comunidad activa, documentación clara|
+|Escalabilidad|Alta, recomendada para grandes volúmenes|Alta en ambientes auto-gestionados|Ideal para startups y ONGs pequeñas|
+|Actualizaciones|Constantes|Comunidad activa, mejoras frecuentes|Constantes, con foco en rendimiento y privacidad|
+
+**Elección final:**  
+Seleccionamos **Google Analytics 4** por su integración nativa con herramientas de seguimiento web, métricas de usuario, y por ser ampliamente adoptado y documentado. Asimismo, su plan gratuito es funcional para ONGs en crecimiento y nos permite configurar eventos clave sin costo adicional.
+
 ### 8.2.7. Data Analytics: Goals, KPIs and Metrics Selection
 
+A continuación, se describen los **objetivos**, **KPIs** y **métricas** que utilizaremos para evaluar el desempeño del producto AidManager, en relación con nuestros experimentos y validaciones.
+
+1. **Tasa de activación de gestores**
+    
+    - **Descripción:** Porcentaje de usuarios gestores que completan el registro de su ONG y configuran al menos un proyecto.
+    - **Meta:** Alcanzar una tasa del 40% durante los primeros dos meses tras el lanzamiento.
+2. **Tasa de asignación de tareas**
+    
+    - **Descripción:** Porcentaje de proyectos en los que se han asignado tareas a al menos un miembro del equipo.
+    - **Meta:** Lograr que el 60% de los gestores activos utilicen el módulo de asignación en el primer mes.
+3. **Frecuencia de uso del módulo de comunicación**
+    
+    - **Descripción:** Número de veces que se utiliza el chat interno o se envían mensajes entre gestores y miembros del equipo.
+    - **Meta:** Promediar al menos 2 interacciones por usuario activo semanalmente.
+4. **Tasa de tareas completadas a tiempo**
+    
+    - **Descripción:** Porcentaje de tareas marcadas como completadas antes o en la fecha límite establecida.
+    - **Meta:** Superar el 70% de cumplimiento puntual al tercer mes.
+5. **Uso del módulo financiero**
+    
+    - **Descripción:** Porcentaje de usuarios gestores que ingresan presupuestos y gastos en el sistema.
+    - **Meta:** Lograr que el 50% de los gestores activen y utilicen el módulo financiero dentro de los primeros 45 días.
+6. **Tiempo promedio en la aplicación**
+    
+    - **Descripción:** Tiempo promedio que un usuario pasa dentro de la aplicación móvil o web en cada sesión.
+    - **Meta:** Aumentar el tiempo medio a más de 7 minutos por sesión luego de 2 meses de uso continuo.
+7. **Tasa de upgrade al plan premium**
+    
+    - **Descripción:** Porcentaje de organizaciones que migran a un plan con mayor capacidad de usuarios.
+    - **Meta:** Alcanzar un 10% de upgrade en los primeros 6 meses.
+
+Estas métricas nos permitirán analizar con precisión el comportamiento de los usuarios y validar si nuestro producto logra resolver los problemas identificados en la etapa de needfinding.
+
 ### 8.2.8. Web and Mobile Tracking Plan
+
+Con el objetivo de evaluar en tiempo real el comportamiento de los usuarios en la plataforma **AidManager**, se implementará un plan de seguimiento integral tanto para la versión web como para la aplicación móvil. Este plan permitirá recolectar datos clave para validar hipótesis, medir la efectividad del diseño de UX y analizar el impacto funcional del producto en contextos reales de uso.
+
+---
+
+#### Herramienta de Tracking Seleccionada
+
+La herramienta elegida para el seguimiento es **Google Analytics 4 (GA4)**, por su capacidad multiplataforma, soporte de eventos personalizados, y su integración sencilla con Firebase para la app móvil.
+
+Además, se utilizará **Google Tag Manager (GTM)** para facilitar la gestión de eventos sin necesidad de intervención directa en el código.
+
+---
+
+#### Eventos y Acciones a Rastrear
+
+|**Categoría**|**Evento de Tracking**|**Propósito**|
+|---|---|---|
+|Onboarding|`onboarding_completed`|Medir tasa de activación de nuevos usuarios|
+|Registro de ONG|`org_created`|Validar si los usuarios configuran correctamente su primera organización|
+|Creación de proyecto|`project_created`|Confirmar el inicio de actividad en la plataforma|
+|Asignación de tareas|`task_assigned`|Rastrear adopción del módulo de tareas|
+|Cambio de estado de tarea|`task_status_updated`|Medir uso del sistema "Todo/In Progress/Done"|
+|Envío de mensajes|`message_sent`|Analizar uso del canal de comunicación interno|
+|Acceso al módulo financiero|`financial_module_opened`|Validar uso de herramientas de planificación financiera|
+|Registro de gasto|`expense_registered`|Medir profundidad del uso del módulo financiero|
+|Visualización de gráficos|`analytics_viewed`|Rastrear el interés por los dashboards de análisis de desempeño|
+|Tiempo en pantalla|`session_duration`|Obtener promedio de interacción por sesión|
+|Upgrade de plan|`plan_upgraded`|Medir conversión al plan premium|
+|Referencia|`referral_invited`|Evaluar el crecimiento por recomendaciones|
+
+---
+
+#### Segmentación
+
+Los datos serán segmentados por:
+
+- Tipo de usuario: **Manager**, **TeamMember**,
+- Plataforma: **Web** y **Mobile**
+- Región geográfica: Lima, provincias, zonas rurales
+- Tipo de proyecto: educación, salud, medioambiente, etc.
+- Frecuencia de uso: usuarios recurrentes vs. nuevos
+
+---
+
+#### Objetivo del Tracking
+
+- Validar hipótesis clave mediante comportamiento real
+- Optimizar los flujos de usuario (UX) a partir de los embudos de conversión
+- Identificar puntos de abandono o fricción
+- Detectar funcionalidades subutilizadas que requieran mejoras o rediseño
+- Medir la eficacia del onboarding y del contenido informativo
+
+---
+
+#### Consideraciones de Privacidad
+
+- Se implementará el anonimato de IP y eventos conforme al reglamento **GDPR** y **Ley de Protección de Datos Personales en Perú (Ley 29733)**.
+- Se incluirá un consentimiento de cookies y política de privacidad explícita en el sitio y la app.
+- No se capturarán datos sensibles ni identificadores personales sin autorización explícita.
 
 ## 8.3. Experimentation
 
 ### 8.3.1. To-Be User Stories
 
+A continuación se detallan las historias de usuario previstas para la plataforma **AidManager**, orientadas a mejorar la eficiencia operativa de organizaciones sociales mediante la gestión digital de proyectos, tareas, usuarios y métricas de impacto.
+
+| ID       | Actor             | User Story                                                                                                                                   | Criterios de Aceptación                                                                                                                                                |
+| -------- | ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| US-AM-01 | Coordinador ONG   | Como coordinador, quiero registrar nuevos proyectos sociales, para gestionarlos desde la plataforma.                                         | - El sistema debe permitir crear proyectos con título, descripción, objetivos, fechas y responsables.  <br>- Se debe mostrar mensaje de confirmación tras el registro. |
+| US-AM-02 | Voluntario        | Como voluntario, quiero visualizar los proyectos en los que participo, para conocer mis tareas asignadas.                                    | - El sistema debe mostrar una lista de proyectos relacionados al usuario logueado.  <br>- Debe incluir fechas clave y responsables del proyecto.                       |
+| US-AM-03 | Coordinador ONG   | Como coordinador, quiero asignar tareas específicas a los voluntarios, para asegurar una correcta distribución del trabajo.                  | - El sistema debe permitir crear tareas y asignarlas a usuarios del proyecto.  <br>- Cada tarea debe tener estado, prioridad y fecha límite.                           |
+| US-AM-04 | Voluntario        | Como voluntario, quiero registrar el progreso de mis tareas, para mantener al equipo informado.                                              | - El sistema debe permitir actualizar el estado de una tarea.  <br>- Se debe guardar un historial de cambios por tarea.                                                |
+| US-AM-05 | Coordinador ONG   | Como coordinador, quiero visualizar un dashboard con el avance de cada proyecto, para tomar decisiones informadas.                           | - El sistema debe mostrar porcentaje de avance, tareas completadas y pendientes por proyecto.  <br>- Debe permitir filtrar por fechas o responsables.                  |
+| US-AM-06 | Administrador ONG | Como administrador, quiero gestionar los usuarios de la plataforma, para controlar accesos y roles.                                          | - El sistema debe permitir registrar, editar, eliminar y asignar roles a los usuarios.  <br>- Se deben validar roles antes de mostrar funcionalidades.                 |
+| US-AM-07 | Coordinador ONG   | Como coordinador, quiero enviar notificaciones automáticas a los voluntarios sobre tareas pendientes, para mejorar la eficiencia del equipo. | - El sistema debe enviar recordatorios según fecha límite configurada.  <br>- Debe notificarse por correo o dentro de la app.                                          |
+| US-AM-08 | Administrador ONG | Como administrador, quiero visualizar métricas de impacto social por proyecto, para sustentar reportes institucionales.                      | - El sistema debe mostrar indicadores como beneficiarios alcanzados, horas voluntarias, etc.  <br>- Debe poder exportarse a PDF o Excel.                               |
+| US-AM-09 | Voluntario        | Como voluntario, quiero recibir notificaciones de nuevas tareas asignadas, para actuar con rapidez.                                          | - El sistema debe generar una notificación inmediata tras la asignación.  <br>- Debe incluir un enlace directo a la tarea correspondiente.                             |
+
 ### 8.3.2. To-Be Product Backlog
+
+A continuación se presenta el backlog de producto correspondiente al sistema **AidManager**, basado en las historias de usuario definidas en la sección anterior. Cada ítem está priorizado según su valor funcional y esfuerzo estimado para el desarrollo.
+
+|ID|Historia de Usuario Relacionada|Épica|Característica|Prioridad|Esfuerzo Estimado|
+|---|---|---|---|---|---|
+|PB-AM-01|US-AM-01|Gestión de Proyectos|Registro de nuevos proyectos sociales|Alta|5 puntos|
+|PB-AM-02|US-AM-02|Visualización Personal|Listado de proyectos asignados al voluntario|Alta|3 puntos|
+|PB-AM-03|US-AM-03|Gestión de Tareas|Asignación de tareas a voluntarios|Alta|5 puntos|
+|PB-AM-04|US-AM-04|Seguimiento de Tareas|Registro y actualización del progreso de tareas|Alta|5 puntos|
+|PB-AM-05|US-AM-05|Panel de Control|Dashboard con avance y estado de proyectos|Alta|8 puntos|
+|PB-AM-06|US-AM-06|Gestión de Usuarios|Alta, edición y eliminación de usuarios y asignación de roles|Media|5 puntos|
+|PB-AM-07|US-AM-07|Notificaciones|Recordatorios automáticos de tareas pendientes|Media|5 puntos|
+|PB-AM-08|US-AM-08|Reportes e Indicadores|Métricas de impacto social y exportación|Alta|8 puntos|
+|PB-AM-09|US-AM-09|Notificaciones|Aviso inmediato al voluntario por nueva tarea asignada|Media|3 puntos|
 
 ### 8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle
 
