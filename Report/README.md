@@ -3535,8 +3535,6 @@ Esta sección presenta un conjunto de **preguntas listas para experimentar**, d
 
 #### Validación del producto y su utilidad
 
-[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#validaci%C3%B3n-del-producto-y-su-utilidad)
-
 - ¿Los gestores de ONG consideran que una plataforma especializada puede reemplazar sus métodos actuales como Excel o WhatsApp?
 - ¿Qué funcionalidades consideran imprescindibles para organizar sus proyectos de forma efectiva?
 - ¿Los ayudantes entienden fácilmente las tareas asignadas dentro de la plataforma?
@@ -3711,6 +3709,15 @@ Cada una de estas hipótesis se vincula directamente con funcionalidades clave d
 
 ### 8.2.2. Domain Business Metrics
 
+A continuación, se presentan las métricas oficiales que serán utilizadas para evaluar el impacto del producto en el dominio de gestión de proyectos para ONG:
+
+| Métrica                                                 | Descripción                                                                         | Fórmula de Cálculo                                                                                      | Fuente de Datos                             | Meta Deseada                             | Frecuencia |
+| ------------------------------------------------------- | ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | ------------------------------------------- | ---------------------------------------- | ---------- |
+| **Tasa de Retención de Usuarios Activos**               | Mide cuántos usuarios continúan utilizando la plataforma después del onboarding.    | Retención = (Usuarios activos en mes n / Usuarios activos en mes n-1) × 100                             | Registro de sesiones en backend / Analytics | ≥ 60% mensual                            | Mensual    |
+| **Porcentaje de Tareas Completadas a Tiempo**           | Evalúa la eficiencia en la ejecución de tareas dentro de los proyectos.             | % Tareas a Tiempo = (Tareas completadas antes o en la fecha límite / Total de tareas completadas) × 100 | Base de datos de tareas                     | ≥ 75%                                    | Por Sprint |
+| **Nivel de Uso del Módulo de Comunicación**             | Mide el grado de interacción entre los miembros del equipo dentro de la plataforma. | Uso = Número de mensajes o interacciones por proyecto / Número de usuarios del proyecto                 | Logs de mensajería interna                  | ≥ 20 interacciones por proyecto / semana | Semanal    |
+| **Tiempo Promedio de Respuesta entre Gestor y Miembro** | Mide la fluidez en la comunicación.                                                 | Tiempo Promedio = Σ (Tiempo de respuesta) / Total de respuestas                                         | Registro de mensajes internos               | ≤ 2 horas                                | Semanal    |
+| **Incremento de Proyectos Finalizados**                 | Evalúa si la plataforma contribuye a la gestión eficiente de proyectos.             | Incremento = Proyectos finalizados con AidManager − Proyectos finalizados antes del uso                 | Entrevistas + Dashboard                     | +20% en 3 meses                          | Trimestral |
 ### 8.2.3. Measures
 
 En esta sección se definen las **medidas clave** que permitirán evaluar el éxito o fracaso de los experimentos. Estas métricas se alinean con los resultados esperados del usuario y del negocio, permitiendo validar o refutar las hipótesis formuladas.
