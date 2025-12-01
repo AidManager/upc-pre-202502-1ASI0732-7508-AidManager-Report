@@ -3962,32 +3962,414 @@ A continuación se presenta el backlog de producto correspondiente al sistema *
 
 #### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
 
+<<<<<<< Updated upstream
 #### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
 
 #### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
 
 #### 8.3.3.6. Team Collaboration Insights
 
+=======
+Se evidencia la aplicación web desplegada y con la implementación de los experiment card que hemos realizado link de la aplicación web desplegada: [https://aidmanager-experimentos.netlify.app/](https://aidmanager-experimentos.netlify.app/)  
+
+**Dashboard de Analíticas:** Implementación del experiment card para visualización de métricas del proyecto. Incluye gráficos de progreso, distribución de tareas y presupuestos categorizados para monitoreo integral.
+
+
+<img src="../assets/cap8final/pic1.jpeg" alt="imagen1">
+
+**Gestión con Tablero Kanban:** Validación del experiment card para gestión visual de tareas. Sistema Kanban con columnas To-Do, Doing y Done para coordinación eficiente del equipo.
+
+<img src="../assets/cap8final/pic2.jpeg" alt="imagen2">
+
+
+**Sistema de Calendario:** Implementación del experiment card para gestión temporal centralizada. Calendario interactivo con indicadores visuales y navegación optimizada para planificación de proyectos.
+
+
+<img src="../assets/cap8final/pic3.jpeg" alt="imagen3">
+
+**Perfil de Usuario:** Validación del experiment card para gestión personalizada de tareas. Vista individual con filtros avanzados que promueve responsabilidad personal del equipo.
+
+<img src="../assets/cap8final/pic4.jpeg" alt="imagen4">
+
+#### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
+
+Se evidencia el despliegue de la aplicación móvil Aid Manager versión 1.0.0 a través de Firebase App Distribution.
+
+<img src="../assets/cap8final/pic5.jpeg" alt="imagen5">
+
+#### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
+
+Se evidencia el Swagger desplegado con Render, así como el link de un endpoint que se consume en el frontend. Link de Swagger: [https://aid-manager-general-backend.onrender.com/swagger/index.html](https://aid-manager-general-backend.onrender.com/swagger/index.html)
+
+
+<img src="../assets/cap8final/pic6.jpeg" alt="imagen6">
+
+<img src="../assets/cap8final/pic7.jpeg" alt="imagen7">
+
+<img src="../assets/cap8final/pic8.png" alt="imagen8">
+
+<img src="../assets/cap8final/pic9.png" alt="imagen9">
+
+<img src="../assets/cap8final/pic10.png" alt="imagen10">
+
+<img src="../assets/cap8final/pic11.png" alt="imagen11">
+
+<img src="../assets/cap8final/pic12.png" alt="imagen12">
+
+<img src="../assets/cap8final/pic13.png" alt="imagen13">
+
+<img src="../assets/cap8final/pic14.png" alt="imagen14">
+
+#### 8.3.3.6. Team Collaboration Insights
+
+Se evidencian insights de los repositorios de Github donde se han trabajado las implementaciones. Link de organización: [https://github.com/AidManager](https://github.com/AidManager)
+
+Insights de repositorio de landing page Link: [https://github.com/AidManager/AidManager-LandingPage](https://github.com/AidManager/AidManager-LandingPage)
+
+
+![[assets/insights-20252/landing.png]]
+
+
+Insights de repositorio de frontend Link: [https://github.com/disenio-de-experimentos-4446/Aid-Manager-Web-Application](https://github.com/disenio-de-experimentos-4446/Aid-Manager-Web-Application)
+
+![[frontend.png]]
+
+Insights de repositorio de backend Link: [https://github.com/disenio-de-experimentos-4446/Aid-Manager-General-BackEnd](https://github.com/disenio-de-experimentos-4446/Aid-Manager-General-BackEnd)
+
+![[backend.png]]
+
+Insights de repositorio de mobile Link: [https://github.com/disenio-de-experimentos-4446/Aid-Manager-Mobile-App](https://github.com/disenio-de-experimentos-4446/Aid-Manager-Mobile-App)
+
+![[mobilapp.png]]
+
+>>>>>>> Stashed changes
 ### 8.3.4. To-Be Validation Interviews
 
 #### 8.3.4.1. Diseño de Entrevistas
 
+<<<<<<< Updated upstream
 #### 8.3.4.2. Registro de Entrevistas
 
 ## 8.4. Experiment Aftermath & Analysis
+=======
+[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#8341-dise%C3%B1o-de-entrevistas)
 
-### 8.4.1. Analysis and Interpretation of Results
+##### 1. **Preguntas Generales:**
 
+[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#1-preguntas-generales)
+
+- ¿Cuál es tu nombre completo?
+- ¿Qué edad tienes?
+- ¿En qué distrito resides actualmente?
+- ¿Cuál es tu ocupación y cuál es tu rol en la ONG?
+- ¿Que dispositivos usas?
+
+##### **Preguntas para Gestores de Proyectos**
+
+[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#preguntas-para-gestores-de-proyectos)
+
+- ¿Qué te parece el diseño de la landing page de AidManager? ¿Es clara y fácil de navegar para gestionar tus proyectos?
+- ¿La interfaz de la aplicación web te resulta intuitiva al asignar tareas y gestionar proyectos? ¿Te fue fácil encontrar las funciones clave?
+- ¿La plataforma te permite gestionar las tareas de tu equipo de manera efectiva? ¿Las métricas visualizadas te son útiles para el desempeño del proyecto?
+- Al marcar tareas como completadas o asignadas, ¿el proceso es fácil y recibes una confirmación visual clara de que se guardó correctamente?
+- ¿La experiencia en la aplicación móvil es la misma que en la aplicación web? ¿Encuentras que ambas versiones son funcionales para la gestión de tu equipo y proyectos?
+- ¿Te resulta coherente el diseño entre la aplicación web y móvil? ¿Encontraste alguna dificultad en la interfaz al gestionar múltiples proyectos?
+- ¿Qué funcionalidad adicional te gustaría ver en la plataforma para mejorar la gestión de tus proyectos o tareas de equipo?
+
+---
+
+#### **Preguntas para Voluntarios**
+
+[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#preguntas-para-voluntarios)
+
+- ¿Qué te parece el diseño de la landing page de AidManager? ¿Te resulta clara y fácil de navegar para encontrar tus tareas asignadas?
+- ¿La interfaz de la aplicación web es fácil de usar? ¿Pudiste encontrar rápidamente las tareas y eventos que te han sido asignados?
+- ¿Te resultó fácil marcar las tareas como completadas? ¿La acción fue clara y recibiste una confirmación visual de que se guardó correctamente?
+- ¿La plataforma te permite organizar tus tareas de manera eficiente? ¿Te ayudó a tener una visión clara de qué tareas tienes pendientes y cuáles están en progreso?
+- ¿La aplicación móvil ofrece la misma experiencia que la aplicación web? ¿Te resultó fácil utilizar ambas versiones para gestionar tus tareas como voluntario?
+- ¿El diseño de la plataforma es coherente entre la versión móvil y la web? ¿Te resultó cómodo usar la aplicación en tu dispositivo móvil para realizar tus tareas?
+- ¿Te parece que la plataforma facilita la gestión de tus responsabilidades como voluntario? ¿Cómo crees que AidManager podría ayudarte a organizar mejor tu día a día?
+- Si pudieras sugerir una mejora para la plataforma, ¿qué cambiarías o añadirías para que te sea más útil como voluntario?
+
+#### 8.3.4.2. Registro de Entrevistas
+
+[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#8342-registro-de-entrevistas)
+
+video de las entrevistas: [https://youtu.be/EnOEZSLR6A8](https://youtu.be/EnOEZSLR6A8)
+
+# Segmento 1
+
+[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#segmento-1)
+
+Nombre: Luis Eduardo Herrera González
+
+Edad: 21 años
+
+Ocupación: Miembro de equipo
+
+Ubicación: San Borja
+
+Dispositivos: Móvil (WhatsApp) & Computadora personal
+
+Navegador: Chrome
+
+Momento de la entrevista: [0:00]
+
+<img src="../assets/cap8final/pic15.png" alt="imagen15">
+
+Resumen de la entrevista:
+
+Luis es miembro de un equipo en una ONG, encargado de tareas relacionadas con la comunicación. No lidera equipos, pero apoya en el área de comunicación. Usa principalmente su teléfono móvil para WhatsApp y su computadora para otras tareas. En cuanto a la interfaz y funcionalidad de las herramientas, menciona que la plataforma web y móvil son coherentes en diseño y fáciles de usar. Sugiere mejorar la interfaz visual agregando iconos o fotos de perfil para facilitar la identificación de los miembros del equipo. Destaca la mejora en la gestión de tareas dentro de la plataforma, señalando que la interfaz renovada de la sección de proyectos y las opciones de visualización de tareas asignadas mejoran la experiencia. En términos de usabilidad, Luis menciona que los cambios propuestos, especialmente aquellos que hacen la plataforma más intuitiva y visualmente agradable, cumplen con sus expectativas.
+
+Nombre Ariana Aranda
+
+Edad: 23 años
+
+Ocupación: Miembro de equipo
+
+Ubicación: San Luis
+
+Dispositivos: Laptop & Celular
+
+Navegador: Chrome
+
+Momento de la entrevista: [0:00]
+
+
+<img src="../assets/cap8final/pic16.png" alt="imagen16">
+
+Resumen de la entrevista:
+
+Ariana, como Community Manager, maneja redes sociales y comunicaciones para una ONG. En la entrevista, destaca la facilidad de navegación de la plataforma, mencionando que el diseño de la página de inicio es claro y coherente con la oferta del producto, facilitando la visualización de tareas y la asignación de eventos. Resalta que la interfaz de la aplicación es intuitiva, lo que permitiría a cualquier persona adaptarse rápidamente, incluso sin experiencia previa. En cuanto a la gestión de tareas y responsabilidades, Ariana opina que la aplicación sería fácil de usar para un voluntario dentro de una ONG, ya que las opciones son accesibles y claras. También valora la confirmación visual que ofrece la plataforma, lo que facilita el seguimiento de tareas y eventos. Finalmente, sugiere una mejora relacionada con la gestión de usuarios dentro de la plataforma, recomendando incluir una opción que permita ver cuántas personas se han registrado o suscrito a la plataforma, lo que sería útil para gestionar equipos grandes dentro de una ONG. A pesar de esta sugerencia, considera que la aplicación está bien diseñada y cumple con las necesidades básicas de los usuarios.
+
+Nombre: Keisy
+
+Edad: 23 años
+
+Ocupación: Team Member
+
+Ubicación: La Victoria
+
+Dispositivos: Celular & Laptop
+
+Navegador: Chrome
+
+Momento de la entrevista: [0:00]
+
+<img src="../assets/cap8final/pic17.png" alt="imagen17">
+
+Resumen de la entrevista:
+
+Keisy, utiliza su celular y laptop en su día a día. En cuanto a la landing page de la plataforma, menciona que la interfaz es bastante clara, pero tiene algunas reservas sobre el uso del color verde, ya que lo asocia con la ecología, lo cual le parece apropiado. Sin embargo, encuentra que los íconos en la página son demasiado separados y sugirió que podrían ser más dinámicos y mejor organizados. Además, comenta que le gustaría que la navegación fuera más interactiva, con más movimiento y animaciones, para hacer la experiencia más atractiva visualmente para miembros de equipo. Respecto a la funcionalidad de crear posts, Kazy no entendió bien cómo funcionaba al principio, pero después de la explicación, sugirió que podría mejorar para que sea más claro y fácil de usar. También mencionó que los posts deberían incluir imágenes y que la opción para crear estos dentro de la organización podría ser más explicativa, similar a una plataforma como Facebook, donde se publican actualizaciones de proyectos. Finalmente, sugiere que la plataforma podría tener más interactividad y animaciones para hacerla más atractiva y funcional en su conjunto, especialmente en la página de inicio.
+
+# Segmento 2
+
+[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#segmento-2)
+
+Nombre: María Teresa
+
+Edad: 51 años
+
+Ocupación: Organizadora de eventos, gestión de personal
+
+Ubicación: Trujillo, La Libertad
+
+Dispositivos: Celular, Tablet, Laptop
+
+Navegador: Chrome
+
+Momento de la entrevista: [0:00]
+
+<img src="../assets/cap8final/pic18.png" alt="imagen18">
+
+Resumen de la entrevista:
+
+María Teresa utiliza múltiples dispositivos (celular, tablet y laptop) para gestionar proyectos dentro de su ONG, lo que le permite estar conectada desde cualquier lugar. En cuanto a las mejoras implementadas en la plataforma, destaca positivamente el diseño de la landing page, mencionando que es amigable y clara. La interfaz de la aplicación web le resulta intuitiva, especialmente en la visualización de tareas y proyectos, y nota una mejora en la facilidad de uso, señalando que los colores y el diseño ayudan a mejorar la experiencia. Respecto a las métricas y las analíticas, María menciona que las mejoras realizadas para visualizar el desempeño del equipo y el progreso de las tareas son claras y útiles. Además, aprecia los cambios implementados en la aplicación móvil, aunque sugiere que el menú podría ser un poco más grande para facilitar su uso. La internacionalización también ha sido un aspecto positivo para ella, ya que puede trabajar en español e inglés sin problemas. María no encuentra dificultades en las interfaces ni sugiere mejoras adicionales, destacando que el gráfico de métricas es muy útil para gestionar los flujos de trabajo. En cuanto a la plataforma en general, siente que se han superado sus expectativas, ya que las mejoras han satisfecho las necesidades que mencionó en entrevistas anteriores, como la mejora de interfaces y la internacionalización.
+
+Nombre: María Isabel
+
+Edad: 52 años
+
+Ocupación: Docente y gestora de proyectos de responsabilidad social
+
+Ubicación: Trujillo, La Libertad
+
+Dispositivos: Laptop & Celular
+
+Navegador: Chrome
+
+Momento de la entrevista: [0:00]
+
+<img src="../assets/cap8final/pic19.png" alt="imagen19">
+
+Resumen de la entrevista:
+
+María Isabel, quien gestiona proyectos de responsabilidad social y ejerce la carrera de docencia, utiliza principalmente su laptop para gestionar proyectos, pero recurre al celular cuando está en trabajo de campo. En cuanto a la plataforma, destaca positivamente la landing page, mencionando que es intuitiva, sencilla y bien estructurada, lo que facilita el recorrido visual del usuario. Valora la claridad en la información presentada y la calidez del diseño. La interfaz de la aplicación web le parece muy intuitiva y fácil de usar para asignar tareas y gestionar proyectos, con las funciones clave accesibles de manera eficiente. Las métricas visualizadas, especialmente las que muestran el progreso de los proyectos, son vistas como útiles, destacando que esto le permite conocer en qué etapa se encuentran los proyectos y cómo se están gestionando. En cuanto a la aplicación móvil, María menciona que la experiencia es similar a la de la web y no encuentra dificultades en gestionar proyectos en ambas versiones. Destaca la integración de WhatsApp con la plataforma como un vínculo útil para contactar a los miembros del equipo. Como mejora, sugiere agregar una funcionalidad para realizar videoconferencias directamente desde la plataforma, lo que sería útil para proyectos de campo donde no siempre se puede estar presente físicamente. Además, sugiere mejorar el calendario utilizando colores adicionales para diferenciar las actividades pendientes de las ya completadas, como el uso de verde para tareas realizadas y rojo para tareas pendientes. En general, María Isabel considera que las mejoras implementadas cumplen con sus expectativas, especialmente las relacionadas con las analíticas, la gestión de tareas y la funcionalidad del calendario.
+
+Nombre: Fabrizzio
+
+Edad: 22 años (próximo a cumplir 23)
+
+Ocupación: Gestor de proyectos en una ONG
+
+Ubicación: Trujillo, La Libertad
+
+Dispositivos: Computadora de escritorio, Laptop, y ocasionalmente celular
+
+Navegador: Chrome
+
+Momento de la entrevista: [0:00]
+<img src="../assets/cap8final/pic20.png" alt="imagen20">
+
+Resumen de la entrevista:
+
+Fabrizzio, quien gestiona proyectos dentro de su ONG, utiliza principalmente computadoras de escritorio y laptops, con un uso mínimo de su celular. En cuanto a la plataforma, menciona que el diseño de la landing page es claro, y la organización de la información es efectiva. Sin embargo, señala que la plataforma debe tener la opción de establecer el idioma en español por defecto, ya que su equipo prefiere trabajar en ese idioma.
+
+En relación a las tareas, el sistema permite gestionar de manera adecuada las actividades, con un límite de tareas por usuario entre 10. Fabrizzio también sugiere que la plataforma debería tener un mensaje visual de advertencia para las tareas que se demoran, como un contorno rojo para llamar la atención, lo cual podría ayudar a priorizar tareas urgentes.
+
+Sobre las métricas, valora la facilidad con la que puede visualizar el desempeño del equipo, destacando la utilidad de las métricas de progreso y la claridad de los gráficos. Fabrizzio también considera que las versiones web y móvil cumplen con sus expectativas en términos de funcionalidad para la gestión de equipos y proyectos. Finalmente, menciona que está más satisfecho con las mejoras realizadas en la plataforma, especialmente en el sistema web, que considera muy eficiente y bien diseñado.
+
+En resumen, Fabrizzio está contento con las actualizaciones, aunque sugiere algunos ajustes visuales y de usabilidad para mejorar aún más la experiencia.
+
+### 8.4. Experiment Aftermath & Analysis
+>>>>>>> Stashed changes
+
+[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#84-experiment-aftermath--analysis)
+
+#### 8.4.1. Analysis and Interpretation of Results
+
+[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#841-analysis-and-interpretation-of-results)
+
+<<<<<<< Updated upstream
 ### 8.4.2. Re-scored and Re-prioritized Question Backlog
 
 ## 8.5. Continuous Learning
+=======
+- Desde una perspectiva tanto individual como grupal, realizaremos un análisis exhaustivo de los resultados obtenidos durante la implementación de Aidmanager, enfocándonos en el rendimiento de las funciones tanto para los directores como para los miembros del equipo.
+- Nuestro objetivo es identificar, mediante los datos recopilados, qué técnicas o tendencias podemos integrar en nuestra plataforma para optimizar su funcionalidad y efectividad. A través del análisis, buscaremos entender cómo las características clave de la plataforma, como el panel administrativo, la creación de nuevos proyectos, la asignación de tareas, el calendario de tareas y la sección de publicaciones, están contribuyendo a la mejora de la gestión y organización de las ONGs.
+- Nos enfocaremos en responder preguntas clave: ¿Los directores sienten que Aidmanager les facilita la organización y el control de los proyectos y recursos? ¿Los miembros del equipo están utilizando eficientemente las herramientas para colaborar y compartir ideas? ¿La plataforma ha mejorado la visibilidad de los proyectos y la interacción entre los miembros del equipo?
+- Además, realizaremos un análisis del impacto de las mejoras implementadas en Aidmanager, en relación con los objetivos establecidos. Evaluaremos si la implementación de nuevas funcionalidades ha tenido un impacto positivo en la eficiencia y coordinación del equipo, y si se ha alcanzado una mayor satisfacción por parte de los usuarios de la plataforma.
+- Registraremos las conclusiones más relevantes y nos encargaremos de comunicarlas de manera clara y concisa, para que tanto el equipo de desarrollo como los stakeholders puedan comprender de manera efectiva los hallazgos y las posibles áreas de mejora para la plataforma.
 
-### 8.5.1. Shareback Session Artifacts: Learning Workflow
+#### 8.4.2. Re-scored and Re-prioritized Question Backlog
 
+[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#842-re-scored-and-re-prioritized-question-backlog)
+
+- Con los resultados del análisis y la retroalimentación de los usuarios de Aidmanager en mano, procederemos a revisar y reevaluar el backlog de preguntas que hemos ido acumulando hasta ahora.
+- Con base en los resultados obtenidos y las conclusiones derivadas del análisis, ajustaremos las prioridades de las preguntas que hemos identificado hasta el momento. Por ejemplo, si la retroalimentación indica que la funcionalidad del calendario de tareas necesita mejoras o que la interfaz del panel administrativo no es lo suficientemente intuitiva, estas áreas podrían ascender en nuestra lista de prioridades para el desarrollo futuro.
+- Actualizaremos y reorganizaremos el backlog de preguntas según lo que consideremos más relevante e importante en este momento. Esto puede implicar la eliminación de algunas preguntas que ya no sean pertinentes o la inclusión de nuevas cuestiones que hayan surgido a partir de los hallazgos de la experimentación.
+- Colaboraremos estrechamente con el equipo de desarrollo para determinar qué preguntas requieren atención inmediata y cuáles podrían ser abordadas más adelante o incluso descartadas, con el fin de asegurar que el enfoque y los esfuerzos se alineen con las necesidades más urgentes de nuestros usuarios y los objetivos de la plataforma.
+
+### 8.5. Continuous Learning
+>>>>>>> Stashed changes
+
+[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#85-continuous-learning)
+
+#### 8.5.1. Shareback Session Artifacts: Learning Workflow
+
+[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#851-shareback-session-artifacts-learning-workflow)
+
+<<<<<<< Updated upstream
 ## 8.6. To-Be Software Platform Pre-launch
+=======
+El aprendizaje continuo ha sido un pilar fundamental en el desarrollo de **AidManager**. Para garantizar la mejora constante del equipo y del producto, se implementaron sesiones periódicas de retroalimentación conocidas como _Shareback Sessions_.
 
-### 8.6.1. About-the-Product Intro Video
+#### Formato de la Shareback Session
 
+[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#formato-de-la-shareback-session)
+
+Estas sesiones fueron diseñadas para promover un espacio colaborativo donde los integrantes del equipo pudieran compartir sus aprendizajes, desafíos y buenas prácticas adquiridas durante cada ciclo de desarrollo. La estructura seguida fue:
+
+1. Introducción y objetivos de la sesión.
+2. Presentación de aprendizajes individuales.
+3. Análisis y discusión colectiva de los hallazgos.
+4. Registro de acciones para mejorar procesos, tecnología y colaboración.
+
+#### Documentación de los Aprendizajes
+
+[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#documentaci%C3%B3n-de-los-aprendizajes)
+
+Cada sesión generó artefactos que fueron almacenados en un repositorio interno accesible para todo el equipo. Esta documentación permitió visibilizar el progreso del equipo y fomentar la reutilización de soluciones. Los aprendizajes se registraron utilizando el siguiente formato:
+
+- **Título del Aprendizaje**
+- **Descripción Detallada**
+- **Evidencia (datos, ejemplos concretos)**
+- **Impacto en el Proyecto**
+- **Acciones Futuras**
+
+#### Integración con la Mejora Continua
+
+[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#integraci%C3%B3n-con-la-mejora-continua)
+
+Los aprendizajes extraídos fueron discutidos y reaplicados en las retrospectivas de sprint, permitiendo ajustar prácticas de desarrollo, pruebas, comunicación y despliegue. Esto aseguró que el conocimiento no se quede aislado, sino que retroalimente el proceso ágil adoptado por el equipo.
+
+#### Artefactos de la Sesión
+
+[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#artefactos-de-la-sesi%C3%B3n)
+
+A continuación, se presentan ejemplos de artefactos generados durante las sesiones de aprendizaje:
+
+---
+
+**Ejemplo de Artefacto 1**
+
+- **Título del Aprendizaje**: Optimización de despliegues en Render
+- **Descripción**: Reducción del tiempo de despliegue automatizando la verificación de errores mediante GitHub Actions.
+- **Evidencia**: Tiempo de despliegue se redujo de 4 min a 2 min en promedio.
+- **Impacto en el Proyecto**: Aceleró la validación de cambios y mejoró el tiempo de respuesta ante errores.
+- **Acciones Futuras**: Mantener documentación actualizada de los workflows e integrar alertas automáticas.
+
+---
+
+**Ejemplo de Artefacto 2**
+
+- **Título del Aprendizaje**: Mejora de comunicación entre backend y frontend
+- **Descripción**: Uso de Swagger para alinear definiciones de API y evitar errores por interpretación ambigua.
+- **Evidencia**: Disminución del 40% en errores de integración entre microservicios.
+- **Impacto en el Proyecto**: Facilitó la colaboración entre desarrolladores de distintas capas.
+- **Acciones Futuras**: Definir contratos de API desde etapas tempranas del sprint.
+
+---
+>>>>>>> Stashed changes
+
+### 8.6. To-Be Software Platform Pre-launch
+
+[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#86-to-be-software-platform-pre-launch)
+
+#### 8.6.1. About-the-Product Intro Video
+
+[](https://github.com/disenio-de-experimentos-4446/Report/blob/main/Report/upc-pre-202501-1asi0732-4446-AidManager-report-tb1.md#861-about-the-product-intro-video)
+
+<<<<<<< Updated upstream
+=======
+En esta sección se presenta el video **about-the-product** que introduce de manera concisa las principales funcionalidades de la aplicación **AidManager** a usuarios potenciales, especialmente gestores y miembros de ONGs.
+
+El video tiene como objetivo mostrar cómo AidManager facilita la gestión de tareas, proyectos, comunicación interna y análisis financiero dentro de una plataforma intuitiva y accesible.
+
+#### Enlaces del video:
+
+
+
+- _Microsoft Stream_*: 
+- **YouTube**:
+
+#### Duración del video:
+
+
+
+**01:15 segundos**
+
+#### Screenshot del video:
+
+<img src="../assets/cap8final/pic21.png" alt="imagen21">
+
+# Video About The Team
+
+Se adjunta el video about the team realizado con los testimonios de nuestros miembros de equipo
+
+
+
+>>>>>>> Stashed changes
 # Conclusiones
 
 ### Conclusiones y recomendaciones

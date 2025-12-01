@@ -44,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Explorador de archivos"
             }
           },
           {
@@ -160,30 +160,38 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false
     }
   },
-  "active": "20b570764922eda4",
+  "active": "dcd6429ea1c76724",
   "lastOpenFiles": [
-    "assets/to-be-implemented/to-be-backend-1.png",
-    "Report/README.md",
-    "assets/insights-20252/backend.png",
-    "assets/insights-20252/frontend.png",
-    "assets/insights-20252/mobilapp.png",
-    "assets/insights-20252/landing.png",
-    "assets/insights-20252",
+    "assets/cap8final/pic9.png",
+    "assets/cap8final/pic8.png",
+    "assets/cap8final/pic7.jpeg",
+    "assets/cap8final/pic6.jpeg",
+    "assets/cap8final/pic5.jpeg",
+    "assets/cap8final/pic4.jpeg",
+    "assets/cap8final/pic3.jpeg",
+    "assets/cap8final/pic21.png",
+    "assets/cap8final/pic20.png",
+    "assets/cap8final/pic2.jpeg",
+    "assets/cap8final/pic19.png",
+    "assets/cap8final",
+    "assets/cap8final/ps4B42.tmp",
+    "assets/cap8final/psC095.tmp",
+    "assets/cap8final/ps5FC7.tmp",
+    "assets/cap8final/psF881.tmp",
+    "assets/cap8final/ps7EDB.tmp",
+    "assets/cap8final/psBE0B.tmp",
     "assets/Nueva carpeta",
-    "assets/gsm-13.png",
-    "assets/gsm-12.png",
-    "assets/gsm-11.png",
-    "assets/gsm-10.png",
-    "assets/gsm-9.png",
-    "assets/gsm-8.png"
+    "assets/cap6",
+    "assets/insights-20252",
+    "Report/README.md"
   ]
 }
